@@ -1,0 +1,528 @@
+﻿using SkeletonParserDSDef;
+
+namespace SkeletonParserQuery
+{
+    partial class QueryExpand2
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    _expansionBindingSource = null;
+                    _expansionRoot = null;
+                    _findString = null;
+                    _nestingGridLabel = null;
+                    _SDS = null;
+                    _TDS = null;
+                    _xmlParmsReader = null;
+
+                    if (_imbedChain != null && _imbedChain.Count > 0)
+                    {
+                        _imbedChain.Clear();
+                    }
+                    if (_cnt != null)
+                    {
+                        _cnt.Clear();
+                        _cnt.Dispose();
+                        _cnt = null;
+                    }
+
+                    if (_skelExpansion != null)
+                    {
+                        _skelExpansion.Clear();
+                        _skelExpansion.Dispose();
+                        _skelExpansion = null;
+                    }
+
+                    TransientDS.SkeletonExpansionRow ser = null;
+
+                    if (_dotNestingStack != null)
+                    {
+                        for (int i = 1; i <= _dotNestingStack.Count; ++i)
+                            ser = _dotNestingStack.Pop();
+                        _dotNestingStack = null;
+                    }
+
+                    if (_selNestingStack != null)
+                    {
+                        for (int i = 1; i <= _selNestingStack.Count; ++i)
+                            ser = _selNestingStack.Pop();
+                        _selNestingStack = null;
+                    }
+
+                    if (_doNestingStack != null)
+                    {
+                        for (int i = 1; i <= _doNestingStack.Count; ++i)
+                            ser = _doNestingStack.Pop();
+                        _doNestingStack = null;
+                    }
+
+                    Nesting n;
+                    if (_NestingStack != null)
+                    {
+                        for (int i = 1; i <= _NestingStack.Count; ++i)
+                            n = _NestingStack.Pop();
+                        _NestingStack = null;
+                    }
+
+                    if (_dvSkelExpansion != null)
+                    {
+                        _dvSkelExpansion.Dispose();
+                    }
+                    _disposed = true;
+                }
+            }
+
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QueryExpand2));
+            this.btnExit = new System.Windows.Forms.Button();
+            this.dgvVariables = new System.Windows.Forms.DataGridView();
+            this.dgvNesting = new System.Windows.Forms.DataGridView();
+            this.dgvSkeletonExpansion = new System.Windows.Forms.DataGridView();
+            this.skelNestingGridLabel = new System.Windows.Forms.Label();
+            this.variableGridLabel = new System.Windows.Forms.Label();
+            this.expansionStatus = new System.Windows.Forms.StatusStrip();
+            this.statusHiddenLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusHiddenSkeletons = new System.Windows.Forms.ToolStripDropDownButton();
+            this.statusFilter = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btnMap = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFindString = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFindNext = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmgFilters = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiApplyTextFilter = new System.Windows.Forms.ToolStripMenuItem();
+            this.sep1_1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiApplySkelFilter = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRemoveSep = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmgRemoveFilters = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRemoveTextFilter = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRemoveSkelSep = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiRemoveSkelFilter = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRemoveSkelFilterAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRemoveAllSep = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiRemoveFilterAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiGotoSep = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiGotoLine = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVariables)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNesting)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSkeletonExpansion)).BeginInit();
+            this.expansionStatus.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btnExit
+            // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.Location = new System.Drawing.Point(691, 454);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(85, 70);
+            this.btnExit.TabIndex = 12;
+            this.btnExit.Text = "&Return";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // dgvVariables
+            // 
+            this.dgvVariables.AllowUserToAddRows = false;
+            this.dgvVariables.AllowUserToDeleteRows = false;
+            this.dgvVariables.AllowUserToOrderColumns = true;
+            this.dgvVariables.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvVariables.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvVariables.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvVariables.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvVariables.Location = new System.Drawing.Point(434, 308);
+            this.dgvVariables.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvVariables.Name = "dgvVariables";
+            this.dgvVariables.ReadOnly = true;
+            this.dgvVariables.RowTemplate.Height = 24;
+            this.dgvVariables.Size = new System.Drawing.Size(346, 124);
+            this.dgvVariables.TabIndex = 16;
+            this.dgvVariables.ColumnAdded += new System.Windows.Forms.DataGridViewColumnEventHandler(this.grid_ColumnAdded_DisableSort);
+            this.dgvVariables.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvVariables_RowPrePaint);
+            this.dgvVariables.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvVariables_MouseDoubleClick);
+            // 
+            // dgvNesting
+            // 
+            this.dgvNesting.AllowUserToAddRows = false;
+            this.dgvNesting.AllowUserToDeleteRows = false;
+            this.dgvNesting.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvNesting.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNesting.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvNesting.Location = new System.Drawing.Point(1, 308);
+            this.dgvNesting.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvNesting.Name = "dgvNesting";
+            this.dgvNesting.ReadOnly = true;
+            this.dgvNesting.RowTemplate.Height = 24;
+            this.dgvNesting.Size = new System.Drawing.Size(425, 221);
+            this.dgvNesting.TabIndex = 15;
+            this.dgvNesting.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNesting_CellEnter);
+            this.dgvNesting.ColumnAdded += new System.Windows.Forms.DataGridViewColumnEventHandler(this.grid_ColumnAdded_DisableSort);
+            this.dgvNesting.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvNesting_RowPrePaint);
+            // 
+            // dgvSkeletonExpansion
+            // 
+            this.dgvSkeletonExpansion.AllowUserToAddRows = false;
+            this.dgvSkeletonExpansion.AllowUserToDeleteRows = false;
+            this.dgvSkeletonExpansion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvSkeletonExpansion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSkeletonExpansion.ContextMenuStrip = this.contextMenuStrip1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvSkeletonExpansion.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dgvSkeletonExpansion.Location = new System.Drawing.Point(1, 28);
+            this.dgvSkeletonExpansion.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvSkeletonExpansion.MultiSelect = false;
+            this.dgvSkeletonExpansion.Name = "dgvSkeletonExpansion";
+            this.dgvSkeletonExpansion.ReadOnly = true;
+            this.dgvSkeletonExpansion.RowTemplate.Height = 24;
+            this.dgvSkeletonExpansion.Size = new System.Drawing.Size(779, 253);
+            this.dgvSkeletonExpansion.TabIndex = 14;
+            this.dgvSkeletonExpansion.ColumnAdded += new System.Windows.Forms.DataGridViewColumnEventHandler(this.grid_ColumnAdded_DisableSort);
+            this.dgvSkeletonExpansion.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dgvSkeletonExpansion_RowPrePaint);
+            this.dgvSkeletonExpansion.SelectionChanged += new System.EventHandler(this.dgvSkeletonExpansion_SelectionChanged);
+            // 
+            // skelNestingGridLabel
+            // 
+            this.skelNestingGridLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.skelNestingGridLabel.AutoSize = true;
+            this.skelNestingGridLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.skelNestingGridLabel.Location = new System.Drawing.Point(1, 286);
+            this.skelNestingGridLabel.Name = "skelNestingGridLabel";
+            this.skelNestingGridLabel.Size = new System.Drawing.Size(284, 17);
+            this.skelNestingGridLabel.TabIndex = 17;
+            this.skelNestingGridLabel.Text = "Skeleton logic leading to selected line";
+            // 
+            // variableGridLabel
+            // 
+            this.variableGridLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.variableGridLabel.AutoSize = true;
+            this.variableGridLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.variableGridLabel.Location = new System.Drawing.Point(431, 287);
+            this.variableGridLabel.Name = "variableGridLabel";
+            this.variableGridLabel.Size = new System.Drawing.Size(224, 17);
+            this.variableGridLabel.TabIndex = 18;
+            this.variableGridLabel.Text = "Variables on the selected line";
+            // 
+            // expansionStatus
+            // 
+            this.expansionStatus.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statusHiddenLabel,
+            this.statusHiddenSkeletons,
+            this.statusFilter});
+            this.expansionStatus.Location = new System.Drawing.Point(0, 533);
+            this.expansionStatus.Name = "expansionStatus";
+            this.expansionStatus.Size = new System.Drawing.Size(782, 22);
+            this.expansionStatus.TabIndex = 19;
+            // 
+            // statusHiddenLabel
+            // 
+            this.statusHiddenLabel.Name = "statusHiddenLabel";
+            this.statusHiddenLabel.Size = new System.Drawing.Size(0, 17);
+            // 
+            // statusHiddenSkeletons
+            // 
+            this.statusHiddenSkeletons.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.statusHiddenSkeletons.Image = ((System.Drawing.Image)(resources.GetObject("statusHiddenSkeletons.Image")));
+            this.statusHiddenSkeletons.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.statusHiddenSkeletons.Name = "statusHiddenSkeletons";
+            this.statusHiddenSkeletons.Size = new System.Drawing.Size(29, 20);
+            this.statusHiddenSkeletons.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusHiddenSkeletons_DropDownItemClicked);
+            // 
+            // statusFilter
+            // 
+            this.statusFilter.Name = "statusFilter";
+            this.statusFilter.Size = new System.Drawing.Size(0, 17);
+            // 
+            // btnMap
+            // 
+            this.btnMap.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMap.Location = new System.Drawing.Point(434, 454);
+            this.btnMap.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMap.Name = "btnMap";
+            this.btnMap.Size = new System.Drawing.Size(85, 70);
+            this.btnMap.TabIndex = 20;
+            this.btnMap.Text = "&Graphic View";
+            this.btnMap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMap.UseVisualStyleBackColor = true;
+            this.btnMap.Click += new System.EventHandler(this.btnMap_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.searchToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(782, 28);
+            this.menuStrip1.TabIndex = 21;
+            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // searchToolStripMenuItem
+            // 
+            this.searchToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiFindString,
+            this.tsmiFindNext});
+            this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.searchToolStripMenuItem.Text = "Search";
+            // 
+            // tsmiFindString
+            // 
+            this.tsmiFindString.Name = "tsmiFindString";
+            this.tsmiFindString.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.tsmiFindString.Size = new System.Drawing.Size(164, 24);
+            this.tsmiFindString.Text = "Find...";
+            this.tsmiFindString.Click += new System.EventHandler(this.tsmiFindString_Click);
+            // 
+            // tsmiFindNext
+            // 
+            this.tsmiFindNext.Name = "tsmiFindNext";
+            this.tsmiFindNext.ShortcutKeys = System.Windows.Forms.Keys.F3;
+            this.tsmiFindNext.Size = new System.Drawing.Size(164, 24);
+            this.tsmiFindNext.Text = "Find next";
+            this.tsmiFindNext.Click += new System.EventHandler(this.tsmiFindNext_Click);
+            // 
+            // tsmgFilters
+            // 
+            this.tsmgFilters.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiApplyTextFilter,
+            this.sep1_1,
+            this.tsmiApplySkelFilter});
+            this.tsmgFilters.Name = "tsmgFilters";
+            this.tsmgFilters.Size = new System.Drawing.Size(204, 24);
+            this.tsmgFilters.Text = "Filter...";
+            // 
+            // tsmiApplyTextFilter
+            // 
+            this.tsmiApplyTextFilter.Name = "tsmiApplyTextFilter";
+            this.tsmiApplyTextFilter.Size = new System.Drawing.Size(243, 24);
+            this.tsmiApplyTextFilter.Text = "Text in line...";
+            this.tsmiApplyTextFilter.ToolTipText = "Show only those lines containing the text that you will specify";
+            this.tsmiApplyTextFilter.Click += new System.EventHandler(this.tsmiApplyTextFilter_Click);
+            // 
+            // sep1_1
+            // 
+            this.sep1_1.Name = "sep1_1";
+            this.sep1_1.Size = new System.Drawing.Size(240, 6);
+            // 
+            // tsmiApplySkelFilter
+            // 
+            this.tsmiApplySkelFilter.Name = "tsmiApplySkelFilter";
+            this.tsmiApplySkelFilter.Size = new System.Drawing.Size(243, 24);
+            this.tsmiApplySkelFilter.Text = "Hide selected skeletons...";
+            this.tsmiApplySkelFilter.ToolTipText = "Add a specified skeleton name to the list of skeletons hidden in the expansion.";
+            this.tsmiApplySkelFilter.Click += new System.EventHandler(this.tsmiApplySkelFilter_Click);
+            // 
+            // tsmiRemoveSep
+            // 
+            this.tsmiRemoveSep.Name = "tsmiRemoveSep";
+            this.tsmiRemoveSep.Size = new System.Drawing.Size(201, 6);
+            // 
+            // tsmgRemoveFilters
+            // 
+            this.tsmgRemoveFilters.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiRemoveTextFilter,
+            this.tsmiRemoveSkelSep,
+            this.tsmiRemoveSkelFilter,
+            this.tsmiRemoveSkelFilterAll,
+            this.tsmiRemoveAllSep,
+            this.tsmiRemoveFilterAll});
+            this.tsmgRemoveFilters.Enabled = false;
+            this.tsmgRemoveFilters.Name = "tsmgRemoveFilters";
+            this.tsmgRemoveFilters.Size = new System.Drawing.Size(204, 24);
+            this.tsmgRemoveFilters.Text = "Remove Filter...";
+            // 
+            // tsmiRemoveTextFilter
+            // 
+            this.tsmiRemoveTextFilter.Name = "tsmiRemoveTextFilter";
+            this.tsmiRemoveTextFilter.Size = new System.Drawing.Size(344, 24);
+            this.tsmiRemoveTextFilter.Text = "Remove text in line filter";
+            this.tsmiRemoveTextFilter.ToolTipText = "Remove the text filter, leaving the skeleton filters (if any) intact.";
+            this.tsmiRemoveTextFilter.Visible = false;
+            this.tsmiRemoveTextFilter.Click += new System.EventHandler(this.tsmiRemoveTextFilter_Click);
+            // 
+            // tsmiRemoveSkelSep
+            // 
+            this.tsmiRemoveSkelSep.Name = "tsmiRemoveSkelSep";
+            this.tsmiRemoveSkelSep.Size = new System.Drawing.Size(341, 6);
+            // 
+            // tsmiRemoveSkelFilter
+            // 
+            this.tsmiRemoveSkelFilter.Name = "tsmiRemoveSkelFilter";
+            this.tsmiRemoveSkelFilter.Size = new System.Drawing.Size(344, 24);
+            this.tsmiRemoveSkelFilter.Text = "Remove selected skeleton filter(buffer)...";
+            this.tsmiRemoveSkelFilter.ToolTipText = "Remove one or more skeleton filters, leaving the text filters (if any) intact.";
+            this.tsmiRemoveSkelFilter.Visible = false;
+            this.tsmiRemoveSkelFilter.Click += new System.EventHandler(this.tsmiRemoveSkelFilter_Click);
+            // 
+            // tsmiRemoveSkelFilterAll
+            // 
+            this.tsmiRemoveSkelFilterAll.Name = "tsmiRemoveSkelFilterAll";
+            this.tsmiRemoveSkelFilterAll.Size = new System.Drawing.Size(344, 24);
+            this.tsmiRemoveSkelFilterAll.Text = "Remove all skeleton filters";
+            this.tsmiRemoveSkelFilterAll.ToolTipText = "Remove \tall skeleton filters, leaving the text filters (if any) intact.";
+            this.tsmiRemoveSkelFilterAll.Visible = false;
+            this.tsmiRemoveSkelFilterAll.Click += new System.EventHandler(this.tsmiRemoveSkelFilterAll_Click);
+            // 
+            // tsmiRemoveAllSep
+            // 
+            this.tsmiRemoveAllSep.Name = "tsmiRemoveAllSep";
+            this.tsmiRemoveAllSep.Size = new System.Drawing.Size(341, 6);
+            // 
+            // tsmiRemoveFilterAll
+            // 
+            this.tsmiRemoveFilterAll.Name = "tsmiRemoveFilterAll";
+            this.tsmiRemoveFilterAll.Size = new System.Drawing.Size(344, 24);
+            this.tsmiRemoveFilterAll.Text = "Remove all filters";
+            this.tsmiRemoveFilterAll.ToolTipText = "Remove all filters, re-activate Go To Line";
+            this.tsmiRemoveFilterAll.Visible = false;
+            this.tsmiRemoveFilterAll.Click += new System.EventHandler(this.tsmiRemoveFilterAll_Click);
+            // 
+            // tsmiGotoSep
+            // 
+            this.tsmiGotoSep.Name = "tsmiGotoSep";
+            this.tsmiGotoSep.Size = new System.Drawing.Size(201, 6);
+            // 
+            // tsmiGotoLine
+            // 
+            this.tsmiGotoLine.Name = "tsmiGotoLine";
+            this.tsmiGotoLine.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
+            this.tsmiGotoLine.Size = new System.Drawing.Size(204, 24);
+            this.tsmiGotoLine.Text = "Go to line...";
+            this.tsmiGotoLine.Click += new System.EventHandler(this.tsmiGotoLine_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmgFilters,
+            this.tsmiRemoveSep,
+            this.tsmgRemoveFilters,
+            this.tsmiGotoSep,
+            this.tsmiGotoLine});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(205, 88);
+            // 
+            // QueryExpand2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(782, 555);
+            this.Controls.Add(this.variableGridLabel);
+            this.Controls.Add(this.skelNestingGridLabel);
+            this.Controls.Add(this.btnMap);
+            this.Controls.Add(this.dgvVariables);
+            this.Controls.Add(this.dgvNesting);
+            this.Controls.Add(this.dgvSkeletonExpansion);
+            this.Controls.Add(this.expansionStatus);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.btnExit);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.MinimumSize = new System.Drawing.Size(800, 300);
+            this.Name = "QueryExpand2";
+            this.Text = "Skeleton Expansion";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QueryExpand2_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVariables)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNesting)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSkeletonExpansion)).EndInit();
+            this.expansionStatus.ResumeLayout(false);
+            this.expansionStatus.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.DataGridView dgvVariables;
+        private System.Windows.Forms.DataGridView dgvNesting;
+        private System.Windows.Forms.DataGridView dgvSkeletonExpansion;
+        private System.Windows.Forms.Label skelNestingGridLabel;
+        private System.Windows.Forms.Label variableGridLabel;
+        private System.Windows.Forms.StatusStrip expansionStatus;
+        private System.Windows.Forms.ToolStripDropDownButton statusHiddenSkeletons;
+        private System.Windows.Forms.ToolStripStatusLabel statusFilter;
+        private System.Windows.Forms.ToolStripStatusLabel statusHiddenLabel;
+        private System.Windows.Forms.Button btnMap;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmgFilters;
+        private System.Windows.Forms.ToolStripMenuItem tsmiApplyTextFilter;
+        private System.Windows.Forms.ToolStripSeparator sep1_1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiApplySkelFilter;
+        private System.Windows.Forms.ToolStripSeparator tsmiRemoveSep;
+        private System.Windows.Forms.ToolStripMenuItem tsmgRemoveFilters;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRemoveTextFilter;
+        private System.Windows.Forms.ToolStripSeparator tsmiRemoveSkelSep;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRemoveSkelFilter;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRemoveSkelFilterAll;
+        private System.Windows.Forms.ToolStripSeparator tsmiRemoveAllSep;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRemoveFilterAll;
+        private System.Windows.Forms.ToolStripSeparator tsmiGotoSep;
+        private System.Windows.Forms.ToolStripMenuItem tsmiGotoLine;
+        private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFindString;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFindNext;
+    }
+}

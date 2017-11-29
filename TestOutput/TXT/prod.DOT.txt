@@ -1,0 +1,786 @@
+Production                    00001BCHECKO2                      BCHECKO1000007
+Production                    00001BCHECKO1                      BCHECKO1000010
+Production                    00001BCHECKO1                      BCHECKO2000010
+Production                    00001BCHECKO1                      BCHECKO2000022
+Production                    00001BCHECKO1                      BCHECKO2000032
+Production                    00001CMNDB2SS                      BNDCMRPM000006
+Production                    00001GNDSCTBL                      CAS$$017000022
+Production                    00001IMPINTBL                      CAS$$017000028
+Production                    00001GNDSCTBL                      CAS$$020000023
+Production                    00001IMPINTBL                      CAS$$020000029
+Production                    00001&RMLBTBL                      CAS$$020000167
+Production                    00001&STGLTYP.CPYTB                CAS$$020000212
+Production                    00001&STGLTYP.DELTB                CAS$$020000260
+Production                    00001&STGLTYP.CPYTB                CAS$$020000315
+Production                    00001&STGLTYP.DELTB                CAS$$020000361
+Production                    00001&STGLTYP.RENTB                CAS$$020000378
+Production                    00001&RMLBTBL                      CAS$$020000466
+Production                    00001CHTYPTS                       CHU0751 000014
+Production                    00001CHTYPTS                       CHU0751 000020
+Production                    00001CHCMPTS                       CHU0751 000034
+Production                    00001CHCMPTS                       CHU0751 000052
+Production                    00001CHTYPTR                       CHU0752 000009
+Production                    00001CHTYPTR                       CHU0752 000015
+Production                    00001CHCMPTR                       CHU0752 000030
+Production                    00001CHCMPTR                       CHU0752 000042
+Production                    00001RPMLIBTB                      CICPHAI8000063
+Production                    00001&RMLBTBL                      CICPHAI8000070
+Production                    00001&STGLTYP.CPYTB                CICPHAI8000072
+Production                    00001RPMTBLLC                      CICPHAIN000090
+Production                    00001&RMLBTBL                      CICPHAIN000096
+Production                    00001&STGLTYP.CPYTB                CICPHAIN000098
+Production                    00001ACBBLDTB                      CMN$$ACB000118
+Production                    00001SCOPTABL                      CMN$$AUD000119
+Production                    00001CMPMBRTB                      CMN$$BBL000005
+Production                    00001PROJLTBL                      CMN$$BLA000015
+Production                    00001LOGRITBL                      CMN$$BLG000019
+Production                    00001CMPCPYTB                      CMN$$BRC000028
+Production                    00001CMPCPYTB                      CMN$$BRT000013
+Production                    00001APPLLTBL                      CMN$$BSN000012
+Production                    00001LTYPLTBL                      CMN$$BSN000015
+Production                    00001DLTLIBTB                      CMN$$CBL000375
+Production                    00001DLTLIBTB                      CMN$$CBL000411
+Production                    00001LTYPETBL                      CMN$$CKA000016
+Production                    00001LTYPETBL                      CMN$$CKA000036
+Production                    00001LTYPETBL                      CMN$$CKA000056
+Production                    00001CMPMBRTB                      CMN$$CKO000016
+Production                    00001CMPMBRTB                      CMN$$CKO000063
+Production                    00001CMPMBRTB                      CMN$$CKO000091
+Production                    00001CMPMBRTB                      CMN$$CKO000176
+Production                    00001CMPMBRTB                      CMN$$CKO000179
+Production                    00001DLTLIBTB                      CMN$$CKO000180
+Production                    00001DLTLIBTB                      CMN$$CKO000226
+Production                    00001CMPMBRTB                      CMN$$CKO000272
+Production                    00001CMPMBRTB                      CMN$$CKO000291
+Production                    00001CMPMBRTB                      CMN$$CKO000319
+Production                    00001CMPMBRTB                      CMN$$CKO000390
+Production                    00001CMPMBRTB                      CMN$$CKO000410
+Production                    00001RPMLIBTB                      CMN$$CLN000009
+Production                    00001CLNMODTB                      CMN$$CLN000012
+Production                    00001CLNMODTB                      CMN$$CLN000056
+Production                    00001CLNMODTB                      CMN$$CLN000071
+Production                    00001CLNMODTB                      CMN$$CLN000086
+Production                    00001CLNMODTB                      CMN$$CLN000101
+Production                    00001RPMLIBTB                      CMN$$CNC000015
+Production                    00001RPMTB&LIBTYPE                 CMN$$CNC000039
+Production                    00001STGSLTBL                      CMN$$CPR000023
+Production                    00001STGSLTBL                      CMN$$CPR000030
+Production                    00001STGSLTBL                      CMN$$CPR000050
+Production                    00001STGSLTBL                      CMN$$CPR000057
+Production                    00001STGSLTBL                      CMN$$CPR000061
+Production                    00001DLTLIBTB                      CMN$$CPR000062
+Production                    00001STGSLTBL                      CMN$$CPR000088
+Production                    00001STGSLTBL                      CMN$$CPR000095
+Production                    00001STGSLTBL                      CMN$$CPR000114
+Production                    00001STGSLTBL                      CMN$$CPR000121
+Production                    00001STGSLTBL                      CMN$$CPR000179
+Production                    00001STGSLTBL                      CMN$$CPR000186
+Production                    00001RPMTB&LIBTYPE                 CMN$$DEL000027
+Production                    00001RPMSTTBL                      CMN$$F10000042
+Production                    00001&RMLBTBL                      CMN$$F10000064
+Production                    00001RPMTB&LIBTYPE                 CMN$$IGN000067
+Production                    00001SYSLODTB                      CMN$$ILC000008
+Production                    00001LTYPETBL                      CMN$$ILC000019
+Production                    00001XPOLLTBL                      CMN$$ILC000028
+Production                    00001RPMLIBTB                      CMN$$ILC000041
+Production                    00001BASLIBTB                      CMN$$ILC000048
+Production                    00001SYSLODTB                      CMN$$ILL000014
+Production                    00001LTYPETBL                      CMN$$ILL000024
+Production                    00001XPOLLTBL                      CMN$$ILL000032
+Production                    00001RPMLIBTB                      CMN$$ILL000046
+Production                    00001BASLIBTB                      CMN$$ILL000054
+Production                    00001CMPMBRTB                      CMN$$LB2000014
+Production                    00001CMPMBRTB                      CMN$$LB2000044
+Production                    00001XPOLLTBL                      CMN$$LNK000050
+Production                    00001XPOLLTBL                      CMN$$LNK000060
+Production                    00001XPOLLTBL                      CMN$$LNK000083
+Production                    00001XPOLLTBL                      CMN$$LNK000093
+Production                    00001RPMSTTBL                      CMN$$N10000018
+Production                    00001&RMLBTBL                      CMN$$N10000026
+Production                    00001&RMLBTBL                      CMN$$N10000034
+Production                    00001RPMSTTBL                      CMN$$N10000059
+Production                    00001RPMSTTBL                      CMN$$N10000085
+Production                    00001RPMSTTBL                      CMN$$N10000103
+Production                    00001&RMLBTBL                      CMN$$N10000117
+Production                    00001&RMLBTBL                      CMN$$N11000006
+Production                    00001RPMSTTBL                      CMN$$N11000030
+Production                    00001APRLSTBL                      CMN$$NTF000118
+Production                    00001&APRVENT                      CMN$$NTF000131
+Production                    00001LTYPETBL                      CMN$$OBL000031
+Production                    00001BASLIBTB                      CMN$$OBL000089
+Production                    00001OTHLTTBL                      CMN$$OTH000028
+Production                    00001OTHLTTBL                      CMN$$OTH000047
+Production                    00001CMPMBRTB                      CMN$$PAN000015
+Production                    00001DLTLIBTB                      CMN$$PBL000118
+Production                    00001RPMLIBTB                      CMN$$PBL000176
+Production                    00001BASLIBTB                      CMN$$PBL000181
+Production                    00001RPMLIBTB                      CMN$$PBL000200
+Production                    00001BASLIBTB                      CMN$$PBL000206
+Production                    00001BASLIBTB                      CMN$$PBL000212
+Production                    00001RPMLIBTB                      CMN$$PCT000006
+Production                    00001RPMLIBTB                      CMN$$PMT000014
+Production                    00001RPMTB&LIBTYPE                 CMN$$PMT000044
+Production                    00001CMNDB2NN                      CMN$$PRB000095
+Production                    00001RPMLIBTB                      CMN$$PRB000117
+Production                    00001RPMTB&LIBTYPE                 CMN$$PRB000119
+Production                    00001RPMLIBTB                      CMN$$PRB000135
+Production                    00001RPMTB&LIBTYPE                 CMN$$PRB000137
+Production                    00001RPMLIBTB                      CMN$$PRB000152
+Production                    00001RPMTB&LIBTYPE                 CMN$$PRB000154
+Production                    00001RPMLIBTB                      CMN$$PRB000174
+Production                    00001RPMLIBTB                      CMN$$PRB000187
+Production                    00001CMNDB2SS                      CMN$$PRB000198
+Production                    00001CMNDB2SS                      CMN$$PRB000206
+Production                    00001RPMLIBTB                      CMN$$PRB000227
+Production                    00001RPMLIBTB                      CMN$$PRM000020
+Production                    00001RPMLIBTB                      CMN$$PRM000053
+Production                    00001RPMLIBTB                      CMN$$PRM000096
+Production                    00001RPMTB&LIBTYPE                 CMN$$PRM000099
+Production                    00001CLNHSTTB                      CMN$$PRM000108
+Production                    00001COMCHKTB                      CMN$$PRM000118
+Production                    00001RPMTB&LIBTYPE                 CMN$$PRO000022
+Production                    00001CMNLBTBL                      CMN$$PRS000006
+Production                    00001RPMLIBTB                      CMN$$PSQ000014
+Production                    00001RPMTB&LIBTYPE                 CMN$$PSQ000043
+Production                    00001CMNDB2NN                      CMN$$PSQ000051
+Production                    00001RPMTB&LIBTYPE                 CMN$$PSQ000092
+Production                    00001RPMLIBTB                      CMN$$PSQ000108
+Production                    00001PRDLIBTB                      CMN$$PSQ000125
+Production                    00001SYSLIBTB                      CMN$$PSQ000150
+Production                    00001RPMTB&LIBTYPE                 CMN$$PSQ000162
+Production                    00001CMNDB2NN                      CMN$$PSQ000170
+Production                    00001SYSLIBTB                      CMN$$PSQ000184
+Production                    00001RPMTB&LIBTYPE                 CMN$$PSQ000223
+Production                    00001RPMLIBTB                      CMN$$PST000008
+Production                    00001CMNDB2NN                      CMN$$PST000014
+Production                    00001RPMTB&LIBTYPE                 CMN$$PST000025
+Production                    00001EROAUDTB                      CMN$$RAU000014
+Production                    00001CMNDB2NN                      CMN$$RPB000095
+Production                    00001RPMLIBTB                      CMN$$RPB000117
+Production                    00001RPMTB&LIBTYPE                 CMN$$RPB000119
+Production                    00001RPMLIBTB                      CMN$$RPB000135
+Production                    00001RPMTB&LIBTYPE                 CMN$$RPB000137
+Production                    00001RPMLIBTB                      CMN$$RPB000152
+Production                    00001RPMTB&LIBTYPE                 CMN$$RPB000154
+Production                    00001RPMLIBTB                      CMN$$RPB000174
+Production                    00001RPMLIBTB                      CMN$$RPB000189
+Production                    00001CMNDB2SS                      CMN$$RPB000202
+Production                    00001CMNDB2SS                      CMN$$RPB000210
+Production                    00001RPMLIBTB                      CMN$$RPB000231
+Production                    00001RPMLIBTB                      CMN$$RPM000047
+Production                    00001RPMLIBTB                      CMN$$RPM000090
+Production                    00001RPMLIBTB                      CMN$$RPM000155
+Production                    00001RPMLIBTB                      CMN$$RPM000177
+Production                    00001RPMLIBTB                      CMN$$RPM000218
+Production                    00001RPMLIBTB                      CMN$$RPM000256
+Production                    00001RPMLIBTB                      CMN$$RPM000303
+Production                    00001RPMLIBTB                      CMN$$RPM000311
+Production                    00001RPMLIBTB                      CMN$$RPM000346
+Production                    00001RPMLIBTB                      CMN$$RPM000388
+Production                    00001RPTSYITB                      CMN$$RPT000006
+Production                    00001RPMLIBTB                      CMN$$RSQ000014
+Production                    00001RPMTB&LIBTYPE                 CMN$$RSQ000043
+Production                    00001CMNDB2NN                      CMN$$RSQ000051
+Production                    00001RPMTB&LIBTYPE                 CMN$$RSQ000092
+Production                    00001RPMLIBTB                      CMN$$RSQ000108
+Production                    00001PRDLIBTB                      CMN$$RSQ000125
+Production                    00001SYSLIBTB                      CMN$$RSQ000150
+Production                    00001RPMTB&LIBTYPE                 CMN$$RSQ000162
+Production                    00001CMNDB2NN                      CMN$$RSQ000172
+Production                    00001SYSLIBTB                      CMN$$RSQ000186
+Production                    00001RPMTB&LIBTYPE                 CMN$$RSQ000225
+Production                    00001CMNDB2N1                      CMN$$SPB000098
+Production                    00001RPMLIBTB                      CMN$$SPB000120
+Production                    00001RPMTB&LIBTYPE                 CMN$$SPB000122
+Production                    00001RPMLIBTB                      CMN$$SPB000138
+Production                    00001RPMTB&LIBTYPE                 CMN$$SPB000140
+Production                    00001RPMLIBTB                      CMN$$SPB000155
+Production                    00001RPMTB&LIBTYPE                 CMN$$SPB000157
+Production                    00001RPMLIBTB                      CMN$$SPB000177
+Production                    00001RPMLIBTB                      CMN$$SPB000192
+Production                    00001CMNDB2S1                      CMN$$SPB000205
+Production                    00001CMNDB2S1                      CMN$$SPB000213
+Production                    00001RPMLIBTB                      CMN$$SPB000234
+Production                    00001&RMLBTBL                      CMN$$SQL000013
+Production                    00001CMNSQLAL                      CMN$$SQL000024
+Production                    00001&STGLTYP.CPYTB                CMN$$SQL000048
+Production                    00001CMNDB2N1                      CMN$$SQL000084
+Production                    00001&STGLTYP.CPYTB                CMN$$SQL000101
+Production                    00001LTYPETBL                      CMN$$SSI000038
+Production                    00001XPOLLTBP                      CMN$$SSI000044
+Production                    00001BASLIBTB                      CMN$$SSI000055
+Production                    00001CMPMBRTB                      CMN$$SSI000069
+Production                    00001CMPMBRTB                      CMN$$SSV000011
+Production                    00001&RMLBTBL                      CMN$$STP000014
+Production                    00001CMNSQLAL                      CMN$$STP000017
+Production                    00001CMNDB2N1                      CMN$$STP000022
+Production                    00001&STGLTYP.CPYTB                CMN$$STP000035
+Production                    00001BASLIBTB                      CMN$$SYC000024
+Production                    00001SYSCPYTB                      CMN$$SYC000049
+Production                    00001LTYPETBL                      CMN$$SYC000059
+Production                    00001LTYPETBL                      CMN$$SYC000065
+Production                    00001BASLIBTB                      CMN$$SYC000071
+Production                    00001BASLIBTB                      CMN$$SYC000077
+Production                    00001SYSCPYTB                      CMN$$SYC000145
+Production                    00001RPMLIBTB                      CMN$$SYC000148
+Production                    00001LTYPETBL                      CMN$$SYC000181
+Production                    00001LTYPETBL                      CMN$$SYC000187
+Production                    00001XPOLLTBC                      CMN$$SYC000196
+Production                    00001XPOLLTBC                      CMN$$SYC000207
+Production                    00001RPMLIBTB                      CMN$$SYC000232
+Production                    00001BASLIBTB                      CMN$$SYC000256
+Production                    00001BASLIBTB                      CMN$$SYC000261
+Production                    00001BASLIBTB                      CMN$$SYC000269
+Production                    00001BASLIBTB                      CMN$$SYC000286
+Production                    00001SYSLODTB                      CMN$$SYL000025
+Production                    00001RPMLIBTB                      CMN$$SYL000035
+Production                    00001RPMLIBTB                      CMN$$SYL000043
+Production                    00001RPMLIBTB                      CMN$$SYL000054
+Production                    00001LTYPETBL                      CMN$$SYL000158
+Production                    00001LTYPETBL                      CMN$$SYL000166
+Production                    00001RPMLIBTB                      CMN$$SYL000172
+Production                    00001LTYPETBL                      CMN$$SYL000182
+Production                    00001RPMLIBTB                      CMN$$SYL000188
+Production                    00001LTYPETBL                      CMN$$SYL000198
+Production                    00001RPMLIBTB                      CMN$$SYL000204
+Production                    00001LTYPETBL                      CMN$$SYL000214
+Production                    00001RPMLIBTB                      CMN$$SYL000220
+Production                    00001XPOLLTBL                      CMN$$SYL000241
+Production                    00001BASLIBTB                      CMN$$SYL000272
+Production                    00001BASLIBTB                      CMN$$SYL000280
+Production                    00001BASLIBTB                      CMN$$SYL000289
+Production                    00001BASLIBTB                      CMN$$SYL000298
+Production                    00001BASLIBTB                      CMN$$SYL000307
+Production                    00001BASLIBTB                      CMN$$SYL000315
+Production                    00001BASLIBTB                      CMN$$WRT000128
+Production                    00001SYSCPYTB                      CMN$$WRT000154
+Production                    00001SYSCPYTB                      CMN$$WRT000157
+Production                    00001LTYPETBL                      CMN$$WRT000170
+Production                    00001XPOLLTBC                      CMN$$WRT000178
+Production                    00001RPMLIBTB                      CMN$$WRT000197
+Production                    00001BASLIBTB                      CMN$$WRT000204
+Production                    00001BASLIBTB                      CMN$$WRT000209
+Production                    00001RPMSTTBL                      CMN$$X10000021
+Production                    00001&RMLBTBL                      CMN$$X10000029
+Production                    00001XPOLLTBP                      CMN$$XPL000029
+Production                    00001XPOLLTBP                      CMN$$XPL000044
+Production                    00001XPOLLTBC                      CMN$$XPL000055
+Production                    00001XPOLLTBC                      CMN$$XPL000068
+Production                    00001XPOLLTBL                      CMN$$XPL000077
+Production                    00001XPOLLTBL                      CMN$$XPL000090
+Production                    00001RPMSTTBL                      CMN10   000092
+Production                    00001&RMLBTBL                      CMN10   000110
+Production                    00001&RMLBTBL                      CMN10   000152
+Production                    00001RPMSTTBL                      CMN10   000250
+Production                    00001&RMLBTBL                      CMN10   000266
+Production                    00001&RMLBTBL                      CMN10   000287
+Production                    00001&RMLBTBL                      CMN10   000308
+Production                    00001RPMSTTBL                      CMN10   000344
+Production                    00001&RMLBTBL                      CMN11   000022
+Production                    00001&RMLBTBL                      CMN11   000042
+Production                    00001&RMLBTBL                      CMN11   000058
+Production                    00001&RMLBTBL                      CMN11   000101
+Production                    00001&STGLTYP.CPYTB                CMN11   000106
+Production                    00001&STGLTYP.CPYTB                CMN11   000112
+Production                    00001&STGLTYP.CPYTB                CMN11   000118
+Production                    00001&RMLBTBL                      CMN11   000129
+Production                    00001&RMLBTBL                      CMN11   000174
+Production                    00001IMSLSLTB                      CMN11   000189
+Production                    00001IMSLSLTB                      CMN11   000266
+Production                    00001&RMLBTBL                      CMN20   000024
+Production                    00001&STGLTYP.CPYTB                CMN20   000037
+Production                    00001&STGLTYP.DELTB                CMN20   000042
+Production                    00001&RMLBTBL                      CMN20   000072
+Production                    00001&RMLBTBL                      CMN20   000107
+Production                    00001&STGLTYP.DELTB                CMN20   000121
+Production                    00001&STGLTYP.RENTB                CMN20   000126
+Production                    00001&RMLBTBL                      CMN20I  000054
+Production                    00001&STGLTYP.CPYTB                CMN20I  000088
+Production                    00001&STGLTYP.DELTB                CMN20I  000098
+Production                    00001&STGLTYP.CPYTB                CMN20I  000161
+Production                    00001IMSLSLTB                      CMN20I  000182
+Production                    00001IMSLSLTB                      CMN20I  000240
+Production                    00001&STGLTYP.CPYTB                CMN20I  000271
+Production                    00001&STGLTYP.DELTB                CMN20I  000305
+Production                    00001&STGLTYP.RENTB                CMN20I  000310
+Production                    00001&STGLTYP.CPYTB                CMN20I  000354
+Production                    00001&STGLTYP.DELTB                CMN20I  000377
+Production                    00001&STGLTYP.RENTB                CMN20I  000382
+Production                    00001&RMLBTBL                      CMN20I  000396
+Production                    00001IMSLSLTB                      CMN20I  000419
+Production                    00001&RMLBTBL                      CMN20I  000500
+Production                    00001&RMLBTBL                      CMN20I  000535
+Production                    00001&STGLTYP.CPYTB                CMN20I  000555
+Production                    00001IMSLSLTB                      CMN20I  000708
+Production                    00001&RMLBTBL                      CMN20T  000022
+Production                    00001&RMLBTBL                      CMN20T  000050
+Production                    00001&STGLTYP.DELTB                CMN20T  000060
+Production                    00001&RMLBTBL                      CMN20T  000069
+Production                    00001&STGLTYP.RENTB                CMN20T  000079
+Production                    00001&RMLBTBL                      CMN20TI 000029
+Production                    00001&STGLTYP.CPYTB                CMN20TI 000074
+Production                    00001IMSLSLTB                      CMN20TI 000094
+Production                    00001IMSLSLTB                      CMN20TI 000119
+Production                    00001&STGLTYP.CPYTB                CMN20TI 000124
+Production                    00001&STGLTYP.DELTB                CMN20TI 000154
+Production                    00001&STGLTYP.RENTB                CMN20TI 000173
+Production                    00001&RMLBTBL                      CMN20TI 000182
+Production                    00001IMSLSLTB                      CMN20TI 000200
+Production                    00001&RMLBTBL                      CMN21   000072
+Production                    00001&STGLTYP.CPYTB                CMN21   000263
+Production                    00001CMNDB2NN                      CMN21   000343
+Production                    00001&RMLBTBL                      CMN21   000366
+Production                    00001&STGLTYP.CPYTB                CMN21   000369
+Production                    00001DBRCPYTB                      CMN21   000380
+Production                    00001DBBCPYTB                      CMN21   000386
+Production                    00001CMNDB2SS                      CMN21   000507
+Production                    00001&RMLBTBL                      CMN30   000015
+Production                    00001&STGLTYP.CPYTB                CMN30   000030
+Production                    00001&STGLTYP.DELTB                CMN30   000076
+Production                    00001&STGLTYP.RENTB                CMN30   000107
+Production                    00001&STGLTYP.CPYTB                CMN30   000145
+Production                    00001&STGLTYP.DELTB                CMN30   000158
+Production                    00001&STGLTYP.RENTB                CMN30   000173
+Production                    00001&STGLTYP.CPYTB                CMN30   000188
+Production                    00001&STGLTYP.RENTB                CMN30   000201
+Production                    00001CMNB12TB                      CMN30   000207
+Production                    00001&RMLBTBL                      CMN30   000368
+Production                    00001&STGLTYP.CPYTB                CMN30   000443
+Production                    00001&STGLTYP.CPYTB                CMN30   000546
+Production                    00001&RMLBTBL                      CMN30   000552
+Production                    00001&STGLTYP.DELTB                CMN30   000584
+Production                    00001&STGLTYP.RENTB                CMN30   000610
+Production                    00001&STGLTYP.CPYTB                CMN30CDT000031
+Production                    00001&STGLTYP.CPYTB                CMN30CDT000036
+Production                    00001&STGLTYP.DELTB                CMN30CDT000051
+Production                    00001&STGLTYP.DELTB                CMN30CDT000056
+Production                    00001&STGLTYP.RENTB                CMN30CDT000070
+Production                    00001CMNB12TB                      CMN30CDT000075
+Production                    00001&STGLTYP.DELTB                CMN30DEL000013
+Production                    00001&RMLBTBL                      CMN30I  000032
+Production                    00001IMSLSLTB                      CMN30I  000122
+Production                    00001IMSLSLTB                      CMN30I  000151
+Production                    00001&STGLTYP.CPYTB                CMN30I  000156
+Production                    00001&RMLBTBL                      CMN30I  000185
+Production                    00001IMSLSLTB                      CMN30I  000234
+Production                    00001&RMLBTBL                      CMN30I  000280
+Production                    00001&STGLTYP.CPYTB                CMN30LIB000039
+Production                    00001&STGLTYP.RENTB                CMN30LIB000052
+Production                    00001CMNB12TB                      CMN30LIB000057
+Production                    00001&STGLTYP.CPYTB                CMN30LIB000197
+Production                    00001&STGLTYP.DELTB                CMN30LIB000236
+Production                    00001&STGLTYP.RENTB                CMN30LIB000262
+Production                    00001&STGLTYP.CPYTB                CMN30PAN000015
+Production                    00001&STGLTYP.DELTB                CMN30PAN000061
+Production                    00001&STGLTYP.RENTB                CMN30PAN000093
+Production                    00001&STGLTYP.CPYTB                CMN30PDS000031
+Production                    00001&STGLTYP.CPYTB                CMN30PDS000036
+Production                    00001&STGLTYP.DELTB                CMN30PDS000051
+Production                    00001&STGLTYP.DELTB                CMN30PDS000056
+Production                    00001&STGLTYP.RENTB                CMN30PDS000070
+Production                    00001CMNB12TB                      CMN30PDS000075
+Production                    00001&STGLTYP.CPYTB                CMN30PDS000140
+Production                    00001&STGLTYP.RENTB                CMN30SRD000032
+Production                    00001CMNB12TB                      CMN30SRD000037
+Production                    00001&STGLTYP.CPYTB                CMN30SRD000109
+Production                    00001&RMLBTBL                      CMN31T  000010
+Production                    00001&STGLTYP.CPYTB                CMN31T  000020
+Production                    00001&RMLBTBL                      CMN31T  000029
+Production                    00001&STGLTYP.RENTB                CMN31T  000039
+Production                    00001&RMLBTBL                      CMN31TI 000010
+Production                    00001&STGLTYP.CPYTB                CMN31TI 000020
+Production                    00001&STGLTYP.RENTB                CMN31TI 000035
+Production                    00001&RMLBTBL                      CMN32   000031
+Production                    00001&STGLTYP.CPYTB                CMN32   000083
+Production                    00001CMNDB2NN                      CMN32   000157
+Production                    00001&RMLBTBL                      CMN32   000178
+Production                    00001&STGLTYP.CPYTB                CMN32   000181
+Production                    00001DBRCPYTB                      CMN32   000190
+Production                    00001DBBCPYTB                      CMN32   000196
+Production                    00001CMNDB2SS                      CMN32   000282
+Production                    00001CMNDB2SS                      CMN32   000325
+Production                    00001CMNDB2SS                      CMN32   000328
+Production                    00001CMNLBTBL                      CMN49   000018
+Production                    00001DBBCPYTB                      CMN49   000052
+Production                    00001DBRCPYTB                      CMN49   000058
+Production                    00001&PKGBIND.CPYTB                CMN49   000064
+Production                    00001CMNLBTBL                      CMN49   000090
+Production                    00001CMNDB2NN                      CMN49   000211
+Production                    00001CMNLBTBL                      CMN49   000232
+Production                    00001&STGLTYP.CPYTB                CMN49   000235
+Production                    00001DBRCPYTB                      CMN49   000246
+Production                    00001DBBCPYTB                      CMN49   000254
+Production                    00001&RMLBTBL                      CMN50I  000045
+Production                    00001&STGLTYP.CPYTB                CMN50I  000085
+Production                    00001&STGLTYP.DELTB                CMN50I  000090
+Production                    00001&STGLTYP.CPYTB                CMN50I  000120
+Production                    00001&STGLTYP.DELTB                CMN50I  000130
+Production                    00001&STGLTYP.CPYTB                CMN50I  000152
+Production                    00001&STGLTYP.DELTB                CMN50I  000157
+Production                    00001&STGLTYP.CPYTB                CMN50I  000171
+Production                    00001&STGLTYP.DELTB                CMN50I  000176
+Production                    00001&STGLTYP.CPYTB                CMN50I  000191
+Production                    00001&STGLTYP.DELTB                CMN50I  000196
+Production                    00001&STGLTYP.CPYTB                CMN50I  000210
+Production                    00001&STGLTYP.DELTB                CMN50I  000215
+Production                    00001&STGLTYP.RENTB                CMN50I  000232
+Production                    00001&STGLTYP.RENTB                CMN50I  000247
+Production                    00001&STGLTYP.RENTB                CMN50I  000257
+Production                    00001&RMLBTBL                      CMN50I  000279
+Production                    00001&RMLBTBL                      CMN50I  000310
+Production                    00001&STGLTYP.CPYTB                CMN50I  000330
+Production                    00001&RMLBTBL                      CMN50T  000010
+Production                    00001&STGLTYP.CPYTB                CMN50T  000020
+Production                    00001&RMLBTBL                      CMN50T  000029
+Production                    00001&STGLTYP.RENTB                CMN50T  000039
+Production                    00001&RMLBTBL                      CMN50TI 000010
+Production                    00001&STGLTYP.CPYTB                CMN50TI 000020
+Production                    00001&STGLTYP.RENTB                CMN50TI 000035
+Production                    00001&RMLBTBL                      CMN55   000010
+Production                    00001&STGLTYP.CPYTB                CMN55   000025
+Production                    00001&STGLTYP.RENTB                CMN55   000093
+Production                    00001&STGLTYP.CPYTB                CMN55   000130
+Production                    00001&STGLTYP.RENTB                CMN55   000145
+Production                    00001&STGLTYP.CPYTB                CMN55   000160
+Production                    00001&STGLTYP.RENTB                CMN55   000173
+Production                    00001&STGLTYP.CPYTB                CMN55   000216
+Production                    00001&STGLTYP.CPYTB                CMN55   000243
+Production                    00001&STGLTYP.RENTB                CMN55   000272
+Production                    00001&RMLBTBL                      CMN55   000292
+Production                    00001CMNB21TB                      CMN55   000294
+Production                    00001&STGLTYP.CPYTB                CMN55   000308
+Production                    00001&BASLTYP.DELTB                CMN55   000334
+Production                    00001&STGLTYP.CPYTB                CMN55CDT000031
+Production                    00001&STGLTYP.CPYTB                CMN55CDT000036
+Production                    00001&STGLTYP.RENTB                CMN55CDT000050
+Production                    00001CMNB21TB                      CMN55CDT000055
+Production                    00001&RMLBTBL                      CMN55I  000010
+Production                    00001&RMLBTBL                      CMN55I  000102
+Production                    00001&STGLTYP.CPYTB                CMN55LIB000034
+Production                    00001&STGLTYP.RENTB                CMN55LIB000047
+Production                    00001CMNB21TB                      CMN55LIB000052
+Production                    00001&STGLTYP.CPYTB                CMN55LIB000164
+Production                    00001&STGLTYP.RENTB                CMN55LIB000193
+Production                    00001&STGLTYP.CPYTB                CMN55PAN000017
+Production                    00001&STGLTYP.RENTB                CMN55PAN000085
+Production                    00001&STGLTYP.CPYTB                CMN55PDS000018
+Production                    00001&STGLTYP.CPYTB                CMN55PDS000023
+Production                    00001&STGLTYP.RENTB                CMN55PDS000037
+Production                    00001CMNB21TB                      CMN55PDS000062
+Production                    00001&STGLTYP.CPYTB                CMN55PDS000075
+Production                    00001&BASLTYP.DELTB                CMN55PDS000099
+Production                    00001&STGLTYP.RENTB                CMN55SRD000020
+Production                    00001&STGLTYP.CPYTB                CMN55SRD000056
+Production                    00001CMNLBTBL                      CMN56   000016
+Production                    00001DBBCPYTB                      CMN56   000060
+Production                    00001DBBCPYTB                      CMN56   000065
+Production                    00001DBRCPYTB                      CMN56   000072
+Production                    00001&PKGBIND.CPYTB                CMN56   000078
+Production                    00001&PKGBIND.CPYTB                CMN56   000084
+Production                    00001CMNLBTBL                      CMN56   000120
+Production                    00001&STGLTYP.CPYTB                CMN56   000142
+Production                    00001CMNLBTBL                      CMN56   000150
+Production                    00001CMNDB2NN                      CMN56   000237
+Production                    00001&RMLBTBL                      CMN56   000258
+Production                    00001&STGLTYP.CPYTB                CMN56   000261
+Production                    00001DBRCPYTB                      CMN56   000272
+Production                    00001DBBCPYTB                      CMN56   000280
+Production                    00001CMNDB2SS                      CMN56   000376
+Production                    00001OTHLTTBL                      CMN90   000059
+Production                    00001CMND2ODR                      CMNDB2DR000007
+Production                    00001LTYPETBL                      CMNIDPEX000026
+Production                    00001PRDLIBTB                      CMNIDPEX000031
+Production                    00001BASLIBTB                      CMNIDPEX000036
+Production                    00001LTYPETBL                      CMNIDPEX000066
+Production                    00001PRDLIBTB                      CMNIDPEX000071
+Production                    00001BASLIBTB                      CMNIDPEX000076
+Production                    00001BASLIBTB                      CMNIDPEX000081
+Production                    00001IMSPSBTB                      CMNIDPOV000023
+Production                    00001IMSDBDTB                      CMNIDPOV000035
+Production                    00001LTYPETBL                      CMNIDPOV000066
+Production                    00001PRDLIBTB                      CMNIDPOV000071
+Production                    00001BASLIBTB                      CMNIDPOV000076
+Production                    00001LTYPETBL                      CMNIDPOV000122
+Production                    00001BASLIBTB                      CMNIDPOV000127
+Production                    00001PRDLIBTB                      CMNIDPOV000132
+Production                    00001LTYPETBL                      CMNIDPOV000169
+Production                    00001PRDLIBTB                      CMNIDPOV000174
+Production                    00001BASLIBTB                      CMNIDPOV000179
+Production                    00001IMSPRMTB                      CMNIMCPY000010
+Production                    00001RPMTB&LIBTYPE                 CMNIMCPY000013
+Production                    00001RPMLIBTB                      CMNIMPRM000100
+Production                    00001RPMLIBTB                      CMNIMPRM000195
+Production                    00001IMSPRMTB                      CMNIMPRM000261
+Production                    00001RPMTB&LIBTYPE                 CMNIMPRM000302
+Production                    00001IMSPRMTB                      CMNIMPRM000331
+Production                    00001RPMTB&LIBTYPE                 CMNIMPRM000335
+Production                    00001RPMLIBTB                      CMNIMPRM000356
+Production                    00001IMSPRMTB                      CMNIMPRM000389
+Production                    00001RPMLIBTB                      CMNIMPRM000417
+Production                    00001RPMLIBTB                      CMNIMPRM000490
+Production                    00001RPMTB&LIBTYPE                 CMNIMPRM000493
+Production                    00001CLNHSTTB                      CMNIMPRM000502
+Production                    00001COMCHKTB                      CMNIMPRM000512
+Production                    00001RPMTB&LIBTYPE                 CMNIMPRO000011
+Production                    00001RPMTB&LIBTYPE                 CMNIMPRO000032
+Production                    00001RPMLIBTB                      CMNIMRPM000123
+Production                    00001RPMLIBTB                      CMNIMRPM000247
+Production                    00001RPMLIBTB                      CMNIMRPM000269
+Production                    00001IMSLSLTB                      CMNIMSBL000007
+Production                    00001&STGLTYP.CPYTB                CMNIMSBL000011
+Production                    00001RPMTB&LIBTYPE                 CMNIMSIM000006
+Production                    00001IMSLSLTB                      CMNIMSPD000010
+Production                    00001&STGLTYP.CPYTB                CMNIMSPD000014
+Production                    00001IMSLSLTB                      CMNIMSPD000067
+Production                    00001&STGLTYP.CPYTB                CMNIMSPD000075
+Production                    00001RPMTB&LIBTYPE                 CMNIMSPR000006
+Production                    00001IMSLSLTB                      CMNIMSTP000010
+Production                    00001&STGLTYP.CPYTB                CMNIMSTP000014
+Production                    00001IMSLSLTB                      CMNIMSTP000067
+Production                    00001&STGLTYP.CPYTB                CMNIMSTP000075
+Production                    00001&STGLTYP.CPYTB                CMNINACB000127
+Production                    00001LTYPETBL                      CMNINIGN000020
+Production                    00001&STGLTYP.CPYTB                CMNINIGN000087
+Production                    00001RPMSTTBL                      CMNINLPM000007
+Production                    00001RPMSTTBL                      CMNINRPM000006
+Production                    00001LTYPETBL                      CMNPDPEX000017
+Production                    00001BASLIBTB                      CMNPDPEX000022
+Production                    00001LTYPETBL                      CMNPDPEX000050
+Production                    00001BASLIBTB                      CMNPDPEX000055
+Production                    00001BASLIBTB                      CMNPDPEX000060
+Production                    00001IMSPSBTB                      CMNPDPOV000023
+Production                    00001IMSDBDTB                      CMNPDPOV000035
+Production                    00001LTYPETBL                      CMNPDPOV000066
+Production                    00001BASLIBTB                      CMNPDPOV000071
+Production                    00001LTYPETBL                      CMNPDPOV000115
+Production                    00001BASLIBTB                      CMNPDPOV000120
+Production                    00001LTYPETBL                      CMNPDPOV000158
+Production                    00001BASLIBTB                      CMNPDPOV000163
+Production                    00001XPOLLTBL                      CMNPLICM000070
+Production                    00001XPOLLTBL                      CMNPLICM000102
+Production                    00001IMSLSLTB                      CMNPRDIM000006
+Production                    00001IMSPRMTB                      CMNPRMIM000006
+Production                    00001LTYPETBL                      CMNRDPEX000017
+Production                    00001PRDLIBTB                      CMNRDPEX000022
+Production                    00001LTYPETBL                      CMNRDPEX000054
+Production                    00001PRDLIBTB                      CMNRDPEX000059
+Production                    00001IMSPSBTB                      CMNRDPOV000023
+Production                    00001IMSDBDTB                      CMNRDPOV000035
+Production                    00001LTYPETBL                      CMNRDPOV000066
+Production                    00001PRDLIBTB                      CMNRDPOV000071
+Production                    00001LTYPETBL                      CMNRDPOV000119
+Production                    00001PRDLIBTB                      CMNRDPOV000124
+Production                    00001LTYPETBL                      CMNRDPOV000161
+Production                    00001PRDLIBTB                      CMNRDPOV000166
+Production                    00001RPMTBPA0                      CMNRPACB000036
+Production                    00001RPMLIBTB                      CMNRPICL000023
+Production                    00001RPMTB&LIBTYPE                 CMNRPICL000065
+Production                    00001RPMLIBTB                      CMNRPICL000086
+Production                    00001CLNMODTB                      CMNRPICL000089
+Production                    00001CLNMODTB                      CMNRPICL000108
+Production                    00001RPMLIBTB                      CMNRPICL000122
+Production                    00001RPMTB&LIBTYPE                 CMNRPICL000148
+Production                    00001RPMLIBTB                      CMNRPICR000036
+Production                    00001IMSPRMTB                      CMNRPICR000116
+Production                    00001IMSPRMTB                      CMNRPICR000139
+Production                    00001RPMTB&LIBTYPE                 CMNRPICR000143
+Production                    00001IMSPRMTB                      CMNRPICR000194
+Production                    00001RPMLIBTB                      CMNRPICR000213
+Production                    00001CLNMODTB                      CMNRPICR000216
+Production                    00001RPMLIBTB                      CMNRPICR000289
+Production                    00001RPMLIBTB                      CMNRPICR000412
+Production                    00001RPMLIBTB                      CMNRPICR000437
+Production                    00001RPMTB&LIBTYPE                 CMNRPIGN000052
+Production                    00001CLNMODTB                      CMNRPIPC000013
+Production                    00001RPMTB&LIBTYPE                 CMNRPIPC000020
+Production                    00001IMSPRMTB                      CMNRPIPS000010
+Production                    00001RPMTB&LIBTYPE                 CMNRPIPS000013
+Production                    00001RPMTB&LIBTYPE                 CMNRPIRC000031
+Production                    00001RPMTB&LIBTYPE                 CMNRPIRD000012
+Production                    00001RPMTB&LIBTYPE                 CMNRPISC000006
+Production                    00001RPMLIBTB                      CMNRPM00000015
+Production                    00001RPMLIBTB                      CMNRPM20000020
+Production                    00001RPMLIBTB                      CMNRPM20000028
+Production                    00001RPMLIBTB                      CMNRPM20000041
+Production                    00001RPMLIBTB                      CMNRPM20000054
+Production                    00001RPMLIBTB                      CMNRPM2I000021
+Production                    00001RPMLIBTB                      CMNRPM2I000039
+Production                    00001RPMLIBTB                      CMNRPM2I000053
+Production                    00001RPMLIBTB                      CMNRPM2I000067
+Production                    00001RPMLIBTB                      CMNRPM30000005
+Production                    00001RPMLIBTB                      CMNRPM30000019
+Production                    00001RPMLIBTB                      CMNRPM3I000005
+Production                    00001RPMLIBTB                      CMNRPM3I000025
+Production                    00001RPMLIBTB                      CMNRPMB0000032
+Production                    00001RPMTB&LIBTYPE                 CMNRPMB0000035
+Production                    00001CLNHSTTB                      CMNRPMB0000044
+Production                    00001COMCHKTB                      CMNRPMB0000054
+Production                    00001RPMLIBTB                      CMNRPMCL000021
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCL000056
+Production                    00001RPMLIBTB                      CMNRPMCL000071
+Production                    00001CLNMODTB                      CMNRPMCL000075
+Production                    00001CLNMODTB                      CMNRPMCL000092
+Production                    00001RPMLIBTB                      CMNRPMCL000106
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCL000120
+Production                    00001RPMLIBTB                      CMNRPMCR000026
+Production                    00001IMSPRMTB                      CMNRPMCR000039
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCR000097
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCR000140
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCR000183
+Production                    00001IMSPRMTB                      CMNRPMCR000199
+Production                    00001RPMLIBTB                      CMNRPMCR000214
+Production                    00001CLNMODTB                      CMNRPMCR000217
+Production                    00001CLNMODTB                      CMNRPMCR000234
+Production                    00001CLNMODTB                      CMNRPMCR000248
+Production                    00001CLNMODTB                      CMNRPMCR000262
+Production                    00001RPMLIBTB                      CMNRPMCR000277
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCR000300
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCR000317
+Production                    00001RPMTB&LIBTYPE                 CMNRPMCR000334
+Production                    00001RPMLIBTB                      CMNRPMCR000395
+Production                    00001RPMLIBTB                      CMNRPMDL000013
+Production                    00001RPMLIBTB                      CMNRPMDR000022
+Production                    00001RPMLIBTB                      CMNRPMDR000042
+Production                    00001IMSPRMTB                      CMNRPMIM000006
+Production                    00001OFMTABLE                      CMNZ010A000009
+Production                    00001OFMTABLE                      CMNZ010P000013
+Production                    00001OFMTABLE                      CMNZ030P000012
+Production                    00001OFMTABLE                      CMNZ100P000012
+Production                    00001OFMTABLE                      CMNZ120P000012
+Production                    00001OFMTABLE                      CMNZ130P000012
+Production                    00001OFMTABLE                      CMNZ140P000012
+Production                    00001OFMTABLE                      CMNZ160P000012
+Production                    00001OFMTABLE                      CMNZ170P000012
+Production                    00001$COMPSTG                      COMPSTG 000001
+Production                    00001LTYPETBL                      NEW$$SYC000032
+Production                    00001APSLIBTB                      NEW$$SYC000041
+Production                    00001XPOLLBTB                      NEW$$SYC000055
+Production                    00001BASLIBTB                      NEW$$SYC000069
+Production                    00001XPOLLTBP                      OBJXPLIB000028
+Production                    00001XPOLLTBP                      OBJXPLIB000063
+Production                    00001CMNDB2NN                      S8PD2BND000014
+Production                    00001CMPCPYTB                      SCMPDSST000013
+Production                    00001LIBTYPTB                      SCMPDSST000028
+Production                    00001$P2                           SK8EPBND000053
+Production                    00001CTMICND                       SK8EPCTM000039
+Production                    00001CTMOCND                       SK8EPCTM000042
+Production                    00001$BR                           SK8EPRLS000046
+Production                    00001$PT                           SK8EPRLS000153
+Production                    00001$PT                           SK8EPRLS000159
+Production                    00001&$PTPRIOR                     SK8EPRLS000208
+Production                    00001$PT                           SK8EPRLS000217
+Production                    00001&$PTPRIOR                     SK8EPRLS000233
+Production                    00001&RMLBTBL                      SKBNEWCI000001
+Production                    00001&STGLTYP.CPYTB                SKBNEWCI000008
+Production                    00001RPMLIBTB                      SKECDCPY000056
+Production                    00001CMNDB2NN                      SKED2BCT000013
+Production                    00001RPMTB&$DBRLLT                 SKED2BCT000019
+Production                    00001RPMLIBTB                      SKED2BDP000042
+Production                    00001CMNDB2SS                      SKED2BND000007
+Production                    00001RPMLIBTB                      SKED2JSK000018
+Production                    00001CMNDB2NN                      SKEDBB  000006
+Production                    00001RPMTBDBB                      SKEDBB  000045
+Production                    00001RPMLIBTB                      SKEDBB  000066
+Production                    00001MEMBLIST                      SKEPTAAC000026
+Production                    00001MEMBLIST                      SKEPTAMF000024
+Production                    00001MEMBLIST                      SKEPTAPS000020
+Production                    00001CMNDB2SS                      SKI21BND000008
+Production                    00001CMNDB2NN                      SKI21DBB000006
+Production                    00001&RMLBTBL                      SKI21DBB000037
+Production                    00001DBBCPYTB                      SKI21DBB000058
+Production                    00001LJSCPYTB                      SKI21JSK000021
+Production                    00001CMNDB2SS                      SKI32BND000001
+Production                    00001CMNDB2NN                      SKI32DBB000013
+Production                    00001DBBCPYTB                      SKI32DBB000053
+Production                    00001&RMLBTBL                      SKI32JSK000021
+Production                    00001&STGLTYP.CPYTB                SKI32JSK000024
+Production                    00001RPMSTTBL                      SKICDCPY000081
+Production                    00001&RMLBTBL                      SKICDCPY000111
+Production                    00001CMNDB2NN                      SKID2BCT000005
+Production                    00001&$DBRLLT.CPYTB                SKID2BCT000008
+Production                    00001&RMLBTBL                      SKINEWCI000001
+Production                    00001&STGLTYP.CPYTB                SKINEWCI000008
+Production                    00001RPMTBIDL                      SKM$$IDL000024
+Production                    00001IDLCPYTB                      SKM$$IDL000066
+Production                    00001RPMTBIDL                      SKM$$IDL000141
+Production                    00001RPMTBIDG                      SKM$$IDL000144
+Production                    00001RPMTBIDG                      SKMIDLGW000114
+Production                    00001IDGCPYTB                      SKMIDLGW000124
+Production                    00001RPMTBIDL                      SKMIDLGW000135
+Production                    00001IDLCPYTB                      SKMIDLGW000176
+Production                    00001IDGCPYTB                      SKMIDLGW000229
+Production                    00001RPMTBIDG                      SKMIDLGW000244
+Production                    00001&STGLTYP.CPYTB                SKMIDLGW000275
+Production                    00001RPMTBIDG                      SKMIDLGW000287
+Production                    00001&STGLTYP.CPYTB                SKMIDLIR000113
+Production                    00001RPMTBIDL                      SKMIDLIR000128
+Production                    00001&STGLTYP.CPYTB                SKMIDLIR000157
+Production                    00001RPMTBIDL                      SKMIDLIR000168
+Production                    00001&STGLTYP.CPYTB                SKMIDLIR000194
+Production                    00001RPMTBIDL                      SKMIDLIR000206
+Production                    00001RPMTBFSP                      SKMQMSBS000060
+Production                    00001RPMTBQMS                      SKMQMSBS000106
+Production                    00001RPMLIBTB                      SKMQMSSS000016
+Production                    00001RPMTB&$DBRLLT                 SKPD2BCT000008
+Production                    00001RPMTB&$DBRLLT                 SKPD2BCT000055
+Production                    00001RPMLIBTB                      SKPD2BDP000036
+Production                    00001RPMLIBTB                      SKPD2BDP000044
+Production                    00001BASLIBTB                      SKPD2BDP000060
+Production                    00001CMNDB2NN                      SKPD2BND000016
+Production                    00001RPMLIBTB                      SKPD2JSK000014
+Production                    00001RPMTBDBB                      SKPDBB  000020
+Production                    00001RPMLIBTB                      SKPITEST000028
+Production                    00001RPMTB&LIBTYPE                 SKPITEST000029
+Production                    00001PDSTGTBL                      SKPLKORB000078
+Production                    00001RPMLIBTB                      SKPNEWCI000006
+Production                    00001RPMLIBTB                      SKPNEWCP000018
+Production                    00001RPCMPLS                       SKRCMH  000025
+Production                    00001&RMLBTBL                      SKS$$050000006
+Production                    00001&STGLTYP.CPYTB                SKS$$050000022
+Production                    00001&STGLTYP.DELTB                SKS$$050000027
+Production                    00001&STGLTYP.CPYTB                SKS$$050000049
+Production                    00001&STGLTYP.DELTB                SKS$$050000054
+Production                    00001&RMLBTBL                      SKS$$050000067
+Production                    00001&STGLTYP.RENTB                SKS$$050000077
+Production                    00001&RMLBTBL                      SKS$$050000090
+Production                    00001&RMLBTBL                      SKS$$T20000021
+Production                    00001IMSLSLTB                      SKS$$T20000025
+Production                    00001&RMLBTBL                      SKS$$T20000084
+Production                    00001&STGLTYP.DELTB                SKS$$T20000094
+Production                    00001&RMLBTBL                      SKS$$T20000103
+Production                    00001&STGLTYP.RENTB                SKS$$T20000113
+Production                    00001IMSLSLTB                      SKS$$T20000122
+Production                    00001&RMLBTBL                      SKS$BSCI000049
+Production                    00001&STGLTYP.DELTB                SKS$BSCI000079
+Production                    00001&STGLTYP.RENTB                SKS$BSCI000090
+Production                    00001&STGLTYP.CPYTB                SKS$BSCI000101
+Production                    00001SALTABLE                      SKS$BSCI000106
+Production                    00001&RMLBTBL                      SKS$EOPT000042
+Production                    00001&STGLTYP.DELTB                SKS$EOPT000054
+Production                    00001&STGLTYP.RENTB                SKS$EOPT000063
+Production                    00001&STGLTYP.CPYTB                SKS$EOPT000072
+Production                    00001APSLIBTB                      SKS$PSYL000024
+Production                    00001LTYPETBL                      SKSBAUDT000028
+Production                    00001LTYPETBL                      SKSBAUDT000041
+Production                    00001XPOLLTBL                      SKSBINDR000056
+Production                    00001XPOLLTBL                      SKSBINDR000117
+Production                    00001BASLIBTB                      SKSCMPAR000010
+Production                    00001LTYPETBL                      SKSIDL  000335
+Production                    00001LTYPETBL                      SKSIDL  000368
+Production                    00001LTYPETBL                      SKSIDL  000400
+Production                    00001LTYPETBL                      SKSPAP01000008
+Production                    00001LTYPETBL                      SKSPAP01000015
+Production                    00001RPMLIBTB                      SKSPAP01000023
+Production                    00001BASLIBTB                      SKSPAP01000030
+Production                    00001LTYPETBL                      SKSPLAUS000038
+Production                    00001BASLIBTB                      SKSPLAUS000049
+Production                    00001LTYPETBL                      SKSPLAUS000062
+Production                    00001BASLIBTB                      SKSPLAUS000071
+Production                    00001LTYPETBL                      SKSPLAUS000087
+Production                    00001RPMLIBTB                      SKSPLAUS000094
+Production                    00001BASLIBTB                      SKSPLAUS000106
+Production                    00001LTYPETBL                      SKSPLAUS000121
+Production                    00001RPMLIBTB                      SKSPLAUS000128
+Production                    00001BASLIBTB                      SKSPLAUS000140
+Production                    00001IMSLSLTB                      SKSSACB 000024
+Production                    00001COMPRTBL                      SKUCMPAL000019

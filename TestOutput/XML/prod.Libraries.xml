@@ -1,0 +1,6 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<libraries>
+  <library HostName="Unknown" PCName="?" UserTag="?" Offset="-1" />
+  <library HostName="CMN.DIV.P0.AKT.MODIFY.@002.SKL" PCName="c:\source\cs\cs2008\user" UserTag="Custom" Offset="0" />
+  <library HostName="CMN.DIV.P0.AKT.CHGMAN.@002.SKL" PCName="c:\source\cs\cs2008\vendor" UserTag="Serena" Offset="1" />
+</libraries>

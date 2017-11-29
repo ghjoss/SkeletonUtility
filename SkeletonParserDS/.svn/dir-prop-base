@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 67
+[Bb]in
+obj
+[Dd]ebug
+[Rr]elease
+*.user
+*.aps
+*.eto
+ClassDiagram1.cd
+
+END

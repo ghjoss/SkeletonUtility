@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F9FA6FF-17BD-4B66-B807-AF976B5DAF65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkeletonParserQuery</RootNamespace>
+    <AssemblyName>SkeletonParserQuery</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>SkeletonParserQuery.Program</StartupObject>
+    <ApplicationIcon>imbeds2.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpansionFindParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpansionFindParameters.Designer.cs">
+      <DependentUpon>ExpansionFindParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintHelper.cs" />
+    <Compile Include="QueryDOT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDOT.Designer.cs">
+      <DependentUpon>QueryDOT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryExpand1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryExpand1.Designer.cs">
+      <DependentUpon>QueryExpand1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryExpand2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryExpand2.Designer.cs">
+      <DependentUpon>QueryExpand2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryProgram.Designer.cs">
+      <DependentUpon>QueryProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuerySkeleton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuerySkeleton.Designer.cs">
+      <DependentUpon>QuerySkeleton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryVariable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryVariable.Designer.cs">
+      <DependentUpon>QueryVariable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpansionFindParameters.resx">
+      <DependentUpon>ExpansionFindParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDOT.resx">
+      <DependentUpon>QueryDOT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryExpand1.resx">
+      <DependentUpon>QueryExpand1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryExpand2.resx">
+      <DependentUpon>QueryExpand2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryProgram.resx">
+      <DependentUpon>QueryProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuerySkeleton.resx">
+      <DependentUpon>QuerySkeleton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryVariable.resx">
+      <DependentUpon>QueryVariable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\GlenwoodUtilities\Utility.csproj">
+      <Project>{5011707F-BA96-426C-87C0-CD62746E3A32}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryConcatenation\LibraryConcatenation.csproj">
+      <Project>{AEE1228A-A3D3-4B91-83C9-3820B745FFC8}</Project>
+      <Name>LibraryConcatenation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\Library.csproj">
+      <Project>{574B1176-E20E-49FF-B2B7-66666E8237E8}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Parser\Parser.csproj">
+      <Project>{6B094BE1-45DE-4E06-94BC-29E865CA0CA0}</Project>
+      <Name>Parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkeletonParserDS\SkeletonParserDSDef.csproj">
+      <Project>{006EA8AC-5951-4EB4-9BE8-3458AE74EADF}</Project>
+      <Name>SkeletonParserDSDef</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\ISPF Skeleton Parser.csproj">
+      <Project>{8BA91F78-368B-47CC-82E5-EDB2525F891F}</Project>
+      <Name>ISPF Skeleton Parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMLParmsFileReader\XMLParmsFileReader.csproj">
+      <Project>{5557A716-2C58-47B9-A915-3197D907D385}</Project>
+      <Name>XMLParmsFileReader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imbeds2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

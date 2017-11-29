@@ -1,0 +1,32 @@
+Production                    00001SUBSTR  CMN$$ACB00010600001&PIMSID,3,1                                                 
+Production                    00001LEFT    CMN$$JCD00003900001&DEFJOB1,73                                                 
+Production                    00001LEFT    CMN$$JCD00004000001&DEFJOB2,73                                                 
+Production                    00001LEFT    CMN$$JCD00004100001&DEFJOB3,73                                                 
+Production                    00001LEFT    CMN$$JCD00004200001&DEFJOB4,73                                                 
+Production                    00001LEFT    CMN$$JCD00004300001&DEFJOB4,73                                                 
+Production                    00001SUBSTR  CMN30SRD00008100001&STGLTYP,1,2                                                
+Production                    00001SUBSTR  CMNRPMDR00002400001&LIBTYPE,1,2                                                
+Production                    00001RIGHT   EPCBINDR00001100001&$SLODLTP,1                                                 
+Production                    00001SUBSTR  S8PD2BND00012300001&NTSSYS,2,1                                                 
+Production                    00001STR     SCMEVTCK00005600001Checkin failed: &PKGNAME                                    
+Production                    00001RIGHT   SK8EPBND00005900001&$STEPCT,3,0                                                
+Production                    00001RIGHT   SK8EPRLS00002100001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00003700001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00008200001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00011500001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00014100001&$STEPCT,2,0                                                
+Production                    00001STR     SK8EPRLS00016800001 CM I=&$PTIDD,O=ODD01                                       
+Production                    00001STR     SK8EPRLS00017000001 C I=&$PTIDD,O=ODD01                                        
+Production                    00001STR     SK8EPRLS00019200001 C I=&$PTIDD,O=ODD01                                        
+Production                    00001STR     SK8EPRLS00019300001&$CPYSTMT  COPY &$RLSCNT &$LIBTYP MEMBERS                   
+Production                    00001RIGHT   SK8EPRLS00022000001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00024800001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00027800001&$STEPCT,2,0                                                
+Production                    00001RIGHT   SK8EPRLS00029700001&$STEPCT,2,0                                                
+Production                    00001SUBSTR  SKMPAPPL00005500001&PROJECT,4,1                                                
+Production                    00001SUBSTR  SKPD2BDP00000700001&NTSSYS,2,1                                                 
+Production                    00001SUBSTR  SKPD2BND00017300001&NTSSYS,2,1                                                 
+Production                    00001SUBSTR  SKPDBB  00005700001&NTSSYS,2,1                                                 
+Production                    00001SUBSTR  SKSPPCPY00001700001&CMPTYPE,3,1                                                
+Production                    00001SUBSTR  SKSSACPY00000900001&CMPTYPE,3,1                                                
+Production                    00001SUBSTR  SKSXMCPY00001600001&CMPTYPE,3,1                                                

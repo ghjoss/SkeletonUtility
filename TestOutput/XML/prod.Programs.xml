@@ -1,0 +1,3240 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Programs>
+  <!--=============-->
+  <!--== #PRINTX ==-->
+  <!--=============-->
+  <skeleton Name="#PRINTX">
+    <programs Name="SERCOPY" Skeleton="#PRINTX" LineNumber="35" />
+    <programs Name="HI7007" Skeleton="#PRINTX" LineNumber="61" />
+  </skeleton>
+  <!--============-->
+  <!--== AUDITS ==-->
+  <!--============-->
+  <skeleton Name="AUDITS">
+    <programs Name="SY7660" Skeleton="AUDITS" LineNumber="9" />
+    <programs Name="CH8700" Skeleton="AUDITS" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== BCHECKO2 ==-->
+  <!--==============-->
+  <skeleton Name="BCHECKO2">
+    <programs Name="IDCAMS" Skeleton="BCHECKO2" LineNumber="7" />
+    <programs Name="IEBCOPY" Skeleton="BCHECKO2" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== CAS$$017 ==-->
+  <!--==============-->
+  <skeleton Name="CAS$$017">
+    <programs Name="IKJEFT01" Skeleton="CAS$$017" LineNumber="80" />
+  </skeleton>
+  <!--==============-->
+  <!--== CAS$$020 ==-->
+  <!--==============-->
+  <skeleton Name="CAS$$020">
+    <programs Name="IEFBR14" Skeleton="CAS$$020" LineNumber="100" />
+    <programs Name="IKJEFT01" Skeleton="CAS$$020" LineNumber="127" />
+    <programs Name="IDCAMS" Skeleton="CAS$$020" LineNumber="402" />
+    <programs Name="IEBGENER" Skeleton="CAS$$020" LineNumber="491" />
+    <programs Name="IEFBR14" Skeleton="CAS$$020" LineNumber="527" />
+    <programs Name="SY7060" Skeleton="CAS$$020" LineNumber="531" />
+  </skeleton>
+  <!--==============-->
+  <!--== CAS$$050 ==-->
+  <!--==============-->
+  <skeleton Name="CAS$$050">
+    <programs Name="IKJEFT01" Skeleton="CAS$$050" LineNumber="24" />
+    <programs Name="CH9030" Skeleton="CAS$$050" LineNumber="48" />
+  </skeleton>
+  <!--==============-->
+  <!--== CHU0016B ==-->
+  <!--==============-->
+  <skeleton Name="CHU0016B">
+    <programs Name="IEBCOPY" Skeleton="CHU0016B" LineNumber="6" />
+  </skeleton>
+  <!--=============-->
+  <!--== CHU0018 ==-->
+  <!--=============-->
+  <skeleton Name="CHU0018">
+    <programs Name="IDCAMS" Skeleton="CHU0018" LineNumber="20" />
+    <programs Name="IEBCOPY" Skeleton="CHU0018" LineNumber="32" />
+    <programs Name="MEMOAPIX" Skeleton="CHU0018" LineNumber="103" />
+    <programs Name="IDCAMS" Skeleton="CHU0018" LineNumber="128" />
+  </skeleton>
+  <!--=============-->
+  <!--== CHU0751 ==-->
+  <!--=============-->
+  <skeleton Name="CHU0751">
+    <programs Name="CSMUTIL" Skeleton="CHU0751" LineNumber="6" />
+    <programs Name="CSMUTIL" Skeleton="CHU0751" LineNumber="24" />
+  </skeleton>
+  <!--=============-->
+  <!--== CHU0752 ==-->
+  <!--=============-->
+  <skeleton Name="CHU0752">
+    <programs Name="IDCAMS" Skeleton="CHU0752" LineNumber="6" />
+    <programs Name="CSMUTIL" Skeleton="CHU0752" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== CICPHAI8 ==-->
+  <!--==============-->
+  <skeleton Name="CICPHAI8">
+    <programs Name="IEBGENER" Skeleton="CICPHAI8" LineNumber="30" />
+    <programs Name="CMN@CLI" Skeleton="CICPHAI8" LineNumber="51" />
+  </skeleton>
+  <!--==============-->
+  <!--== CICPHAIN ==-->
+  <!--==============-->
+  <skeleton Name="CICPHAIN">
+    <programs Name="IEBGENER" Skeleton="CICPHAIN" LineNumber="33" />
+    <programs Name="CMN@CLI" Skeleton="CICPHAIN" LineNumber="78" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ACB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ACB">
+    <programs Name="DFSRRC00" Skeleton="CMN$$ACB" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ARE ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ARE">
+    <programs Name="IEFBR14" Skeleton="CMN$$ARE" LineNumber="21" />
+    <programs Name="CMNBAT45" Skeleton="CMN$$ARE" LineNumber="25" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$ARE" LineNumber="42" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ASM ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ASM">
+    <programs Name="ASMA90" Skeleton="CMN$$ASM" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$AUD ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$AUD">
+    <programs Name="CMNAD000" Skeleton="CMN$$AUD" LineNumber="75" />
+    <programs Name="SORT" Skeleton="CMN$$AUD" LineNumber="129" />
+    <programs Name="SORT" Skeleton="CMN$$AUD" LineNumber="145" />
+    <programs Name="CMNAD500" Skeleton="CMN$$AUD" LineNumber="165" />
+    <programs Name="CMNAUDRC" Skeleton="CMN$$AUD" LineNumber="183" />
+    <programs Name="CMNAUDRC" Skeleton="CMN$$AUD" LineNumber="197" />
+    <programs Name="CMNAUDRC" Skeleton="CMN$$AUD" LineNumber="210" />
+    <programs Name="CMNAUDRC" Skeleton="CMN$$AUD" LineNumber="220" />
+    <programs Name="IEBGENER" Skeleton="CMN$$AUD" LineNumber="232" />
+    <programs Name="IEBGENER" Skeleton="CMN$$AUD" LineNumber="240" />
+    <programs Name="SERCOPY" Skeleton="CMN$$AUD" LineNumber="247" />
+    <programs Name="IKJEFT1A" Skeleton="CMN$$AUD" LineNumber="262" />
+    <programs Name="IEBGENER" Skeleton="CMN$$AUD" LineNumber="275" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BDT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BDT">
+    <programs Name="BDTBATCH" Skeleton="CMN$$BDT" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BLA ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BLA">
+    <programs Name="CMNBASLN" Skeleton="CMN$$BLA" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BLG ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BLG">
+    <programs Name="CMNBAT30" Skeleton="CMN$$BLG" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BRC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BRC">
+    <programs Name="CMNRCKIB" Skeleton="CMN$$BRC" LineNumber="11" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BRT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BRT">
+    <programs Name="CMNRTRVB" Skeleton="CMN$$BRT" LineNumber="3" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BSN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BSN">
+    <programs Name="CMNBSCAN" Skeleton="CMN$$BSN" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CA7 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CA7">
+    <programs Name="SASSBSTR" Skeleton="CMN$$CA7" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CAS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CAS">
+    <programs Name="IEBCOPY" Skeleton="CMN$$CAS" LineNumber="7" />
+    <programs Name="SASSBSTR" Skeleton="CMN$$CAS" LineNumber="30" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CBL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CBL">
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="12" />
+    <programs Name="IEBGENER" Skeleton="CMN$$CBL" LineNumber="27" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="42" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="73" />
+    <programs Name="CMNPOPLP" Skeleton="CMN$$CBL" LineNumber="91" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="108" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="117" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="143" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="166" />
+    <programs Name="CMNPOPLP" Skeleton="CMN$$CBL" LineNumber="184" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="201" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="210" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="234" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="264" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="283" />
+    <programs Name="CMNPOPLP" Skeleton="CMN$$CBL" LineNumber="301" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="318" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="327" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="352" />
+    <programs Name="CMNDELTA" Skeleton="CMN$$CBL" LineNumber="376" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="392" />
+    <programs Name="CMNDELTA" Skeleton="CMN$$CBL" LineNumber="412" />
+    <programs Name="IEBGENER" Skeleton="CMN$$CBL" LineNumber="421" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="429" />
+    <programs Name="CMNPOPLP" Skeleton="CMN$$CBL" LineNumber="447" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="464" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="473" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="497" />
+    <programs Name="CMNPOPLP" Skeleton="CMN$$CBL" LineNumber="520" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="537" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="546" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="566" />
+    <programs Name="CMNUPDAT" Skeleton="CMN$$CBL" LineNumber="588" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CBL" LineNumber="603" />
+    <programs Name="IEBGENER" Skeleton="CMN$$CBL" LineNumber="629" />
+    <programs Name="PAN#1" Skeleton="CMN$$CBL" LineNumber="637" />
+    <programs Name="CMNPOPLP" Skeleton="CMN$$CBL" LineNumber="655" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="672" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CBL" LineNumber="681" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CEE ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CEE">
+    <programs Name="CCNDRVR" Skeleton="CMN$$CEE" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CIC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CIC">
+    <programs Name="DFHECP1$" Skeleton="CMN$$CIC" LineNumber="14" />
+    <programs Name="DFHEAP1$" Skeleton="CMN$$CIC" LineNumber="48" />
+    <programs Name="DFHEPP1$" Skeleton="CMN$$CIC" LineNumber="52" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CKA ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CKA">
+    <programs Name="IEFBR14" Skeleton="CMN$$CKA" LineNumber="9" />
+    <programs Name="PAN#4" Skeleton="CMN$$CKA" LineNumber="31" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$CKA" LineNumber="45" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CKO ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CKO">
+    <programs Name="IEBGENER" Skeleton="CMN$$CKO" LineNumber="17" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CKO" LineNumber="27" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CKO" LineNumber="106" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CKO" LineNumber="144" />
+    <programs Name="CMNDELTA" Skeleton="CMN$$CKO" LineNumber="181" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CKO" LineNumber="198" />
+    <programs Name="CMNDELTA" Skeleton="CMN$$CKO" LineNumber="227" />
+    <programs Name="IEBGENER" Skeleton="CMN$$CKO" LineNumber="236" />
+    <programs Name="PAN#1" Skeleton="CMN$$CKO" LineNumber="255" />
+    <programs Name="PAN#2" Skeleton="CMN$$CKO" LineNumber="285" />
+    <programs Name="CMNUPDAT" Skeleton="CMN$$CKO" LineNumber="301" />
+    <programs Name="IEBGENER" Skeleton="CMN$$CKO" LineNumber="323" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CKO" LineNumber="365" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CLN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CLN">
+    <programs Name="CMNDELRN" Skeleton="CMN$$CLN" LineNumber="49" />
+    <programs Name="SY4020" Skeleton="CMN$$CLN" LineNumber="63" />
+    <programs Name="SY4020" Skeleton="CMN$$CLN" LineNumber="78" />
+    <programs Name="SY4020" Skeleton="CMN$$CLN" LineNumber="93" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CNC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CNC">
+    <programs Name="CMNCICS1" Skeleton="CMN$$CNC" LineNumber="30" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CO2 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CO2">
+    <programs Name="IGYCRCTL" Skeleton="CMN$$CO2" LineNumber="8" />
+    <programs Name="CWPCMAIN" Skeleton="CMN$$CO2" LineNumber="47" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$COB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$COB">
+    <programs Name="IKFCBL00" Skeleton="CMN$$COB" LineNumber="9" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$COE ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$COE">
+    <programs Name="IGYCRCTL" Skeleton="CMN$$COE" LineNumber="12" />
+    <programs Name="CWPCMAIN" Skeleton="CMN$$COE" LineNumber="54" />
+    <programs Name="CWPCMAIN" Skeleton="CMN$$COE" LineNumber="61" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CPR ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CPR">
+    <programs Name="CMNUPDAT" Skeleton="CMN$$CPR" LineNumber="6" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$CPR" LineNumber="36" />
+    <programs Name="CMNDELTA" Skeleton="CMN$$CPR" LineNumber="63" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CPR" LineNumber="73" />
+    <programs Name="SERCOPY" Skeleton="CMN$$CPR" LineNumber="99" />
+    <programs Name="SERCMPAR" Skeleton="CMN$$CPR" LineNumber="126" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CTM ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CTM">
+    <programs Name="IEBGENER" Skeleton="CMN$$CTM" LineNumber="11" />
+    <programs Name="IEBGENER" Skeleton="CMN$$CTM" LineNumber="20" />
+    <programs Name="CTMJOB" Skeleton="CMN$$CTM" LineNumber="43" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$DBC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$DBC">
+    <programs Name="SERCOPY" Skeleton="CMN$$DBC" LineNumber="14" />
+    <programs Name="SERCOPY" Skeleton="CMN$$DBC" LineNumber="33" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$DEL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$DEL">
+    <programs Name="SY4020" Skeleton="CMN$$DEL" LineNumber="15" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ESP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ESP">
+    <programs Name="JSS" Skeleton="CMN$$ESP" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$FTP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$FTP">
+    <programs Name="DVGIFBI" Skeleton="CMN$$FTP" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$HKP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$HKP">
+    <programs Name="CMNBKRST" Skeleton="CMN$$HKP" LineNumber="7" />
+    <programs Name="CMNBAT10" Skeleton="CMN$$HKP" LineNumber="20" />
+    <programs Name="CMNBATCH" Skeleton="CMN$$HKP" LineNumber="43" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$IGN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$IGN">
+    <programs Name="CMNISMFS" Skeleton="CMN$$IGN" LineNumber="52" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$IMS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$IMS">
+    <programs Name="SY4020" Skeleton="CMN$$IMS" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$JBT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$JBT">
+    <programs Name="IEBCOPY" Skeleton="CMN$$JBT" LineNumber="10" />
+    <programs Name="ABTRACV" Skeleton="CMN$$JBT" LineNumber="31" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$LB2 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$LB2">
+    <programs Name="CMNPOPLP" Skeleton="CMN$$LB2" LineNumber="5" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$LB2" LineNumber="24" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$LB2" LineNumber="33" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$LDT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$LDT">
+    <programs Name="CMNLNKDT" Skeleton="CMN$$LDT" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$LIB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$LIB">
+    <programs Name="AFOLIBR" Skeleton="CMN$$LIB" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$LNK ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$LNK">
+    <programs Name="IEFBR14" Skeleton="CMN$$LNK" LineNumber="9" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$LNK" LineNumber="41" />
+    <programs Name="HEWL" Skeleton="CMN$$LNK" LineNumber="109" />
+    <programs Name="CMNBAT90" Skeleton="CMN$$LNK" LineNumber="228" />
+    <programs Name="SERCOPY" Skeleton="CMN$$LNK" LineNumber="265" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$MFS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$MFS">
+    <programs Name="AF7020" Skeleton="CMN$$MFS" LineNumber="9" />
+    <programs Name="ASMA90" Skeleton="CMN$$MFS" LineNumber="31" />
+    <programs Name="IEFBR14" Skeleton="CMN$$MFS" LineNumber="43" />
+    <programs Name="HEWL" Skeleton="CMN$$MFS" LineNumber="50" />
+    <programs Name="CMNBAT90" Skeleton="CMN$$MFS" LineNumber="64" />
+    <programs Name="SERCOPY" Skeleton="CMN$$MFS" LineNumber="85" />
+    <programs Name="SY4020" Skeleton="CMN$$MFS" LineNumber="97" />
+    <programs Name="SY4020" Skeleton="CMN$$MFS" LineNumber="147" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$MPD ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$MPD">
+    <programs Name="ASMA90" Skeleton="CMN$$MPD" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$MPG ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$MPG">
+    <programs Name="ASMA90" Skeleton="CMN$$MPG" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$MPL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$MPL">
+    <programs Name="IEWL" Skeleton="CMN$$MPL" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$N10 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$N10">
+    <programs Name="IEFBR14" Skeleton="CMN$$N10" LineNumber="12" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$N10" LineNumber="36" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$N10" LineNumber="49" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$N10" LineNumber="61" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$N11 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$N11">
+    <programs Name="IEBCOPY" Skeleton="CMN$$N11" LineNumber="8" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$N11" LineNumber="20" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$N11" LineNumber="32" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$NET ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$NET">
+    <programs Name="IKJEFT01" Skeleton="CMN$$NET" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$NOT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$NOT">
+    <programs Name="IEBGENER" Skeleton="CMN$$NOT" LineNumber="5" />
+    <programs Name="IEFBR14" Skeleton="CMN$$NOT" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$NTF ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$NTF">
+    <programs Name="IEBGENER" Skeleton="CMN$$NTF" LineNumber="63" />
+    <programs Name="IRXJCL" Skeleton="CMN$$NTF" LineNumber="77" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$OBJ ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$OBJ">
+    <programs Name="CMNBAT90" Skeleton="CMN$$OBJ" LineNumber="6" />
+    <programs Name="SERCOPY" Skeleton="CMN$$OBJ" LineNumber="35" />
+    <programs Name="CMNSSOBJ" Skeleton="CMN$$OBJ" LineNumber="58" />
+    <programs Name="SERCOPY" Skeleton="CMN$$OBJ" LineNumber="70" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ORC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ORC">
+    <programs Name="PCC" Skeleton="CMN$$ORC" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$OTH ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$OTH">
+    <programs Name="SERCOPY" Skeleton="CMN$$OTH" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PAN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PAN">
+    <programs Name="PAN#1" Skeleton="CMN$$PAN" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PAS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PAS">
+    <programs Name="SERCOPY" Skeleton="CMN$$PAS" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PBL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PBL">
+    <programs Name="IEFBR14" Skeleton="CMN$$PBL" LineNumber="5" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PBL" LineNumber="17" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PBL" LineNumber="33" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PBL" LineNumber="55" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$PBL" LineNumber="74" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PBL" LineNumber="104" />
+    <programs Name="CMNDELTA" Skeleton="CMN$$PBL" LineNumber="119" />
+    <programs Name="PAN#1" Skeleton="CMN$$PBL" LineNumber="134" />
+    <programs Name="CMNUPDAT" Skeleton="CMN$$PBL" LineNumber="149" />
+    <programs Name="IEFBR14" Skeleton="CMN$$PBL" LineNumber="166" />
+    <programs Name="CMNWRITE" Skeleton="CMN$$PBL" LineNumber="170" />
+    <programs Name="IEBGENER" Skeleton="CMN$$PBL" LineNumber="225" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PCP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PCP">
+    <programs Name="SERPRINT" Skeleton="CMN$$PCP" LineNumber="50" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$PCP" LineNumber="60" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PCP" LineNumber="99" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PCP" LineNumber="111" />
+    <programs Name="CMNBATCH" Skeleton="CMN$$PCP" LineNumber="120" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PDB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PDB">
+    <programs Name="DSNHPC" Skeleton="CMN$$PDB" LineNumber="17" />
+    <programs Name="SERCOPY" Skeleton="CMN$$PDB" LineNumber="118" />
+    <programs Name="CMNBAT90" Skeleton="CMN$$PDB" LineNumber="147" />
+    <programs Name="CMNBAT90" Skeleton="CMN$$PDB" LineNumber="177" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PLI ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PLI">
+    <programs Name="CH7060" Skeleton="CMN$$PLI" LineNumber="23" />
+    <programs Name="IEL0AA" Skeleton="CMN$$PLI" LineNumber="26" />
+    <programs Name="IEL0AA" Skeleton="CMN$$PLI" LineNumber="31" />
+    <programs Name="IEL1AA" Skeleton="CMN$$PLI" LineNumber="35" />
+    <programs Name="IEFBR14" Skeleton="CMN$$PLI" LineNumber="115" />
+    <programs Name="STRXPLF" Skeleton="CMN$$PLI" LineNumber="125" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PLK ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PLK">
+    <programs Name="EDCPRLK" Skeleton="CMN$$PLK" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PLP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PLP">
+    <programs Name="CMNPOPLP" Skeleton="CMN$$PLP" LineNumber="33" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PMT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PMT">
+    <programs Name="SERCOPY" Skeleton="CMN$$PMT" LineNumber="17" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRB">
+    <programs Name="CMNDB2PL" Skeleton="CMN$$PRB" LineNumber="19" />
+    <programs Name="IKJEFT1A" Skeleton="CMN$$PRB" LineNumber="209" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$PRB" LineNumber="212" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRO ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRO">
+    <programs Name="IEBCOPY" Skeleton="CMN$$PRO" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRS">
+    <programs Name="SY4020" Skeleton="CMN$$PRS" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRT">
+    <programs Name="IEBGENER" Skeleton="CMN$$PRT" LineNumber="5" />
+    <programs Name="IEFBR14" Skeleton="CMN$$PRT" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PSQ ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PSQ">
+    <programs Name="CMNDB2DQ" Skeleton="CMN$$PSQ" LineNumber="28" />
+    <programs Name="CMNDB2DD" Skeleton="CMN$$PSQ" LineNumber="53" />
+    <programs Name="CMNDB2DQ" Skeleton="CMN$$PSQ" LineNumber="134" />
+    <programs Name="CMNDB2DD" Skeleton="CMN$$PSQ" LineNumber="172" />
+    <programs Name="SORT" Skeleton="CMN$$PSQ" LineNumber="236" />
+    <programs Name="CMNDB2TR" Skeleton="CMN$$PSQ" LineNumber="250" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PST ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PST">
+    <programs Name="CMNDB2SL" Skeleton="CMN$$PST" LineNumber="17" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RAL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RAL">
+    <programs Name="IDCAMS" Skeleton="CMN$$RAL" LineNumber="11" />
+    <programs Name="ICETOOL" Skeleton="CMN$$RAL" LineNumber="36" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$RAL" LineNumber="128" />
+    <programs Name="IKJEFT1A" Skeleton="CMN$$RAL" LineNumber="162" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$RAL" LineNumber="344" />
+    <programs Name="CMNRACHK" Skeleton="CMN$$RAL" LineNumber="366" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RAP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RAP">
+    <programs Name="IKJEFT01" Skeleton="CMN$$RAP" LineNumber="31" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RAU ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RAU">
+    <programs Name="IDCAMS" Skeleton="CMN$$RAU" LineNumber="59" />
+    <programs Name="CMNRA000" Skeleton="CMN$$RAU" LineNumber="75" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RBD ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RBD">
+    <programs Name="IEBGENER" Skeleton="CMN$$RBD" LineNumber="11" />
+    <programs Name="IEFBR14" Skeleton="CMN$$RBD" LineNumber="30" />
+    <programs Name="IEBGENER" Skeleton="CMN$$RBD" LineNumber="32" />
+    <programs Name="CMNBATCH" Skeleton="CMN$$RBD" LineNumber="44" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RGN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RGN">
+    <programs Name="CMNRA500" Skeleton="CMN$$RGN" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RMS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RMS">
+    <programs Name="SERCOPY" Skeleton="CMN$$RMS" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RPB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RPB">
+    <programs Name="CMNDB2PL" Skeleton="CMN$$RPB" LineNumber="19" />
+    <programs Name="IKJEFT1A" Skeleton="CMN$$RPB" LineNumber="213" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$RPB" LineNumber="216" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RPM ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RPM">
+    <programs Name="IEBGENER" Skeleton="CMN$$RPM" LineNumber="66" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$RPM" LineNumber="141" />
+    <programs Name="IEBGENER" Skeleton="CMN$$RPM" LineNumber="183" />
+    <programs Name="IEBGENER" Skeleton="CMN$$RPM" LineNumber="192" />
+    <programs Name="IEFBR14" Skeleton="CMN$$RPM" LineNumber="298" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$RPM" LineNumber="313" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$RPM" LineNumber="326" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$RPM" LineNumber="390" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$RPM" LineNumber="403" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RPT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RPT">
+    <programs Name="IKJEFT1A" Skeleton="CMN$$RPT" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RSQ ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RSQ">
+    <programs Name="CMNDB2DQ" Skeleton="CMN$$RSQ" LineNumber="28" />
+    <programs Name="CMNDB2DD" Skeleton="CMN$$RSQ" LineNumber="53" />
+    <programs Name="CMNDB2DQ" Skeleton="CMN$$RSQ" LineNumber="134" />
+    <programs Name="CMNDB2DD" Skeleton="CMN$$RSQ" LineNumber="174" />
+    <programs Name="SORT" Skeleton="CMN$$RSQ" LineNumber="240" />
+    <programs Name="CMNDB2TR" Skeleton="CMN$$RSQ" LineNumber="254" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SPB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SPB">
+    <programs Name="CMNDB2PL" Skeleton="CMN$$SPB" LineNumber="22" />
+    <programs Name="IKJEFT1A" Skeleton="CMN$$SPB" LineNumber="216" />
+    <programs Name="IKJEFT01" Skeleton="CMN$$SPB" LineNumber="219" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SQL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SQL">
+    <programs Name="CMNDB2DQ" Skeleton="CMN$$SQL" LineNumber="30" />
+    <programs Name="CMNDB2DD" Skeleton="CMN$$SQL" LineNumber="54" />
+    <programs Name="SORT" Skeleton="CMN$$SQL" LineNumber="116" />
+    <programs Name="CMNDB2TR" Skeleton="CMN$$SQL" LineNumber="130" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SQP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SQP">
+    <programs Name="DSNHPC" Skeleton="CMN$$SQP" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SSI ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SSI">
+    <programs Name="CMNSSIDN" Skeleton="CMN$$SSI" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$STP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$STP">
+    <programs Name="CMNDB2SL" Skeleton="CMN$$STP" LineNumber="25" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$TRK ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$TRK">
+    <programs Name="CMNRGTRK" Skeleton="CMN$$TRK" LineNumber="6" />
+    <programs Name="CMNRGTRK" Skeleton="CMN$$TRK" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$WRT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$WRT">
+    <programs Name="PAN#1" Skeleton="CMN$$WRT" LineNumber="17" />
+    <programs Name="AFOLIBR" Skeleton="CMN$$WRT" LineNumber="36" />
+    <programs Name="SERCOPY" Skeleton="CMN$$WRT" LineNumber="62" />
+    <programs Name="CMNWRITE" Skeleton="CMN$$WRT" LineNumber="101" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$XCD ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$XCD">
+    <programs Name="XCOMJOB" Skeleton="CMN$$XCD" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$XCP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$XCP">
+    <programs Name="XCOMJOB" Skeleton="CMN$$XCP" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$XPL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$XPL">
+    <programs Name="IEBCOPY" Skeleton="CMN$$XPL" LineNumber="32" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$XPL" LineNumber="57" />
+    <programs Name="IEBCOPY" Skeleton="CMN$$XPL" LineNumber="79" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN00 ==-->
+  <!--===========-->
+  <skeleton Name="CMN00">
+    <programs Name="CMNBATCH" Skeleton="CMN00" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN00INS ==-->
+  <!--==============-->
+  <skeleton Name="CMN00INS">
+    <programs Name="CMNBATCH" Skeleton="CMN00INS" LineNumber="5" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN10 ==-->
+  <!--===========-->
+  <skeleton Name="CMN10">
+    <programs Name="IEFBR14" Skeleton="CMN10" LineNumber="42" />
+    <programs Name="IEBGENER" Skeleton="CMN10" LineNumber="161" />
+    <programs Name="CHWAIT" Skeleton="CMN10" LineNumber="196" />
+    <programs Name="IEBGENER" Skeleton="CMN10" LineNumber="225" />
+    <programs Name="IEBCOPY" Skeleton="CMN10" LineNumber="237" />
+    <programs Name="IEBCOPY" Skeleton="CMN10" LineNumber="252" />
+    <programs Name="IEBCOPY" Skeleton="CMN10" LineNumber="294" />
+    <programs Name="IDCAMS" Skeleton="CMN10" LineNumber="310" />
+    <programs Name="IEBCOPY" Skeleton="CMN10" LineNumber="316" />
+    <programs Name="IEBCOPY" Skeleton="CMN10" LineNumber="346" />
+    <programs Name="IKJEFT01" Skeleton="CMN10" LineNumber="376" />
+    <programs Name="SY7660" Skeleton="CMN10" LineNumber="406" />
+    <programs Name="IEFBR14" Skeleton="CMN10" LineNumber="422" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN11 ==-->
+  <!--===========-->
+  <skeleton Name="CMN11">
+    <programs Name="IEBCOPY" Skeleton="CMN11" LineNumber="160" />
+    <programs Name="IKJEFT1A" Skeleton="CMN11" LineNumber="368" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN15 ==-->
+  <!--===========-->
+  <skeleton Name="CMN15">
+    <programs Name="SY7660" Skeleton="CMN15" LineNumber="21" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN20 ==-->
+  <!--===========-->
+  <skeleton Name="CMN20">
+    <programs Name="IEBGENER" Skeleton="CMN20" LineNumber="28" />
+    <programs Name="IEBCOPY" Skeleton="CMN20" LineNumber="47" />
+    <programs Name="IEBCOPY" Skeleton="CMN20" LineNumber="81" />
+    <programs Name="CMNDELRN" Skeleton="CMN20" LineNumber="111" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN20I ==-->
+  <!--============-->
+  <skeleton Name="CMN20I">
+    <programs Name="IEBCOPY" Skeleton="CMN20I" LineNumber="66" />
+    <programs Name="SERCOPY" Skeleton="CMN20I" LineNumber="69" />
+    <programs Name="IEBCOPY" Skeleton="CMN20I" LineNumber="135" />
+    <programs Name="SERCOPY" Skeleton="CMN20I" LineNumber="138" />
+    <programs Name="CMNDELRN" Skeleton="CMN20I" LineNumber="295" />
+    <programs Name="IEBCOPY" Skeleton="CMN20I" LineNumber="340" />
+    <programs Name="CMNDELRN" Skeleton="CMN20I" LineNumber="367" />
+    <programs Name="SY7660" Skeleton="CMN20I" LineNumber="526" />
+    <programs Name="IEBGENER" Skeleton="CMN20I" LineNumber="532" />
+    <programs Name="ES0010" Skeleton="CMN20I" LineNumber="583" />
+    <programs Name="SY7060" Skeleton="CMN20I" LineNumber="635" />
+    <programs Name="IEFBR14" Skeleton="CMN20I" LineNumber="641" />
+    <programs Name="SY7660" Skeleton="CMN20I" LineNumber="672" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN20T ==-->
+  <!--============-->
+  <skeleton Name="CMN20T">
+    <programs Name="IEBCOPY" Skeleton="CMN20T" LineNumber="25" />
+    <programs Name="CMNDELRN" Skeleton="CMN20T" LineNumber="53" />
+    <programs Name="CMNDELRN" Skeleton="CMN20T" LineNumber="72" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMN20TI ==-->
+  <!--=============-->
+  <skeleton Name="CMN20TI">
+    <programs Name="IEBCOPY" Skeleton="CMN20TI" LineNumber="48" />
+    <programs Name="SERCOPY" Skeleton="CMN20TI" LineNumber="51" />
+    <programs Name="CMNDELRN" Skeleton="CMN20TI" LineNumber="147" />
+    <programs Name="CMNDELRN" Skeleton="CMN20TI" LineNumber="166" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN21 ==-->
+  <!--===========-->
+  <skeleton Name="CMN21">
+    <programs Name="CMNDB2PL" Skeleton="CMN21" LineNumber="275" />
+    <programs Name="IKJEFT1A" Skeleton="CMN21" LineNumber="434" />
+    <programs Name="IDCAMS" Skeleton="CMN21" LineNumber="466" />
+    <programs Name="IKJEFT1A" Skeleton="CMN21" LineNumber="491" />
+    <programs Name="IKJEFT01" Skeleton="CMN21" LineNumber="525" />
+    <programs Name="IKJEFT01" Skeleton="CMN21" LineNumber="539" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN30 ==-->
+  <!--===========-->
+  <skeleton Name="CMN30">
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="22" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="36" />
+    <programs Name="PAN#2" Skeleton="CMN30" LineNumber="50" />
+    <programs Name="PAN#1" Skeleton="CMN30" LineNumber="58" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="68" />
+    <programs Name="PAN#2" Skeleton="CMN30" LineNumber="85" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="99" />
+    <programs Name="PAN#2" Skeleton="CMN30" LineNumber="116" />
+    <programs Name="PAN#1" Skeleton="CMN30" LineNumber="125" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="137" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="150" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="165" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="180" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="193" />
+    <programs Name="SERCMPAR" Skeleton="CMN30" LineNumber="259" />
+    <programs Name="CMNPDELT" Skeleton="CMN30" LineNumber="273" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="300" />
+    <programs Name="AFOLIBR" Skeleton="CMN30" LineNumber="313" />
+    <programs Name="AFOLIBR" Skeleton="CMN30" LineNumber="323" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="341" />
+    <programs Name="AFOLIBR" Skeleton="CMN30" LineNumber="354" />
+    <programs Name="IEBCOPY" Skeleton="CMN30" LineNumber="375" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="435" />
+    <programs Name="AFOLIBR" Skeleton="CMN30" LineNumber="458" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="477" />
+    <programs Name="PAN#1" Skeleton="CMN30" LineNumber="491" />
+    <programs Name="PAN#2" Skeleton="CMN30" LineNumber="496" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="504" />
+    <programs Name="PAN#1" Skeleton="CMN30" LineNumber="521" />
+    <programs Name="CMNUPDAT" Skeleton="CMN30" LineNumber="532" />
+    <programs Name="AFOLIBR" Skeleton="CMN30" LineNumber="576" />
+    <programs Name="IEBGENER" Skeleton="CMN30" LineNumber="598" />
+    <programs Name="AFOLIBR" Skeleton="CMN30" LineNumber="619" />
+    <programs Name="IEFBR14" Skeleton="CMN30" LineNumber="635" />
+    <programs Name="CMNDB2TM" Skeleton="CMN30" LineNumber="637" />
+    <programs Name="CMNBATCH" Skeleton="CMN30" LineNumber="653" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30CDT ==-->
+  <!--==============-->
+  <skeleton Name="CMN30CDT">
+    <programs Name="IEBGENER" Skeleton="CMN30CDT" LineNumber="22" />
+    <programs Name="IEBGENER" Skeleton="CMN30CDT" LineNumber="42" />
+    <programs Name="IEBGENER" Skeleton="CMN30CDT" LineNumber="62" />
+    <programs Name="SERCMPAR" Skeleton="CMN30CDT" LineNumber="98" />
+    <programs Name="CMNPDELT" Skeleton="CMN30CDT" LineNumber="112" />
+    <programs Name="SY4020" Skeleton="CMN30CDT" LineNumber="149" />
+    <programs Name="SERCOPY" Skeleton="CMN30CDT" LineNumber="158" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30CPI ==-->
+  <!--==============-->
+  <skeleton Name="CMN30CPI">
+    <programs Name="SY4020" Skeleton="CMN30CPI" LineNumber="6" />
+    <programs Name="SERCOPY" Skeleton="CMN30CPI" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30CPY ==-->
+  <!--==============-->
+  <skeleton Name="CMN30CPY">
+    <programs Name="SY4020" Skeleton="CMN30CPY" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30DEL ==-->
+  <!--==============-->
+  <skeleton Name="CMN30DEL">
+    <programs Name="SY4020" Skeleton="CMN30DEL" LineNumber="5" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN30I ==-->
+  <!--============-->
+  <skeleton Name="CMN30I">
+    <programs Name="SY4020" Skeleton="CMN30I" LineNumber="8" />
+    <programs Name="IEFBR14" Skeleton="CMN30I" LineNumber="205" />
+    <programs Name="IEFBR14" Skeleton="CMN30I" LineNumber="209" />
+    <programs Name="CMNDB2TM" Skeleton="CMN30I" LineNumber="212" />
+    <programs Name="IEFBR14" Skeleton="CMN30I" LineNumber="216" />
+    <programs Name="SY4020" Skeleton="CMN30I" LineNumber="256" />
+    <programs Name="CH7100" Skeleton="CMN30I" LineNumber="315" />
+    <programs Name="SY4020" Skeleton="CMN30I" LineNumber="333" />
+    <programs Name="SY4020U" Skeleton="CMN30I" LineNumber="338" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30LIB ==-->
+  <!--==============-->
+  <skeleton Name="CMN30LIB">
+    <programs Name="IEBGENER" Skeleton="CMN30LIB" LineNumber="31" />
+    <programs Name="IEBGENER" Skeleton="CMN30LIB" LineNumber="44" />
+    <programs Name="IEBGENER" Skeleton="CMN30LIB" LineNumber="61" />
+    <programs Name="AFOLIBR" Skeleton="CMN30LIB" LineNumber="74" />
+    <programs Name="AFOLIBR" Skeleton="CMN30LIB" LineNumber="84" />
+    <programs Name="IEBGENER" Skeleton="CMN30LIB" LineNumber="102" />
+    <programs Name="AFOLIBR" Skeleton="CMN30LIB" LineNumber="115" />
+    <programs Name="IEBGENER" Skeleton="CMN30LIB" LineNumber="185" />
+    <programs Name="AFOLIBR" Skeleton="CMN30LIB" LineNumber="213" />
+    <programs Name="AFOLIBR" Skeleton="CMN30LIB" LineNumber="228" />
+    <programs Name="IEBGENER" Skeleton="CMN30LIB" LineNumber="250" />
+    <programs Name="AFOLIBR" Skeleton="CMN30LIB" LineNumber="271" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30PAN ==-->
+  <!--==============-->
+  <skeleton Name="CMN30PAN">
+    <programs Name="IEBGENER" Skeleton="CMN30PAN" LineNumber="7" />
+    <programs Name="IEBGENER" Skeleton="CMN30PAN" LineNumber="21" />
+    <programs Name="PAN#2" Skeleton="CMN30PAN" LineNumber="35" />
+    <programs Name="PAN#1" Skeleton="CMN30PAN" LineNumber="43" />
+    <programs Name="IEBGENER" Skeleton="CMN30PAN" LineNumber="53" />
+    <programs Name="PAN#2" Skeleton="CMN30PAN" LineNumber="70" />
+    <programs Name="IEBGENER" Skeleton="CMN30PAN" LineNumber="85" />
+    <programs Name="PAN#2" Skeleton="CMN30PAN" LineNumber="102" />
+    <programs Name="PAN#1" Skeleton="CMN30PAN" LineNumber="111" />
+    <programs Name="IEBGENER" Skeleton="CMN30PAN" LineNumber="126" />
+    <programs Name="PAN#1" Skeleton="CMN30PAN" LineNumber="140" />
+    <programs Name="PAN#2" Skeleton="CMN30PAN" LineNumber="145" />
+    <programs Name="IEBGENER" Skeleton="CMN30PAN" LineNumber="153" />
+    <programs Name="PAN#1" Skeleton="CMN30PAN" LineNumber="170" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30PDS ==-->
+  <!--==============-->
+  <skeleton Name="CMN30PDS">
+    <programs Name="IEBGENER" Skeleton="CMN30PDS" LineNumber="22" />
+    <programs Name="IEBGENER" Skeleton="CMN30PDS" LineNumber="42" />
+    <programs Name="IEBGENER" Skeleton="CMN30PDS" LineNumber="62" />
+    <programs Name="SY4020" Skeleton="CMN30PDS" LineNumber="117" />
+    <programs Name="SERCOPY" Skeleton="CMN30PDS" LineNumber="122" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30REN ==-->
+  <!--==============-->
+  <skeleton Name="CMN30REN">
+    <programs Name="CMNDELRN" Skeleton="CMN30REN" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30SRD ==-->
+  <!--==============-->
+  <skeleton Name="CMN30SRD">
+    <programs Name="IEBGENER" Skeleton="CMN30SRD" LineNumber="24" />
+    <programs Name="SY4020" Skeleton="CMN30SRD" LineNumber="93" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN31T ==-->
+  <!--============-->
+  <skeleton Name="CMN31T">
+    <programs Name="CMNDELRN" Skeleton="CMN31T" LineNumber="13" />
+    <programs Name="CMNDELRN" Skeleton="CMN31T" LineNumber="32" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMN31TI ==-->
+  <!--=============-->
+  <skeleton Name="CMN31TI">
+    <programs Name="CMNDELRN" Skeleton="CMN31TI" LineNumber="13" />
+    <programs Name="CMNDELRN" Skeleton="CMN31TI" LineNumber="28" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN32 ==-->
+  <!--===========-->
+  <skeleton Name="CMN32">
+    <programs Name="CMNDB2PL" Skeleton="CMN32" LineNumber="89" />
+    <programs Name="IKJEFT1A" Skeleton="CMN32" LineNumber="232" />
+    <programs Name="IDCAMS" Skeleton="CMN32" LineNumber="264" />
+    <programs Name="IKJEFT1A" Skeleton="CMN32" LineNumber="313" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN37 ==-->
+  <!--===========-->
+  <skeleton Name="CMN37">
+    <programs Name="IEFBR14" Skeleton="CMN37" LineNumber="16" />
+    <programs Name="CMNDB2TM" Skeleton="CMN37" LineNumber="19" />
+    <programs Name="SY4020" Skeleton="CMN37" LineNumber="33" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN49 ==-->
+  <!--===========-->
+  <skeleton Name="CMN49">
+    <programs Name="IEBCOPY" Skeleton="CMN49" LineNumber="45" />
+    <programs Name="CMNDB2PL" Skeleton="CMN49" LineNumber="136" />
+    <programs Name="IKJEFT1A" Skeleton="CMN49" LineNumber="304" />
+    <programs Name="IDCAMS" Skeleton="CMN49" LineNumber="333" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN50I ==-->
+  <!--============-->
+  <skeleton Name="CMN50I">
+    <programs Name="IKJEFT01" Skeleton="CMN50I" LineNumber="11" />
+    <programs Name="CMNDELRN" Skeleton="CMN50I" LineNumber="77" />
+    <programs Name="IEBCOPY" Skeleton="CMN50I" LineNumber="95" />
+    <programs Name="SERCOPY" Skeleton="CMN50I" LineNumber="98" />
+    <programs Name="CMNDELRN" Skeleton="CMN50I" LineNumber="144" />
+    <programs Name="IEBCOPY" Skeleton="CMN50I" LineNumber="161" />
+    <programs Name="CMNDELRN" Skeleton="CMN50I" LineNumber="183" />
+    <programs Name="IEBCOPY" Skeleton="CMN50I" LineNumber="200" />
+    <programs Name="CMNDELRN" Skeleton="CMN50I" LineNumber="225" />
+    <programs Name="CMNDELRN" Skeleton="CMN50I" LineNumber="240" />
+    <programs Name="CMNDELRN" Skeleton="CMN50I" LineNumber="250" />
+    <programs Name="SY7660" Skeleton="CMN50I" LineNumber="301" />
+    <programs Name="IEBGENER" Skeleton="CMN50I" LineNumber="307" />
+    <programs Name="ES0010" Skeleton="CMN50I" LineNumber="358" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN50T ==-->
+  <!--============-->
+  <skeleton Name="CMN50T">
+    <programs Name="CMNDELRN" Skeleton="CMN50T" LineNumber="13" />
+    <programs Name="CMNDELRN" Skeleton="CMN50T" LineNumber="32" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMN50TI ==-->
+  <!--=============-->
+  <skeleton Name="CMN50TI">
+    <programs Name="CMNDELRN" Skeleton="CMN50TI" LineNumber="13" />
+    <programs Name="CMNDELRN" Skeleton="CMN50TI" LineNumber="28" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN55 ==-->
+  <!--===========-->
+  <skeleton Name="CMN55">
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="17" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="31" />
+    <programs Name="PAN#1" Skeleton="CMN55" LineNumber="45" />
+    <programs Name="PAN#2" Skeleton="CMN55" LineNumber="50" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="59" />
+    <programs Name="PAN#1" Skeleton="CMN55" LineNumber="74" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="85" />
+    <programs Name="PAN#2" Skeleton="CMN55" LineNumber="102" />
+    <programs Name="PAN#1" Skeleton="CMN55" LineNumber="110" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="122" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="137" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="152" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="165" />
+    <programs Name="CMNDELRN" Skeleton="CMN55" LineNumber="184" />
+    <programs Name="CMNDELRN" Skeleton="CMN55" LineNumber="191" />
+    <programs Name="CMNUPDAT" Skeleton="CMN55" LineNumber="203" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="235" />
+    <programs Name="AFOLIBR" Skeleton="CMN55" LineNumber="251" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="264" />
+    <programs Name="AFOLIBR" Skeleton="CMN55" LineNumber="280" />
+    <programs Name="CMNDELRN" Skeleton="CMN55" LineNumber="301" />
+    <programs Name="IEBCOPY" Skeleton="CMN55" LineNumber="358" />
+    <programs Name="CMNUNLOD" Skeleton="CMN55" LineNumber="374" />
+    <programs Name="CMNDELTA" Skeleton="CMN55" LineNumber="380" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="400" />
+    <programs Name="AFOLIBR" Skeleton="CMN55" LineNumber="413" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="423" />
+    <programs Name="AFOLIBR" Skeleton="CMN55" LineNumber="436" />
+    <programs Name="AFOLIBR" Skeleton="CMN55" LineNumber="444" />
+    <programs Name="IEBGENER" Skeleton="CMN55" LineNumber="457" />
+    <programs Name="AFOLIBR" Skeleton="CMN55" LineNumber="470" />
+    <programs Name="CMNDB2TM" Skeleton="CMN55" LineNumber="488" />
+    <programs Name="CMNBATCH" Skeleton="CMN55" LineNumber="503" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55CDT ==-->
+  <!--==============-->
+  <skeleton Name="CMN55CDT">
+    <programs Name="IEBGENER" Skeleton="CMN55CDT" LineNumber="22" />
+    <programs Name="IEBGENER" Skeleton="CMN55CDT" LineNumber="42" />
+    <programs Name="IEBCOPY" Skeleton="CMN55CDT" LineNumber="75" />
+    <programs Name="SERCOPY" Skeleton="CMN55CDT" LineNumber="78" />
+    <programs Name="CMNUNLOD" Skeleton="CMN55CDT" LineNumber="98" />
+    <programs Name="CMNDELTA" Skeleton="CMN55CDT" LineNumber="104" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55CPI ==-->
+  <!--==============-->
+  <skeleton Name="CMN55CPI">
+    <programs Name="IEBCOPY" Skeleton="CMN55CPI" LineNumber="6" />
+    <programs Name="SERCOPY" Skeleton="CMN55CPI" LineNumber="9" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55CPY ==-->
+  <!--==============-->
+  <skeleton Name="CMN55CPY">
+    <programs Name="IEBCOPY" Skeleton="CMN55CPY" LineNumber="5" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN55I ==-->
+  <!--============-->
+  <skeleton Name="CMN55I">
+    <programs Name="CMNDB2TM" Skeleton="CMN55I" LineNumber="66" />
+    <programs Name="CMNBATCH" Skeleton="CMN55I" LineNumber="81" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55LIB ==-->
+  <!--==============-->
+  <skeleton Name="CMN55LIB">
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="26" />
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="39" />
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="55" />
+    <programs Name="AFOLIBR" Skeleton="CMN55LIB" LineNumber="68" />
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="78" />
+    <programs Name="AFOLIBR" Skeleton="CMN55LIB" LineNumber="91" />
+    <programs Name="AFOLIBR" Skeleton="CMN55LIB" LineNumber="99" />
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="112" />
+    <programs Name="AFOLIBR" Skeleton="CMN55LIB" LineNumber="125" />
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="156" />
+    <programs Name="AFOLIBR" Skeleton="CMN55LIB" LineNumber="172" />
+    <programs Name="IEBGENER" Skeleton="CMN55LIB" LineNumber="185" />
+    <programs Name="AFOLIBR" Skeleton="CMN55LIB" LineNumber="201" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55PAN ==-->
+  <!--==============-->
+  <skeleton Name="CMN55PAN">
+    <programs Name="IEBGENER" Skeleton="CMN55PAN" LineNumber="9" />
+    <programs Name="IEBGENER" Skeleton="CMN55PAN" LineNumber="23" />
+    <programs Name="PAN#1" Skeleton="CMN55PAN" LineNumber="37" />
+    <programs Name="PAN#2" Skeleton="CMN55PAN" LineNumber="42" />
+    <programs Name="IEBGENER" Skeleton="CMN55PAN" LineNumber="51" />
+    <programs Name="PAN#1" Skeleton="CMN55PAN" LineNumber="66" />
+    <programs Name="IEBGENER" Skeleton="CMN55PAN" LineNumber="77" />
+    <programs Name="PAN#2" Skeleton="CMN55PAN" LineNumber="94" />
+    <programs Name="PAN#1" Skeleton="CMN55PAN" LineNumber="102" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55PDS ==-->
+  <!--==============-->
+  <skeleton Name="CMN55PDS">
+    <programs Name="IEBGENER" Skeleton="CMN55PDS" LineNumber="9" />
+    <programs Name="IEBGENER" Skeleton="CMN55PDS" LineNumber="29" />
+    <programs Name="CMNDELRN" Skeleton="CMN55PDS" LineNumber="68" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55REN ==-->
+  <!--==============-->
+  <skeleton Name="CMN55REN">
+    <programs Name="CMNDELRN" Skeleton="CMN55REN" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55SRD ==-->
+  <!--==============-->
+  <skeleton Name="CMN55SRD">
+    <programs Name="IEBGENER" Skeleton="CMN55SRD" LineNumber="12" />
+    <programs Name="CMNDELRN" Skeleton="CMN55SRD" LineNumber="24" />
+    <programs Name="CMNDELRN" Skeleton="CMN55SRD" LineNumber="31" />
+    <programs Name="CMNUPDAT" Skeleton="CMN55SRD" LineNumber="43" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN56 ==-->
+  <!--===========-->
+  <skeleton Name="CMN56">
+    <programs Name="IEBCOPY" Skeleton="CMN56" LineNumber="53" />
+    <programs Name="CMNUPDAT" Skeleton="CMN56" LineNumber="124" />
+    <programs Name="CMNDB2PL" Skeleton="CMN56" LineNumber="164" />
+    <programs Name="IKJEFT1A" Skeleton="CMN56" LineNumber="330" />
+    <programs Name="IDCAMS" Skeleton="CMN56" LineNumber="364" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN57 ==-->
+  <!--===========-->
+  <skeleton Name="CMN57">
+    <programs Name="CMNDB2TM" Skeleton="CMN57" LineNumber="18" />
+    <programs Name="CMNBATCH" Skeleton="CMN57" LineNumber="34" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN64 ==-->
+  <!--===========-->
+  <skeleton Name="CMN64">
+    <programs Name="IKJEFT01" Skeleton="CMN64" LineNumber="20" />
+    <programs Name="IKJEFT01" Skeleton="CMN64" LineNumber="89" />
+    <programs Name="IDCAMS" Skeleton="CMN64" LineNumber="109" />
+    <programs Name="IDCAMS" Skeleton="CMN64" LineNumber="161" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN65 ==-->
+  <!--===========-->
+  <skeleton Name="CMN65">
+    <programs Name="SY7660" Skeleton="CMN65" LineNumber="6" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN99 ==-->
+  <!--===========-->
+  <skeleton Name="CMN99">
+    <programs Name="IEFBR14" Skeleton="CMN99" LineNumber="11" />
+    <programs Name="CMNBATCH" Skeleton="CMN99" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN99INS ==-->
+  <!--==============-->
+  <skeleton Name="CMN99INS">
+    <programs Name="IEFBR14" Skeleton="CMN99INS" LineNumber="10" />
+    <programs Name="IEFBR14" Skeleton="CMN99INS" LineNumber="17" />
+    <programs Name="CMNBATCH" Skeleton="CMN99INS" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNAPCOB ==-->
+  <!--==============-->
+  <skeleton Name="CMNAPCOB">
+    <programs Name="IKFCBL00" Skeleton="CMNAPCOB" LineNumber="6" />
+    <programs Name="IGYCRCTL" Skeleton="CMNAPCOB" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNAPCOM ==-->
+  <!--==============-->
+  <skeleton Name="CMNAPCOM">
+    <programs Name="A2GENER" Skeleton="CMNAPCOM" LineNumber="78" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNDB2DR ==-->
+  <!--==============-->
+  <skeleton Name="CMNDB2DR">
+    <programs Name="CMNDB2DR" Skeleton="CMNDB2DR" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNGRANT ==-->
+  <!--==============-->
+  <skeleton Name="CMNGRANT">
+    <programs Name="IKJEFT01" Skeleton="CMNGRANT" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIDPEX ==-->
+  <!--==============-->
+  <skeleton Name="CMNIDPEX">
+    <programs Name="CMNWRITE" Skeleton="CMNIDPEX" LineNumber="16" />
+    <programs Name="IEBGENER" Skeleton="CMNIDPEX" LineNumber="103" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIDPGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNIDPGN">
+    <programs Name="ASMA90" Skeleton="CMNIDPGN" LineNumber="18" />
+    <programs Name="CMNSSIDN" Skeleton="CMNIDPGN" LineNumber="117" />
+    <programs Name="CMNSSIDN" Skeleton="CMNIDPGN" LineNumber="120" />
+    <programs Name="HEWL" Skeleton="CMNIDPGN" LineNumber="156" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIDPOV ==-->
+  <!--==============-->
+  <skeleton Name="CMNIDPOV">
+    <programs Name="CMNISOVR" Skeleton="CMNIDPOV" LineNumber="8" />
+    <programs Name="ASMA90" Skeleton="CMNIDPOV" LineNumber="48" />
+    <programs Name="CMNSSIDN" Skeleton="CMNIDPOV" LineNumber="110" />
+    <programs Name="IEWL" Skeleton="CMNIDPOV" LineNumber="154" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMCPY ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMCPY">
+    <programs Name="IEBCOPY" Skeleton="CMNIMCPY" LineNumber="17" />
+    <programs Name="SERCOPY" Skeleton="CMNIMCPY" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMPRO ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMPRO">
+    <programs Name="CH7100" Skeleton="CMNIMPRO" LineNumber="13" />
+    <programs Name="SY4020" Skeleton="CMNIMPRO" LineNumber="40" />
+    <programs Name="IEBCOPY" Skeleton="CMNIMPRO" LineNumber="44" />
+    <programs Name="SERCOPY" Skeleton="CMNIMPRO" LineNumber="48" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMRPM ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMRPM">
+    <programs Name="IEBGENER" Skeleton="CMNIMRPM" LineNumber="195" />
+    <programs Name="IEBCOPY" Skeleton="CMNIMRPM" LineNumber="234" />
+    <programs Name="IEBGENER" Skeleton="CMNIMRPM" LineNumber="275" />
+    <programs Name="IEBGENER" Skeleton="CMNIMRPM" LineNumber="284" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSBL ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSBL">
+    <programs Name="SY4020" Skeleton="CMNIMSBL" LineNumber="16" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSBL" LineNumber="25" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSIM ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSIM">
+    <programs Name="IEBCOPY" Skeleton="CMNIMSIM" LineNumber="10" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSIM" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSPD ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSPD">
+    <programs Name="IEBCOPY" Skeleton="CMNIMSPD" LineNumber="18" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSPD" LineNumber="21" />
+    <programs Name="IEBCOPY" Skeleton="CMNIMSPD" LineNumber="82" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSPD" LineNumber="85" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSPR ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSPR">
+    <programs Name="IEBCOPY" Skeleton="CMNIMSPR" LineNumber="13" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSPR" LineNumber="16" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSTP ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSTP">
+    <programs Name="IEBCOPY" Skeleton="CMNIMSTP" LineNumber="18" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSTP" LineNumber="21" />
+    <programs Name="IEBCOPY" Skeleton="CMNIMSTP" LineNumber="82" />
+    <programs Name="SERCOPY" Skeleton="CMNIMSTP" LineNumber="85" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINACB ==-->
+  <!--==============-->
+  <skeleton Name="CMNINACB">
+    <programs Name="DFSRRC00" Skeleton="CMNINACB" LineNumber="9" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINASW ==-->
+  <!--==============-->
+  <skeleton Name="CMNINASW">
+    <programs Name="DFSUOCU0" Skeleton="CMNINASW" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINFSW ==-->
+  <!--==============-->
+  <skeleton Name="CMNINFSW">
+    <programs Name="DFSUOCU0" Skeleton="CMNINFSW" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINIGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNINIGN">
+    <programs Name="SORT" Skeleton="CMNINIGN" LineNumber="67" />
+    <programs Name="SORT" Skeleton="CMNINIGN" LineNumber="70" />
+    <programs Name="CMNISMFS" Skeleton="CMNINIGN" LineNumber="114" />
+    <programs Name="CMNISMFS" Skeleton="CMNINIGN" LineNumber="117" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNJSBAS ==-->
+  <!--==============-->
+  <skeleton Name="CMNJSBAS">
+    <programs Name="IEFBR14" Skeleton="CMNJSBAS" LineNumber="12" />
+    <programs Name="CMNBATCH" Skeleton="CMNJSBAS" LineNumber="14" />
+    <programs Name="SERPRINT" Skeleton="CMNJSBAS" LineNumber="31" />
+    <programs Name="IEBGENER" Skeleton="CMNJSBAS" LineNumber="40" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNJSPRD ==-->
+  <!--==============-->
+  <skeleton Name="CMNJSPRD">
+    <programs Name="IEFBR14" Skeleton="CMNJSPRD" LineNumber="12" />
+    <programs Name="IEFBR14" Skeleton="CMNJSPRD" LineNumber="18" />
+    <programs Name="CMNBATCH" Skeleton="CMNJSPRD" LineNumber="21" />
+    <programs Name="IEBGENER" Skeleton="CMNJSPRD" LineNumber="51" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNJSPRM ==-->
+  <!--==============-->
+  <skeleton Name="CMNJSPRM">
+    <programs Name="IEBGENER" Skeleton="CMNJSPRM" LineNumber="16" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNJSRPM ==-->
+  <!--==============-->
+  <skeleton Name="CMNJSRPM">
+    <programs Name="IEFBR14" Skeleton="CMNJSRPM" LineNumber="7" />
+    <programs Name="IEBGENER" Skeleton="CMNJSRPM" LineNumber="9" />
+    <programs Name="SERPRINT" Skeleton="CMNJSRPM" LineNumber="21" />
+    <programs Name="IEBGENER" Skeleton="CMNJSRPM" LineNumber="30" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNMAPGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNMAPGN">
+    <programs Name="CMNBAT90" Skeleton="CMNMAPGN" LineNumber="17" />
+    <programs Name="SERCOPY" Skeleton="CMNMAPGN" LineNumber="43" />
+    <programs Name="CMNBAT90" Skeleton="CMNMAPGN" LineNumber="56" />
+    <programs Name="SERCOPY" Skeleton="CMNMAPGN" LineNumber="82" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNMFSGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNMFSGN">
+    <programs Name="CMNBAT90" Skeleton="CMNMFSGN" LineNumber="33" />
+    <programs Name="SERCOPY" Skeleton="CMNMFSGN" LineNumber="59" />
+    <programs Name="CMNBAT90" Skeleton="CMNMFSGN" LineNumber="72" />
+    <programs Name="SERCOPY" Skeleton="CMNMFSGN" LineNumber="97" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNMFSIG ==-->
+  <!--==============-->
+  <skeleton Name="CMNMFSIG">
+    <programs Name="SY4020" Skeleton="CMNMFSIG" LineNumber="14" />
+    <programs Name="SY4020" Skeleton="CMNMFSIG" LineNumber="55" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNMFSPG ==-->
+  <!--==============-->
+  <skeleton Name="CMNMFSPG">
+    <programs Name="SY4020" Skeleton="CMNMFSPG" LineNumber="19" />
+    <programs Name="SY4020" Skeleton="CMNMFSPG" LineNumber="60" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNMFSRG ==-->
+  <!--==============-->
+  <skeleton Name="CMNMFSRG">
+    <programs Name="SY4020" Skeleton="CMNMFSRG" LineNumber="15" />
+    <programs Name="SY4020" Skeleton="CMNMFSRG" LineNumber="52" />
+    <programs Name="SY4020" Skeleton="CMNMFSRG" LineNumber="69" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPDPEX ==-->
+  <!--==============-->
+  <skeleton Name="CMNPDPEX">
+    <programs Name="CMNWRITE" Skeleton="CMNPDPEX" LineNumber="7" />
+    <programs Name="IEBGENER" Skeleton="CMNPDPEX" LineNumber="80" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPDPGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNPDPGN">
+    <programs Name="ASMA90" Skeleton="CMNPDPGN" LineNumber="8" />
+    <programs Name="CMNSSIDN" Skeleton="CMNPDPGN" LineNumber="105" />
+    <programs Name="HEWL" Skeleton="CMNPDPGN" LineNumber="133" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPDPOV ==-->
+  <!--==============-->
+  <skeleton Name="CMNPDPOV">
+    <programs Name="CMNISOVR" Skeleton="CMNPDPOV" LineNumber="8" />
+    <programs Name="ASMA90" Skeleton="CMNPDPOV" LineNumber="48" />
+    <programs Name="CMNSSIDN" Skeleton="CMNPDPOV" LineNumber="103" />
+    <programs Name="IEWL" Skeleton="CMNPDPOV" LineNumber="143" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPLICM ==-->
+  <!--==============-->
+  <skeleton Name="CMNPLICM">
+    <programs Name="IEBCOPY" Skeleton="CMNPLICM" LineNumber="61" />
+    <programs Name="&amp;$BINDPGM" Skeleton="CMNPLICM" LineNumber="235" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPRASW ==-->
+  <!--==============-->
+  <skeleton Name="CMNPRASW">
+    <programs Name="DFSUOCU0" Skeleton="CMNPRASW" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPRFSW ==-->
+  <!--==============-->
+  <skeleton Name="CMNPRFSW">
+    <programs Name="DFSUOCU0" Skeleton="CMNPRFSW" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPSBGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNPSBGN">
+    <programs Name="IEFBR14" Skeleton="CMNPSBGN" LineNumber="48" />
+    <programs Name="IEBGENER" Skeleton="CMNPSBGN" LineNumber="52" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDD01 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDD01">
+    <programs Name="CMNVSRVC" Skeleton="CMNRDD01" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDD02 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDD02">
+    <programs Name="IEBGENER" Skeleton="CMNRDD02" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDD03 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDD03">
+    <programs Name="IKJEFT01" Skeleton="CMNRDD03" LineNumber="17" />
+    <programs Name="IKJEFT01" Skeleton="CMNRDD03" LineNumber="43" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDPEX ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDPEX">
+    <programs Name="CMNWRITE" Skeleton="CMNRDPEX" LineNumber="7" />
+    <programs Name="IEBGENER" Skeleton="CMNRDPEX" LineNumber="78" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDPGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDPGN">
+    <programs Name="ASMA90" Skeleton="CMNRDPGN" LineNumber="9" />
+    <programs Name="CMNSSIDN" Skeleton="CMNRDPGN" LineNumber="74" />
+    <programs Name="HEWL" Skeleton="CMNRDPGN" LineNumber="106" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDPOV ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDPOV">
+    <programs Name="CMNISOVR" Skeleton="CMNRDPOV" LineNumber="8" />
+    <programs Name="ASMA90" Skeleton="CMNRDPOV" LineNumber="48" />
+    <programs Name="CMNSSIDN" Skeleton="CMNRDPOV" LineNumber="107" />
+    <programs Name="IEWL" Skeleton="CMNRDPOV" LineNumber="146" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPACB ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPACB">
+    <programs Name="DFSRRC00" Skeleton="CMNRPACB" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPICL ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPICL">
+    <programs Name="IEBCOPY" Skeleton="CMNRPICL" LineNumber="44" />
+    <programs Name="SERCOPY" Skeleton="CMNRPICL" LineNumber="47" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPICL" LineNumber="101" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPICL" LineNumber="141" />
+    <programs Name="IEBGENER" Skeleton="CMNRPICL" LineNumber="165" />
+    <programs Name="IEFBR14" Skeleton="CMNRPICL" LineNumber="174" />
+    <programs Name="IEBGENER" Skeleton="CMNRPICL" LineNumber="179" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPICR ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPICR">
+    <programs Name="IEBGENER" Skeleton="CMNRPICR" LineNumber="356" />
+    <programs Name="IEFBR14" Skeleton="CMNRPICR" LineNumber="366" />
+    <programs Name="IEBGENER" Skeleton="CMNRPICR" LineNumber="372" />
+    <programs Name="IEBGENER" Skeleton="CMNRPICR" LineNumber="385" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIGN">
+    <programs Name="SORT" Skeleton="CMNRPIGN" LineNumber="37" />
+    <programs Name="CMNISMFS" Skeleton="CMNRPIGN" LineNumber="92" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIPC ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIPC">
+    <programs Name="CMNDELRN" Skeleton="CMNRPIPC" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIPS ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIPS">
+    <programs Name="IEBCOPY" Skeleton="CMNRPIPS" LineNumber="17" />
+    <programs Name="SERCOPY" Skeleton="CMNRPIPS" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIRC ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIRC">
+    <programs Name="IEBCOPY" Skeleton="CMNRPIRC" LineNumber="7" />
+    <programs Name="SERCOPY" Skeleton="CMNRPIRC" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIRD ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIRD">
+    <programs Name="CMNDELRN" Skeleton="CMNRPIRD" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPISC ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPISC">
+    <programs Name="IEBCOPY" Skeleton="CMNRPISC" LineNumber="13" />
+    <programs Name="SERCOPY" Skeleton="CMNRPISC" LineNumber="16" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM00 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM00">
+    <programs Name="CMNBATCH" Skeleton="CMNRPM00" LineNumber="5" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM00" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM10 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM10">
+    <programs Name="IEBGENER" Skeleton="CMNRPM10" LineNumber="32" />
+    <programs Name="IEBCOPY" Skeleton="CMNRPM10" LineNumber="84" />
+    <programs Name="IEBGENER" Skeleton="CMNRPM10" LineNumber="95" />
+    <programs Name="IEBGENER" Skeleton="CMNRPM10" LineNumber="104" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM10" LineNumber="169" />
+    <programs Name="IEBCOPY" Skeleton="CMNRPM10" LineNumber="173" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM20 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM20">
+    <programs Name="IEBCOPY" Skeleton="CMNRPM20" LineNumber="10" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPM20" LineNumber="22" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPM20" LineNumber="35" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPM20" LineNumber="48" />
+    <programs Name="IEBGENER" Skeleton="CMNRPM20" LineNumber="61" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM20" LineNumber="69" />
+    <programs Name="IEBGENER" Skeleton="CMNRPM20" LineNumber="71" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM20" LineNumber="80" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM20" LineNumber="86" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM2I ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM2I">
+    <programs Name="IEBCOPY" Skeleton="CMNRPM2I" LineNumber="10" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM2I" LineNumber="27" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPM2I" LineNumber="32" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPM2I" LineNumber="46" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPM2I" LineNumber="60" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM2I" LineNumber="87" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM2I" LineNumber="93" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM30 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM30">
+    <programs Name="CMNDELRN" Skeleton="CMNRPM30" LineNumber="13" />
+    <programs Name="IEBGENER" Skeleton="CMNRPM30" LineNumber="26" />
+    <programs Name="IEFBR14" Skeleton="CMNRPM30" LineNumber="34" />
+    <programs Name="IEBGENER" Skeleton="CMNRPM30" LineNumber="36" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM3I ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM3I">
+    <programs Name="CMNDELRN" Skeleton="CMNRPM3I" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM99 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM99">
+    <programs Name="CMNBATCH" Skeleton="CMNRPM99" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMB0 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMB0">
+    <programs Name="CMNBATCH" Skeleton="CMNRPMB0" LineNumber="10" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMB0" LineNumber="80" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMB9 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMB9">
+    <programs Name="CMNBATCH" Skeleton="CMNRPMB9" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMCL ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMCL">
+    <programs Name="IEBCOPY" Skeleton="CMNRPMCL" LineNumber="35" />
+    <programs Name="SERCOPY" Skeleton="CMNRPMCL" LineNumber="38" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCL" LineNumber="85" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCL" LineNumber="113" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMCL" LineNumber="134" />
+    <programs Name="IEFBR14" Skeleton="CMNRPMCL" LineNumber="142" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMCL" LineNumber="144" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMCR ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMCR">
+    <programs Name="IEBCOPY" Skeleton="CMNRPMCR" LineNumber="71" />
+    <programs Name="SERCOPY" Skeleton="CMNRPMCR" LineNumber="74" />
+    <programs Name="IEBCOPY" Skeleton="CMNRPMCR" LineNumber="113" />
+    <programs Name="SERCOPY" Skeleton="CMNRPMCR" LineNumber="116" />
+    <programs Name="IEBCOPY" Skeleton="CMNRPMCR" LineNumber="156" />
+    <programs Name="SERCOPY" Skeleton="CMNRPMCR" LineNumber="159" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCR" LineNumber="227" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCR" LineNumber="241" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCR" LineNumber="255" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCR" LineNumber="293" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCR" LineNumber="310" />
+    <programs Name="CMNDELRN" Skeleton="CMNRPMCR" LineNumber="327" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMCR" LineNumber="360" />
+    <programs Name="IEFBR14" Skeleton="CMNRPMCR" LineNumber="368" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMCR" LineNumber="370" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMCR" LineNumber="378" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMDL ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMDL">
+    <programs Name="IEFBR14" Skeleton="CMNRPMDL" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMDR ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMDR">
+    <programs Name="IEFBR14" Skeleton="CMNRPMDR" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMMJ ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMMJ">
+    <programs Name="OS3550" Skeleton="CMNRPMMJ" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMT0 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMT0">
+    <programs Name="IEBGENER" Skeleton="CMNRPMT0" LineNumber="9" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMT0" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMT9 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMT9">
+    <programs Name="IEBGENER" Skeleton="CMNRPMT9" LineNumber="9" />
+    <programs Name="IEBGENER" Skeleton="CMNRPMT9" LineNumber="18" />
+  </skeleton>
+  <!--============-->
+  <!--== CMNRXS ==-->
+  <!--============-->
+  <skeleton Name="CMNRXS">
+    <programs Name="IEFBR14" Skeleton="CMNRXS" LineNumber="38" />
+    <programs Name="REXXCOMP" Skeleton="CMNRXS" LineNumber="49" />
+    <programs Name="CMNBAT90" Skeleton="CMNRXS" LineNumber="69" />
+    <programs Name="SERCOPY" Skeleton="CMNRXS" LineNumber="93" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMNSASC ==-->
+  <!--=============-->
+  <skeleton Name="CMNSASC">
+    <programs Name="LC370B" Skeleton="CMNSASC" LineNumber="9" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMNSRVC ==-->
+  <!--=============-->
+  <skeleton Name="CMNSRVC">
+    <programs Name="CMNVSRVC" Skeleton="CMNSRVC" LineNumber="16" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNTLNGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNTLNGN">
+    <programs Name="IEBUPDTE" Skeleton="CMNTLNGN" LineNumber="16" />
+    <programs Name="ASMA90" Skeleton="CMNTLNGN" LineNumber="33" />
+    <programs Name="&amp;PGMASM" Skeleton="CMNTLNGN" LineNumber="37" />
+    <programs Name="IEBUPDTE" Skeleton="CMNTLNGN" LineNumber="58" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNTLNPI ==-->
+  <!--==============-->
+  <skeleton Name="CMNTLNPI">
+    <programs Name="ADPACTLC" Skeleton="CMNTLNPI" LineNumber="6" />
+    <programs Name="ADPACTLC" Skeleton="CMNTLNPI" LineNumber="11" />
+    <programs Name="TELONTDF" Skeleton="CMNTLNPI" LineNumber="17" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNTLNRS ==-->
+  <!--==============-->
+  <skeleton Name="CMNTLNRS">
+    <programs Name="ADPACOPY" Skeleton="CMNTLNRS" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ010A ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ010A">
+    <programs Name="IDCAMS" Skeleton="CMNZ010A" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ010P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ010P">
+    <programs Name="IEBGENER" Skeleton="CMNZ010P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ030P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ030P">
+    <programs Name="IEBGENER" Skeleton="CMNZ030P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ070P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ070P">
+    <programs Name="IEBGENER" Skeleton="CMNZ070P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ100P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ100P">
+    <programs Name="IEBGENER" Skeleton="CMNZ100P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ110P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ110P">
+    <programs Name="IEBGENER" Skeleton="CMNZ110P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ120P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ120P">
+    <programs Name="IEBGENER" Skeleton="CMNZ120P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ130P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ130P">
+    <programs Name="IEBGENER" Skeleton="CMNZ130P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ140P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ140P">
+    <programs Name="IEBGENER" Skeleton="CMNZ140P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ160P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ160P">
+    <programs Name="IEBGENER" Skeleton="CMNZ160P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ170P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ170P">
+    <programs Name="IEBGENER" Skeleton="CMNZ170P" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMV$$CVM ==-->
+  <!--==============-->
+  <skeleton Name="CMV$$CVM">
+    <programs Name="CMNDELRN" Skeleton="CMV$$CVM" LineNumber="9" />
+    <programs Name="CMNDELRN" Skeleton="CMV$$CVM" LineNumber="25" />
+    <programs Name="CMNDELRN" Skeleton="CMV$$CVM" LineNumber="46" />
+    <programs Name="CMNDELRN" Skeleton="CMV$$CVM" LineNumber="62" />
+    <programs Name="CMNDELRN" Skeleton="CMV$$CVM" LineNumber="78" />
+  </skeleton>
+  <!--==============-->
+  <!--== COMPMVS1 ==-->
+  <!--==============-->
+  <skeleton Name="COMPMVS1">
+    <programs Name="DSNHPC" Skeleton="COMPMVS1" LineNumber="28" />
+    <programs Name="EW7510" Skeleton="COMPMVS1" LineNumber="99" />
+    <programs Name="CH7061" Skeleton="COMPMVS1" LineNumber="121" />
+    <programs Name="IEL1AA" Skeleton="COMPMVS1" LineNumber="125" />
+    <programs Name="DSNHPC" Skeleton="COMPMVS1" LineNumber="164" />
+    <programs Name="EW7520" Skeleton="COMPMVS1" LineNumber="194" />
+    <programs Name="CH7061" Skeleton="COMPMVS1" LineNumber="219" />
+    <programs Name="IEL1AA" Skeleton="COMPMVS1" LineNumber="223" />
+    <programs Name="DFHEPP1$" Skeleton="COMPMVS1" LineNumber="253" />
+    <programs Name="IEBGENER" Skeleton="COMPMVS1" LineNumber="266" />
+    <programs Name="SY2090" Skeleton="COMPMVS1" LineNumber="282" />
+    <programs Name="NN0054" Skeleton="COMPMVS1" LineNumber="298" />
+    <programs Name="CH7061" Skeleton="COMPMVS1" LineNumber="315" />
+    <programs Name="IEL1AA" Skeleton="COMPMVS1" LineNumber="319" />
+    <programs Name="IEFBR14" Skeleton="COMPMVS1" LineNumber="352" />
+    <programs Name="STRXPLF" Skeleton="COMPMVS1" LineNumber="358" />
+    <programs Name="CMNSSIDN" Skeleton="COMPMVS1" LineNumber="370" />
+    <programs Name="IEFBR14" Skeleton="COMPMVS1" LineNumber="407" />
+    <programs Name="HEWL" Skeleton="COMPMVS1" LineNumber="417" />
+    <programs Name="IEBGENER" Skeleton="COMPMVS1" LineNumber="513" />
+    <programs Name="IEBGENER" Skeleton="COMPMVS1" LineNumber="521" />
+    <programs Name="CMNBAT90" Skeleton="COMPMVS1" LineNumber="529" />
+    <programs Name="CMNBAT90" Skeleton="COMPMVS1" LineNumber="551" />
+    <programs Name="SERCOPY" Skeleton="COMPMVS1" LineNumber="576" />
+    <programs Name="SERCOPY" Skeleton="COMPMVS1" LineNumber="589" />
+  </skeleton>
+  <!--=============-->
+  <!--== COMPSTG ==-->
+  <!--=============-->
+  <skeleton Name="COMPSTG">
+    <programs Name="SY4020" Skeleton="COMPSTG" LineNumber="11" />
+    <programs Name="ADRDSSU" Skeleton="COMPSTG" LineNumber="26" />
+  </skeleton>
+  <!--==============-->
+  <!--== DB1$$B90 ==-->
+  <!--==============-->
+  <skeleton Name="DB1$$B90">
+    <programs Name="IKJEFT01" Skeleton="DB1$$B90" LineNumber="8" />
+    <programs Name="CMNBAT90" Skeleton="DB1$$B90" LineNumber="24" />
+    <programs Name="CMNBAT90" Skeleton="DB1$$B90" LineNumber="50" />
+  </skeleton>
+  <!--==============-->
+  <!--== DB1$$B92 ==-->
+  <!--==============-->
+  <skeleton Name="DB1$$B92">
+    <programs Name="SERCOPY" Skeleton="DB1$$B92" LineNumber="11" />
+    <programs Name="SERCOPY" Skeleton="DB1$$B92" LineNumber="25" />
+  </skeleton>
+  <!--==============-->
+  <!--== DB2$$B90 ==-->
+  <!--==============-->
+  <skeleton Name="DB2$$B90">
+    <programs Name="IKJEFT01" Skeleton="DB2$$B90" LineNumber="8" />
+    <programs Name="CMNBAT90" Skeleton="DB2$$B90" LineNumber="26" />
+  </skeleton>
+  <!--==============-->
+  <!--== DB2$$B92 ==-->
+  <!--==============-->
+  <skeleton Name="DB2$$B92">
+    <programs Name="SERCOPY" Skeleton="DB2$$B92" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPC$$CGN ==-->
+  <!--==============-->
+  <skeleton Name="EPC$$CGN">
+    <programs Name="EW7510" Skeleton="EPC$$CGN" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPC$$FAF ==-->
+  <!--==============-->
+  <skeleton Name="EPC$$FAF">
+    <programs Name="IKJEFT01" Skeleton="EPC$$FAF" LineNumber="49" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPC$$LCT ==-->
+  <!--==============-->
+  <skeleton Name="EPC$$LCT">
+    <programs Name="ICEGENER" Skeleton="EPC$$LCT" LineNumber="10" />
+    <programs Name="CMNBAT90" Skeleton="EPC$$LCT" LineNumber="21" />
+    <programs Name="SERCOPY" Skeleton="EPC$$LCT" LineNumber="47" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPC$$PLI ==-->
+  <!--==============-->
+  <skeleton Name="EPC$$PLI">
+    <programs Name="IBMZPLI" Skeleton="EPC$$PLI" LineNumber="55" />
+    <programs Name="CWPPMAIN" Skeleton="EPC$$PLI" LineNumber="57" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPCBINDR ==-->
+  <!--==============-->
+  <skeleton Name="EPCBINDR">
+    <programs Name="IEFBR14" Skeleton="EPCBINDR" LineNumber="27" />
+    <programs Name="HEWL" Skeleton="EPCBINDR" LineNumber="52" />
+    <programs Name="CMNBAT90" Skeleton="EPCBINDR" LineNumber="107" />
+    <programs Name="SERCOPY" Skeleton="EPCBINDR" LineNumber="139" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPCCGN01 ==-->
+  <!--==============-->
+  <skeleton Name="EPCCGN01">
+    <programs Name="IBMZPLI" Skeleton="EPCCGN01" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPCLCORB ==-->
+  <!--==============-->
+  <skeleton Name="EPCLCORB">
+    <programs Name="EDCPRLK" Skeleton="EPCLCORB" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPCLSTCS ==-->
+  <!--==============-->
+  <skeleton Name="EPCLSTCS">
+    <programs Name="IKJEFT01" Skeleton="EPCLSTCS" LineNumber="11" />
+    <programs Name="ICEGENER" Skeleton="EPCLSTCS" LineNumber="29" />
+    <programs Name="IKJEFT01" Skeleton="EPCLSTCS" LineNumber="42" />
+    <programs Name="SERCOPY" Skeleton="EPCLSTCS" LineNumber="60" />
+    <programs Name="CMNBATCH" Skeleton="EPCLSTCS" LineNumber="69" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPCLSTPR ==-->
+  <!--==============-->
+  <skeleton Name="EPCLSTPR">
+    <programs Name="SERPRINT" Skeleton="EPCLSTPR" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPCPLGCK ==-->
+  <!--==============-->
+  <skeleton Name="EPCPLGCK">
+    <programs Name="IKJEFT01" Skeleton="EPCPLGCK" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== EPP$$PLI ==-->
+  <!--==============-->
+  <skeleton Name="EPP$$PLI">
+    <programs Name="IBMZPLI" Skeleton="EPP$$PLI" LineNumber="10" />
+  </skeleton>
+  <!--===========-->
+  <!--== ETHEL ==-->
+  <!--===========-->
+  <skeleton Name="ETHEL">
+    <programs Name="HI7007" Skeleton="ETHEL" LineNumber="1" />
+  </skeleton>
+  <!--==========-->
+  <!--== FRED ==-->
+  <!--==========-->
+  <skeleton Name="FRED">
+    <programs Name="SERCOPY" Skeleton="FRED" LineNumber="35" />
+    <programs Name="HI7007" Skeleton="FRED" LineNumber="61" />
+  </skeleton>
+  <!--=============-->
+  <!--== JOSKAPP ==-->
+  <!--=============-->
+  <skeleton Name="JOSKAPP">
+    <programs Name="JSKSCAN" Skeleton="JOSKAPP" LineNumber="9" />
+    <programs Name="SERCOPY" Skeleton="JOSKAPP" LineNumber="21" />
+    <programs Name="CMNBAT90" Skeleton="JOSKAPP" LineNumber="38" />
+  </skeleton>
+  <!--==============-->
+  <!--== LE3$$CGN ==-->
+  <!--==============-->
+  <skeleton Name="LE3$$CGN">
+    <programs Name="EW7510" Skeleton="LE3$$CGN" LineNumber="7" />
+    <programs Name="CH7061" Skeleton="LE3$$CGN" LineNumber="30" />
+    <programs Name="IEL1AA" Skeleton="LE3$$CGN" LineNumber="34" />
+    <programs Name="DSNHPC" Skeleton="LE3$$CGN" LineNumber="75" />
+    <programs Name="IKJEFT01" Skeleton="LE3$$CGN" LineNumber="135" />
+    <programs Name="CMNBAT90" Skeleton="LE3$$CGN" LineNumber="176" />
+    <programs Name="EW7520" Skeleton="LE3$$CGN" LineNumber="205" />
+    <programs Name="CH7061" Skeleton="LE3$$CGN" LineNumber="230" />
+    <programs Name="IEL1AA" Skeleton="LE3$$CGN" LineNumber="234" />
+    <programs Name="DFHEPP1$" Skeleton="LE3$$CGN" LineNumber="267" />
+    <programs Name="IEBGENER" Skeleton="LE3$$CGN" LineNumber="280" />
+    <programs Name="SY2090" Skeleton="LE3$$CGN" LineNumber="296" />
+    <programs Name="NN0054" Skeleton="LE3$$CGN" LineNumber="311" />
+    <programs Name="CH7061" Skeleton="LE3$$CGN" LineNumber="327" />
+    <programs Name="IEL1AA" Skeleton="LE3$$CGN" LineNumber="331" />
+    <programs Name="IEFBR14" Skeleton="LE3$$CGN" LineNumber="377" />
+    <programs Name="STRXPLF" Skeleton="LE3$$CGN" LineNumber="383" />
+    <programs Name="CMNSSIDN" Skeleton="LE3$$CGN" LineNumber="395" />
+    <programs Name="IEFBR14" Skeleton="LE3$$CGN" LineNumber="434" />
+    <programs Name="HEWL" Skeleton="LE3$$CGN" LineNumber="444" />
+    <programs Name="SERCOPY" Skeleton="LE3$$CGN" LineNumber="524" />
+    <programs Name="SERCOPY" Skeleton="LE3$$CGN" LineNumber="545" />
+    <programs Name="IEBGENER" Skeleton="LE3$$CGN" LineNumber="563" />
+    <programs Name="IEBGENER" Skeleton="LE3$$CGN" LineNumber="571" />
+    <programs Name="CMNBAT90" Skeleton="LE3$$CGN" LineNumber="579" />
+    <programs Name="CMNBAT90" Skeleton="LE3$$CGN" LineNumber="601" />
+    <programs Name="SERCOPY" Skeleton="LE3$$CGN" LineNumber="626" />
+    <programs Name="SERCOPY" Skeleton="LE3$$CGN" LineNumber="639" />
+  </skeleton>
+  <!--==============-->
+  <!--== LE3$$DEC ==-->
+  <!--==============-->
+  <skeleton Name="LE3$$DEC">
+    <programs Name="NN0054" Skeleton="LE3$$DEC" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== LE3$$PLI ==-->
+  <!--==============-->
+  <skeleton Name="LE3$$PLI">
+    <programs Name="IEL1AA" Skeleton="LE3$$PLI" LineNumber="20" />
+    <programs Name="CH7061" Skeleton="LE3$$PLI" LineNumber="23" />
+    <programs Name="IEFBR14" Skeleton="LE3$$PLI" LineNumber="106" />
+    <programs Name="STRXPLF" Skeleton="LE3$$PLI" LineNumber="116" />
+  </skeleton>
+  <!--==============-->
+  <!--== LE3PLIPP ==-->
+  <!--==============-->
+  <skeleton Name="LE3PLIPP">
+    <programs Name="IEL1AA" Skeleton="LE3PLIPP" LineNumber="36" />
+    <programs Name="CH7061" Skeleton="LE3PLIPP" LineNumber="40" />
+    <programs Name="JSKSCAN" Skeleton="LE3PLIPP" LineNumber="100" />
+  </skeleton>
+  <!--==========-->
+  <!--== LOAD ==-->
+  <!--==========-->
+  <skeleton Name="LOAD">
+    <programs Name="IEBGENER" Skeleton="LOAD" LineNumber="54" />
+    <programs Name="IEFBR14" Skeleton="LOAD" LineNumber="70" />
+    <programs Name="IEBCOPY" Skeleton="LOAD" LineNumber="81" />
+    <programs Name="CMNBAT90" Skeleton="LOAD" LineNumber="107" />
+    <programs Name="SERCOPY" Skeleton="LOAD" LineNumber="131" />
+  </skeleton>
+  <!--==============-->
+  <!--== OBJ$$SSI ==-->
+  <!--==============-->
+  <skeleton Name="OBJ$$SSI">
+    <programs Name="IKJEFT01" Skeleton="OBJ$$SSI" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== OBJXPLIB ==-->
+  <!--==============-->
+  <skeleton Name="OBJXPLIB">
+    <programs Name="IEBCOPY" Skeleton="OBJXPLIB" LineNumber="17" />
+  </skeleton>
+  <!--==============-->
+  <!--== PLI$$DEC ==-->
+  <!--==============-->
+  <skeleton Name="PLI$$DEC">
+    <programs Name="NN0054" Skeleton="PLI$$DEC" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== PLICCFAF ==-->
+  <!--==============-->
+  <skeleton Name="PLICCFAF">
+    <programs Name="IBMZPLI" Skeleton="PLICCFAF" LineNumber="22" />
+  </skeleton>
+  <!--==============-->
+  <!--== PLICICG1 ==-->
+  <!--==============-->
+  <skeleton Name="PLICICG1">
+    <programs Name="EW7510" Skeleton="PLICICG1" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== PLIETABX ==-->
+  <!--==============-->
+  <skeleton Name="PLIETABX">
+    <programs Name="SY2090" Skeleton="PLIETABX" LineNumber="9" />
+  </skeleton>
+  <!--============-->
+  <!--== PLIGEN ==-->
+  <!--============-->
+  <skeleton Name="PLIGEN">
+    <programs Name="SY7660" Skeleton="PLIGEN" LineNumber="1" />
+    <programs Name="IEBGENER" Skeleton="PLIGEN" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== PLIMDSCC ==-->
+  <!--==============-->
+  <skeleton Name="PLIMDSCC">
+    <programs Name="ICEGENER" Skeleton="PLIMDSCC" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== PLIPPFAF ==-->
+  <!--==============-->
+  <skeleton Name="PLIPPFAF">
+    <programs Name="IBMZPLI" Skeleton="PLIPPFAF" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== PSBGNALT ==-->
+  <!--==============-->
+  <skeleton Name="PSBGNALT">
+    <programs Name="IEFBR14" Skeleton="PSBGNALT" LineNumber="76" />
+    <programs Name="IEBGENER" Skeleton="PSBGNALT" LineNumber="80" />
+  </skeleton>
+  <!--==============-->
+  <!--== RPBADBND ==-->
+  <!--==============-->
+  <skeleton Name="RPBADBND">
+    <programs Name="IEBGENER" Skeleton="RPBADBND" LineNumber="16" />
+    <programs Name="IEBGENER" Skeleton="RPBADBND" LineNumber="33" />
+  </skeleton>
+  <!--==============-->
+  <!--== S8PD2BND ==-->
+  <!--==============-->
+  <skeleton Name="S8PD2BND">
+    <programs Name="IEBGENER" Skeleton="S8PD2BND" LineNumber="35" />
+    <programs Name="IEBGENER" Skeleton="S8PD2BND" LineNumber="116" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMBDMDS ==-->
+  <!--==============-->
+  <skeleton Name="SCMBDMDS">
+    <programs Name="IKJEFT01" Skeleton="SCMBDMDS" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMCLMTA ==-->
+  <!--==============-->
+  <skeleton Name="SCMCLMTA">
+    <programs Name="IKJEFT01" Skeleton="SCMCLMTA" LineNumber="283" />
+    <programs Name="IKJEFT01" Skeleton="SCMCLMTA" LineNumber="295" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMEVTCK ==-->
+  <!--==============-->
+  <skeleton Name="SCMEVTCK">
+    <programs Name="IKJEFT01" Skeleton="SCMEVTCK" LineNumber="8" />
+    <programs Name="IKJEFT01" Skeleton="SCMEVTCK" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMGNMTA ==-->
+  <!--==============-->
+  <skeleton Name="SCMGNMTA">
+    <programs Name="IKJEFT01" Skeleton="SCMGNMTA" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMGNMTR ==-->
+  <!--==============-->
+  <skeleton Name="SCMGNMTR">
+    <programs Name="IKJEFT01" Skeleton="SCMGNMTR" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMMIGRO ==-->
+  <!--==============-->
+  <skeleton Name="SCMMIGRO">
+    <programs Name="IKJEFT01" Skeleton="SCMMIGRO" LineNumber="38" />
+    <programs Name="IKJEFT01" Skeleton="SCMMIGRO" LineNumber="134" />
+    <programs Name="IKJEFT01" Skeleton="SCMMIGRO" LineNumber="235" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$C01 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$C01">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$C01" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$C02 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$C02">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$C02" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$C03 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$C03">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$C03" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$C04 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$C04">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$C04" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$C05 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$C05">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$C05" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$C06 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$C06">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$C06" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CD1 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CD1">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CD1" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CD2 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CD2">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CD2" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CD5 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CD5">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CD5" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CD6 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CD6">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CD6" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CH1 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CH1">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CH1" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CH2 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CH2">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CH2" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CH5 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CH5">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CH5" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CH6 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CH6">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CH6" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CI1 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CI1">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CI1" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CI2 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CI2">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CI2" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CI5 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CI5">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CI5" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CI6 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CI6">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CI6" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CU1 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CU1">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CU1" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CU2 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CU2">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CU2" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CU5 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CU5">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CU5" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$CU6 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$CU6">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$CU6" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$E20 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$E20">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$E20" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$E21 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$E21">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$E21" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$E23 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$E23">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$E23" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$E30 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$E30">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$E30" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$E32 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$E32">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$E32" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$E45 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$E45">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$E45" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S05 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S05">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S05" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S10 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S10">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S10" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S20 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S20">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S20" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S25 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S25">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S25" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S30 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S30">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S30" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S35 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S35">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S35" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S40 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S40">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S40" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMN$S75 ==-->
+  <!--==============-->
+  <skeleton Name="SCMN$S75">
+    <programs Name="IKJEFT1A" Skeleton="SCMN$S75" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMPDSST ==-->
+  <!--==============-->
+  <skeleton Name="SCMPDSST">
+    <programs Name="IKJEFT01" Skeleton="SCMPDSST" LineNumber="39" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKAAUDRP ==-->
+  <!--==============-->
+  <skeleton Name="SKAAUDRP">
+    <programs Name="ICETOOL" Skeleton="SKAAUDRP" LineNumber="23" />
+    <programs Name="IKJEFT01" Skeleton="SKAAUDRP" LineNumber="51" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKADBSTR ==-->
+  <!--==============-->
+  <skeleton Name="SKADBSTR">
+    <programs Name="IKJEFT01" Skeleton="SKADBSTR" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKATSOLB ==-->
+  <!--==============-->
+  <skeleton Name="SKATSOLB">
+    <programs Name="IKJEFT01" Skeleton="SKATSOLB" LineNumber="17" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKAUMEMO ==-->
+  <!--==============-->
+  <skeleton Name="SKAUMEMO">
+    <programs Name="IEFBR14" Skeleton="SKAUMEMO" LineNumber="3" />
+    <programs Name="CH7010" Skeleton="SKAUMEMO" LineNumber="5" />
+    <programs Name="OS3550" Skeleton="SKAUMEMO" LineNumber="30" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKBNEWCP ==-->
+  <!--==============-->
+  <skeleton Name="SKBNEWCP">
+    <programs Name="IEBGENER" Skeleton="SKBNEWCP" LineNumber="14" />
+    <programs Name="CH7120" Skeleton="SKBNEWCP" LineNumber="69" />
+    <programs Name="CMNCICS1" Skeleton="SKBNEWCP" LineNumber="81" />
+    <programs Name="IEBGENER" Skeleton="SKBNEWCP" LineNumber="92" />
+    <programs Name="CH7120" Skeleton="SKBNEWCP" LineNumber="146" />
+    <programs Name="CMNCICS1" Skeleton="SKBNEWCP" LineNumber="158" />
+    <programs Name="IEBGENER" Skeleton="SKBNEWCP" LineNumber="169" />
+    <programs Name="CH7120" Skeleton="SKBNEWCP" LineNumber="223" />
+    <programs Name="CMNCICS1" Skeleton="SKBNEWCP" LineNumber="235" />
+    <programs Name="IEBGENER" Skeleton="SKBNEWCP" LineNumber="246" />
+    <programs Name="CH7120" Skeleton="SKBNEWCP" LineNumber="300" />
+    <programs Name="CMNCICS1" Skeleton="SKBNEWCP" LineNumber="312" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKDBPGEN ==-->
+  <!--==============-->
+  <skeleton Name="SKDBPGEN">
+    <programs Name="IKJEFT1A" Skeleton="SKDBPGEN" LineNumber="5" />
+    <programs Name="CMNBAT90" Skeleton="SKDBPGEN" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKDBPGN2 ==-->
+  <!--==============-->
+  <skeleton Name="SKDBPGN2">
+    <programs Name="SERCOPY" Skeleton="SKDBPGN2" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKDELHDR ==-->
+  <!--==============-->
+  <skeleton Name="SKDELHDR">
+    <programs Name="IEFBR14" Skeleton="SKDELHDR" LineNumber="3" />
+    <programs Name="CMNDELRN" Skeleton="SKDELHDR" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKDIEPST ==-->
+  <!--==============-->
+  <skeleton Name="SKDIEPST">
+    <programs Name="IKJEFT01" Skeleton="SKDIEPST" LineNumber="31" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2BDP ==-->
+  <!--==============-->
+  <skeleton Name="SKED2BDP">
+    <programs Name="IKJEFT1A" Skeleton="SKED2BDP" LineNumber="10" />
+    <programs Name="IKJEFT1A" Skeleton="SKED2BDP" LineNumber="33" />
+    <programs Name="IKJEFT1A" Skeleton="SKED2BDP" LineNumber="62" />
+    <programs Name="IKJEFT1A" Skeleton="SKED2BDP" LineNumber="93" />
+    <programs Name="IEBUPDTE" Skeleton="SKED2BDP" LineNumber="106" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2BND ==-->
+  <!--==============-->
+  <skeleton Name="SKED2BND">
+    <programs Name="IKJEFT1A" Skeleton="SKED2BND" LineNumber="32" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKED2JSK">
+    <programs Name="IKJEFT1A" Skeleton="SKED2JSK" LineNumber="4" />
+    <programs Name="JSK2UTI" Skeleton="SKED2JSK" LineNumber="25" />
+  </skeleton>
+  <!--============-->
+  <!--== SKEDBB ==-->
+  <!--============-->
+  <skeleton Name="SKEDBB">
+    <programs Name="IKJEFT1A" Skeleton="SKEDBB" LineNumber="13" />
+    <programs Name="IKJEFT01" Skeleton="SKEDBB" LineNumber="52" />
+    <programs Name="IKJEFT1A" Skeleton="SKEDBB" LineNumber="83" />
+    <programs Name="IEBUPDTE" Skeleton="SKEDBB" LineNumber="109" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKEPTAAC ==-->
+  <!--==============-->
+  <skeleton Name="SKEPTAAC">
+    <programs Name="DFSRRC00" Skeleton="SKEPTAAC" LineNumber="28" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKEPTAMF ==-->
+  <!--==============-->
+  <skeleton Name="SKEPTAMF">
+    <programs Name="SY4020" Skeleton="SKEPTAMF" LineNumber="29" />
+    <programs Name="SY4020" Skeleton="SKEPTAMF" LineNumber="59" />
+    <programs Name="SY4020" Skeleton="SKEPTAMF" LineNumber="78" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKEPTAPS ==-->
+  <!--==============-->
+  <skeleton Name="SKEPTAPS">
+    <programs Name="ASMA90" Skeleton="SKEPTAPS" LineNumber="22" />
+    <programs Name="HEWL" Skeleton="SKEPTAPS" LineNumber="40" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21BDP ==-->
+  <!--==============-->
+  <skeleton Name="SKI21BDP">
+    <programs Name="IKJEFT1A" Skeleton="SKI21BDP" LineNumber="6" />
+    <programs Name="IKJEFT1A" Skeleton="SKI21BDP" LineNumber="22" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21BND ==-->
+  <!--==============-->
+  <skeleton Name="SKI21BND">
+    <programs Name="IKJEFT1A" Skeleton="SKI21BND" LineNumber="66" />
+    <programs Name="IEFBR14" Skeleton="SKI21BND" LineNumber="85" />
+    <programs Name="CMNBATCH" Skeleton="SKI21BND" LineNumber="87" />
+    <programs Name="IDCAMS" Skeleton="SKI21BND" LineNumber="215" />
+    <programs Name="IKJEFT01" Skeleton="SKI21BND" LineNumber="242" />
+    <programs Name="IKJEFT01" Skeleton="SKI21BND" LineNumber="261" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21DBB ==-->
+  <!--==============-->
+  <skeleton Name="SKI21DBB">
+    <programs Name="IKJEFT1A" Skeleton="SKI21DBB" LineNumber="14" />
+    <programs Name="IKJEFT01" Skeleton="SKI21DBB" LineNumber="63" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKI21JSK">
+    <programs Name="IKJEFT1A" Skeleton="SKI21JSK" LineNumber="5" />
+    <programs Name="JSK2UTI" Skeleton="SKI21JSK" LineNumber="27" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI32BDP ==-->
+  <!--==============-->
+  <skeleton Name="SKI32BDP">
+    <programs Name="IKJEFT1A" Skeleton="SKI32BDP" LineNumber="8" />
+    <programs Name="IKJEFT1A" Skeleton="SKI32BDP" LineNumber="24" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI32DBB ==-->
+  <!--==============-->
+  <skeleton Name="SKI32DBB">
+    <programs Name="IKJEFT1A" Skeleton="SKI32DBB" LineNumber="21" />
+    <programs Name="IKJEFT01" Skeleton="SKI32DBB" LineNumber="58" />
+    <programs Name="IEFBR14" Skeleton="SKI32DBB" LineNumber="85" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI32JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKI32JSK">
+    <programs Name="IKJEFT1A" Skeleton="SKI32JSK" LineNumber="5" />
+    <programs Name="JSK2UTI" Skeleton="SKI32JSK" LineNumber="32" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKID2MMO ==-->
+  <!--==============-->
+  <skeleton Name="SKID2MMO">
+    <programs Name="CH7010" Skeleton="SKID2MMO" LineNumber="6" />
+    <programs Name="OS3550" Skeleton="SKID2MMO" LineNumber="107" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKIEBCOP ==-->
+  <!--==============-->
+  <skeleton Name="SKIEBCOP">
+    <programs Name="IEFBR14" Skeleton="SKIEBCOP" LineNumber="4" />
+    <programs Name="IEBCOPY" Skeleton="SKIEBCOP" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKIMSEMO ==-->
+  <!--==============-->
+  <skeleton Name="SKIMSEMO">
+    <programs Name="CH7010" Skeleton="SKIMSEMO" LineNumber="3" />
+    <programs Name="OS3550" Skeleton="SKIMSEMO" LineNumber="32" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKINEWCP ==-->
+  <!--==============-->
+  <skeleton Name="SKINEWCP">
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="16" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="45" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="57" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="68" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="96" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="108" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="119" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="147" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="159" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="170" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="198" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="210" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="221" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="249" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="261" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="272" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="300" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="312" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="328" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="356" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="368" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="379" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="407" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="419" />
+    <programs Name="IEBGENER" Skeleton="SKINEWCP" LineNumber="430" />
+    <programs Name="CH7120" Skeleton="SKINEWCP" LineNumber="458" />
+    <programs Name="CMNCICS1" Skeleton="SKINEWCP" LineNumber="470" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKISCMTG ==-->
+  <!--==============-->
+  <skeleton Name="SKISCMTG">
+    <programs Name="IKJEFT01" Skeleton="SKISCMTG" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKM$$SCM ==-->
+  <!--==============-->
+  <skeleton Name="SKM$$SCM">
+    <programs Name="IKJEFT01" Skeleton="SKM$$SCM" LineNumber="15" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKM$$XPA ==-->
+  <!--==============-->
+  <skeleton Name="SKM$$XPA">
+    <programs Name="CWPAMAIN" Skeleton="SKM$$XPA" LineNumber="9" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKM$$XPC ==-->
+  <!--==============-->
+  <skeleton Name="SKM$$XPC">
+    <programs Name="CWPCMAIN" Skeleton="SKM$$XPC" LineNumber="10" />
+    <programs Name="CWPCMAIN" Skeleton="SKM$$XPC" LineNumber="17" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKM$$XPP ==-->
+  <!--==============-->
+  <skeleton Name="SKM$$XPP">
+    <programs Name="CH7062" Skeleton="SKM$$XPP" LineNumber="10" />
+    <programs Name="CWPPMAIN" Skeleton="SKM$$XPP" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMIDLGW ==-->
+  <!--==============-->
+  <skeleton Name="SKMIDLGW">
+    <programs Name="IKJEFT01" Skeleton="SKMIDLGW" LineNumber="18" />
+    <programs Name="BPXBATCH" Skeleton="SKMIDLGW" LineNumber="63" />
+    <programs Name="CH7180" Skeleton="SKMIDLGW" LineNumber="107" />
+    <programs Name="IKJEFT01" Skeleton="SKMIDLGW" LineNumber="222" />
+    <programs Name="IKJEFT01" Skeleton="SKMIDLGW" LineNumber="306" />
+    <programs Name="SY4020" Skeleton="SKMIDLGW" LineNumber="340" />
+    <programs Name="BPXBATCH" Skeleton="SKMIDLGW" LineNumber="385" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMIDLIR ==-->
+  <!--==============-->
+  <skeleton Name="SKMIDLIR">
+    <programs Name="IKJEFT01" Skeleton="SKMIDLIR" LineNumber="18" />
+    <programs Name="BPXBATCH" Skeleton="SKMIDLIR" LineNumber="62" />
+    <programs Name="IKJEFT01" Skeleton="SKMIDLIR" LineNumber="106" />
+    <programs Name="IKJEFT01" Skeleton="SKMIDLIR" LineNumber="232" />
+    <programs Name="SY4020" Skeleton="SKMIDLIR" LineNumber="278" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMIDRZ8 ==-->
+  <!--==============-->
+  <skeleton Name="SKMIDRZ8">
+    <programs Name="IEBGENER" Skeleton="SKMIDRZ8" LineNumber="7" />
+    <programs Name="SERPRINT" Skeleton="SKMIDRZ8" LineNumber="44" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMQMSBS ==-->
+  <!--==============-->
+  <skeleton Name="SKMQMSBS">
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="16" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="22" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="29" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="36" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="42" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="48" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="124" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="130" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="137" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="144" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="150" />
+    <programs Name="DFSRRC00" Skeleton="SKMQMSBS" LineNumber="156" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPCODEC ==-->
+  <!--==============-->
+  <skeleton Name="SKPCODEC">
+    <programs Name="IBMZPLI" Skeleton="SKPCODEC" LineNumber="27" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2BDP ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2BDP">
+    <programs Name="IKJEFT1A" Skeleton="SKPD2BDP" LineNumber="9" />
+    <programs Name="IKJEFT01" Skeleton="SKPD2BDP" LineNumber="29" />
+    <programs Name="IKJEFT1A" Skeleton="SKPD2BDP" LineNumber="85" />
+    <programs Name="IKJEFT1A" Skeleton="SKPD2BDP" LineNumber="104" />
+    <programs Name="IEBUPDTE" Skeleton="SKPD2BDP" LineNumber="113" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2BND ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2BND">
+    <programs Name="IEBGENER" Skeleton="SKPD2BND" LineNumber="84" />
+    <programs Name="IEBGENER" Skeleton="SKPD2BND" LineNumber="166" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2JSK">
+    <programs Name="SERCOPY" Skeleton="SKPD2JSK" LineNumber="3" />
+    <programs Name="IKJEFT1A" Skeleton="SKPD2JSK" LineNumber="21" />
+    <programs Name="JSK2UTI" Skeleton="SKPD2JSK" LineNumber="42" />
+  </skeleton>
+  <!--============-->
+  <!--== SKPDBB ==-->
+  <!--============-->
+  <skeleton Name="SKPDBB">
+    <programs Name="IKJEFT1A" Skeleton="SKPDBB" LineNumber="3" />
+    <programs Name="IKJEFT01" Skeleton="SKPDBB" LineNumber="28" />
+    <programs Name="IKJEFT1A" Skeleton="SKPDBB" LineNumber="42" />
+    <programs Name="IEBUPDTE" Skeleton="SKPDBB" LineNumber="55" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPITEST ==-->
+  <!--==============-->
+  <skeleton Name="SKPITEST">
+    <programs Name="ICEGENER" Skeleton="SKPITEST" LineNumber="22" />
+    <programs Name="IN25SYMP" Skeleton="SKPITEST" LineNumber="56" />
+    <programs Name="IN25LINK" Skeleton="SKPITEST" LineNumber="94" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPLKORB ==-->
+  <!--==============-->
+  <skeleton Name="SKPLKORB">
+    <programs Name="IEBGENER" Skeleton="SKPLKORB" LineNumber="28" />
+    <programs Name="IEFBR14" Skeleton="SKPLKORB" LineNumber="138" />
+    <programs Name="IEBGENER" Skeleton="SKPLKORB" LineNumber="147" />
+    <programs Name="EDCPRLK" Skeleton="SKPLKORB" LineNumber="163" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPNEWCP ==-->
+  <!--==============-->
+  <skeleton Name="SKPNEWCP">
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="38" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="67" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="79" />
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="90" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="118" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="130" />
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="141" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="169" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="181" />
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="192" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="220" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="232" />
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="255" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="301" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="313" />
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="326" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="355" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="367" />
+    <programs Name="IEBGENER" Skeleton="SKPNEWCP" LineNumber="380" />
+    <programs Name="CH7120" Skeleton="SKPNEWCP" LineNumber="409" />
+    <programs Name="CMNCICS1" Skeleton="SKPNEWCP" LineNumber="421" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPQCHK1 ==-->
+  <!--==============-->
+  <skeleton Name="SKPQCHK1">
+    <programs Name="IEBGENER" Skeleton="SKPQCHK1" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPQCHK2 ==-->
+  <!--==============-->
+  <skeleton Name="SKPQCHK2">
+    <programs Name="IKJEFT01" Skeleton="SKPQCHK2" LineNumber="22" />
+    <programs Name="IEBGENER" Skeleton="SKPQCHK2" LineNumber="96" />
+  </skeleton>
+  <!--============-->
+  <!--== SKRIMS ==-->
+  <!--============-->
+  <skeleton Name="SKRIMS">
+    <programs Name="SORT" Skeleton="SKRIMS" LineNumber="89" />
+  </skeleton>
+  <!--=============-->
+  <!--== SKRPSCR ==-->
+  <!--=============-->
+  <skeleton Name="SKRPSCR">
+    <programs Name="IKJEFT01" Skeleton="SKRPSCR" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$$050 ==-->
+  <!--==============-->
+  <skeleton Name="SKS$$050">
+    <programs Name="CMNDELRN" Skeleton="SKS$$050" LineNumber="15" />
+    <programs Name="IEBCOPY" Skeleton="SKS$$050" LineNumber="31" />
+    <programs Name="CMNDELRN" Skeleton="SKS$$050" LineNumber="71" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$$IMS ==-->
+  <!--==============-->
+  <skeleton Name="SKS$$IMS">
+    <programs Name="DFHECP1$" Skeleton="SKS$$IMS" LineNumber="9" />
+    <programs Name="DFHEAP1$" Skeleton="SKS$$IMS" LineNumber="20" />
+    <programs Name="DFHEPP1$" Skeleton="SKS$$IMS" LineNumber="24" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$$PSB ==-->
+  <!--==============-->
+  <skeleton Name="SKS$$PSB">
+    <programs Name="ASMA90" Skeleton="SKS$$PSB" LineNumber="11" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$$T20 ==-->
+  <!--==============-->
+  <skeleton Name="SKS$$T20">
+    <programs Name="IEBCOPY" Skeleton="SKS$$T20" LineNumber="51" />
+    <programs Name="SERCOPY" Skeleton="SKS$$T20" LineNumber="54" />
+    <programs Name="CMNDELRN" Skeleton="SKS$$T20" LineNumber="87" />
+    <programs Name="CMNDELRN" Skeleton="SKS$$T20" LineNumber="106" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$BSCI ==-->
+  <!--==============-->
+  <skeleton Name="SKS$BSCI">
+    <programs Name="IEBGENER" Skeleton="SKS$BSCI" LineNumber="13" />
+    <programs Name="CH7010" Skeleton="SKS$BSCI" LineNumber="125" />
+    <programs Name="OS3550" Skeleton="SKS$BSCI" LineNumber="140" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$EOPT ==-->
+  <!--==============-->
+  <skeleton Name="SKS$EOPT">
+    <programs Name="IEBGENER" Skeleton="SKS$EOPT" LineNumber="12" />
+    <programs Name="CH7010" Skeleton="SKS$EOPT" LineNumber="86" />
+    <programs Name="OS3550" Skeleton="SKS$EOPT" LineNumber="101" />
+  </skeleton>
+  <!--============-->
+  <!--== SKSBAU ==-->
+  <!--============-->
+  <skeleton Name="SKSBAU">
+    <programs Name="IEBGENER" Skeleton="SKSBAU" LineNumber="34" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSBAUDT ==-->
+  <!--==============-->
+  <skeleton Name="SKSBAUDT">
+    <programs Name="DFSRRC00" Skeleton="SKSBAUDT" LineNumber="4" />
+    <programs Name="CHAF70" Skeleton="SKSBAUDT" LineNumber="22" />
+    <programs Name="ASMA90" Skeleton="SKSBAUDT" LineNumber="68" />
+    <programs Name="IEFBR14" Skeleton="SKSBAUDT" LineNumber="79" />
+    <programs Name="HEWL" Skeleton="SKSBAUDT" LineNumber="85" />
+    <programs Name="CMNBAT90" Skeleton="SKSBAUDT" LineNumber="98" />
+    <programs Name="SERCOPY" Skeleton="SKSBAUDT" LineNumber="119" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSBINDR ==-->
+  <!--==============-->
+  <skeleton Name="SKSBINDR">
+    <programs Name="IEBCOPY" Skeleton="SKSBINDR" LineNumber="44" />
+    <programs Name="SERCOPY" Skeleton="SKSBINDR" LineNumber="309" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCCILD ==-->
+  <!--==============-->
+  <skeleton Name="SKSCCILD">
+    <programs Name="SERCOPY" Skeleton="SKSCCILD" LineNumber="9" />
+    <programs Name="CMNBATCH" Skeleton="SKSCCILD" LineNumber="17" />
+    <programs Name="IKJEFT01" Skeleton="SKSCCILD" LineNumber="44" />
+    <programs Name="SERCOPY" Skeleton="SKSCCILD" LineNumber="60" />
+    <programs Name="CMNBATCH" Skeleton="SKSCCILD" LineNumber="68" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCCOBJ ==-->
+  <!--==============-->
+  <skeleton Name="SKSCCOBJ">
+    <programs Name="EQACUZPT" Skeleton="SKSCCOBJ" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCCSTP ==-->
+  <!--==============-->
+  <skeleton Name="SKSCCSTP">
+    <programs Name="SERCOPY" Skeleton="SKSCCSTP" LineNumber="30" />
+    <programs Name="EQACUSET" Skeleton="SKSCCSTP" LineNumber="39" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCKDBR ==-->
+  <!--==============-->
+  <skeleton Name="SKSCKDBR">
+    <programs Name="IKJEFT01" Skeleton="SKSCKDBR" LineNumber="27" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCMPAR ==-->
+  <!--==============-->
+  <skeleton Name="SKSCMPAR">
+    <programs Name="SERCMPAR" Skeleton="SKSCMPAR" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCSBPP ==-->
+  <!--==============-->
+  <skeleton Name="SKSCSBPP">
+    <programs Name="NN0062" Skeleton="SKSCSBPP" LineNumber="4" />
+    <programs Name="NN0060" Skeleton="SKSCSBPP" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCSUTL ==-->
+  <!--==============-->
+  <skeleton Name="SKSCSUTL">
+    <programs Name="IKJEFT01" Skeleton="SKSCSUTL" LineNumber="20" />
+    <programs Name="CMNCSUTL" Skeleton="SKSCSUTL" LineNumber="46" />
+    <programs Name="CMNCSUTL" Skeleton="SKSCSUTL" LineNumber="90" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSDB2TM ==-->
+  <!--==============-->
+  <skeleton Name="SKSDB2TM">
+    <programs Name="CMNDB2TM" Skeleton="SKSDB2TM" LineNumber="1" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSDUPCK ==-->
+  <!--==============-->
+  <skeleton Name="SKSDUPCK">
+    <programs Name="IKJEFT01" Skeleton="SKSDUPCK" LineNumber="11" />
+  </skeleton>
+  <!--============-->
+  <!--== SKSIDL ==-->
+  <!--============-->
+  <skeleton Name="SKSIDL">
+    <programs Name="IDCAMS" Skeleton="SKSIDL" LineNumber="58" />
+    <programs Name="IEFBR14" Skeleton="SKSIDL" LineNumber="72" />
+    <programs Name="IKJEFT01" Skeleton="SKSIDL" LineNumber="87" />
+    <programs Name="BPXBATCH" Skeleton="SKSIDL" LineNumber="131" />
+    <programs Name="IKJEFT01" Skeleton="SKSIDL" LineNumber="204" />
+    <programs Name="CH7170" Skeleton="SKSIDL" LineNumber="277" />
+    <programs Name="IDCAMS" Skeleton="SKSIDL" LineNumber="296" />
+    <programs Name="CH7140" Skeleton="SKSIDL" LineNumber="315" />
+    <programs Name="CH7140" Skeleton="SKSIDL" LineNumber="348" />
+    <programs Name="CH7140" Skeleton="SKSIDL" LineNumber="381" />
+    <programs Name="CH7150" Skeleton="SKSIDL" LineNumber="411" />
+    <programs Name="IEBGENER" Skeleton="SKSIDL" LineNumber="444" />
+    <programs Name="IEBGENER" Skeleton="SKSIDL" LineNumber="450" />
+    <programs Name="IEBGENER" Skeleton="SKSIDL" LineNumber="457" />
+    <programs Name="IEBGENER" Skeleton="SKSIDL" LineNumber="464" />
+    <programs Name="IEBGENER" Skeleton="SKSIDL" LineNumber="470" />
+    <programs Name="IDCAMS" Skeleton="SKSIDL" LineNumber="507" />
+    <programs Name="IEFBR14" Skeleton="SKSIDL" LineNumber="526" />
+    <programs Name="IEFBR14" Skeleton="SKSIDL" LineNumber="535" />
+    <programs Name="IEFBR14" Skeleton="SKSIDL" LineNumber="542" />
+    <programs Name="IEFBR14" Skeleton="SKSIDL" LineNumber="567" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSITEST ==-->
+  <!--==============-->
+  <skeleton Name="SKSITEST">
+    <programs Name="IEBGENER" Skeleton="SKSITEST" LineNumber="5" />
+    <programs Name="IEBGENER" Skeleton="SKSITEST" LineNumber="13" />
+    <programs Name="CMNBAT90" Skeleton="SKSITEST" LineNumber="21" />
+    <programs Name="CMNBAT90" Skeleton="SKSITEST" LineNumber="43" />
+    <programs Name="SERCOPY" Skeleton="SKSITEST" LineNumber="68" />
+    <programs Name="SERCOPY" Skeleton="SKSITEST" LineNumber="81" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSJOBNO ==-->
+  <!--==============-->
+  <skeleton Name="SKSJOBNO">
+    <programs Name="CH7010" Skeleton="SKSJOBNO" LineNumber="15" />
+  </skeleton>
+  <!--============-->
+  <!--== SKSJSS ==-->
+  <!--============-->
+  <skeleton Name="SKSJSS">
+    <programs Name="IEFBR14" Skeleton="SKSJSS" LineNumber="24" />
+    <programs Name="CMNBAT90" Skeleton="SKSJSS" LineNumber="64" />
+    <programs Name="SERCOPY" Skeleton="SKSJSS" LineNumber="89" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSLEOPT ==-->
+  <!--==============-->
+  <skeleton Name="SKSLEOPT">
+    <programs Name="IKJEFT01" Skeleton="SKSLEOPT" LineNumber="31" />
+    <programs Name="IKJEFT1A" Skeleton="SKSLEOPT" LineNumber="55" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSPAP01 ==-->
+  <!--==============-->
+  <skeleton Name="SKSPAP01">
+    <programs Name="CMNBAT90" Skeleton="SKSPAP01" LineNumber="45" />
+    <programs Name="SERCOPY" Skeleton="SKSPAP01" LineNumber="66" />
+    <programs Name="SERCOPY" Skeleton="SKSPAP01" LineNumber="77" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSPAPRS ==-->
+  <!--==============-->
+  <skeleton Name="SKSPAPRS">
+    <programs Name="IEBGENER" Skeleton="SKSPAPRS" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSPLAUS ==-->
+  <!--==============-->
+  <skeleton Name="SKSPLAUS">
+    <programs Name="IEFBR14" Skeleton="SKSPLAUS" LineNumber="20" />
+    <programs Name="EW7430" Skeleton="SKSPLAUS" LineNumber="26" />
+    <programs Name="CMNBAT90" Skeleton="SKSPLAUS" LineNumber="162" />
+    <programs Name="SERCOPY" Skeleton="SKSPLAUS" LineNumber="184" />
+    <programs Name="CMNBAT90" Skeleton="SKSPLAUS" LineNumber="196" />
+    <programs Name="SERCOPY" Skeleton="SKSPLAUS" LineNumber="218" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSPPCPY ==-->
+  <!--==============-->
+  <skeleton Name="SKSPPCPY">
+    <programs Name="SERCOPY" Skeleton="SKSPPCPY" LineNumber="41" />
+    <programs Name="CMNBAT90" Skeleton="SKSPPCPY" LineNumber="57" />
+  </skeleton>
+  <!--=============-->
+  <!--== SKSSACB ==-->
+  <!--=============-->
+  <skeleton Name="SKSSACB">
+    <programs Name="IEFBR14" Skeleton="SKSSACB" LineNumber="26" />
+    <programs Name="DFSRRC00" Skeleton="SKSSACB" LineNumber="41" />
+    <programs Name="SERCOPY" Skeleton="SKSSACB" LineNumber="75" />
+    <programs Name="CMNBAT90" Skeleton="SKSSACB" LineNumber="88" />
+    <programs Name="SERCOPY" Skeleton="SKSSACB" LineNumber="116" />
+    <programs Name="SERCOPY" Skeleton="SKSSACB" LineNumber="130" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSSACPY ==-->
+  <!--==============-->
+  <skeleton Name="SKSSACPY">
+    <programs Name="SERCOPY" Skeleton="SKSSACPY" LineNumber="20" />
+    <programs Name="SERCOPY" Skeleton="SKSSACPY" LineNumber="34" />
+    <programs Name="CMNBAT90" Skeleton="SKSSACPY" LineNumber="50" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSSPLNK ==-->
+  <!--==============-->
+  <skeleton Name="SKSSPLNK">
+    <programs Name="IEFBR14" Skeleton="SKSSPLNK" LineNumber="8" />
+    <programs Name="IEBGENER" Skeleton="SKSSPLNK" LineNumber="17" />
+    <programs Name="DFSILNK0" Skeleton="SKSSPLNK" LineNumber="25" />
+    <programs Name="CMNBAT90" Skeleton="SKSSPLNK" LineNumber="71" />
+    <programs Name="SERCOPY" Skeleton="SKSSPLNK" LineNumber="104" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSSYNCN ==-->
+  <!--==============-->
+  <skeleton Name="SKSSYNCN">
+    <programs Name="IKJEFT01" Skeleton="SKSSYNCN" LineNumber="10" />
+  </skeleton>
+  <!--============-->
+  <!--== SKSWTO ==-->
+  <!--============-->
+  <skeleton Name="SKSWTO">
+    <programs Name="IEFBR14" Skeleton="SKSWTO" LineNumber="5" />
+    <programs Name="SY7060" Skeleton="SKSWTO" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSXMCPY ==-->
+  <!--==============-->
+  <skeleton Name="SKSXMCPY">
+    <programs Name="SERCOPY" Skeleton="SKSXMCPY" LineNumber="37" />
+    <programs Name="CMNBAT90" Skeleton="SKSXMCPY" LineNumber="53" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKUCMPJC ==-->
+  <!--==============-->
+  <skeleton Name="SKUCMPJC">
+    <programs Name="IEBCOPY" Skeleton="SKUCMPJC" LineNumber="13" />
+    <programs Name="SY4020" Skeleton="SKUCMPJC" LineNumber="28" />
+    <programs Name="OS4310" Skeleton="SKUCMPJC" LineNumber="40" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKX$$CIC ==-->
+  <!--==============-->
+  <skeleton Name="SKX$$CIC">
+    <programs Name="DFHECP1$" Skeleton="SKX$$CIC" LineNumber="14" />
+    <programs Name="DFHEAP1$" Skeleton="SKX$$CIC" LineNumber="30" />
+    <programs Name="DFHEPP1$" Skeleton="SKX$$CIC" LineNumber="34" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKXLIPVA ==-->
+  <!--==============-->
+  <skeleton Name="SKXLIPVA">
+    <programs Name="SY2090" Skeleton="SKXLIPVA" LineNumber="11" />
+    <programs Name="IBMZPLI" Skeleton="SKXLIPVA" LineNumber="36" />
+    <programs Name="JSKSCAN" Skeleton="SKXLIPVA" LineNumber="78" />
+    <programs Name="NN0054" Skeleton="SKXLIPVA" LineNumber="92" />
+    <programs Name="IEFBR14" Skeleton="SKXLIPVA" LineNumber="112" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKXVACGN ==-->
+  <!--==============-->
+  <skeleton Name="SKXVACGN">
+    <programs Name="EW7510" Skeleton="SKXVACGN" LineNumber="8" />
+    <programs Name="IBMZPLI" Skeleton="SKXVACGN" LineNumber="29" />
+    <programs Name="DSNHPC" Skeleton="SKXVACGN" LineNumber="61" />
+    <programs Name="IKJEFT01" Skeleton="SKXVACGN" LineNumber="121" />
+    <programs Name="NN0062" Skeleton="SKXVACGN" LineNumber="149" />
+    <programs Name="NN0060" Skeleton="SKXVACGN" LineNumber="159" />
+    <programs Name="EW7520" Skeleton="SKXVACGN" LineNumber="189" />
+    <programs Name="IBMZPLI" Skeleton="SKXVACGN" LineNumber="213" />
+    <programs Name="DFHEPP1$" Skeleton="SKXVACGN" LineNumber="239" />
+    <programs Name="IEBGENER" Skeleton="SKXVACGN" LineNumber="252" />
+    <programs Name="SY2090" Skeleton="SKXVACGN" LineNumber="268" />
+    <programs Name="NN0054" Skeleton="SKXVACGN" LineNumber="283" />
+    <programs Name="IBMZPLI" Skeleton="SKXVACGN" LineNumber="297" />
+    <programs Name="IEFBR14" Skeleton="SKXVACGN" LineNumber="342" />
+    <programs Name="STRXPLF" Skeleton="SKXVACGN" LineNumber="348" />
+    <programs Name="CMNSSIDN" Skeleton="SKXVACGN" LineNumber="361" />
+    <programs Name="IEFBR14" Skeleton="SKXVACGN" LineNumber="402" />
+    <programs Name="HEWL" Skeleton="SKXVACGN" LineNumber="411" />
+    <programs Name="IEFBR14" Skeleton="SKXVACGN" LineNumber="492" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKXVAPDB ==-->
+  <!--==============-->
+  <skeleton Name="SKXVAPDB">
+    <programs Name="DSNHPC" Skeleton="SKXVAPDB" LineNumber="12" />
+    <programs Name="SERCOPY" Skeleton="SKXVAPDB" LineNumber="96" />
+    <programs Name="IKJEFT01" Skeleton="SKXVAPDB" LineNumber="121" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKXVAPLI ==-->
+  <!--==============-->
+  <skeleton Name="SKXVAPLI">
+    <programs Name="IBMZPLI" Skeleton="SKXVAPLI" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== STROBEPP ==-->
+  <!--==============-->
+  <skeleton Name="STROBEPP">
+    <programs Name="IEFBR14" Skeleton="STROBEPP" LineNumber="8" />
+    <programs Name="STRXPLF" Skeleton="STROBEPP" LineNumber="18" />
+  </skeleton>
+  <!--==============-->
+  <!--== TIRLSCI1 ==-->
+  <!--==============-->
+  <skeleton Name="TIRLSCI1">
+    <programs Name="IKJEFT1A" Skeleton="TIRLSCI1" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== TIRLSCI2 ==-->
+  <!--==============-->
+  <skeleton Name="TIRLSCI2">
+    <programs Name="IKJEFT1A" Skeleton="TIRLSCI2" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== TIRLSHST ==-->
+  <!--==============-->
+  <skeleton Name="TIRLSHST">
+    <programs Name="IKJEFT1A" Skeleton="TIRLSHST" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== XRFS0000 ==-->
+  <!--==============-->
+  <skeleton Name="XRFS0000">
+    <programs Name="IDCAMS" Skeleton="XRFS0000" LineNumber="3" />
+    <programs Name="ICEMAN" Skeleton="XRFS0000" LineNumber="49" />
+    <programs Name="IKJEFT01" Skeleton="XRFS0000" LineNumber="85" />
+  </skeleton>
+</Programs>

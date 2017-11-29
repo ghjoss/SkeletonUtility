@@ -1,0 +1,53 @@
+Table: Variables
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Variable                         036 008 008 String          False
+Skeleton                         044 008 008 String          False
+LineNumber                       052 006 004 Int32           False
+Position                         058 005 002 Int16           False
+Command                          063 009 009 String          False
+CommandCode                      072 005 002 Int16           False
+Type                             077 025 025 String          False
+TypeCode                         102 005 002 Int16           False
+Table: Skeletons
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Skeleton                         036 008 008 String          False
+SkelOffset                       044 005 002 Int16           False
+ChildSkeleton                    049 025 025 String          False
+ChildSkelOffset                  074 005 002 Int16           False
+LineNumber                       079 006 004 Int32           False
+OPT                              085 001 001 Boolean         False
+NOFT                             086 001 001 Boolean         False
+EXT                              087 001 001 Boolean         False
+Table: Functions
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Function                         036 008 008 String          False
+Skeleton                         044 008 008 String          False
+LineNumber                       052 006 004 Int32           False
+Position                         058 005 002 Int16           False
+Argument                         063 060 060 String          False
+Table: Libraries
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Offset                           036 005 002 Int16           False
+UserTag                          041 050 050 String          False
+HostFileName                     091 044 044 String          False
+PCFileName                       135 256 256 String          False
+Table: Keywords
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+CommandCode                      001 005 002 Int16           True 
+Command                          006 020 020 String          False
+Table: VarTypes
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+TypeCode                         001 005 002 Int16           True 
+Type                             006 030 030 String          False
+Table: Configuarations
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+ConfigNum                        001 005 002 Int16           True 
+Configuration                    006 030 030 String          False

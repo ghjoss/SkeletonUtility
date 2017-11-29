@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ISPFSkeletonParser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="QueryDisplayName" type="xs:string" minOccurs="0" />
+        <xs:element name="ImbedRecurseFail" type="xs:string" minOccurs="0" />
+        <xs:element name="DebugInputLine" type="xs:string" minOccurs="0" />
+        <xs:element name="Directory" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DirectoryName" type="xs:string" minOccurs="0" />
+              <xs:element name="DirectoryLabel" type="xs:string" minOccurs="0" />
+              <xs:element name="DirectoryHostName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExcelOutput" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExcelOutputFolder" type="xs:string" minOccurs="0" />
+              <xs:element name="ExcelOutputHLQ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="XMLOutput" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="XMLOutputFolder" type="xs:string" minOccurs="0" />
+              <xs:element name="XMLOutputHLQ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FixedOutput" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FixedOutputFolder" type="xs:string" minOccurs="0" />
+              <xs:element name="FixedOutputHLQ" type="xs:string" minOccurs="0" />
+              <xs:element name="Configuration" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ConfigurationName" type="xs:string" minOccurs="0" />
+                    <xs:element name="ConfigurationNumber" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IgnoreSkel" nillable="true" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:simpleContent msdata:ColumnName="IgnoreSkel_Text" msdata:Ordinal="0">
+              <xs:extension base="xs:string">
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Unimbedded" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Skeleton" type="xs:string" />
+            <xs:attribute name="Parent" type="xs:string" />
+            <xs:attribute name="NOFT" type="xs:string" />
+            <xs:attribute name="OPT" type="xs:string" />
+            <xs:attribute name="EXT" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ISPFSkeletonParser" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,43 @@
+CREATE TABLE Variables (
+   Configuration VARCHAR(30) NOT NULL,
+   ConfigNum SMALLINT NOT NULL,
+   Variable VARCHAR(8) NOT NULL,
+   Skeleton VARCHAR(8) NOT NULL,
+   LineNumber INTEGER NOT NULL,
+   Position SMALLINT NOT NULL,
+   Command VARCHAR(9) NOT NULL,
+   CommandCode SMALLINT NOT NULL,
+   Type VARCHAR(25) NOT NULL,
+   TypeCode SMALLINT NOT NULL)
+CREATE TABLE Skeletons (
+   Configuration VARCHAR(30) NOT NULL,
+   ConfigNum SMALLINT NOT NULL,
+   Skeleton VARCHAR(8) NOT NULL,
+   SkelOffset SMALLINT NOT NULL,
+   ChildSkeleton VARCHAR(25) NOT NULL,
+   ChildSkelOffset SMALLINT NOT NULL,
+   LineNumber INTEGER NOT NULL,
+   OPT INTEGER NOT NULL,
+   NOFT INTEGER NOT NULL,
+   EXT INTEGER NOT NULL)
+CREATE TABLE Functions (
+   Configuration VARCHAR(30) NOT NULL,
+   ConfigNum SMALLINT NOT NULL,
+   Function VARCHAR(8) NOT NULL,
+   Skeleton VARCHAR(8) NOT NULL,
+   LineNumber INTEGER NOT NULL,
+   Pos SMALLINT NOT NULL,
+   Argument VARCHAR(60) NOT NULL)
+CREATE TABLE Libraries (
+   Configuration VARCHAR(30) NOT NULL,
+   ConfigNum SMALLINT NOT NULL,
+   Offset SMALLINT NOT NULL,
+   UserTag VARCHAR(50) NOT NULL,
+   HostFileName VARCHAR(44) NOT NULL,
+   PCFileName VARCHAR(256) NOT NULL)
+CREATE TABLE Keywords (
+   Code SMALLINT NOT NULL,
+   Keyword VARCHAR(20) NOT NULL)
+CREATE TABLE VarTypes (
+   Code SMALLINT NOT NULL,
+   Keyword VARCHAR(30) NOT NULL)

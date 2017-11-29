@@ -1,0 +1,115 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<functionUsage>
+  <!--==============-->
+  <!--== CMN$$ACB ==-->
+  <!--==============-->
+  <_skeleton Name="CMN$$ACB">
+    <_function name="SUBSTR" _skeleton="CMN$$ACB" _argument="&amp;PIMSID,3,1" _lineNumber="106" />
+  </_skeleton>
+  <!--==============-->
+  <!--== CMN$$JCD ==-->
+  <!--==============-->
+  <_skeleton Name="CMN$$JCD">
+    <_function name="LEFT" _skeleton="CMN$$JCD" _argument="&amp;DEFJOB1,73" _lineNumber="39" />
+    <_function name="LEFT" _skeleton="CMN$$JCD" _argument="&amp;DEFJOB2,73" _lineNumber="40" />
+    <_function name="LEFT" _skeleton="CMN$$JCD" _argument="&amp;DEFJOB3,73" _lineNumber="41" />
+    <_function name="LEFT" _skeleton="CMN$$JCD" _argument="&amp;DEFJOB4,73" _lineNumber="42" />
+    <_function name="LEFT" _skeleton="CMN$$JCD" _argument="&amp;DEFJOB4,73" _lineNumber="43" />
+  </_skeleton>
+  <!--==============-->
+  <!--== CMN30SRD ==-->
+  <!--==============-->
+  <_skeleton Name="CMN30SRD">
+    <_function name="SUBSTR" _skeleton="CMN30SRD" _argument="&amp;STGLTYP,1,2" _lineNumber="81" />
+  </_skeleton>
+  <!--==============-->
+  <!--== CMNRPMDR ==-->
+  <!--==============-->
+  <_skeleton Name="CMNRPMDR">
+    <_function name="SUBSTR" _skeleton="CMNRPMDR" _argument="&amp;LIBTYPE,1,2" _lineNumber="24" />
+  </_skeleton>
+  <!--==============-->
+  <!--== EPCBINDR ==-->
+  <!--==============-->
+  <_skeleton Name="EPCBINDR">
+    <_function name="RIGHT" _skeleton="EPCBINDR" _argument="&amp;$SLODLTP,1" _lineNumber="11" />
+  </_skeleton>
+  <!--==============-->
+  <!--== S8PD2BND ==-->
+  <!--==============-->
+  <_skeleton Name="S8PD2BND">
+    <_function name="SUBSTR" _skeleton="S8PD2BND" _argument="&amp;NTSSYS,2,1" _lineNumber="123" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SCMEVTCK ==-->
+  <!--==============-->
+  <_skeleton Name="SCMEVTCK">
+    <_function name="STR" _skeleton="SCMEVTCK" _argument="Checkin failed: &amp;PKGNAME" _lineNumber="56" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SK8EPBND ==-->
+  <!--==============-->
+  <_skeleton Name="SK8EPBND">
+    <_function name="RIGHT" _skeleton="SK8EPBND" _argument="&amp;$STEPCT,3,0" _lineNumber="59" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SK8EPRLS ==-->
+  <!--==============-->
+  <_skeleton Name="SK8EPRLS">
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="21" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="37" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="82" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="115" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="141" />
+    <_function name="STR" _skeleton="SK8EPRLS" _argument=" CM I=&amp;$PTIDD,O=ODD01" _lineNumber="168" />
+    <_function name="STR" _skeleton="SK8EPRLS" _argument=" C I=&amp;$PTIDD,O=ODD01" _lineNumber="170" />
+    <_function name="STR" _skeleton="SK8EPRLS" _argument=" C I=&amp;$PTIDD,O=ODD01" _lineNumber="192" />
+    <_function name="STR" _skeleton="SK8EPRLS" _argument="&amp;$CPYSTMT  COPY &amp;$RLSCNT &amp;$LIBTYP MEMBERS" _lineNumber="193" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="220" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="248" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="278" />
+    <_function name="RIGHT" _skeleton="SK8EPRLS" _argument="&amp;$STEPCT,2,0" _lineNumber="297" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SKMPAPPL ==-->
+  <!--==============-->
+  <_skeleton Name="SKMPAPPL">
+    <_function name="SUBSTR" _skeleton="SKMPAPPL" _argument="&amp;PROJECT,4,1" _lineNumber="55" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SKPD2BDP ==-->
+  <!--==============-->
+  <_skeleton Name="SKPD2BDP">
+    <_function name="SUBSTR" _skeleton="SKPD2BDP" _argument="&amp;NTSSYS,2,1" _lineNumber="7" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SKPD2BND ==-->
+  <!--==============-->
+  <_skeleton Name="SKPD2BND">
+    <_function name="SUBSTR" _skeleton="SKPD2BND" _argument="&amp;NTSSYS,2,1" _lineNumber="173" />
+  </_skeleton>
+  <!--============-->
+  <!--== SKPDBB ==-->
+  <!--============-->
+  <_skeleton Name="SKPDBB">
+    <_function name="SUBSTR" _skeleton="SKPDBB" _argument="&amp;NTSSYS,2,1" _lineNumber="57" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SKSPPCPY ==-->
+  <!--==============-->
+  <_skeleton Name="SKSPPCPY">
+    <_function name="SUBSTR" _skeleton="SKSPPCPY" _argument="&amp;CMPTYPE,3,1" _lineNumber="17" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SKSSACPY ==-->
+  <!--==============-->
+  <_skeleton Name="SKSSACPY">
+    <_function name="SUBSTR" _skeleton="SKSSACPY" _argument="&amp;CMPTYPE,3,1" _lineNumber="9" />
+  </_skeleton>
+  <!--==============-->
+  <!--== SKSXMCPY ==-->
+  <!--==============-->
+  <_skeleton Name="SKSXMCPY">
+    <_function name="SUBSTR" _skeleton="SKSXMCPY" _argument="&amp;CMPTYPE,3,1" _lineNumber="16" />
+  </_skeleton>
+</functionUsage>

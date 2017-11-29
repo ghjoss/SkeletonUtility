@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SkeletonParserDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SkeletonParserDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SkeletonParserDS" msprop:Generator_UserDSName="SkeletonParserDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Variables" msprop:Generator_UserTableName="Variables" msprop:Generator_RowEvArgName="VariablesRowChangeEvent" msprop:Generator_TableVarName="tableVariables" msprop:Generator_TablePropName="Variables" msprop:Generator_RowDeletingName="VariablesRowDeleting" msprop:Generator_RowChangingName="VariablesRowChanging" msprop:Generator_RowDeletedName="VariablesRowDeleted" msprop:Generator_TableClassName="VariablesDataTable" msprop:Generator_RowChangedName="VariablesRowChanged" msprop:Generator_RowEvHandlerName="VariablesRowChangeEventHandler" msprop:Generator_RowClassName="VariablesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Variable" msprop:Generator_ColumnVarNameInTable="columnVariable" msprop:Generator_ColumnPropNameInRow="Variable" msprop:Generator_ColumnPropNameInTable="VariableColumn" msprop:Generator_UserColumnName="Variable">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="72" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Skeleton" msprop:Generator_ColumnVarNameInTable="columnSkeleton" msprop:Generator_ColumnPropNameInRow="Skeleton" msprop:Generator_ColumnPropNameInTable="SkeletonColumn" msprop:Generator_UserColumnName="Skeleton">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineNumber" msprop:Generator_ColumnVarNameInTable="columnLineNumber" msprop:Generator_ColumnPropNameInRow="LineNumber" msprop:Generator_ColumnPropNameInTable="LineNumberColumn" msprop:Generator_UserColumnName="LineNumber" type="xs:int" />
+              <xs:element name="Position" msprop:Generator_ColumnVarNameInTable="columnPosition" msprop:Generator_ColumnPropNameInRow="Position" msprop:Generator_ColumnPropNameInTable="PositionColumn" msprop:Generator_UserColumnName="Position" type="xs:short" />
+              <xs:element name="Command" msprop:Generator_ColumnVarNameInTable="columnCommand" msprop:Generator_ColumnPropNameInRow="Command" msprop:Generator_ColumnPropNameInTable="CommandColumn" msprop:Generator_UserColumnName="Command" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CommandCode" msprop:Generator_ColumnVarNameInTable="columnCommandCode" msprop:Generator_ColumnPropNameInRow="CommandCode" msprop:Generator_ColumnPropNameInTable="CommandCodeColumn" msprop:Generator_UserColumnName="CommandCode" type="xs:short" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TypeCode" msprop:Generator_ColumnVarNameInTable="columnTypeCode" msprop:Generator_ColumnPropNameInRow="TypeCode" msprop:Generator_ColumnPropNameInTable="TypeCodeColumn" msprop:Generator_UserColumnName="TypeCode" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Skeletons" msprop:Generator_UserTableName="Skeletons" msprop:Generator_RowEvArgName="SkeletonsRowChangeEvent" msprop:Generator_TableVarName="tableSkeletons" msprop:Generator_TablePropName="Skeletons" msprop:Generator_RowDeletingName="SkeletonsRowDeleting" msprop:Generator_RowChangingName="SkeletonsRowChanging" msprop:Generator_RowDeletedName="SkeletonsRowDeleted" msprop:Generator_TableClassName="SkeletonsDataTable" msprop:Generator_RowChangedName="SkeletonsRowChanged" msprop:Generator_RowEvHandlerName="SkeletonsRowChangeEventHandler" msprop:Generator_RowClassName="SkeletonsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Skeleton" msprop:Generator_ColumnVarNameInTable="columnSkeleton" msprop:Generator_ColumnPropNameInRow="Skeleton" msprop:Generator_ColumnPropNameInTable="SkeletonColumn" msprop:Generator_UserColumnName="Skeleton">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SkelOffset" msprop:Generator_ColumnVarNameInTable="columnSkelOffset" msprop:Generator_ColumnPropNameInRow="SkelOffset" msprop:Generator_ColumnPropNameInTable="SkelOffsetColumn" msprop:Generator_UserColumnName="SkelOffset" type="xs:short" minOccurs="0" />
+              <xs:element name="ChildSkeleton" msprop:Generator_ColumnVarNameInTable="columnChildSkeleton" msprop:Generator_ColumnPropNameInRow="ChildSkeleton" msprop:Generator_ColumnPropNameInTable="ChildSkeletonColumn" msprop:Generator_UserColumnName="ChildSkeleton">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChildSkelOffset" msprop:Generator_ColumnVarNameInTable="columnChildSkelOffset" msprop:Generator_ColumnPropNameInRow="ChildSkelOffset" msprop:Generator_ColumnPropNameInTable="ChildSkelOffsetColumn" msprop:Generator_UserColumnName="ChildSkelOffset" type="xs:short" minOccurs="0" />
+              <xs:element name="LineNumber" msprop:Generator_ColumnVarNameInTable="columnLineNumber" msprop:Generator_ColumnPropNameInRow="LineNumber" msprop:Generator_ColumnPropNameInTable="LineNumberColumn" msprop:Generator_UserColumnName="LineNumber" type="xs:int" />
+              <xs:element name="OPT" msprop:Generator_ColumnVarNameInTable="columnOPT" msprop:Generator_ColumnPropNameInRow="OPT" msprop:Generator_ColumnPropNameInTable="OPTColumn" msprop:Generator_UserColumnName="OPT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NOFT" msprop:Generator_ColumnVarNameInTable="columnNOFT" msprop:Generator_ColumnPropNameInRow="NOFT" msprop:Generator_ColumnPropNameInTable="NOFTColumn" msprop:Generator_UserColumnName="NOFT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EXT" msprop:Generator_ColumnVarNameInTable="columnEXT" msprop:Generator_ColumnPropNameInRow="EXT" msprop:Generator_ColumnPropNameInTable="EXTColumn" msprop:Generator_UserColumnName="EXT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Amper" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Amper" msprop:Generator_ColumnVarNameInTable="columnAmper" msprop:Generator_ColumnPropNameInTable="AmperColumn" msprop:Generator_UserColumnName="Amper" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Functions" msprop:Generator_UserTableName="Functions" msprop:Generator_RowEvArgName="FunctionsRowChangeEvent" msprop:Generator_TableVarName="tableFunctions" msprop:Generator_TablePropName="Functions" msprop:Generator_RowDeletingName="FunctionsRowDeleting" msprop:Generator_RowChangingName="FunctionsRowChanging" msprop:Generator_RowDeletedName="FunctionsRowDeleted" msprop:Generator_TableClassName="FunctionsDataTable" msprop:Generator_RowChangedName="FunctionsRowChanged" msprop:Generator_RowEvHandlerName="FunctionsRowChangeEventHandler" msprop:Generator_RowClassName="FunctionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Function" msprop:Generator_ColumnVarNameInTable="columnFunction" msprop:Generator_ColumnPropNameInRow="Function" msprop:Generator_ColumnPropNameInTable="FunctionColumn" msprop:Generator_UserColumnName="Function">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Skeleton" msprop:Generator_ColumnVarNameInTable="columnSkeleton" msprop:Generator_ColumnPropNameInRow="Skeleton" msprop:Generator_ColumnPropNameInTable="SkeletonColumn" msprop:Generator_UserColumnName="Skeleton">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineNumber" msprop:Generator_ColumnVarNameInTable="columnLineNumber" msprop:Generator_ColumnPropNameInRow="LineNumber" msprop:Generator_ColumnPropNameInTable="LineNumberColumn" msprop:Generator_UserColumnName="LineNumber" type="xs:int" />
+              <xs:element name="Position" msprop:Generator_ColumnVarNameInTable="columnPosition" msprop:Generator_ColumnPropNameInRow="Position" msprop:Generator_ColumnPropNameInTable="PositionColumn" msprop:Generator_UserColumnName="Position" type="xs:short" />
+              <xs:element name="Argument" msprop:Generator_ColumnVarNameInTable="columnArgument" msprop:Generator_ColumnPropNameInRow="Argument" msprop:Generator_ColumnPropNameInTable="ArgumentColumn" msprop:Generator_UserColumnName="Argument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Libraries" msprop:Generator_UserTableName="Libraries" msprop:Generator_RowEvArgName="LibrariesRowChangeEvent" msprop:Generator_TableVarName="tableLibraries" msprop:Generator_TablePropName="Libraries" msprop:Generator_RowDeletingName="LibrariesRowDeleting" msprop:Generator_RowChangingName="LibrariesRowChanging" msprop:Generator_RowDeletedName="LibrariesRowDeleted" msprop:Generator_TableClassName="LibrariesDataTable" msprop:Generator_RowChangedName="LibrariesRowChanged" msprop:Generator_RowEvHandlerName="LibrariesRowChangeEventHandler" msprop:Generator_RowClassName="LibrariesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Offset" msprop:Generator_ColumnVarNameInTable="columnOffset" msprop:Generator_ColumnPropNameInRow="Offset" msprop:Generator_ColumnPropNameInTable="OffsetColumn" msprop:Generator_UserColumnName="Offset" type="xs:short" />
+              <xs:element name="UserTag" msprop:Generator_ColumnVarNameInTable="columnUserTag" msprop:Generator_ColumnPropNameInRow="UserTag" msprop:Generator_ColumnPropNameInTable="UserTagColumn" msprop:Generator_UserColumnName="UserTag" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HostFileName" msprop:Generator_ColumnVarNameInTable="columnHostFileName" msprop:Generator_ColumnPropNameInRow="HostFileName" msprop:Generator_ColumnPropNameInTable="HostFileNameColumn" msprop:Generator_UserColumnName="HostFileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PCFileName" msprop:Generator_ColumnVarNameInTable="columnPCFileName" msprop:Generator_ColumnPropNameInRow="PCFileName" msprop:Generator_ColumnPropNameInTable="PCFileNameColumn" msprop:Generator_UserColumnName="PCFileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Keywords" msprop:Generator_UserTableName="Keywords" msprop:Generator_RowEvArgName="KeywordsRowChangeEvent" msprop:Generator_TableVarName="tableKeywords" msprop:Generator_TablePropName="Keywords" msprop:Generator_RowDeletingName="KeywordsRowDeleting" msprop:Generator_RowChangingName="KeywordsRowChanging" msprop:Generator_RowDeletedName="KeywordsRowDeleted" msprop:Generator_TableClassName="KeywordsDataTable" msprop:Generator_RowChangedName="KeywordsRowChanged" msprop:Generator_RowEvHandlerName="KeywordsRowChangeEventHandler" msprop:Generator_RowClassName="KeywordsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CommandCode" msprop:Generator_ColumnVarNameInTable="columnCommandCode" msprop:Generator_ColumnPropNameInRow="CommandCode" msprop:Generator_ColumnPropNameInTable="CommandCodeColumn" msprop:Generator_UserColumnName="CommandCode" type="xs:short" />
+              <xs:element name="Command" msprop:Generator_ColumnVarNameInTable="columnCommand" msprop:Generator_ColumnPropNameInRow="Command" msprop:Generator_ColumnPropNameInTable="CommandColumn" msprop:Generator_UserColumnName="Command" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VarTypes" msprop:Generator_UserTableName="VarTypes" msprop:Generator_RowEvArgName="VarTypesRowChangeEvent" msprop:Generator_TableVarName="tableVarTypes" msprop:Generator_TablePropName="VarTypes" msprop:Generator_RowDeletingName="VarTypesRowDeleting" msprop:Generator_RowChangingName="VarTypesRowChanging" msprop:Generator_RowDeletedName="VarTypesRowDeleted" msprop:Generator_TableClassName="VarTypesDataTable" msprop:Generator_RowChangedName="VarTypesRowChanged" msprop:Generator_RowEvHandlerName="VarTypesRowChangeEventHandler" msprop:Generator_RowClassName="VarTypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TypeCode" msprop:Generator_ColumnVarNameInTable="columnTypeCode" msprop:Generator_ColumnPropNameInRow="TypeCode" msprop:Generator_ColumnPropNameInTable="TypeCodeColumn" msprop:Generator_UserColumnName="TypeCode" type="xs:short" />
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Configurations" msprop:Generator_UserTableName="Configurations" msprop:Generator_RowEvArgName="ConfigurationsRowChangeEvent" msprop:Generator_TableVarName="tableConfigurations" msprop:Generator_TablePropName="Configurations" msprop:Generator_RowDeletingName="ConfigurationsRowDeleting" msprop:Generator_RowChangingName="ConfigurationsRowChanging" msprop:Generator_RowDeletedName="ConfigurationsRowDeleted" msprop:Generator_TableClassName="ConfigurationsDataTable" msprop:Generator_RowChangedName="ConfigurationsRowChanged" msprop:Generator_RowEvHandlerName="ConfigurationsRowChangeEventHandler" msprop:Generator_RowClassName="ConfigurationsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DOT" msprop:Generator_UserTableName="DOT" msprop:Generator_RowEvArgName="DOTRowChangeEvent" msprop:Generator_TableVarName="tableDOT" msprop:Generator_TablePropName="DOT" msprop:Generator_RowDeletingName="DOTRowDeleting" msprop:Generator_RowChangingName="DOTRowChanging" msprop:Generator_RowDeletedName="DOTRowDeleted" msprop:Generator_TableClassName="DOTDataTable" msprop:Generator_RowChangedName="DOTRowChanged" msprop:Generator_RowEvHandlerName="DOTRowChangeEventHandler" msprop:Generator_RowClassName="DOTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Skeleton" msprop:Generator_ColumnVarNameInTable="columnSkeleton" msprop:Generator_ColumnPropNameInRow="Skeleton" msprop:Generator_ColumnPropNameInTable="SkeletonColumn" msprop:Generator_UserColumnName="Skeleton">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TableName" msprop:Generator_ColumnVarNameInTable="columnTableName" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" msprop:Generator_UserColumnName="TableName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineNumber" msprop:Generator_ColumnVarNameInTable="columnLineNumber" msprop:Generator_ColumnPropNameInRow="LineNumber" msprop:Generator_ColumnPropNameInTable="LineNumberColumn" msprop:Generator_UserColumnName="LineNumber" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Programs" msprop:Generator_UserTableName="Programs" msprop:Generator_RowEvArgName="ProgramsRowChangeEvent" msprop:Generator_TableVarName="tablePrograms" msprop:Generator_TablePropName="Programs" msprop:Generator_RowDeletingName="ProgramsRowDeleting" msprop:Generator_RowChangingName="ProgramsRowChanging" msprop:Generator_RowDeletedName="ProgramsRowDeleted" msprop:Generator_TableClassName="ProgramsDataTable" msprop:Generator_RowChangedName="ProgramsRowChanged" msprop:Generator_RowEvHandlerName="ProgramsRowChangeEventHandler" msprop:Generator_RowClassName="ProgramsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Configuration" msprop:Generator_ColumnVarNameInTable="columnConfiguration" msprop:Generator_ColumnPropNameInRow="Configuration" msprop:Generator_ColumnPropNameInTable="ConfigurationColumn" msprop:Generator_UserColumnName="Configuration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ConfigNum" msprop:Generator_ColumnVarNameInTable="columnConfigNum" msprop:Generator_ColumnPropNameInRow="ConfigNum" msprop:Generator_ColumnPropNameInTable="ConfigNumColumn" msprop:Generator_UserColumnName="ConfigNum" type="xs:short" />
+              <xs:element name="Skeleton" msprop:Generator_ColumnVarNameInTable="columnSkeleton" msprop:Generator_ColumnPropNameInRow="Skeleton" msprop:Generator_ColumnPropNameInTable="SkeletonColumn" msprop:Generator_UserColumnName="Skeleton">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProgramName" msdata:Caption="TableName" msprop:Generator_ColumnVarNameInTable="columnProgramName" msprop:Generator_ColumnPropNameInRow="ProgramName" msprop:Generator_ColumnPropNameInTable="ProgramNameColumn" msprop:Generator_UserColumnName="ProgramName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineNumber" msprop:Generator_ColumnVarNameInTable="columnLineNumber" msprop:Generator_ColumnPropNameInRow="LineNumber" msprop:Generator_ColumnPropNameInTable="LineNumberColumn" msprop:Generator_UserColumnName="LineNumber" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Variables" />
+      <xs:field xpath="ConfigNum" />
+      <xs:field xpath="Variable" />
+      <xs:field xpath="Skeleton" />
+      <xs:field xpath="LineNumber" />
+      <xs:field xpath="Position" />
+    </xs:unique>
+    <xs:unique name="Skeletons_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Skeletons" />
+      <xs:field xpath="ConfigNum" />
+      <xs:field xpath="Skeleton" />
+      <xs:field xpath="ChildSkeleton" />
+      <xs:field xpath="LineNumber" />
+    </xs:unique>
+    <xs:unique name="Functions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Functions" />
+      <xs:field xpath="ConfigNum" />
+      <xs:field xpath="Function" />
+      <xs:field xpath="Skeleton" />
+      <xs:field xpath="LineNumber" />
+      <xs:field xpath="Position" />
+    </xs:unique>
+    <xs:unique name="Libraries_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Libraries" />
+      <xs:field xpath="ConfigNum" />
+      <xs:field xpath="Offset" />
+    </xs:unique>
+    <xs:unique name="Keywords_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Keywords" />
+      <xs:field xpath="CommandCode" />
+    </xs:unique>
+    <xs:unique name="VarTypes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//VarTypes" />
+      <xs:field xpath="TypeCode" />
+    </xs:unique>
+    <xs:unique name="Configurations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Configurations" />
+      <xs:field xpath="ConfigNum" />
+    </xs:unique>
+    <xs:unique name="DOTKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//DOT" />
+      <xs:field xpath="ConfigNum" />
+      <xs:field xpath="Skeleton" />
+      <xs:field xpath="TableName" />
+      <xs:field xpath="LineNumber" />
+    </xs:unique>
+    <xs:unique name="Programs_DOTKey1" msdata:ConstraintName="DOTKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Programs" />
+      <xs:field xpath="ConfigNum" />
+      <xs:field xpath="Skeleton" />
+      <xs:field xpath="ProgramName" />
+      <xs:field xpath="LineNumber" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

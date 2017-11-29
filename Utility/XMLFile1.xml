@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XML input control file for skeleton parser-->
+<ISPFSkeletonParser>
+    <!-- Specify an optional name to use in the Query GUI for this configuartion. -->
+    <QueryDisplayName>Production ChangeMan Skeletons</QueryDisplayName>
+  <!-- 
+      List the directories to be processed. Each Directory should contain the files
+      downloaded from a a single host PDS. List the directories in the order they 
+      appear in the //ISPSLIB concatenation.
+  -->
+
+  <!--Specify one or more host PDSs, in the order they are concatenated in the ISPSLIB DD.
+      Also specify a tag for these and the PC directories into which the skeletons from the
+      host have been downloaded.
+  -->
+  <Directory>
+    <DirectoryName>c:\source\cs\cs2008\user</DirectoryName>
+    <DirectoryLabel>Custom</DirectoryLabel>
+    <DirectoryHostName>CMN.DIV.P0.AKT.MODIFY.@002.SKL</DirectoryHostName>
+  </Directory>
+  <Directory>
+    <DirectoryName>c:\source\cs\cs2008\vendor</DirectoryName>
+    <DirectoryLabel>Serena</DirectoryLabel>
+    <DirectoryHostName>CMN.DIV.P0.AKT.CHGMAN.@002.SKL</DirectoryHostName>
+  </Directory>
+
+
+  <!--
+      Specify the High level qualifier (HLQ) of the output files you want to generate. If you do not specify
+      a HLQ the file types won't be written. 
+      
+      The following output file HLQs are valid:
+      <ExcelOutputHLQ>,<XMLOutputHLQ>,<FixedOutputHLQ>
+  -->
+
+  <!--
+      <ExcelOutputHLQ>
+      the comma separated value (CSV) of the variable, function and skeleton relationships uncovered in all skeletons. The
+      first line is a header for the sheet.
+  -->
+ <ExcelOutput>
+    <ExcelOutputFolder>C:\source\Skeleton Utility 2008\SkeletonUtility\TestOutput\CSV</ExcelOutputFolder>
+    <ExcelOutputHLQ>prod</ExcelOutputHLQ>
+  </ExcelOutput>
+  
+  <!--
+      <XMLOutputHLQ>
+      The high level qualifiers for the XML output files for variable, skeleton and ISPF function
+      cross references.
+  -->
+
+  <XMLOutput>
+    <XMLOutputFolder>C:\source\Skeleton Utility 2008\SkeletonUtility\TestOutput\XML</XMLOutputFolder>
+    <XMLOutputHLQ>prod</XMLOutputHLQ>
+  </XMLOutput>
+
+  <!--    
+      <FixedOutputHLQ>
+      The high level qualifiers for the fixed layout output files for variable, skeleton and ISPF function
+      cross references.
+  -->
+  <FixedOutput>
+    <!-- Configuration
+    You must specify a configuration name and number. This is used as part of the key for every table to be loaded.
+  -->
+      <Configuration>
+        <!-- The name must be 1 to 30 characters-->
+        <ConfigurationName>Production</ConfigurationName>
+        <!--  
+        The configuration number should define a unique configuration in your tables. There is not
+        a cross-check among the configurations. It is your responsibility to keep the configurations
+        distinct with unique numbers.
+      -->
+        <ConfigurationNumber>1</ConfigurationNumber>
+    </Configuration>
+
+    <FixedOutputFolder>C:\source\Skeleton Utility 2008\SkeletonUtility\TestOutput\TXT</FixedOutputFolder>
+    <FixedOutputHLQ>prod</FixedOutputHLQ>
+  </FixedOutput>
+  
+  <!--ImbedRecurseFail>: 
+	True: Abort when recursive imbeds are found, such as 
+		Skel X: )IM Y   Skel Y: )IM Z  Skel Z: )IM X
+		
+	False: continue expansion, but bypass the skeleton that would cause a recursive imbed.
+		Skel X: )IM Y   Skel Y: )IM Z  Skel Z: )IM X ...
+		In this case the second )IM X will be bypassed and the expansion will continue with the next statement in Skel Z. The
+		expansion lines past this expansion will not have valid offsets.
+		
+	Default: False
+		Note: The bypassed expansion should cause only minor analysis problems.
+  -->
+  <ImbedRecurseFail>False</ImbedRecurseFail>
+  
+  <!--
+      Specify the skeleton names that are to be bypassed. Useful for files in the list
+      that are not skeletons, for example the ChangeMan #VARLIST skeleton. You may list as 
+      many names as you need.
+  -->
+  <IgnoreSkel>$$$INDEX</IgnoreSkel>
+  <IgnoreSkel>#VARLIST</IgnoreSkel>
+  <IgnoreSkel>OMN30I</IgnoreSkel>
+  <IgnoreSkel>CMNAPCMP</IgnoreSkel>
+  <IgnoreSkel>CMNAPGEN</IgnoreSkel>
+  <IgnoreSkel>CMNAPMFS</IgnoreSkel>
+  <IgnoreSkel>CMNAPMSG</IgnoreSkel>
+  <IgnoreSkel>CMNAPPAN</IgnoreSkel>
+  <IgnoreSkel>CMNAPLI1</IgnoreSkel>
+  <IgnoreSkel>CMNAPLI2</IgnoreSkel>
+  <IgnoreSkel>CMNAPLI3</IgnoreSkel>
+  <IgnoreSkel>CMNAPLI4</IgnoreSkel>
+  <IgnoreSkel>CMNAPLI5</IgnoreSkel>
+  <IgnoreSkel>NEW$$LNK</IgnoreSkel>
+
+
+  <!--
+      Specify whether the parsed skeleton line will be written to the output files, for
+      each entry (XML output only).
+  -->
+  <DebugInputLine>false</DebugInputLine>
+</ISPFSkeletonParser>
+
+

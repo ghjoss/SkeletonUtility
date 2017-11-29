@@ -1,0 +1,1257 @@
+Production                    00001SERCOPY                       #PRINTX 000035
+Production                    00001HI7007                        #PRINTX 000061
+Production                    00001SY7660                        AUDITS  000009
+Production                    00001CH8700                        AUDITS  000014
+Production                    00001IDCAMS                        BCHECKO2000007
+Production                    00001IEBCOPY                       BCHECKO2000020
+Production                    00001IKJEFT01                      CAS$$017000080
+Production                    00001IEFBR14                       CAS$$020000100
+Production                    00001IKJEFT01                      CAS$$020000127
+Production                    00001IDCAMS                        CAS$$020000402
+Production                    00001IEBGENER                      CAS$$020000491
+Production                    00001IEFBR14                       CAS$$020000527
+Production                    00001SY7060                        CAS$$020000531
+Production                    00001IKJEFT01                      CAS$$050000024
+Production                    00001CH9030                        CAS$$050000048
+Production                    00001IEBCOPY                       CHU0016B000006
+Production                    00001IDCAMS                        CHU0018 000020
+Production                    00001IEBCOPY                       CHU0018 000032
+Production                    00001MEMOAPIX                      CHU0018 000103
+Production                    00001IDCAMS                        CHU0018 000128
+Production                    00001CSMUTIL                       CHU0751 000006
+Production                    00001CSMUTIL                       CHU0751 000024
+Production                    00001IDCAMS                        CHU0752 000006
+Production                    00001CSMUTIL                       CHU0752 000019
+Production                    00001IEBGENER                      CICPHAI8000030
+Production                    00001CMN@CLI                       CICPHAI8000051
+Production                    00001IEBGENER                      CICPHAIN000033
+Production                    00001CMN@CLI                       CICPHAIN000078
+Production                    00001DFSRRC00                      CMN$$ACB000018
+Production                    00001IEFBR14                       CMN$$ARE000021
+Production                    00001CMNBAT45                      CMN$$ARE000025
+Production                    00001IKJEFT01                      CMN$$ARE000042
+Production                    00001ASMA90                        CMN$$ASM000010
+Production                    00001CMNAD000                      CMN$$AUD000075
+Production                    00001SORT                          CMN$$AUD000129
+Production                    00001SORT                          CMN$$AUD000145
+Production                    00001CMNAD500                      CMN$$AUD000165
+Production                    00001CMNAUDRC                      CMN$$AUD000183
+Production                    00001CMNAUDRC                      CMN$$AUD000197
+Production                    00001CMNAUDRC                      CMN$$AUD000210
+Production                    00001CMNAUDRC                      CMN$$AUD000220
+Production                    00001IEBGENER                      CMN$$AUD000232
+Production                    00001IEBGENER                      CMN$$AUD000240
+Production                    00001SERCOPY                       CMN$$AUD000247
+Production                    00001IKJEFT1A                      CMN$$AUD000262
+Production                    00001IEBGENER                      CMN$$AUD000275
+Production                    00001BDTBATCH                      CMN$$BDT000005
+Production                    00001CMNBASLN                      CMN$$BLA000006
+Production                    00001CMNBAT30                      CMN$$BLG000006
+Production                    00001CMNRCKIB                      CMN$$BRC000011
+Production                    00001CMNRTRVB                      CMN$$BRT000003
+Production                    00001CMNBSCAN                      CMN$$BSN000005
+Production                    00001SASSBSTR                      CMN$$CA7000007
+Production                    00001IEBCOPY                       CMN$$CAS000007
+Production                    00001SASSBSTR                      CMN$$CAS000030
+Production                    00001SERCOPY                       CMN$$CBL000012
+Production                    00001IEBGENER                      CMN$$CBL000027
+Production                    00001SERCOPY                       CMN$$CBL000042
+Production                    00001PAN#1                         CMN$$CBL000073
+Production                    00001CMNPOPLP                      CMN$$CBL000091
+Production                    00001AFOLIBR                       CMN$$CBL000108
+Production                    00001AFOLIBR                       CMN$$CBL000117
+Production                    00001SERCOPY                       CMN$$CBL000143
+Production                    00001PAN#1                         CMN$$CBL000166
+Production                    00001CMNPOPLP                      CMN$$CBL000184
+Production                    00001AFOLIBR                       CMN$$CBL000201
+Production                    00001AFOLIBR                       CMN$$CBL000210
+Production                    00001AFOLIBR                       CMN$$CBL000234
+Production                    00001SERCOPY                       CMN$$CBL000264
+Production                    00001PAN#1                         CMN$$CBL000283
+Production                    00001CMNPOPLP                      CMN$$CBL000301
+Production                    00001AFOLIBR                       CMN$$CBL000318
+Production                    00001AFOLIBR                       CMN$$CBL000327
+Production                    00001SERCOPY                       CMN$$CBL000352
+Production                    00001CMNDELTA                      CMN$$CBL000376
+Production                    00001SERCOPY                       CMN$$CBL000392
+Production                    00001CMNDELTA                      CMN$$CBL000412
+Production                    00001IEBGENER                      CMN$$CBL000421
+Production                    00001PAN#1                         CMN$$CBL000429
+Production                    00001CMNPOPLP                      CMN$$CBL000447
+Production                    00001AFOLIBR                       CMN$$CBL000464
+Production                    00001AFOLIBR                       CMN$$CBL000473
+Production                    00001PAN#1                         CMN$$CBL000497
+Production                    00001CMNPOPLP                      CMN$$CBL000520
+Production                    00001AFOLIBR                       CMN$$CBL000537
+Production                    00001AFOLIBR                       CMN$$CBL000546
+Production                    00001PAN#1                         CMN$$CBL000566
+Production                    00001CMNUPDAT                      CMN$$CBL000588
+Production                    00001SERCOPY                       CMN$$CBL000603
+Production                    00001IEBGENER                      CMN$$CBL000629
+Production                    00001PAN#1                         CMN$$CBL000637
+Production                    00001CMNPOPLP                      CMN$$CBL000655
+Production                    00001AFOLIBR                       CMN$$CBL000672
+Production                    00001AFOLIBR                       CMN$$CBL000681
+Production                    00001CCNDRVR                       CMN$$CEE000007
+Production                    00001DFHECP1$                      CMN$$CIC000014
+Production                    00001DFHEAP1$                      CMN$$CIC000048
+Production                    00001DFHEPP1$                      CMN$$CIC000052
+Production                    00001IEFBR14                       CMN$$CKA000009
+Production                    00001PAN#4                         CMN$$CKA000031
+Production                    00001AFOLIBR                       CMN$$CKA000045
+Production                    00001IEBGENER                      CMN$$CKO000017
+Production                    00001SERCOPY                       CMN$$CKO000027
+Production                    00001SERCOPY                       CMN$$CKO000106
+Production                    00001SERCOPY                       CMN$$CKO000144
+Production                    00001CMNDELTA                      CMN$$CKO000181
+Production                    00001SERCOPY                       CMN$$CKO000198
+Production                    00001CMNDELTA                      CMN$$CKO000227
+Production                    00001IEBGENER                      CMN$$CKO000236
+Production                    00001PAN#1                         CMN$$CKO000255
+Production                    00001PAN#2                         CMN$$CKO000285
+Production                    00001CMNUPDAT                      CMN$$CKO000301
+Production                    00001IEBGENER                      CMN$$CKO000323
+Production                    00001SERCOPY                       CMN$$CKO000365
+Production                    00001CMNDELRN                      CMN$$CLN000049
+Production                    00001SY4020                        CMN$$CLN000063
+Production                    00001SY4020                        CMN$$CLN000078
+Production                    00001SY4020                        CMN$$CLN000093
+Production                    00001CMNCICS1                      CMN$$CNC000030
+Production                    00001IGYCRCTL                      CMN$$CO2000008
+Production                    00001CWPCMAIN                      CMN$$CO2000047
+Production                    00001IKFCBL00                      CMN$$COB000009
+Production                    00001IGYCRCTL                      CMN$$COE000012
+Production                    00001CWPCMAIN                      CMN$$COE000054
+Production                    00001CWPCMAIN                      CMN$$COE000061
+Production                    00001CMNUPDAT                      CMN$$CPR000006
+Production                    00001IEBCOPY                       CMN$$CPR000036
+Production                    00001CMNDELTA                      CMN$$CPR000063
+Production                    00001SERCOPY                       CMN$$CPR000073
+Production                    00001SERCOPY                       CMN$$CPR000099
+Production                    00001SERCMPAR                      CMN$$CPR000126
+Production                    00001IEBGENER                      CMN$$CTM000011
+Production                    00001IEBGENER                      CMN$$CTM000020
+Production                    00001CTMJOB                        CMN$$CTM000043
+Production                    00001SERCOPY                       CMN$$DBC000014
+Production                    00001SERCOPY                       CMN$$DBC000033
+Production                    00001SY4020                        CMN$$DEL000015
+Production                    00001JSS                           CMN$$ESP000005
+Production                    00001DVGIFBI                       CMN$$FTP000007
+Production                    00001CMNBKRST                      CMN$$HKP000007
+Production                    00001CMNBAT10                      CMN$$HKP000020
+Production                    00001CMNBATCH                      CMN$$HKP000043
+Production                    00001CMNISMFS                      CMN$$IGN000052
+Production                    00001SY4020                        CMN$$IMS000018
+Production                    00001IEBCOPY                       CMN$$JBT000010
+Production                    00001ABTRACV                       CMN$$JBT000031
+Production                    00001CMNPOPLP                      CMN$$LB2000005
+Production                    00001AFOLIBR                       CMN$$LB2000024
+Production                    00001AFOLIBR                       CMN$$LB2000033
+Production                    00001CMNLNKDT                      CMN$$LDT000006
+Production                    00001AFOLIBR                       CMN$$LIB000005
+Production                    00001IEFBR14                       CMN$$LNK000009
+Production                    00001IEBCOPY                       CMN$$LNK000041
+Production                    00001HEWL                          CMN$$LNK000109
+Production                    00001CMNBAT90                      CMN$$LNK000228
+Production                    00001SERCOPY                       CMN$$LNK000265
+Production                    00001AF7020                        CMN$$MFS000009
+Production                    00001ASMA90                        CMN$$MFS000031
+Production                    00001IEFBR14                       CMN$$MFS000043
+Production                    00001HEWL                          CMN$$MFS000050
+Production                    00001CMNBAT90                      CMN$$MFS000064
+Production                    00001SERCOPY                       CMN$$MFS000085
+Production                    00001SY4020                        CMN$$MFS000097
+Production                    00001SY4020                        CMN$$MFS000147
+Production                    00001ASMA90                        CMN$$MPD000010
+Production                    00001ASMA90                        CMN$$MPG000010
+Production                    00001IEWL                          CMN$$MPL000005
+Production                    00001IEFBR14                       CMN$$N10000012
+Production                    00001IEBCOPY                       CMN$$N10000036
+Production                    00001IEBCOPY                       CMN$$N10000049
+Production                    00001IEBCOPY                       CMN$$N10000061
+Production                    00001IEBCOPY                       CMN$$N11000008
+Production                    00001IEBCOPY                       CMN$$N11000020
+Production                    00001IEBCOPY                       CMN$$N11000032
+Production                    00001IKJEFT01                      CMN$$NET000012
+Production                    00001IEBGENER                      CMN$$NOT000005
+Production                    00001IEFBR14                       CMN$$NOT000012
+Production                    00001IEBGENER                      CMN$$NTF000063
+Production                    00001IRXJCL                        CMN$$NTF000077
+Production                    00001CMNBAT90                      CMN$$OBJ000006
+Production                    00001SERCOPY                       CMN$$OBJ000035
+Production                    00001CMNSSOBJ                      CMN$$OBJ000058
+Production                    00001SERCOPY                       CMN$$OBJ000070
+Production                    00001PCC                           CMN$$ORC000007
+Production                    00001SERCOPY                       CMN$$OTH000014
+Production                    00001PAN#1                         CMN$$PAN000005
+Production                    00001SERCOPY                       CMN$$PAS000006
+Production                    00001IEFBR14                       CMN$$PBL000005
+Production                    00001SERCOPY                       CMN$$PBL000017
+Production                    00001SERCOPY                       CMN$$PBL000033
+Production                    00001SERCOPY                       CMN$$PBL000055
+Production                    00001AFOLIBR                       CMN$$PBL000074
+Production                    00001SERCOPY                       CMN$$PBL000104
+Production                    00001CMNDELTA                      CMN$$PBL000119
+Production                    00001PAN#1                         CMN$$PBL000134
+Production                    00001CMNUPDAT                      CMN$$PBL000149
+Production                    00001IEFBR14                       CMN$$PBL000166
+Production                    00001CMNWRITE                      CMN$$PBL000170
+Production                    00001IEBGENER                      CMN$$PBL000225
+Production                    00001SERPRINT                      CMN$$PCP000050
+Production                    00001IKJEFT01                      CMN$$PCP000060
+Production                    00001SERCOPY                       CMN$$PCP000099
+Production                    00001SERCOPY                       CMN$$PCP000111
+Production                    00001CMNBATCH                      CMN$$PCP000120
+Production                    00001DSNHPC                        CMN$$PDB000017
+Production                    00001SERCOPY                       CMN$$PDB000118
+Production                    00001CMNBAT90                      CMN$$PDB000147
+Production                    00001CMNBAT90                      CMN$$PDB000177
+Production                    00001CH7060                        CMN$$PLI000023
+Production                    00001IEL0AA                        CMN$$PLI000026
+Production                    00001IEL0AA                        CMN$$PLI000031
+Production                    00001IEL1AA                        CMN$$PLI000035
+Production                    00001IEFBR14                       CMN$$PLI000115
+Production                    00001STRXPLF                       CMN$$PLI000125
+Production                    00001EDCPRLK                       CMN$$PLK000005
+Production                    00001CMNPOPLP                      CMN$$PLP000033
+Production                    00001SERCOPY                       CMN$$PMT000017
+Production                    00001CMNDB2PL                      CMN$$PRB000019
+Production                    00001IKJEFT1A                      CMN$$PRB000209
+Production                    00001IKJEFT01                      CMN$$PRB000212
+Production                    00001IEBCOPY                       CMN$$PRO000005
+Production                    00001SY4020                        CMN$$PRS000007
+Production                    00001IEBGENER                      CMN$$PRT000005
+Production                    00001IEFBR14                       CMN$$PRT000012
+Production                    00001CMNDB2DQ                      CMN$$PSQ000028
+Production                    00001CMNDB2DD                      CMN$$PSQ000053
+Production                    00001CMNDB2DQ                      CMN$$PSQ000134
+Production                    00001CMNDB2DD                      CMN$$PSQ000172
+Production                    00001SORT                          CMN$$PSQ000236
+Production                    00001CMNDB2TR                      CMN$$PSQ000250
+Production                    00001CMNDB2SL                      CMN$$PST000017
+Production                    00001IDCAMS                        CMN$$RAL000011
+Production                    00001ICETOOL                       CMN$$RAL000036
+Production                    00001IKJEFT01                      CMN$$RAL000128
+Production                    00001IKJEFT1A                      CMN$$RAL000162
+Production                    00001IKJEFT01                      CMN$$RAL000344
+Production                    00001CMNRACHK                      CMN$$RAL000366
+Production                    00001IKJEFT01                      CMN$$RAP000031
+Production                    00001IDCAMS                        CMN$$RAU000059
+Production                    00001CMNRA000                      CMN$$RAU000075
+Production                    00001IEBGENER                      CMN$$RBD000011
+Production                    00001IEFBR14                       CMN$$RBD000030
+Production                    00001IEBGENER                      CMN$$RBD000032
+Production                    00001CMNBATCH                      CMN$$RBD000044
+Production                    00001CMNRA500                      CMN$$RGN000012
+Production                    00001SERCOPY                       CMN$$RMS000005
+Production                    00001CMNDB2PL                      CMN$$RPB000019
+Production                    00001IKJEFT1A                      CMN$$RPB000213
+Production                    00001IKJEFT01                      CMN$$RPB000216
+Production                    00001IEBGENER                      CMN$$RPM000066
+Production                    00001IEBCOPY                       CMN$$RPM000141
+Production                    00001IEBGENER                      CMN$$RPM000183
+Production                    00001IEBGENER                      CMN$$RPM000192
+Production                    00001IEFBR14                       CMN$$RPM000298
+Production                    00001IEBCOPY                       CMN$$RPM000313
+Production                    00001IEBCOPY                       CMN$$RPM000326
+Production                    00001IEBCOPY                       CMN$$RPM000390
+Production                    00001IEBCOPY                       CMN$$RPM000403
+Production                    00001IKJEFT1A                      CMN$$RPT000008
+Production                    00001CMNDB2DQ                      CMN$$RSQ000028
+Production                    00001CMNDB2DD                      CMN$$RSQ000053
+Production                    00001CMNDB2DQ                      CMN$$RSQ000134
+Production                    00001CMNDB2DD                      CMN$$RSQ000174
+Production                    00001SORT                          CMN$$RSQ000240
+Production                    00001CMNDB2TR                      CMN$$RSQ000254
+Production                    00001CMNDB2PL                      CMN$$SPB000022
+Production                    00001IKJEFT1A                      CMN$$SPB000216
+Production                    00001IKJEFT01                      CMN$$SPB000219
+Production                    00001CMNDB2DQ                      CMN$$SQL000030
+Production                    00001CMNDB2DD                      CMN$$SQL000054
+Production                    00001SORT                          CMN$$SQL000116
+Production                    00001CMNDB2TR                      CMN$$SQL000130
+Production                    00001DSNHPC                        CMN$$SQP000006
+Production                    00001CMNSSIDN                      CMN$$SSI000008
+Production                    00001CMNDB2SL                      CMN$$STP000025
+Production                    00001CMNRGTRK                      CMN$$TRK000006
+Production                    00001CMNRGTRK                      CMN$$TRK000020
+Production                    00001PAN#1                         CMN$$WRT000017
+Production                    00001AFOLIBR                       CMN$$WRT000036
+Production                    00001SERCOPY                       CMN$$WRT000062
+Production                    00001CMNWRITE                      CMN$$WRT000101
+Production                    00001XCOMJOB                       CMN$$XCD000014
+Production                    00001XCOMJOB                       CMN$$XCP000014
+Production                    00001IEBCOPY                       CMN$$XPL000032
+Production                    00001IEBCOPY                       CMN$$XPL000057
+Production                    00001IEBCOPY                       CMN$$XPL000079
+Production                    00001CMNBATCH                      CMN00   000010
+Production                    00001CMNBATCH                      CMN00INS000005
+Production                    00001IEFBR14                       CMN10   000042
+Production                    00001IEBGENER                      CMN10   000161
+Production                    00001CHWAIT                        CMN10   000196
+Production                    00001IEBGENER                      CMN10   000225
+Production                    00001IEBCOPY                       CMN10   000237
+Production                    00001IEBCOPY                       CMN10   000252
+Production                    00001IEBCOPY                       CMN10   000294
+Production                    00001IDCAMS                        CMN10   000310
+Production                    00001IEBCOPY                       CMN10   000316
+Production                    00001IEBCOPY                       CMN10   000346
+Production                    00001IKJEFT01                      CMN10   000376
+Production                    00001SY7660                        CMN10   000406
+Production                    00001IEFBR14                       CMN10   000422
+Production                    00001IEBCOPY                       CMN11   000160
+Production                    00001IKJEFT1A                      CMN11   000368
+Production                    00001SY7660                        CMN15   000021
+Production                    00001IEBGENER                      CMN20   000028
+Production                    00001IEBCOPY                       CMN20   000047
+Production                    00001IEBCOPY                       CMN20   000081
+Production                    00001CMNDELRN                      CMN20   000111
+Production                    00001IEBCOPY                       CMN20I  000066
+Production                    00001SERCOPY                       CMN20I  000069
+Production                    00001IEBCOPY                       CMN20I  000135
+Production                    00001SERCOPY                       CMN20I  000138
+Production                    00001CMNDELRN                      CMN20I  000295
+Production                    00001IEBCOPY                       CMN20I  000340
+Production                    00001CMNDELRN                      CMN20I  000367
+Production                    00001SY7660                        CMN20I  000526
+Production                    00001IEBGENER                      CMN20I  000532
+Production                    00001ES0010                        CMN20I  000583
+Production                    00001SY7060                        CMN20I  000635
+Production                    00001IEFBR14                       CMN20I  000641
+Production                    00001SY7660                        CMN20I  000672
+Production                    00001IEBCOPY                       CMN20T  000025
+Production                    00001CMNDELRN                      CMN20T  000053
+Production                    00001CMNDELRN                      CMN20T  000072
+Production                    00001IEBCOPY                       CMN20TI 000048
+Production                    00001SERCOPY                       CMN20TI 000051
+Production                    00001CMNDELRN                      CMN20TI 000147
+Production                    00001CMNDELRN                      CMN20TI 000166
+Production                    00001CMNDB2PL                      CMN21   000275
+Production                    00001IKJEFT1A                      CMN21   000434
+Production                    00001IDCAMS                        CMN21   000466
+Production                    00001IKJEFT1A                      CMN21   000491
+Production                    00001IKJEFT01                      CMN21   000525
+Production                    00001IKJEFT01                      CMN21   000539
+Production                    00001IEBGENER                      CMN30   000022
+Production                    00001IEBGENER                      CMN30   000036
+Production                    00001PAN#2                         CMN30   000050
+Production                    00001PAN#1                         CMN30   000058
+Production                    00001IEBGENER                      CMN30   000068
+Production                    00001PAN#2                         CMN30   000085
+Production                    00001IEBGENER                      CMN30   000099
+Production                    00001PAN#2                         CMN30   000116
+Production                    00001PAN#1                         CMN30   000125
+Production                    00001IEBGENER                      CMN30   000137
+Production                    00001IEBGENER                      CMN30   000150
+Production                    00001IEBGENER                      CMN30   000165
+Production                    00001IEBGENER                      CMN30   000180
+Production                    00001IEBGENER                      CMN30   000193
+Production                    00001SERCMPAR                      CMN30   000259
+Production                    00001CMNPDELT                      CMN30   000273
+Production                    00001IEBGENER                      CMN30   000300
+Production                    00001AFOLIBR                       CMN30   000313
+Production                    00001AFOLIBR                       CMN30   000323
+Production                    00001IEBGENER                      CMN30   000341
+Production                    00001AFOLIBR                       CMN30   000354
+Production                    00001IEBCOPY                       CMN30   000375
+Production                    00001IEBGENER                      CMN30   000435
+Production                    00001AFOLIBR                       CMN30   000458
+Production                    00001IEBGENER                      CMN30   000477
+Production                    00001PAN#1                         CMN30   000491
+Production                    00001PAN#2                         CMN30   000496
+Production                    00001IEBGENER                      CMN30   000504
+Production                    00001PAN#1                         CMN30   000521
+Production                    00001CMNUPDAT                      CMN30   000532
+Production                    00001AFOLIBR                       CMN30   000576
+Production                    00001IEBGENER                      CMN30   000598
+Production                    00001AFOLIBR                       CMN30   000619
+Production                    00001IEFBR14                       CMN30   000635
+Production                    00001CMNDB2TM                      CMN30   000637
+Production                    00001CMNBATCH                      CMN30   000653
+Production                    00001IEBGENER                      CMN30CDT000022
+Production                    00001IEBGENER                      CMN30CDT000042
+Production                    00001IEBGENER                      CMN30CDT000062
+Production                    00001SERCMPAR                      CMN30CDT000098
+Production                    00001CMNPDELT                      CMN30CDT000112
+Production                    00001SY4020                        CMN30CDT000149
+Production                    00001SERCOPY                       CMN30CDT000158
+Production                    00001SY4020                        CMN30CPI000006
+Production                    00001SERCOPY                       CMN30CPI000010
+Production                    00001SY4020                        CMN30CPY000005
+Production                    00001SY4020                        CMN30DEL000005
+Production                    00001SY4020                        CMN30I  000008
+Production                    00001IEFBR14                       CMN30I  000205
+Production                    00001IEFBR14                       CMN30I  000209
+Production                    00001CMNDB2TM                      CMN30I  000212
+Production                    00001IEFBR14                       CMN30I  000216
+Production                    00001SY4020                        CMN30I  000256
+Production                    00001CH7100                        CMN30I  000315
+Production                    00001SY4020                        CMN30I  000333
+Production                    00001SY4020U                       CMN30I  000338
+Production                    00001IEBGENER                      CMN30LIB000031
+Production                    00001IEBGENER                      CMN30LIB000044
+Production                    00001IEBGENER                      CMN30LIB000061
+Production                    00001AFOLIBR                       CMN30LIB000074
+Production                    00001AFOLIBR                       CMN30LIB000084
+Production                    00001IEBGENER                      CMN30LIB000102
+Production                    00001AFOLIBR                       CMN30LIB000115
+Production                    00001IEBGENER                      CMN30LIB000185
+Production                    00001AFOLIBR                       CMN30LIB000213
+Production                    00001AFOLIBR                       CMN30LIB000228
+Production                    00001IEBGENER                      CMN30LIB000250
+Production                    00001AFOLIBR                       CMN30LIB000271
+Production                    00001IEBGENER                      CMN30PAN000007
+Production                    00001IEBGENER                      CMN30PAN000021
+Production                    00001PAN#2                         CMN30PAN000035
+Production                    00001PAN#1                         CMN30PAN000043
+Production                    00001IEBGENER                      CMN30PAN000053
+Production                    00001PAN#2                         CMN30PAN000070
+Production                    00001IEBGENER                      CMN30PAN000085
+Production                    00001PAN#2                         CMN30PAN000102
+Production                    00001PAN#1                         CMN30PAN000111
+Production                    00001IEBGENER                      CMN30PAN000126
+Production                    00001PAN#1                         CMN30PAN000140
+Production                    00001PAN#2                         CMN30PAN000145
+Production                    00001IEBGENER                      CMN30PAN000153
+Production                    00001PAN#1                         CMN30PAN000170
+Production                    00001IEBGENER                      CMN30PDS000022
+Production                    00001IEBGENER                      CMN30PDS000042
+Production                    00001IEBGENER                      CMN30PDS000062
+Production                    00001SY4020                        CMN30PDS000117
+Production                    00001SERCOPY                       CMN30PDS000122
+Production                    00001CMNDELRN                      CMN30REN000005
+Production                    00001IEBGENER                      CMN30SRD000024
+Production                    00001SY4020                        CMN30SRD000093
+Production                    00001CMNDELRN                      CMN31T  000013
+Production                    00001CMNDELRN                      CMN31T  000032
+Production                    00001CMNDELRN                      CMN31TI 000013
+Production                    00001CMNDELRN                      CMN31TI 000028
+Production                    00001CMNDB2PL                      CMN32   000089
+Production                    00001IKJEFT1A                      CMN32   000232
+Production                    00001IDCAMS                        CMN32   000264
+Production                    00001IKJEFT1A                      CMN32   000313
+Production                    00001IEFBR14                       CMN37   000016
+Production                    00001CMNDB2TM                      CMN37   000019
+Production                    00001SY4020                        CMN37   000033
+Production                    00001IEBCOPY                       CMN49   000045
+Production                    00001CMNDB2PL                      CMN49   000136
+Production                    00001IKJEFT1A                      CMN49   000304
+Production                    00001IDCAMS                        CMN49   000333
+Production                    00001IKJEFT01                      CMN50I  000011
+Production                    00001CMNDELRN                      CMN50I  000077
+Production                    00001IEBCOPY                       CMN50I  000095
+Production                    00001SERCOPY                       CMN50I  000098
+Production                    00001CMNDELRN                      CMN50I  000144
+Production                    00001IEBCOPY                       CMN50I  000161
+Production                    00001CMNDELRN                      CMN50I  000183
+Production                    00001IEBCOPY                       CMN50I  000200
+Production                    00001CMNDELRN                      CMN50I  000225
+Production                    00001CMNDELRN                      CMN50I  000240
+Production                    00001CMNDELRN                      CMN50I  000250
+Production                    00001SY7660                        CMN50I  000301
+Production                    00001IEBGENER                      CMN50I  000307
+Production                    00001ES0010                        CMN50I  000358
+Production                    00001CMNDELRN                      CMN50T  000013
+Production                    00001CMNDELRN                      CMN50T  000032
+Production                    00001CMNDELRN                      CMN50TI 000013
+Production                    00001CMNDELRN                      CMN50TI 000028
+Production                    00001IEBGENER                      CMN55   000017
+Production                    00001IEBGENER                      CMN55   000031
+Production                    00001PAN#1                         CMN55   000045
+Production                    00001PAN#2                         CMN55   000050
+Production                    00001IEBGENER                      CMN55   000059
+Production                    00001PAN#1                         CMN55   000074
+Production                    00001IEBGENER                      CMN55   000085
+Production                    00001PAN#2                         CMN55   000102
+Production                    00001PAN#1                         CMN55   000110
+Production                    00001IEBGENER                      CMN55   000122
+Production                    00001IEBGENER                      CMN55   000137
+Production                    00001IEBGENER                      CMN55   000152
+Production                    00001IEBGENER                      CMN55   000165
+Production                    00001CMNDELRN                      CMN55   000184
+Production                    00001CMNDELRN                      CMN55   000191
+Production                    00001CMNUPDAT                      CMN55   000203
+Production                    00001IEBGENER                      CMN55   000235
+Production                    00001AFOLIBR                       CMN55   000251
+Production                    00001IEBGENER                      CMN55   000264
+Production                    00001AFOLIBR                       CMN55   000280
+Production                    00001CMNDELRN                      CMN55   000301
+Production                    00001IEBCOPY                       CMN55   000358
+Production                    00001CMNUNLOD                      CMN55   000374
+Production                    00001CMNDELTA                      CMN55   000380
+Production                    00001IEBGENER                      CMN55   000400
+Production                    00001AFOLIBR                       CMN55   000413
+Production                    00001IEBGENER                      CMN55   000423
+Production                    00001AFOLIBR                       CMN55   000436
+Production                    00001AFOLIBR                       CMN55   000444
+Production                    00001IEBGENER                      CMN55   000457
+Production                    00001AFOLIBR                       CMN55   000470
+Production                    00001CMNDB2TM                      CMN55   000488
+Production                    00001CMNBATCH                      CMN55   000503
+Production                    00001IEBGENER                      CMN55CDT000022
+Production                    00001IEBGENER                      CMN55CDT000042
+Production                    00001IEBCOPY                       CMN55CDT000075
+Production                    00001SERCOPY                       CMN55CDT000078
+Production                    00001CMNUNLOD                      CMN55CDT000098
+Production                    00001CMNDELTA                      CMN55CDT000104
+Production                    00001IEBCOPY                       CMN55CPI000006
+Production                    00001SERCOPY                       CMN55CPI000009
+Production                    00001IEBCOPY                       CMN55CPY000005
+Production                    00001CMNDB2TM                      CMN55I  000066
+Production                    00001CMNBATCH                      CMN55I  000081
+Production                    00001IEBGENER                      CMN55LIB000026
+Production                    00001IEBGENER                      CMN55LIB000039
+Production                    00001IEBGENER                      CMN55LIB000055
+Production                    00001AFOLIBR                       CMN55LIB000068
+Production                    00001IEBGENER                      CMN55LIB000078
+Production                    00001AFOLIBR                       CMN55LIB000091
+Production                    00001AFOLIBR                       CMN55LIB000099
+Production                    00001IEBGENER                      CMN55LIB000112
+Production                    00001AFOLIBR                       CMN55LIB000125
+Production                    00001IEBGENER                      CMN55LIB000156
+Production                    00001AFOLIBR                       CMN55LIB000172
+Production                    00001IEBGENER                      CMN55LIB000185
+Production                    00001AFOLIBR                       CMN55LIB000201
+Production                    00001IEBGENER                      CMN55PAN000009
+Production                    00001IEBGENER                      CMN55PAN000023
+Production                    00001PAN#1                         CMN55PAN000037
+Production                    00001PAN#2                         CMN55PAN000042
+Production                    00001IEBGENER                      CMN55PAN000051
+Production                    00001PAN#1                         CMN55PAN000066
+Production                    00001IEBGENER                      CMN55PAN000077
+Production                    00001PAN#2                         CMN55PAN000094
+Production                    00001PAN#1                         CMN55PAN000102
+Production                    00001IEBGENER                      CMN55PDS000009
+Production                    00001IEBGENER                      CMN55PDS000029
+Production                    00001CMNDELRN                      CMN55PDS000068
+Production                    00001CMNDELRN                      CMN55REN000005
+Production                    00001IEBGENER                      CMN55SRD000012
+Production                    00001CMNDELRN                      CMN55SRD000024
+Production                    00001CMNDELRN                      CMN55SRD000031
+Production                    00001CMNUPDAT                      CMN55SRD000043
+Production                    00001IEBCOPY                       CMN56   000053
+Production                    00001CMNUPDAT                      CMN56   000124
+Production                    00001CMNDB2PL                      CMN56   000164
+Production                    00001IKJEFT1A                      CMN56   000330
+Production                    00001IDCAMS                        CMN56   000364
+Production                    00001CMNDB2TM                      CMN57   000018
+Production                    00001CMNBATCH                      CMN57   000034
+Production                    00001IKJEFT01                      CMN64   000020
+Production                    00001IKJEFT01                      CMN64   000089
+Production                    00001IDCAMS                        CMN64   000109
+Production                    00001IDCAMS                        CMN64   000161
+Production                    00001SY7660                        CMN65   000006
+Production                    00001IEFBR14                       CMN99   000011
+Production                    00001CMNBATCH                      CMN99   000014
+Production                    00001IEFBR14                       CMN99INS000010
+Production                    00001IEFBR14                       CMN99INS000017
+Production                    00001CMNBATCH                      CMN99INS000020
+Production                    00001IKFCBL00                      CMNAPCOB000006
+Production                    00001IGYCRCTL                      CMNAPCOB000010
+Production                    00001A2GENER                       CMNAPCOM000078
+Production                    00001CMNDB2DR                      CMNDB2DR000010
+Production                    00001IKJEFT01                      CMNGRANT000005
+Production                    00001CMNWRITE                      CMNIDPEX000016
+Production                    00001IEBGENER                      CMNIDPEX000103
+Production                    00001ASMA90                        CMNIDPGN000018
+Production                    00001CMNSSIDN                      CMNIDPGN000117
+Production                    00001CMNSSIDN                      CMNIDPGN000120
+Production                    00001HEWL                          CMNIDPGN000156
+Production                    00001CMNISOVR                      CMNIDPOV000008
+Production                    00001ASMA90                        CMNIDPOV000048
+Production                    00001CMNSSIDN                      CMNIDPOV000110
+Production                    00001IEWL                          CMNIDPOV000154
+Production                    00001IEBCOPY                       CMNIMCPY000017
+Production                    00001SERCOPY                       CMNIMCPY000020
+Production                    00001CH7100                        CMNIMPRO000013
+Production                    00001SY4020                        CMNIMPRO000040
+Production                    00001IEBCOPY                       CMNIMPRO000044
+Production                    00001SERCOPY                       CMNIMPRO000048
+Production                    00001IEBGENER                      CMNIMRPM000195
+Production                    00001IEBCOPY                       CMNIMRPM000234
+Production                    00001IEBGENER                      CMNIMRPM000275
+Production                    00001IEBGENER                      CMNIMRPM000284
+Production                    00001SY4020                        CMNIMSBL000016
+Production                    00001SERCOPY                       CMNIMSBL000025
+Production                    00001IEBCOPY                       CMNIMSIM000010
+Production                    00001SERCOPY                       CMNIMSIM000013
+Production                    00001IEBCOPY                       CMNIMSPD000018
+Production                    00001SERCOPY                       CMNIMSPD000021
+Production                    00001IEBCOPY                       CMNIMSPD000082
+Production                    00001SERCOPY                       CMNIMSPD000085
+Production                    00001IEBCOPY                       CMNIMSPR000013
+Production                    00001SERCOPY                       CMNIMSPR000016
+Production                    00001IEBCOPY                       CMNIMSTP000018
+Production                    00001SERCOPY                       CMNIMSTP000021
+Production                    00001IEBCOPY                       CMNIMSTP000082
+Production                    00001SERCOPY                       CMNIMSTP000085
+Production                    00001DFSRRC00                      CMNINACB000009
+Production                    00001DFSUOCU0                      CMNINASW000006
+Production                    00001DFSUOCU0                      CMNINFSW000006
+Production                    00001SORT                          CMNINIGN000067
+Production                    00001SORT                          CMNINIGN000070
+Production                    00001CMNISMFS                      CMNINIGN000114
+Production                    00001CMNISMFS                      CMNINIGN000117
+Production                    00001IEFBR14                       CMNJSBAS000012
+Production                    00001CMNBATCH                      CMNJSBAS000014
+Production                    00001SERPRINT                      CMNJSBAS000031
+Production                    00001IEBGENER                      CMNJSBAS000040
+Production                    00001IEFBR14                       CMNJSPRD000012
+Production                    00001IEFBR14                       CMNJSPRD000018
+Production                    00001CMNBATCH                      CMNJSPRD000021
+Production                    00001IEBGENER                      CMNJSPRD000051
+Production                    00001IEBGENER                      CMNJSPRM000016
+Production                    00001IEFBR14                       CMNJSRPM000007
+Production                    00001IEBGENER                      CMNJSRPM000009
+Production                    00001SERPRINT                      CMNJSRPM000021
+Production                    00001IEBGENER                      CMNJSRPM000030
+Production                    00001CMNBAT90                      CMNMAPGN000017
+Production                    00001SERCOPY                       CMNMAPGN000043
+Production                    00001CMNBAT90                      CMNMAPGN000056
+Production                    00001SERCOPY                       CMNMAPGN000082
+Production                    00001CMNBAT90                      CMNMFSGN000033
+Production                    00001SERCOPY                       CMNMFSGN000059
+Production                    00001CMNBAT90                      CMNMFSGN000072
+Production                    00001SERCOPY                       CMNMFSGN000097
+Production                    00001SY4020                        CMNMFSIG000014
+Production                    00001SY4020                        CMNMFSIG000055
+Production                    00001SY4020                        CMNMFSPG000019
+Production                    00001SY4020                        CMNMFSPG000060
+Production                    00001SY4020                        CMNMFSRG000015
+Production                    00001SY4020                        CMNMFSRG000052
+Production                    00001SY4020                        CMNMFSRG000069
+Production                    00001CMNWRITE                      CMNPDPEX000007
+Production                    00001IEBGENER                      CMNPDPEX000080
+Production                    00001ASMA90                        CMNPDPGN000008
+Production                    00001CMNSSIDN                      CMNPDPGN000105
+Production                    00001HEWL                          CMNPDPGN000133
+Production                    00001CMNISOVR                      CMNPDPOV000008
+Production                    00001ASMA90                        CMNPDPOV000048
+Production                    00001CMNSSIDN                      CMNPDPOV000103
+Production                    00001IEWL                          CMNPDPOV000143
+Production                    00001IEBCOPY                       CMNPLICM000061
+Production                    00001&$BINDPGM                     CMNPLICM000235
+Production                    00001DFSUOCU0                      CMNPRASW000006
+Production                    00001DFSUOCU0                      CMNPRFSW000006
+Production                    00001IEFBR14                       CMNPSBGN000048
+Production                    00001IEBGENER                      CMNPSBGN000052
+Production                    00001CMNVSRVC                      CMNRDD01000006
+Production                    00001IEBGENER                      CMNRDD02000010
+Production                    00001IKJEFT01                      CMNRDD03000017
+Production                    00001IKJEFT01                      CMNRDD03000043
+Production                    00001CMNWRITE                      CMNRDPEX000007
+Production                    00001IEBGENER                      CMNRDPEX000078
+Production                    00001ASMA90                        CMNRDPGN000009
+Production                    00001CMNSSIDN                      CMNRDPGN000074
+Production                    00001HEWL                          CMNRDPGN000106
+Production                    00001CMNISOVR                      CMNRDPOV000008
+Production                    00001ASMA90                        CMNRDPOV000048
+Production                    00001CMNSSIDN                      CMNRDPOV000107
+Production                    00001IEWL                          CMNRDPOV000146
+Production                    00001DFSRRC00                      CMNRPACB000010
+Production                    00001IEBCOPY                       CMNRPICL000044
+Production                    00001SERCOPY                       CMNRPICL000047
+Production                    00001CMNDELRN                      CMNRPICL000101
+Production                    00001CMNDELRN                      CMNRPICL000141
+Production                    00001IEBGENER                      CMNRPICL000165
+Production                    00001IEFBR14                       CMNRPICL000174
+Production                    00001IEBGENER                      CMNRPICL000179
+Production                    00001IEBGENER                      CMNRPICR000356
+Production                    00001IEFBR14                       CMNRPICR000366
+Production                    00001IEBGENER                      CMNRPICR000372
+Production                    00001IEBGENER                      CMNRPICR000385
+Production                    00001SORT                          CMNRPIGN000037
+Production                    00001CMNISMFS                      CMNRPIGN000092
+Production                    00001CMNDELRN                      CMNRPIPC000005
+Production                    00001IEBCOPY                       CMNRPIPS000017
+Production                    00001SERCOPY                       CMNRPIPS000020
+Production                    00001IEBCOPY                       CMNRPIRC000007
+Production                    00001SERCOPY                       CMNRPIRC000010
+Production                    00001CMNDELRN                      CMNRPIRD000005
+Production                    00001IEBCOPY                       CMNRPISC000013
+Production                    00001SERCOPY                       CMNRPISC000016
+Production                    00001CMNBATCH                      CMNRPM00000005
+Production                    00001IEFBR14                       CMNRPM00000019
+Production                    00001IEBGENER                      CMNRPM10000032
+Production                    00001IEBCOPY                       CMNRPM10000084
+Production                    00001IEBGENER                      CMNRPM10000095
+Production                    00001IEBGENER                      CMNRPM10000104
+Production                    00001IEFBR14                       CMNRPM10000169
+Production                    00001IEBCOPY                       CMNRPM10000173
+Production                    00001IEBCOPY                       CMNRPM20000010
+Production                    00001CMNDELRN                      CMNRPM20000022
+Production                    00001CMNDELRN                      CMNRPM20000035
+Production                    00001CMNDELRN                      CMNRPM20000048
+Production                    00001IEBGENER                      CMNRPM20000061
+Production                    00001IEFBR14                       CMNRPM20000069
+Production                    00001IEBGENER                      CMNRPM20000071
+Production                    00001IEFBR14                       CMNRPM20000080
+Production                    00001IEFBR14                       CMNRPM20000086
+Production                    00001IEBCOPY                       CMNRPM2I000010
+Production                    00001IEFBR14                       CMNRPM2I000027
+Production                    00001CMNDELRN                      CMNRPM2I000032
+Production                    00001CMNDELRN                      CMNRPM2I000046
+Production                    00001CMNDELRN                      CMNRPM2I000060
+Production                    00001IEFBR14                       CMNRPM2I000087
+Production                    00001IEFBR14                       CMNRPM2I000093
+Production                    00001CMNDELRN                      CMNRPM30000013
+Production                    00001IEBGENER                      CMNRPM30000026
+Production                    00001IEFBR14                       CMNRPM30000034
+Production                    00001IEBGENER                      CMNRPM30000036
+Production                    00001CMNDELRN                      CMNRPM3I000018
+Production                    00001CMNBATCH                      CMNRPM99000005
+Production                    00001CMNBATCH                      CMNRPMB0000010
+Production                    00001IEBGENER                      CMNRPMB0000080
+Production                    00001CMNBATCH                      CMNRPMB9000008
+Production                    00001IEBCOPY                       CMNRPMCL000035
+Production                    00001SERCOPY                       CMNRPMCL000038
+Production                    00001CMNDELRN                      CMNRPMCL000085
+Production                    00001CMNDELRN                      CMNRPMCL000113
+Production                    00001IEBGENER                      CMNRPMCL000134
+Production                    00001IEFBR14                       CMNRPMCL000142
+Production                    00001IEBGENER                      CMNRPMCL000144
+Production                    00001IEBCOPY                       CMNRPMCR000071
+Production                    00001SERCOPY                       CMNRPMCR000074
+Production                    00001IEBCOPY                       CMNRPMCR000113
+Production                    00001SERCOPY                       CMNRPMCR000116
+Production                    00001IEBCOPY                       CMNRPMCR000156
+Production                    00001SERCOPY                       CMNRPMCR000159
+Production                    00001CMNDELRN                      CMNRPMCR000227
+Production                    00001CMNDELRN                      CMNRPMCR000241
+Production                    00001CMNDELRN                      CMNRPMCR000255
+Production                    00001CMNDELRN                      CMNRPMCR000293
+Production                    00001CMNDELRN                      CMNRPMCR000310
+Production                    00001CMNDELRN                      CMNRPMCR000327
+Production                    00001IEBGENER                      CMNRPMCR000360
+Production                    00001IEFBR14                       CMNRPMCR000368
+Production                    00001IEBGENER                      CMNRPMCR000370
+Production                    00001IEBGENER                      CMNRPMCR000378
+Production                    00001IEFBR14                       CMNRPMDL000006
+Production                    00001IEFBR14                       CMNRPMDR000014
+Production                    00001OS3550                        CMNRPMMJ000008
+Production                    00001IEBGENER                      CMNRPMT0000009
+Production                    00001IEBGENER                      CMNRPMT0000018
+Production                    00001IEBGENER                      CMNRPMT9000009
+Production                    00001IEBGENER                      CMNRPMT9000018
+Production                    00001IEFBR14                       CMNRXS  000038
+Production                    00001REXXCOMP                      CMNRXS  000049
+Production                    00001CMNBAT90                      CMNRXS  000069
+Production                    00001SERCOPY                       CMNRXS  000093
+Production                    00001LC370B                        CMNSASC 000009
+Production                    00001CMNVSRVC                      CMNSRVC 000016
+Production                    00001IEBUPDTE                      CMNTLNGN000016
+Production                    00001ASMA90                        CMNTLNGN000033
+Production                    00001&PGMASM                       CMNTLNGN000037
+Production                    00001IEBUPDTE                      CMNTLNGN000058
+Production                    00001ADPACTLC                      CMNTLNPI000006
+Production                    00001ADPACTLC                      CMNTLNPI000011
+Production                    00001TELONTDF                      CMNTLNPI000017
+Production                    00001ADPACOPY                      CMNTLNRS000008
+Production                    00001IDCAMS                        CMNZ010A000006
+Production                    00001IEBGENER                      CMNZ010P000006
+Production                    00001IEBGENER                      CMNZ030P000006
+Production                    00001IEBGENER                      CMNZ070P000006
+Production                    00001IEBGENER                      CMNZ100P000006
+Production                    00001IEBGENER                      CMNZ110P000006
+Production                    00001IEBGENER                      CMNZ120P000006
+Production                    00001IEBGENER                      CMNZ130P000006
+Production                    00001IEBGENER                      CMNZ140P000006
+Production                    00001IEBGENER                      CMNZ160P000006
+Production                    00001IEBGENER                      CMNZ170P000006
+Production                    00001CMNDELRN                      CMV$$CVM000009
+Production                    00001CMNDELRN                      CMV$$CVM000025
+Production                    00001CMNDELRN                      CMV$$CVM000046
+Production                    00001CMNDELRN                      CMV$$CVM000062
+Production                    00001CMNDELRN                      CMV$$CVM000078
+Production                    00001DSNHPC                        COMPMVS1000028
+Production                    00001EW7510                        COMPMVS1000099
+Production                    00001CH7061                        COMPMVS1000121
+Production                    00001IEL1AA                        COMPMVS1000125
+Production                    00001DSNHPC                        COMPMVS1000164
+Production                    00001EW7520                        COMPMVS1000194
+Production                    00001CH7061                        COMPMVS1000219
+Production                    00001IEL1AA                        COMPMVS1000223
+Production                    00001DFHEPP1$                      COMPMVS1000253
+Production                    00001IEBGENER                      COMPMVS1000266
+Production                    00001SY2090                        COMPMVS1000282
+Production                    00001NN0054                        COMPMVS1000298
+Production                    00001CH7061                        COMPMVS1000315
+Production                    00001IEL1AA                        COMPMVS1000319
+Production                    00001IEFBR14                       COMPMVS1000352
+Production                    00001STRXPLF                       COMPMVS1000358
+Production                    00001CMNSSIDN                      COMPMVS1000370
+Production                    00001IEFBR14                       COMPMVS1000407
+Production                    00001HEWL                          COMPMVS1000417
+Production                    00001IEBGENER                      COMPMVS1000513
+Production                    00001IEBGENER                      COMPMVS1000521
+Production                    00001CMNBAT90                      COMPMVS1000529
+Production                    00001CMNBAT90                      COMPMVS1000551
+Production                    00001SERCOPY                       COMPMVS1000576
+Production                    00001SERCOPY                       COMPMVS1000589
+Production                    00001SY4020                        COMPSTG 000011
+Production                    00001ADRDSSU                       COMPSTG 000026
+Production                    00001IKJEFT01                      DB1$$B90000008
+Production                    00001CMNBAT90                      DB1$$B90000024
+Production                    00001CMNBAT90                      DB1$$B90000050
+Production                    00001SERCOPY                       DB1$$B92000011
+Production                    00001SERCOPY                       DB1$$B92000025
+Production                    00001IKJEFT01                      DB2$$B90000008
+Production                    00001CMNBAT90                      DB2$$B90000026
+Production                    00001SERCOPY                       DB2$$B92000008
+Production                    00001EW7510                        EPC$$CGN000008
+Production                    00001IKJEFT01                      EPC$$FAF000049
+Production                    00001ICEGENER                      EPC$$LCT000010
+Production                    00001CMNBAT90                      EPC$$LCT000021
+Production                    00001SERCOPY                       EPC$$LCT000047
+Production                    00001IBMZPLI                       EPC$$PLI000055
+Production                    00001CWPPMAIN                      EPC$$PLI000057
+Production                    00001IEFBR14                       EPCBINDR000027
+Production                    00001HEWL                          EPCBINDR000052
+Production                    00001CMNBAT90                      EPCBINDR000107
+Production                    00001SERCOPY                       EPCBINDR000139
+Production                    00001IBMZPLI                       EPCCGN01000019
+Production                    00001EDCPRLK                       EPCLCORB000012
+Production                    00001IKJEFT01                      EPCLSTCS000011
+Production                    00001ICEGENER                      EPCLSTCS000029
+Production                    00001IKJEFT01                      EPCLSTCS000042
+Production                    00001SERCOPY                       EPCLSTCS000060
+Production                    00001CMNBATCH                      EPCLSTCS000069
+Production                    00001SERPRINT                      EPCLSTPR000007
+Production                    00001IKJEFT01                      EPCPLGCK000006
+Production                    00001IBMZPLI                       EPP$$PLI000010
+Production                    00001HI7007                        ETHEL   000001
+Production                    00001SERCOPY                       FRED    000035
+Production                    00001HI7007                        FRED    000061
+Production                    00001JSKSCAN                       JOSKAPP 000009
+Production                    00001SERCOPY                       JOSKAPP 000021
+Production                    00001CMNBAT90                      JOSKAPP 000038
+Production                    00001EW7510                        LE3$$CGN000007
+Production                    00001CH7061                        LE3$$CGN000030
+Production                    00001IEL1AA                        LE3$$CGN000034
+Production                    00001DSNHPC                        LE3$$CGN000075
+Production                    00001IKJEFT01                      LE3$$CGN000135
+Production                    00001CMNBAT90                      LE3$$CGN000176
+Production                    00001EW7520                        LE3$$CGN000205
+Production                    00001CH7061                        LE3$$CGN000230
+Production                    00001IEL1AA                        LE3$$CGN000234
+Production                    00001DFHEPP1$                      LE3$$CGN000267
+Production                    00001IEBGENER                      LE3$$CGN000280
+Production                    00001SY2090                        LE3$$CGN000296
+Production                    00001NN0054                        LE3$$CGN000311
+Production                    00001CH7061                        LE3$$CGN000327
+Production                    00001IEL1AA                        LE3$$CGN000331
+Production                    00001IEFBR14                       LE3$$CGN000377
+Production                    00001STRXPLF                       LE3$$CGN000383
+Production                    00001CMNSSIDN                      LE3$$CGN000395
+Production                    00001IEFBR14                       LE3$$CGN000434
+Production                    00001HEWL                          LE3$$CGN000444
+Production                    00001SERCOPY                       LE3$$CGN000524
+Production                    00001SERCOPY                       LE3$$CGN000545
+Production                    00001IEBGENER                      LE3$$CGN000563
+Production                    00001IEBGENER                      LE3$$CGN000571
+Production                    00001CMNBAT90                      LE3$$CGN000579
+Production                    00001CMNBAT90                      LE3$$CGN000601
+Production                    00001SERCOPY                       LE3$$CGN000626
+Production                    00001SERCOPY                       LE3$$CGN000639
+Production                    00001NN0054                        LE3$$DEC000006
+Production                    00001IEL1AA                        LE3$$PLI000020
+Production                    00001CH7061                        LE3$$PLI000023
+Production                    00001IEFBR14                       LE3$$PLI000106
+Production                    00001STRXPLF                       LE3$$PLI000116
+Production                    00001IEL1AA                        LE3PLIPP000036
+Production                    00001CH7061                        LE3PLIPP000040
+Production                    00001JSKSCAN                       LE3PLIPP000100
+Production                    00001IEBGENER                      LOAD    000054
+Production                    00001IEFBR14                       LOAD    000070
+Production                    00001IEBCOPY                       LOAD    000081
+Production                    00001CMNBAT90                      LOAD    000107
+Production                    00001SERCOPY                       LOAD    000131
+Production                    00001IKJEFT01                      OBJ$$SSI000007
+Production                    00001IEBCOPY                       OBJXPLIB000017
+Production                    00001NN0054                        PLI$$DEC000006
+Production                    00001IBMZPLI                       PLICCFAF000022
+Production                    00001EW7510                        PLICICG1000007
+Production                    00001SY2090                        PLIETABX000009
+Production                    00001SY7660                        PLIGEN  000001
+Production                    00001IEBGENER                      PLIGEN  000006
+Production                    00001ICEGENER                      PLIMDSCC000020
+Production                    00001IBMZPLI                       PLIPPFAF000008
+Production                    00001IEFBR14                       PSBGNALT000076
+Production                    00001IEBGENER                      PSBGNALT000080
+Production                    00001IEBGENER                      RPBADBND000016
+Production                    00001IEBGENER                      RPBADBND000033
+Production                    00001IEBGENER                      S8PD2BND000035
+Production                    00001IEBGENER                      S8PD2BND000116
+Production                    00001IKJEFT01                      SCMBDMDS000010
+Production                    00001IKJEFT01                      SCMCLMTA000283
+Production                    00001IKJEFT01                      SCMCLMTA000295
+Production                    00001IKJEFT01                      SCMEVTCK000008
+Production                    00001IKJEFT01                      SCMEVTCK000018
+Production                    00001IKJEFT01                      SCMGNMTA000006
+Production                    00001IKJEFT01                      SCMGNMTR000005
+Production                    00001IKJEFT01                      SCMMIGRO000038
+Production                    00001IKJEFT01                      SCMMIGRO000134
+Production                    00001IKJEFT01                      SCMMIGRO000235
+Production                    00001IKJEFT1A                      SCMN$C01000013
+Production                    00001IKJEFT1A                      SCMN$C02000013
+Production                    00001IKJEFT1A                      SCMN$C03000013
+Production                    00001IKJEFT1A                      SCMN$C04000013
+Production                    00001IKJEFT1A                      SCMN$C05000013
+Production                    00001IKJEFT1A                      SCMN$C06000013
+Production                    00001IKJEFT1A                      SCMN$CD1000010
+Production                    00001IKJEFT1A                      SCMN$CD2000010
+Production                    00001IKJEFT1A                      SCMN$CD5000010
+Production                    00001IKJEFT1A                      SCMN$CD6000010
+Production                    00001IKJEFT1A                      SCMN$CH1000013
+Production                    00001IKJEFT1A                      SCMN$CH2000013
+Production                    00001IKJEFT1A                      SCMN$CH5000013
+Production                    00001IKJEFT1A                      SCMN$CH6000013
+Production                    00001IKJEFT1A                      SCMN$CI1000010
+Production                    00001IKJEFT1A                      SCMN$CI2000010
+Production                    00001IKJEFT1A                      SCMN$CI5000010
+Production                    00001IKJEFT1A                      SCMN$CI6000010
+Production                    00001IKJEFT1A                      SCMN$CU1000010
+Production                    00001IKJEFT1A                      SCMN$CU2000010
+Production                    00001IKJEFT1A                      SCMN$CU5000010
+Production                    00001IKJEFT1A                      SCMN$CU6000010
+Production                    00001IKJEFT1A                      SCMN$E20000013
+Production                    00001IKJEFT1A                      SCMN$E21000013
+Production                    00001IKJEFT1A                      SCMN$E23000013
+Production                    00001IKJEFT1A                      SCMN$E30000013
+Production                    00001IKJEFT1A                      SCMN$E32000013
+Production                    00001IKJEFT1A                      SCMN$E45000013
+Production                    00001IKJEFT1A                      SCMN$S05000013
+Production                    00001IKJEFT1A                      SCMN$S10000013
+Production                    00001IKJEFT1A                      SCMN$S20000013
+Production                    00001IKJEFT1A                      SCMN$S25000013
+Production                    00001IKJEFT1A                      SCMN$S30000013
+Production                    00001IKJEFT1A                      SCMN$S35000013
+Production                    00001IKJEFT1A                      SCMN$S40000013
+Production                    00001IKJEFT1A                      SCMN$S75000013
+Production                    00001IKJEFT01                      SCMPDSST000039
+Production                    00001ICETOOL                       SKAAUDRP000023
+Production                    00001IKJEFT01                      SKAAUDRP000051
+Production                    00001IKJEFT01                      SKADBSTR000005
+Production                    00001IKJEFT01                      SKATSOLB000017
+Production                    00001IEFBR14                       SKAUMEMO000003
+Production                    00001CH7010                        SKAUMEMO000005
+Production                    00001OS3550                        SKAUMEMO000030
+Production                    00001IEBGENER                      SKBNEWCP000014
+Production                    00001CH7120                        SKBNEWCP000069
+Production                    00001CMNCICS1                      SKBNEWCP000081
+Production                    00001IEBGENER                      SKBNEWCP000092
+Production                    00001CH7120                        SKBNEWCP000146
+Production                    00001CMNCICS1                      SKBNEWCP000158
+Production                    00001IEBGENER                      SKBNEWCP000169
+Production                    00001CH7120                        SKBNEWCP000223
+Production                    00001CMNCICS1                      SKBNEWCP000235
+Production                    00001IEBGENER                      SKBNEWCP000246
+Production                    00001CH7120                        SKBNEWCP000300
+Production                    00001CMNCICS1                      SKBNEWCP000312
+Production                    00001IKJEFT1A                      SKDBPGEN000005
+Production                    00001CMNBAT90                      SKDBPGEN000019
+Production                    00001SERCOPY                       SKDBPGN2000006
+Production                    00001IEFBR14                       SKDELHDR000003
+Production                    00001CMNDELRN                      SKDELHDR000006
+Production                    00001IKJEFT01                      SKDIEPST000031
+Production                    00001IKJEFT1A                      SKED2BDP000010
+Production                    00001IKJEFT1A                      SKED2BDP000033
+Production                    00001IKJEFT1A                      SKED2BDP000062
+Production                    00001IKJEFT1A                      SKED2BDP000093
+Production                    00001IEBUPDTE                      SKED2BDP000106
+Production                    00001IKJEFT1A                      SKED2BND000032
+Production                    00001IKJEFT1A                      SKED2JSK000004
+Production                    00001JSK2UTI                       SKED2JSK000025
+Production                    00001IKJEFT1A                      SKEDBB  000013
+Production                    00001IKJEFT01                      SKEDBB  000052
+Production                    00001IKJEFT1A                      SKEDBB  000083
+Production                    00001IEBUPDTE                      SKEDBB  000109
+Production                    00001DFSRRC00                      SKEPTAAC000028
+Production                    00001SY4020                        SKEPTAMF000029
+Production                    00001SY4020                        SKEPTAMF000059
+Production                    00001SY4020                        SKEPTAMF000078
+Production                    00001ASMA90                        SKEPTAPS000022
+Production                    00001HEWL                          SKEPTAPS000040
+Production                    00001IKJEFT1A                      SKI21BDP000006
+Production                    00001IKJEFT1A                      SKI21BDP000022
+Production                    00001IKJEFT1A                      SKI21BND000066
+Production                    00001IEFBR14                       SKI21BND000085
+Production                    00001CMNBATCH                      SKI21BND000087
+Production                    00001IDCAMS                        SKI21BND000215
+Production                    00001IKJEFT01                      SKI21BND000242
+Production                    00001IKJEFT01                      SKI21BND000261
+Production                    00001IKJEFT1A                      SKI21DBB000014
+Production                    00001IKJEFT01                      SKI21DBB000063
+Production                    00001IKJEFT1A                      SKI21JSK000005
+Production                    00001JSK2UTI                       SKI21JSK000027
+Production                    00001IKJEFT1A                      SKI32BDP000008
+Production                    00001IKJEFT1A                      SKI32BDP000024
+Production                    00001IKJEFT1A                      SKI32DBB000021
+Production                    00001IKJEFT01                      SKI32DBB000058
+Production                    00001IEFBR14                       SKI32DBB000085
+Production                    00001IKJEFT1A                      SKI32JSK000005
+Production                    00001JSK2UTI                       SKI32JSK000032
+Production                    00001CH7010                        SKID2MMO000006
+Production                    00001OS3550                        SKID2MMO000107
+Production                    00001IEFBR14                       SKIEBCOP000004
+Production                    00001IEBCOPY                       SKIEBCOP000007
+Production                    00001CH7010                        SKIMSEMO000003
+Production                    00001OS3550                        SKIMSEMO000032
+Production                    00001IEBGENER                      SKINEWCP000016
+Production                    00001CH7120                        SKINEWCP000045
+Production                    00001CMNCICS1                      SKINEWCP000057
+Production                    00001IEBGENER                      SKINEWCP000068
+Production                    00001CH7120                        SKINEWCP000096
+Production                    00001CMNCICS1                      SKINEWCP000108
+Production                    00001IEBGENER                      SKINEWCP000119
+Production                    00001CH7120                        SKINEWCP000147
+Production                    00001CMNCICS1                      SKINEWCP000159
+Production                    00001IEBGENER                      SKINEWCP000170
+Production                    00001CH7120                        SKINEWCP000198
+Production                    00001CMNCICS1                      SKINEWCP000210
+Production                    00001IEBGENER                      SKINEWCP000221
+Production                    00001CH7120                        SKINEWCP000249
+Production                    00001CMNCICS1                      SKINEWCP000261
+Production                    00001IEBGENER                      SKINEWCP000272
+Production                    00001CH7120                        SKINEWCP000300
+Production                    00001CMNCICS1                      SKINEWCP000312
+Production                    00001IEBGENER                      SKINEWCP000328
+Production                    00001CH7120                        SKINEWCP000356
+Production                    00001CMNCICS1                      SKINEWCP000368
+Production                    00001IEBGENER                      SKINEWCP000379
+Production                    00001CH7120                        SKINEWCP000407
+Production                    00001CMNCICS1                      SKINEWCP000419
+Production                    00001IEBGENER                      SKINEWCP000430
+Production                    00001CH7120                        SKINEWCP000458
+Production                    00001CMNCICS1                      SKINEWCP000470
+Production                    00001IKJEFT01                      SKISCMTG000010
+Production                    00001IKJEFT01                      SKM$$SCM000015
+Production                    00001CWPAMAIN                      SKM$$XPA000009
+Production                    00001CWPCMAIN                      SKM$$XPC000010
+Production                    00001CWPCMAIN                      SKM$$XPC000017
+Production                    00001CH7062                        SKM$$XPP000010
+Production                    00001CWPPMAIN                      SKM$$XPP000013
+Production                    00001IKJEFT01                      SKMIDLGW000018
+Production                    00001BPXBATCH                      SKMIDLGW000063
+Production                    00001CH7180                        SKMIDLGW000107
+Production                    00001IKJEFT01                      SKMIDLGW000222
+Production                    00001IKJEFT01                      SKMIDLGW000306
+Production                    00001SY4020                        SKMIDLGW000340
+Production                    00001BPXBATCH                      SKMIDLGW000385
+Production                    00001IKJEFT01                      SKMIDLIR000018
+Production                    00001BPXBATCH                      SKMIDLIR000062
+Production                    00001IKJEFT01                      SKMIDLIR000106
+Production                    00001IKJEFT01                      SKMIDLIR000232
+Production                    00001SY4020                        SKMIDLIR000278
+Production                    00001IEBGENER                      SKMIDRZ8000007
+Production                    00001SERPRINT                      SKMIDRZ8000044
+Production                    00001DFSRRC00                      SKMQMSBS000016
+Production                    00001DFSRRC00                      SKMQMSBS000022
+Production                    00001DFSRRC00                      SKMQMSBS000029
+Production                    00001DFSRRC00                      SKMQMSBS000036
+Production                    00001DFSRRC00                      SKMQMSBS000042
+Production                    00001DFSRRC00                      SKMQMSBS000048
+Production                    00001DFSRRC00                      SKMQMSBS000124
+Production                    00001DFSRRC00                      SKMQMSBS000130
+Production                    00001DFSRRC00                      SKMQMSBS000137
+Production                    00001DFSRRC00                      SKMQMSBS000144
+Production                    00001DFSRRC00                      SKMQMSBS000150
+Production                    00001DFSRRC00                      SKMQMSBS000156
+Production                    00001IBMZPLI                       SKPCODEC000027
+Production                    00001IKJEFT1A                      SKPD2BDP000009
+Production                    00001IKJEFT01                      SKPD2BDP000029
+Production                    00001IKJEFT1A                      SKPD2BDP000085
+Production                    00001IKJEFT1A                      SKPD2BDP000104
+Production                    00001IEBUPDTE                      SKPD2BDP000113
+Production                    00001IEBGENER                      SKPD2BND000084
+Production                    00001IEBGENER                      SKPD2BND000166
+Production                    00001SERCOPY                       SKPD2JSK000003
+Production                    00001IKJEFT1A                      SKPD2JSK000021
+Production                    00001JSK2UTI                       SKPD2JSK000042
+Production                    00001IKJEFT1A                      SKPDBB  000003
+Production                    00001IKJEFT01                      SKPDBB  000028
+Production                    00001IKJEFT1A                      SKPDBB  000042
+Production                    00001IEBUPDTE                      SKPDBB  000055
+Production                    00001ICEGENER                      SKPITEST000022
+Production                    00001IN25SYMP                      SKPITEST000056
+Production                    00001IN25LINK                      SKPITEST000094
+Production                    00001IEBGENER                      SKPLKORB000028
+Production                    00001IEFBR14                       SKPLKORB000138
+Production                    00001IEBGENER                      SKPLKORB000147
+Production                    00001EDCPRLK                       SKPLKORB000163
+Production                    00001IEBGENER                      SKPNEWCP000038
+Production                    00001CH7120                        SKPNEWCP000067
+Production                    00001CMNCICS1                      SKPNEWCP000079
+Production                    00001IEBGENER                      SKPNEWCP000090
+Production                    00001CH7120                        SKPNEWCP000118
+Production                    00001CMNCICS1                      SKPNEWCP000130
+Production                    00001IEBGENER                      SKPNEWCP000141
+Production                    00001CH7120                        SKPNEWCP000169
+Production                    00001CMNCICS1                      SKPNEWCP000181
+Production                    00001IEBGENER                      SKPNEWCP000192
+Production                    00001CH7120                        SKPNEWCP000220
+Production                    00001CMNCICS1                      SKPNEWCP000232
+Production                    00001IEBGENER                      SKPNEWCP000255
+Production                    00001CH7120                        SKPNEWCP000301
+Production                    00001CMNCICS1                      SKPNEWCP000313
+Production                    00001IEBGENER                      SKPNEWCP000326
+Production                    00001CH7120                        SKPNEWCP000355
+Production                    00001CMNCICS1                      SKPNEWCP000367
+Production                    00001IEBGENER                      SKPNEWCP000380
+Production                    00001CH7120                        SKPNEWCP000409
+Production                    00001CMNCICS1                      SKPNEWCP000421
+Production                    00001IEBGENER                      SKPQCHK1000014
+Production                    00001IKJEFT01                      SKPQCHK2000022
+Production                    00001IEBGENER                      SKPQCHK2000096
+Production                    00001SORT                          SKRIMS  000089
+Production                    00001IKJEFT01                      SKRPSCR 000018
+Production                    00001CMNDELRN                      SKS$$050000015
+Production                    00001IEBCOPY                       SKS$$050000031
+Production                    00001CMNDELRN                      SKS$$050000071
+Production                    00001DFHECP1$                      SKS$$IMS000009
+Production                    00001DFHEAP1$                      SKS$$IMS000020
+Production                    00001DFHEPP1$                      SKS$$IMS000024
+Production                    00001ASMA90                        SKS$$PSB000011
+Production                    00001IEBCOPY                       SKS$$T20000051
+Production                    00001SERCOPY                       SKS$$T20000054
+Production                    00001CMNDELRN                      SKS$$T20000087
+Production                    00001CMNDELRN                      SKS$$T20000106
+Production                    00001IEBGENER                      SKS$BSCI000013
+Production                    00001CH7010                        SKS$BSCI000125
+Production                    00001OS3550                        SKS$BSCI000140
+Production                    00001IEBGENER                      SKS$EOPT000012
+Production                    00001CH7010                        SKS$EOPT000086
+Production                    00001OS3550                        SKS$EOPT000101
+Production                    00001IEBGENER                      SKSBAU  000034
+Production                    00001DFSRRC00                      SKSBAUDT000004
+Production                    00001CHAF70                        SKSBAUDT000022
+Production                    00001ASMA90                        SKSBAUDT000068
+Production                    00001IEFBR14                       SKSBAUDT000079
+Production                    00001HEWL                          SKSBAUDT000085
+Production                    00001CMNBAT90                      SKSBAUDT000098
+Production                    00001SERCOPY                       SKSBAUDT000119
+Production                    00001IEBCOPY                       SKSBINDR000044
+Production                    00001SERCOPY                       SKSBINDR000309
+Production                    00001SERCOPY                       SKSCCILD000009
+Production                    00001CMNBATCH                      SKSCCILD000017
+Production                    00001IKJEFT01                      SKSCCILD000044
+Production                    00001SERCOPY                       SKSCCILD000060
+Production                    00001CMNBATCH                      SKSCCILD000068
+Production                    00001EQACUZPT                      SKSCCOBJ000008
+Production                    00001SERCOPY                       SKSCCSTP000030
+Production                    00001EQACUSET                      SKSCCSTP000039
+Production                    00001IKJEFT01                      SKSCKDBR000027
+Production                    00001SERCMPAR                      SKSCMPAR000008
+Production                    00001NN0062                        SKSCSBPP000004
+Production                    00001NN0060                        SKSCSBPP000014
+Production                    00001IKJEFT01                      SKSCSUTL000020
+Production                    00001CMNCSUTL                      SKSCSUTL000046
+Production                    00001CMNCSUTL                      SKSCSUTL000090
+Production                    00001CMNDB2TM                      SKSDB2TM000001
+Production                    00001IKJEFT01                      SKSDUPCK000011
+Production                    00001IDCAMS                        SKSIDL  000058
+Production                    00001IEFBR14                       SKSIDL  000072
+Production                    00001IKJEFT01                      SKSIDL  000087
+Production                    00001BPXBATCH                      SKSIDL  000131
+Production                    00001IKJEFT01                      SKSIDL  000204
+Production                    00001CH7170                        SKSIDL  000277
+Production                    00001IDCAMS                        SKSIDL  000296
+Production                    00001CH7140                        SKSIDL  000315
+Production                    00001CH7140                        SKSIDL  000348
+Production                    00001CH7140                        SKSIDL  000381
+Production                    00001CH7150                        SKSIDL  000411
+Production                    00001IEBGENER                      SKSIDL  000444
+Production                    00001IEBGENER                      SKSIDL  000450
+Production                    00001IEBGENER                      SKSIDL  000457
+Production                    00001IEBGENER                      SKSIDL  000464
+Production                    00001IEBGENER                      SKSIDL  000470
+Production                    00001IDCAMS                        SKSIDL  000507
+Production                    00001IEFBR14                       SKSIDL  000526
+Production                    00001IEFBR14                       SKSIDL  000535
+Production                    00001IEFBR14                       SKSIDL  000542
+Production                    00001IEFBR14                       SKSIDL  000567
+Production                    00001IEBGENER                      SKSITEST000005
+Production                    00001IEBGENER                      SKSITEST000013
+Production                    00001CMNBAT90                      SKSITEST000021
+Production                    00001CMNBAT90                      SKSITEST000043
+Production                    00001SERCOPY                       SKSITEST000068
+Production                    00001SERCOPY                       SKSITEST000081
+Production                    00001CH7010                        SKSJOBNO000015
+Production                    00001IEFBR14                       SKSJSS  000024
+Production                    00001CMNBAT90                      SKSJSS  000064
+Production                    00001SERCOPY                       SKSJSS  000089
+Production                    00001IKJEFT01                      SKSLEOPT000031
+Production                    00001IKJEFT1A                      SKSLEOPT000055
+Production                    00001CMNBAT90                      SKSPAP01000045
+Production                    00001SERCOPY                       SKSPAP01000066
+Production                    00001SERCOPY                       SKSPAP01000077
+Production                    00001IEBGENER                      SKSPAPRS000020
+Production                    00001IEFBR14                       SKSPLAUS000020
+Production                    00001EW7430                        SKSPLAUS000026
+Production                    00001CMNBAT90                      SKSPLAUS000162
+Production                    00001SERCOPY                       SKSPLAUS000184
+Production                    00001CMNBAT90                      SKSPLAUS000196
+Production                    00001SERCOPY                       SKSPLAUS000218
+Production                    00001SERCOPY                       SKSPPCPY000041
+Production                    00001CMNBAT90                      SKSPPCPY000057
+Production                    00001IEFBR14                       SKSSACB 000026
+Production                    00001DFSRRC00                      SKSSACB 000041
+Production                    00001SERCOPY                       SKSSACB 000075
+Production                    00001CMNBAT90                      SKSSACB 000088
+Production                    00001SERCOPY                       SKSSACB 000116
+Production                    00001SERCOPY                       SKSSACB 000130
+Production                    00001SERCOPY                       SKSSACPY000020
+Production                    00001SERCOPY                       SKSSACPY000034
+Production                    00001CMNBAT90                      SKSSACPY000050
+Production                    00001IEFBR14                       SKSSPLNK000008
+Production                    00001IEBGENER                      SKSSPLNK000017
+Production                    00001DFSILNK0                      SKSSPLNK000025
+Production                    00001CMNBAT90                      SKSSPLNK000071
+Production                    00001SERCOPY                       SKSSPLNK000104
+Production                    00001IKJEFT01                      SKSSYNCN000010
+Production                    00001IEFBR14                       SKSWTO  000005
+Production                    00001SY7060                        SKSWTO  000008
+Production                    00001SERCOPY                       SKSXMCPY000037
+Production                    00001CMNBAT90                      SKSXMCPY000053
+Production                    00001IEBCOPY                       SKUCMPJC000013
+Production                    00001SY4020                        SKUCMPJC000028
+Production                    00001OS4310                        SKUCMPJC000040
+Production                    00001DFHECP1$                      SKX$$CIC000014
+Production                    00001DFHEAP1$                      SKX$$CIC000030
+Production                    00001DFHEPP1$                      SKX$$CIC000034
+Production                    00001SY2090                        SKXLIPVA000011
+Production                    00001IBMZPLI                       SKXLIPVA000036
+Production                    00001JSKSCAN                       SKXLIPVA000078
+Production                    00001NN0054                        SKXLIPVA000092
+Production                    00001IEFBR14                       SKXLIPVA000112
+Production                    00001EW7510                        SKXVACGN000008
+Production                    00001IBMZPLI                       SKXVACGN000029
+Production                    00001DSNHPC                        SKXVACGN000061
+Production                    00001IKJEFT01                      SKXVACGN000121
+Production                    00001NN0062                        SKXVACGN000149
+Production                    00001NN0060                        SKXVACGN000159
+Production                    00001EW7520                        SKXVACGN000189
+Production                    00001IBMZPLI                       SKXVACGN000213
+Production                    00001DFHEPP1$                      SKXVACGN000239
+Production                    00001IEBGENER                      SKXVACGN000252
+Production                    00001SY2090                        SKXVACGN000268
+Production                    00001NN0054                        SKXVACGN000283
+Production                    00001IBMZPLI                       SKXVACGN000297
+Production                    00001IEFBR14                       SKXVACGN000342
+Production                    00001STRXPLF                       SKXVACGN000348
+Production                    00001CMNSSIDN                      SKXVACGN000361
+Production                    00001IEFBR14                       SKXVACGN000402
+Production                    00001HEWL                          SKXVACGN000411
+Production                    00001IEFBR14                       SKXVACGN000492
+Production                    00001DSNHPC                        SKXVAPDB000012
+Production                    00001SERCOPY                       SKXVAPDB000096
+Production                    00001IKJEFT01                      SKXVAPDB000121
+Production                    00001IBMZPLI                       SKXVAPLI000020
+Production                    00001IEFBR14                       STROBEPP000008
+Production                    00001STRXPLF                       STROBEPP000018
+Production                    00001IKJEFT1A                      TIRLSCI1000012
+Production                    00001IKJEFT1A                      TIRLSCI2000012
+Production                    00001IKJEFT1A                      TIRLSHST000012
+Production                    00001IDCAMS                        XRFS0000000003
+Production                    00001ICEMAN                        XRFS0000000049
+Production                    00001IKJEFT01                      XRFS0000000085

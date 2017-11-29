@@ -1,0 +1,68 @@
+Table: Variables
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Variable                         036 072 072 String          False
+Skeleton                         108 008 008 String          False
+LineNumber                       116 006 004 Int32           False
+Position                         122 005 002 Int16           False
+Command                          127 009 009 String          False
+CommandCode                      136 005 002 Int16           False
+Type                             141 030 030 String          False
+TypeCode                         171 005 002 Int16           False
+Table: Skeletons
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Skeleton                         036 040 040 String          False
+SkelOffset                       076 005 002 Int16           False
+ChildSkeleton                    081 025 025 String          False
+ChildSkelOffset                  106 005 002 Int16           False
+LineNumber                       111 006 004 Int32           False
+OPT                              117 001 001 Boolean         False
+NOFT                             118 001 001 Boolean         False
+EXT                              119 001 001 Boolean         False
+Amper                            120 001 001 String          False
+Table: Functions
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Function                         036 008 008 String          False
+Skeleton                         044 008 008 String          False
+LineNumber                       052 006 004 Int32           False
+Position                         058 005 002 Int16           False
+Argument                         063 060 060 String          False
+Table: Libraries
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Offset                           036 005 002 Int16           False
+UserTag                          041 050 050 String          False
+HostFileName                     091 044 044 String          False
+PCFileName                       135 256 256 String          False
+Table: Keywords
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+CommandCode                      001 005 002 Int16           True 
+Command                          006 020 020 String          False
+Table: VarTypes
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+TypeCode                         001 005 002 Int16           True 
+Type                             006 030 030 String          False
+Table: Configurations
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+ConfigNum                        001 005 002 Int16           True 
+Configuration                    006 030 030 String          False
+Table: DOT
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Skeleton                         036 008 008 String          False
+TableName                        044 030 030 String          False
+LineNumber                       074 006 004 Int32           False
+Table: Programs
+....+....0....+....0....+....0....+....0....+....0....+....0....+....0....+....0
+Configuration                    001 030 030 String          False
+ConfigNum                        031 005 002 Int16           False
+Skeleton                         036 008 008 String          False
+ProgramName                      044 030 030 String          False
+LineNumber                       074 006 004 Int32           False

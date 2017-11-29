@@ -1,0 +1,1779 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<DOTs>
+  <!--==============-->
+  <!--== BCHECKO1 ==-->
+  <!--==============-->
+  <skeleton Name="BCHECKO1">
+    <tables Name="BCHECKO2" Skeleton="BCHECKO1" LineNumber="7" />
+    <tables Name="BCHECKO1" Skeleton="BCHECKO1" LineNumber="10" />
+  </skeleton>
+  <!--==============-->
+  <!--== BCHECKO2 ==-->
+  <!--==============-->
+  <skeleton Name="BCHECKO2">
+    <tables Name="BCHECKO1" Skeleton="BCHECKO2" LineNumber="10" />
+    <tables Name="BCHECKO1" Skeleton="BCHECKO2" LineNumber="22" />
+    <tables Name="BCHECKO1" Skeleton="BCHECKO2" LineNumber="32" />
+  </skeleton>
+  <!--==============-->
+  <!--== BNDCMRPM ==-->
+  <!--==============-->
+  <skeleton Name="BNDCMRPM">
+    <tables Name="CMNDB2SS" Skeleton="BNDCMRPM" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CAS$$017 ==-->
+  <!--==============-->
+  <skeleton Name="CAS$$017">
+    <tables Name="GNDSCTBL" Skeleton="CAS$$017" LineNumber="22" />
+    <tables Name="IMPINTBL" Skeleton="CAS$$017" LineNumber="28" />
+  </skeleton>
+  <!--==============-->
+  <!--== CAS$$020 ==-->
+  <!--==============-->
+  <skeleton Name="CAS$$020">
+    <tables Name="GNDSCTBL" Skeleton="CAS$$020" LineNumber="23" />
+    <tables Name="IMPINTBL" Skeleton="CAS$$020" LineNumber="29" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CAS$$020" LineNumber="167" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CAS$$020" LineNumber="212" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CAS$$020" LineNumber="260" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CAS$$020" LineNumber="315" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CAS$$020" LineNumber="361" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CAS$$020" LineNumber="378" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CAS$$020" LineNumber="466" />
+  </skeleton>
+  <!--=============-->
+  <!--== CHU0751 ==-->
+  <!--=============-->
+  <skeleton Name="CHU0751">
+    <tables Name="CHTYPTS" Skeleton="CHU0751" LineNumber="14" />
+    <tables Name="CHTYPTS" Skeleton="CHU0751" LineNumber="20" />
+    <tables Name="CHCMPTS" Skeleton="CHU0751" LineNumber="34" />
+    <tables Name="CHCMPTS" Skeleton="CHU0751" LineNumber="52" />
+  </skeleton>
+  <!--=============-->
+  <!--== CHU0752 ==-->
+  <!--=============-->
+  <skeleton Name="CHU0752">
+    <tables Name="CHTYPTR" Skeleton="CHU0752" LineNumber="9" />
+    <tables Name="CHTYPTR" Skeleton="CHU0752" LineNumber="15" />
+    <tables Name="CHCMPTR" Skeleton="CHU0752" LineNumber="30" />
+    <tables Name="CHCMPTR" Skeleton="CHU0752" LineNumber="42" />
+  </skeleton>
+  <!--==============-->
+  <!--== CICPHAI8 ==-->
+  <!--==============-->
+  <skeleton Name="CICPHAI8">
+    <tables Name="RPMLIBTB" Skeleton="CICPHAI8" LineNumber="63" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CICPHAI8" LineNumber="70" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CICPHAI8" LineNumber="72" />
+  </skeleton>
+  <!--==============-->
+  <!--== CICPHAIN ==-->
+  <!--==============-->
+  <skeleton Name="CICPHAIN">
+    <tables Name="RPMTBLLC" Skeleton="CICPHAIN" LineNumber="90" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CICPHAIN" LineNumber="96" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CICPHAIN" LineNumber="98" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ACB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ACB">
+    <tables Name="ACBBLDTB" Skeleton="CMN$$ACB" LineNumber="118" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$AUD ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$AUD">
+    <tables Name="SCOPTABL" Skeleton="CMN$$AUD" LineNumber="119" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BBL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BBL">
+    <tables Name="CMPMBRTB" Skeleton="CMN$$BBL" LineNumber="5" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BLA ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BLA">
+    <tables Name="PROJLTBL" Skeleton="CMN$$BLA" LineNumber="15" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BLG ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BLG">
+    <tables Name="LOGRITBL" Skeleton="CMN$$BLG" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BRC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BRC">
+    <tables Name="CMPCPYTB" Skeleton="CMN$$BRC" LineNumber="28" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BRT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BRT">
+    <tables Name="CMPCPYTB" Skeleton="CMN$$BRT" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$BSN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$BSN">
+    <tables Name="APPLLTBL" Skeleton="CMN$$BSN" LineNumber="12" />
+    <tables Name="LTYPLTBL" Skeleton="CMN$$BSN" LineNumber="15" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CBL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CBL">
+    <tables Name="DLTLIBTB" Skeleton="CMN$$CBL" LineNumber="375" />
+    <tables Name="DLTLIBTB" Skeleton="CMN$$CBL" LineNumber="411" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CKA ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CKA">
+    <tables Name="LTYPETBL" Skeleton="CMN$$CKA" LineNumber="16" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$CKA" LineNumber="36" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$CKA" LineNumber="56" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CKO ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CKO">
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="16" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="63" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="91" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="176" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="179" />
+    <tables Name="DLTLIBTB" Skeleton="CMN$$CKO" LineNumber="180" />
+    <tables Name="DLTLIBTB" Skeleton="CMN$$CKO" LineNumber="226" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="272" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="291" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="319" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="390" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$CKO" LineNumber="410" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CLN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CLN">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$CLN" LineNumber="9" />
+    <tables Name="CLNMODTB" Skeleton="CMN$$CLN" LineNumber="12" />
+    <tables Name="CLNMODTB" Skeleton="CMN$$CLN" LineNumber="56" />
+    <tables Name="CLNMODTB" Skeleton="CMN$$CLN" LineNumber="71" />
+    <tables Name="CLNMODTB" Skeleton="CMN$$CLN" LineNumber="86" />
+    <tables Name="CLNMODTB" Skeleton="CMN$$CLN" LineNumber="101" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CNC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CNC">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$CNC" LineNumber="15" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$CNC" LineNumber="39" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$CPR ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$CPR">
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="23" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="30" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="50" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="57" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="61" />
+    <tables Name="DLTLIBTB" Skeleton="CMN$$CPR" LineNumber="62" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="88" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="95" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="114" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="121" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="179" />
+    <tables Name="STGSLTBL" Skeleton="CMN$$CPR" LineNumber="186" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$DEL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$DEL">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$DEL" LineNumber="27" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$F10 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$F10">
+    <tables Name="RPMSTTBL" Skeleton="CMN$$F10" LineNumber="42" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$F10" LineNumber="64" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$IGN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$IGN">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$IGN" LineNumber="67" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ILC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ILC">
+    <tables Name="SYSLODTB" Skeleton="CMN$$ILC" LineNumber="8" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$ILC" LineNumber="19" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$ILC" LineNumber="28" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$ILC" LineNumber="41" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$ILC" LineNumber="48" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$ILL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$ILL">
+    <tables Name="SYSLODTB" Skeleton="CMN$$ILL" LineNumber="14" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$ILL" LineNumber="24" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$ILL" LineNumber="32" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$ILL" LineNumber="46" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$ILL" LineNumber="54" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$LB2 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$LB2">
+    <tables Name="CMPMBRTB" Skeleton="CMN$$LB2" LineNumber="14" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$LB2" LineNumber="44" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$LNK ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$LNK">
+    <tables Name="XPOLLTBL" Skeleton="CMN$$LNK" LineNumber="50" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$LNK" LineNumber="60" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$LNK" LineNumber="83" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$LNK" LineNumber="93" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$N10 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$N10">
+    <tables Name="RPMSTTBL" Skeleton="CMN$$N10" LineNumber="18" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$N10" LineNumber="26" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$N10" LineNumber="34" />
+    <tables Name="RPMSTTBL" Skeleton="CMN$$N10" LineNumber="59" />
+    <tables Name="RPMSTTBL" Skeleton="CMN$$N10" LineNumber="85" />
+    <tables Name="RPMSTTBL" Skeleton="CMN$$N10" LineNumber="103" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$N10" LineNumber="117" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$N11 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$N11">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$N11" LineNumber="6" />
+    <tables Name="RPMSTTBL" Skeleton="CMN$$N11" LineNumber="30" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$NTF ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$NTF">
+    <tables Name="APRLSTBL" Skeleton="CMN$$NTF" LineNumber="118" />
+    <tables Name="&amp;APRVENT" Skeleton="CMN$$NTF" LineNumber="131" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$OBL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$OBL">
+    <tables Name="LTYPETBL" Skeleton="CMN$$OBL" LineNumber="31" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$OBL" LineNumber="89" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$OTH ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$OTH">
+    <tables Name="OTHLTTBL" Skeleton="CMN$$OTH" LineNumber="28" />
+    <tables Name="OTHLTTBL" Skeleton="CMN$$OTH" LineNumber="47" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PAN ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PAN">
+    <tables Name="CMPMBRTB" Skeleton="CMN$$PAN" LineNumber="15" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PBL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PBL">
+    <tables Name="DLTLIBTB" Skeleton="CMN$$PBL" LineNumber="118" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PBL" LineNumber="176" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$PBL" LineNumber="181" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PBL" LineNumber="200" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$PBL" LineNumber="206" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$PBL" LineNumber="212" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PCT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PCT">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PCT" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PMT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PMT">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PMT" LineNumber="14" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PMT" LineNumber="44" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRB">
+    <tables Name="CMNDB2NN" Skeleton="CMN$$PRB" LineNumber="95" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRB" LineNumber="117" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PRB" LineNumber="119" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRB" LineNumber="135" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PRB" LineNumber="137" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRB" LineNumber="152" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PRB" LineNumber="154" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRB" LineNumber="174" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRB" LineNumber="187" />
+    <tables Name="CMNDB2SS" Skeleton="CMN$$PRB" LineNumber="198" />
+    <tables Name="CMNDB2SS" Skeleton="CMN$$PRB" LineNumber="206" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRB" LineNumber="227" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRM ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRM">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRM" LineNumber="20" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRM" LineNumber="53" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PRM" LineNumber="96" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PRM" LineNumber="99" />
+    <tables Name="CLNHSTTB" Skeleton="CMN$$PRM" LineNumber="108" />
+    <tables Name="COMCHKTB" Skeleton="CMN$$PRM" LineNumber="118" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRO ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRO">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PRO" LineNumber="22" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PRS ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PRS">
+    <tables Name="CMNLBTBL" Skeleton="CMN$$PRS" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PSQ ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PSQ">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PSQ" LineNumber="14" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PSQ" LineNumber="43" />
+    <tables Name="CMNDB2NN" Skeleton="CMN$$PSQ" LineNumber="51" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PSQ" LineNumber="92" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PSQ" LineNumber="108" />
+    <tables Name="PRDLIBTB" Skeleton="CMN$$PSQ" LineNumber="125" />
+    <tables Name="SYSLIBTB" Skeleton="CMN$$PSQ" LineNumber="150" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PSQ" LineNumber="162" />
+    <tables Name="CMNDB2NN" Skeleton="CMN$$PSQ" LineNumber="170" />
+    <tables Name="SYSLIBTB" Skeleton="CMN$$PSQ" LineNumber="184" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PSQ" LineNumber="223" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$PST ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$PST">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$PST" LineNumber="8" />
+    <tables Name="CMNDB2NN" Skeleton="CMN$$PST" LineNumber="14" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$PST" LineNumber="25" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RAU ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RAU">
+    <tables Name="EROAUDTB" Skeleton="CMN$$RAU" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RPB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RPB">
+    <tables Name="CMNDB2NN" Skeleton="CMN$$RPB" LineNumber="95" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPB" LineNumber="117" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RPB" LineNumber="119" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPB" LineNumber="135" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RPB" LineNumber="137" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPB" LineNumber="152" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RPB" LineNumber="154" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPB" LineNumber="174" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPB" LineNumber="189" />
+    <tables Name="CMNDB2SS" Skeleton="CMN$$RPB" LineNumber="202" />
+    <tables Name="CMNDB2SS" Skeleton="CMN$$RPB" LineNumber="210" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPB" LineNumber="231" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RPM ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RPM">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="47" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="90" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="155" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="177" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="218" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="256" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="303" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="311" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="346" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RPM" LineNumber="388" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RPT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RPT">
+    <tables Name="RPTSYITB" Skeleton="CMN$$RPT" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$RSQ ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$RSQ">
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RSQ" LineNumber="14" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RSQ" LineNumber="43" />
+    <tables Name="CMNDB2NN" Skeleton="CMN$$RSQ" LineNumber="51" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RSQ" LineNumber="92" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$RSQ" LineNumber="108" />
+    <tables Name="PRDLIBTB" Skeleton="CMN$$RSQ" LineNumber="125" />
+    <tables Name="SYSLIBTB" Skeleton="CMN$$RSQ" LineNumber="150" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RSQ" LineNumber="162" />
+    <tables Name="CMNDB2NN" Skeleton="CMN$$RSQ" LineNumber="172" />
+    <tables Name="SYSLIBTB" Skeleton="CMN$$RSQ" LineNumber="186" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$RSQ" LineNumber="225" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SPB ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SPB">
+    <tables Name="CMNDB2N1" Skeleton="CMN$$SPB" LineNumber="98" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SPB" LineNumber="120" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$SPB" LineNumber="122" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SPB" LineNumber="138" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$SPB" LineNumber="140" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SPB" LineNumber="155" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMN$$SPB" LineNumber="157" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SPB" LineNumber="177" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SPB" LineNumber="192" />
+    <tables Name="CMNDB2S1" Skeleton="CMN$$SPB" LineNumber="205" />
+    <tables Name="CMNDB2S1" Skeleton="CMN$$SPB" LineNumber="213" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SPB" LineNumber="234" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SQL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SQL">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$SQL" LineNumber="13" />
+    <tables Name="CMNSQLAL" Skeleton="CMN$$SQL" LineNumber="24" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN$$SQL" LineNumber="48" />
+    <tables Name="CMNDB2N1" Skeleton="CMN$$SQL" LineNumber="84" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN$$SQL" LineNumber="101" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SSI ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SSI">
+    <tables Name="LTYPETBL" Skeleton="CMN$$SSI" LineNumber="38" />
+    <tables Name="XPOLLTBP" Skeleton="CMN$$SSI" LineNumber="44" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SSI" LineNumber="55" />
+    <tables Name="CMPMBRTB" Skeleton="CMN$$SSI" LineNumber="69" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SSV ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SSV">
+    <tables Name="CMPMBRTB" Skeleton="CMN$$SSV" LineNumber="11" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$STP ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$STP">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$STP" LineNumber="14" />
+    <tables Name="CMNSQLAL" Skeleton="CMN$$STP" LineNumber="17" />
+    <tables Name="CMNDB2N1" Skeleton="CMN$$STP" LineNumber="22" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN$$STP" LineNumber="35" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SYC ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SYC">
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="24" />
+    <tables Name="SYSCPYTB" Skeleton="CMN$$SYC" LineNumber="49" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYC" LineNumber="59" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYC" LineNumber="65" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="71" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="77" />
+    <tables Name="SYSCPYTB" Skeleton="CMN$$SYC" LineNumber="145" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYC" LineNumber="148" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYC" LineNumber="181" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYC" LineNumber="187" />
+    <tables Name="XPOLLTBC" Skeleton="CMN$$SYC" LineNumber="196" />
+    <tables Name="XPOLLTBC" Skeleton="CMN$$SYC" LineNumber="207" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYC" LineNumber="232" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="256" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="261" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="269" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYC" LineNumber="286" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$SYL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$SYL">
+    <tables Name="SYSLODTB" Skeleton="CMN$$SYL" LineNumber="25" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="35" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="43" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="54" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYL" LineNumber="158" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYL" LineNumber="166" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="172" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYL" LineNumber="182" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="188" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYL" LineNumber="198" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="204" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$SYL" LineNumber="214" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$SYL" LineNumber="220" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$SYL" LineNumber="241" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYL" LineNumber="272" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYL" LineNumber="280" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYL" LineNumber="289" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYL" LineNumber="298" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYL" LineNumber="307" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$SYL" LineNumber="315" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$WRT ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$WRT">
+    <tables Name="BASLIBTB" Skeleton="CMN$$WRT" LineNumber="128" />
+    <tables Name="SYSCPYTB" Skeleton="CMN$$WRT" LineNumber="154" />
+    <tables Name="SYSCPYTB" Skeleton="CMN$$WRT" LineNumber="157" />
+    <tables Name="LTYPETBL" Skeleton="CMN$$WRT" LineNumber="170" />
+    <tables Name="XPOLLTBC" Skeleton="CMN$$WRT" LineNumber="178" />
+    <tables Name="RPMLIBTB" Skeleton="CMN$$WRT" LineNumber="197" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$WRT" LineNumber="204" />
+    <tables Name="BASLIBTB" Skeleton="CMN$$WRT" LineNumber="209" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$X10 ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$X10">
+    <tables Name="RPMSTTBL" Skeleton="CMN$$X10" LineNumber="21" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN$$X10" LineNumber="29" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN$$XPL ==-->
+  <!--==============-->
+  <skeleton Name="CMN$$XPL">
+    <tables Name="XPOLLTBP" Skeleton="CMN$$XPL" LineNumber="29" />
+    <tables Name="XPOLLTBP" Skeleton="CMN$$XPL" LineNumber="44" />
+    <tables Name="XPOLLTBC" Skeleton="CMN$$XPL" LineNumber="55" />
+    <tables Name="XPOLLTBC" Skeleton="CMN$$XPL" LineNumber="68" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$XPL" LineNumber="77" />
+    <tables Name="XPOLLTBL" Skeleton="CMN$$XPL" LineNumber="90" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN10 ==-->
+  <!--===========-->
+  <skeleton Name="CMN10">
+    <tables Name="RPMSTTBL" Skeleton="CMN10" LineNumber="92" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN10" LineNumber="110" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN10" LineNumber="152" />
+    <tables Name="RPMSTTBL" Skeleton="CMN10" LineNumber="250" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN10" LineNumber="266" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN10" LineNumber="287" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN10" LineNumber="308" />
+    <tables Name="RPMSTTBL" Skeleton="CMN10" LineNumber="344" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN11 ==-->
+  <!--===========-->
+  <skeleton Name="CMN11">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN11" LineNumber="22" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN11" LineNumber="42" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN11" LineNumber="58" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN11" LineNumber="101" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN11" LineNumber="106" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN11" LineNumber="112" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN11" LineNumber="118" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN11" LineNumber="129" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN11" LineNumber="174" />
+    <tables Name="IMSLSLTB" Skeleton="CMN11" LineNumber="189" />
+    <tables Name="IMSLSLTB" Skeleton="CMN11" LineNumber="266" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN20 ==-->
+  <!--===========-->
+  <skeleton Name="CMN20">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20" LineNumber="24" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20" LineNumber="37" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20" LineNumber="42" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20" LineNumber="72" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20" LineNumber="107" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20" LineNumber="121" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN20" LineNumber="126" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN20I ==-->
+  <!--============-->
+  <skeleton Name="CMN20I">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20I" LineNumber="54" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20I" LineNumber="88" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20I" LineNumber="98" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20I" LineNumber="161" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20I" LineNumber="182" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20I" LineNumber="240" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20I" LineNumber="271" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20I" LineNumber="305" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN20I" LineNumber="310" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20I" LineNumber="354" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20I" LineNumber="377" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN20I" LineNumber="382" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20I" LineNumber="396" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20I" LineNumber="419" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20I" LineNumber="500" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20I" LineNumber="535" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20I" LineNumber="555" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20I" LineNumber="708" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN20T ==-->
+  <!--============-->
+  <skeleton Name="CMN20T">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20T" LineNumber="22" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20T" LineNumber="50" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20T" LineNumber="60" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20T" LineNumber="69" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN20T" LineNumber="79" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMN20TI ==-->
+  <!--=============-->
+  <skeleton Name="CMN20TI">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20TI" LineNumber="29" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20TI" LineNumber="74" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20TI" LineNumber="94" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20TI" LineNumber="119" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN20TI" LineNumber="124" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN20TI" LineNumber="154" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN20TI" LineNumber="173" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN20TI" LineNumber="182" />
+    <tables Name="IMSLSLTB" Skeleton="CMN20TI" LineNumber="200" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN21 ==-->
+  <!--===========-->
+  <skeleton Name="CMN21">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN21" LineNumber="72" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN21" LineNumber="263" />
+    <tables Name="CMNDB2NN" Skeleton="CMN21" LineNumber="343" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN21" LineNumber="366" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN21" LineNumber="369" />
+    <tables Name="DBRCPYTB" Skeleton="CMN21" LineNumber="380" />
+    <tables Name="DBBCPYTB" Skeleton="CMN21" LineNumber="386" />
+    <tables Name="CMNDB2SS" Skeleton="CMN21" LineNumber="507" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN30 ==-->
+  <!--===========-->
+  <skeleton Name="CMN30">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN30" LineNumber="15" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30" LineNumber="30" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30" LineNumber="76" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30" LineNumber="107" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30" LineNumber="145" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30" LineNumber="158" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30" LineNumber="173" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30" LineNumber="188" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30" LineNumber="201" />
+    <tables Name="CMNB12TB" Skeleton="CMN30" LineNumber="207" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN30" LineNumber="368" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30" LineNumber="443" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30" LineNumber="546" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN30" LineNumber="552" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30" LineNumber="584" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30" LineNumber="610" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30CDT ==-->
+  <!--==============-->
+  <skeleton Name="CMN30CDT">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30CDT" LineNumber="31" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30CDT" LineNumber="36" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30CDT" LineNumber="51" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30CDT" LineNumber="56" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30CDT" LineNumber="70" />
+    <tables Name="CMNB12TB" Skeleton="CMN30CDT" LineNumber="75" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30DEL ==-->
+  <!--==============-->
+  <skeleton Name="CMN30DEL">
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30DEL" LineNumber="13" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN30I ==-->
+  <!--============-->
+  <skeleton Name="CMN30I">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN30I" LineNumber="32" />
+    <tables Name="IMSLSLTB" Skeleton="CMN30I" LineNumber="122" />
+    <tables Name="IMSLSLTB" Skeleton="CMN30I" LineNumber="151" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30I" LineNumber="156" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN30I" LineNumber="185" />
+    <tables Name="IMSLSLTB" Skeleton="CMN30I" LineNumber="234" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN30I" LineNumber="280" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30LIB ==-->
+  <!--==============-->
+  <skeleton Name="CMN30LIB">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30LIB" LineNumber="39" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30LIB" LineNumber="52" />
+    <tables Name="CMNB12TB" Skeleton="CMN30LIB" LineNumber="57" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30LIB" LineNumber="197" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30LIB" LineNumber="236" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30LIB" LineNumber="262" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30PAN ==-->
+  <!--==============-->
+  <skeleton Name="CMN30PAN">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30PAN" LineNumber="15" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30PAN" LineNumber="61" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30PAN" LineNumber="93" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30PDS ==-->
+  <!--==============-->
+  <skeleton Name="CMN30PDS">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30PDS" LineNumber="31" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30PDS" LineNumber="36" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30PDS" LineNumber="51" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN30PDS" LineNumber="56" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30PDS" LineNumber="70" />
+    <tables Name="CMNB12TB" Skeleton="CMN30PDS" LineNumber="75" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30PDS" LineNumber="140" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN30SRD ==-->
+  <!--==============-->
+  <skeleton Name="CMN30SRD">
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN30SRD" LineNumber="32" />
+    <tables Name="CMNB12TB" Skeleton="CMN30SRD" LineNumber="37" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN30SRD" LineNumber="109" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN31T ==-->
+  <!--============-->
+  <skeleton Name="CMN31T">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN31T" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN31T" LineNumber="20" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN31T" LineNumber="29" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN31T" LineNumber="39" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMN31TI ==-->
+  <!--=============-->
+  <skeleton Name="CMN31TI">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN31TI" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN31TI" LineNumber="20" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN31TI" LineNumber="35" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN32 ==-->
+  <!--===========-->
+  <skeleton Name="CMN32">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN32" LineNumber="31" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN32" LineNumber="83" />
+    <tables Name="CMNDB2NN" Skeleton="CMN32" LineNumber="157" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN32" LineNumber="178" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN32" LineNumber="181" />
+    <tables Name="DBRCPYTB" Skeleton="CMN32" LineNumber="190" />
+    <tables Name="DBBCPYTB" Skeleton="CMN32" LineNumber="196" />
+    <tables Name="CMNDB2SS" Skeleton="CMN32" LineNumber="282" />
+    <tables Name="CMNDB2SS" Skeleton="CMN32" LineNumber="325" />
+    <tables Name="CMNDB2SS" Skeleton="CMN32" LineNumber="328" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN49 ==-->
+  <!--===========-->
+  <skeleton Name="CMN49">
+    <tables Name="CMNLBTBL" Skeleton="CMN49" LineNumber="18" />
+    <tables Name="DBBCPYTB" Skeleton="CMN49" LineNumber="52" />
+    <tables Name="DBRCPYTB" Skeleton="CMN49" LineNumber="58" />
+    <tables Name="&amp;PKGBIND.CPYTB" Skeleton="CMN49" LineNumber="64" />
+    <tables Name="CMNLBTBL" Skeleton="CMN49" LineNumber="90" />
+    <tables Name="CMNDB2NN" Skeleton="CMN49" LineNumber="211" />
+    <tables Name="CMNLBTBL" Skeleton="CMN49" LineNumber="232" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN49" LineNumber="235" />
+    <tables Name="DBRCPYTB" Skeleton="CMN49" LineNumber="246" />
+    <tables Name="DBBCPYTB" Skeleton="CMN49" LineNumber="254" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN50I ==-->
+  <!--============-->
+  <skeleton Name="CMN50I">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN50I" LineNumber="45" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="85" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN50I" LineNumber="90" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="120" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN50I" LineNumber="130" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="152" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN50I" LineNumber="157" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="171" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN50I" LineNumber="176" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="191" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN50I" LineNumber="196" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="210" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="CMN50I" LineNumber="215" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN50I" LineNumber="232" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN50I" LineNumber="247" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN50I" LineNumber="257" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN50I" LineNumber="279" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN50I" LineNumber="310" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50I" LineNumber="330" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN50T ==-->
+  <!--============-->
+  <skeleton Name="CMN50T">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN50T" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50T" LineNumber="20" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN50T" LineNumber="29" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN50T" LineNumber="39" />
+  </skeleton>
+  <!--=============-->
+  <!--== CMN50TI ==-->
+  <!--=============-->
+  <skeleton Name="CMN50TI">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN50TI" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN50TI" LineNumber="20" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN50TI" LineNumber="35" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN55 ==-->
+  <!--===========-->
+  <skeleton Name="CMN55">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN55" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55" LineNumber="25" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55" LineNumber="93" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55" LineNumber="130" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55" LineNumber="145" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55" LineNumber="160" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55" LineNumber="173" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55" LineNumber="216" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55" LineNumber="243" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55" LineNumber="272" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN55" LineNumber="292" />
+    <tables Name="CMNB21TB" Skeleton="CMN55" LineNumber="294" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55" LineNumber="308" />
+    <tables Name="&amp;BASLTYP.DELTB" Skeleton="CMN55" LineNumber="334" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55CDT ==-->
+  <!--==============-->
+  <skeleton Name="CMN55CDT">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55CDT" LineNumber="31" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55CDT" LineNumber="36" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55CDT" LineNumber="50" />
+    <tables Name="CMNB21TB" Skeleton="CMN55CDT" LineNumber="55" />
+  </skeleton>
+  <!--============-->
+  <!--== CMN55I ==-->
+  <!--============-->
+  <skeleton Name="CMN55I">
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN55I" LineNumber="10" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN55I" LineNumber="102" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55LIB ==-->
+  <!--==============-->
+  <skeleton Name="CMN55LIB">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55LIB" LineNumber="34" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55LIB" LineNumber="47" />
+    <tables Name="CMNB21TB" Skeleton="CMN55LIB" LineNumber="52" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55LIB" LineNumber="164" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55LIB" LineNumber="193" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55PAN ==-->
+  <!--==============-->
+  <skeleton Name="CMN55PAN">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55PAN" LineNumber="17" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55PAN" LineNumber="85" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55PDS ==-->
+  <!--==============-->
+  <skeleton Name="CMN55PDS">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55PDS" LineNumber="18" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55PDS" LineNumber="23" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55PDS" LineNumber="37" />
+    <tables Name="CMNB21TB" Skeleton="CMN55PDS" LineNumber="62" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55PDS" LineNumber="75" />
+    <tables Name="&amp;BASLTYP.DELTB" Skeleton="CMN55PDS" LineNumber="99" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMN55SRD ==-->
+  <!--==============-->
+  <skeleton Name="CMN55SRD">
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="CMN55SRD" LineNumber="20" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN55SRD" LineNumber="56" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN56 ==-->
+  <!--===========-->
+  <skeleton Name="CMN56">
+    <tables Name="CMNLBTBL" Skeleton="CMN56" LineNumber="16" />
+    <tables Name="DBBCPYTB" Skeleton="CMN56" LineNumber="60" />
+    <tables Name="DBBCPYTB" Skeleton="CMN56" LineNumber="65" />
+    <tables Name="DBRCPYTB" Skeleton="CMN56" LineNumber="72" />
+    <tables Name="&amp;PKGBIND.CPYTB" Skeleton="CMN56" LineNumber="78" />
+    <tables Name="&amp;PKGBIND.CPYTB" Skeleton="CMN56" LineNumber="84" />
+    <tables Name="CMNLBTBL" Skeleton="CMN56" LineNumber="120" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN56" LineNumber="142" />
+    <tables Name="CMNLBTBL" Skeleton="CMN56" LineNumber="150" />
+    <tables Name="CMNDB2NN" Skeleton="CMN56" LineNumber="237" />
+    <tables Name="&amp;RMLBTBL" Skeleton="CMN56" LineNumber="258" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMN56" LineNumber="261" />
+    <tables Name="DBRCPYTB" Skeleton="CMN56" LineNumber="272" />
+    <tables Name="DBBCPYTB" Skeleton="CMN56" LineNumber="280" />
+    <tables Name="CMNDB2SS" Skeleton="CMN56" LineNumber="376" />
+  </skeleton>
+  <!--===========-->
+  <!--== CMN90 ==-->
+  <!--===========-->
+  <skeleton Name="CMN90">
+    <tables Name="OTHLTTBL" Skeleton="CMN90" LineNumber="59" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNDB2DR ==-->
+  <!--==============-->
+  <skeleton Name="CMNDB2DR">
+    <tables Name="CMND2ODR" Skeleton="CMNDB2DR" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIDPEX ==-->
+  <!--==============-->
+  <skeleton Name="CMNIDPEX">
+    <tables Name="LTYPETBL" Skeleton="CMNIDPEX" LineNumber="26" />
+    <tables Name="PRDLIBTB" Skeleton="CMNIDPEX" LineNumber="31" />
+    <tables Name="BASLIBTB" Skeleton="CMNIDPEX" LineNumber="36" />
+    <tables Name="LTYPETBL" Skeleton="CMNIDPEX" LineNumber="66" />
+    <tables Name="PRDLIBTB" Skeleton="CMNIDPEX" LineNumber="71" />
+    <tables Name="BASLIBTB" Skeleton="CMNIDPEX" LineNumber="76" />
+    <tables Name="BASLIBTB" Skeleton="CMNIDPEX" LineNumber="81" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIDPOV ==-->
+  <!--==============-->
+  <skeleton Name="CMNIDPOV">
+    <tables Name="IMSPSBTB" Skeleton="CMNIDPOV" LineNumber="23" />
+    <tables Name="IMSDBDTB" Skeleton="CMNIDPOV" LineNumber="35" />
+    <tables Name="LTYPETBL" Skeleton="CMNIDPOV" LineNumber="66" />
+    <tables Name="PRDLIBTB" Skeleton="CMNIDPOV" LineNumber="71" />
+    <tables Name="BASLIBTB" Skeleton="CMNIDPOV" LineNumber="76" />
+    <tables Name="LTYPETBL" Skeleton="CMNIDPOV" LineNumber="122" />
+    <tables Name="BASLIBTB" Skeleton="CMNIDPOV" LineNumber="127" />
+    <tables Name="PRDLIBTB" Skeleton="CMNIDPOV" LineNumber="132" />
+    <tables Name="LTYPETBL" Skeleton="CMNIDPOV" LineNumber="169" />
+    <tables Name="PRDLIBTB" Skeleton="CMNIDPOV" LineNumber="174" />
+    <tables Name="BASLIBTB" Skeleton="CMNIDPOV" LineNumber="179" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMCPY ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMCPY">
+    <tables Name="IMSPRMTB" Skeleton="CMNIMCPY" LineNumber="10" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMCPY" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMPRM ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMPRM">
+    <tables Name="RPMLIBTB" Skeleton="CMNIMPRM" LineNumber="100" />
+    <tables Name="RPMLIBTB" Skeleton="CMNIMPRM" LineNumber="195" />
+    <tables Name="IMSPRMTB" Skeleton="CMNIMPRM" LineNumber="261" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMPRM" LineNumber="302" />
+    <tables Name="IMSPRMTB" Skeleton="CMNIMPRM" LineNumber="331" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMPRM" LineNumber="335" />
+    <tables Name="RPMLIBTB" Skeleton="CMNIMPRM" LineNumber="356" />
+    <tables Name="IMSPRMTB" Skeleton="CMNIMPRM" LineNumber="389" />
+    <tables Name="RPMLIBTB" Skeleton="CMNIMPRM" LineNumber="417" />
+    <tables Name="RPMLIBTB" Skeleton="CMNIMPRM" LineNumber="490" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMPRM" LineNumber="493" />
+    <tables Name="CLNHSTTB" Skeleton="CMNIMPRM" LineNumber="502" />
+    <tables Name="COMCHKTB" Skeleton="CMNIMPRM" LineNumber="512" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMPRO ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMPRO">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMPRO" LineNumber="11" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMPRO" LineNumber="32" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMRPM ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMRPM">
+    <tables Name="RPMLIBTB" Skeleton="CMNIMRPM" LineNumber="123" />
+    <tables Name="RPMLIBTB" Skeleton="CMNIMRPM" LineNumber="247" />
+    <tables Name="RPMLIBTB" Skeleton="CMNIMRPM" LineNumber="269" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSBL ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSBL">
+    <tables Name="IMSLSLTB" Skeleton="CMNIMSBL" LineNumber="7" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNIMSBL" LineNumber="11" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSIM ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSIM">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMSIM" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSPD ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSPD">
+    <tables Name="IMSLSLTB" Skeleton="CMNIMSPD" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNIMSPD" LineNumber="14" />
+    <tables Name="IMSLSLTB" Skeleton="CMNIMSPD" LineNumber="67" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNIMSPD" LineNumber="75" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSPR ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSPR">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNIMSPR" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNIMSTP ==-->
+  <!--==============-->
+  <skeleton Name="CMNIMSTP">
+    <tables Name="IMSLSLTB" Skeleton="CMNIMSTP" LineNumber="10" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNIMSTP" LineNumber="14" />
+    <tables Name="IMSLSLTB" Skeleton="CMNIMSTP" LineNumber="67" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNIMSTP" LineNumber="75" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINACB ==-->
+  <!--==============-->
+  <skeleton Name="CMNINACB">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNINACB" LineNumber="127" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINIGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNINIGN">
+    <tables Name="LTYPETBL" Skeleton="CMNINIGN" LineNumber="20" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="CMNINIGN" LineNumber="87" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINLPM ==-->
+  <!--==============-->
+  <skeleton Name="CMNINLPM">
+    <tables Name="RPMSTTBL" Skeleton="CMNINLPM" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNINRPM ==-->
+  <!--==============-->
+  <skeleton Name="CMNINRPM">
+    <tables Name="RPMSTTBL" Skeleton="CMNINRPM" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPDPEX ==-->
+  <!--==============-->
+  <skeleton Name="CMNPDPEX">
+    <tables Name="LTYPETBL" Skeleton="CMNPDPEX" LineNumber="17" />
+    <tables Name="BASLIBTB" Skeleton="CMNPDPEX" LineNumber="22" />
+    <tables Name="LTYPETBL" Skeleton="CMNPDPEX" LineNumber="50" />
+    <tables Name="BASLIBTB" Skeleton="CMNPDPEX" LineNumber="55" />
+    <tables Name="BASLIBTB" Skeleton="CMNPDPEX" LineNumber="60" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPDPOV ==-->
+  <!--==============-->
+  <skeleton Name="CMNPDPOV">
+    <tables Name="IMSPSBTB" Skeleton="CMNPDPOV" LineNumber="23" />
+    <tables Name="IMSDBDTB" Skeleton="CMNPDPOV" LineNumber="35" />
+    <tables Name="LTYPETBL" Skeleton="CMNPDPOV" LineNumber="66" />
+    <tables Name="BASLIBTB" Skeleton="CMNPDPOV" LineNumber="71" />
+    <tables Name="LTYPETBL" Skeleton="CMNPDPOV" LineNumber="115" />
+    <tables Name="BASLIBTB" Skeleton="CMNPDPOV" LineNumber="120" />
+    <tables Name="LTYPETBL" Skeleton="CMNPDPOV" LineNumber="158" />
+    <tables Name="BASLIBTB" Skeleton="CMNPDPOV" LineNumber="163" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPLICM ==-->
+  <!--==============-->
+  <skeleton Name="CMNPLICM">
+    <tables Name="XPOLLTBL" Skeleton="CMNPLICM" LineNumber="70" />
+    <tables Name="XPOLLTBL" Skeleton="CMNPLICM" LineNumber="102" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPRDIM ==-->
+  <!--==============-->
+  <skeleton Name="CMNPRDIM">
+    <tables Name="IMSLSLTB" Skeleton="CMNPRDIM" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNPRMIM ==-->
+  <!--==============-->
+  <skeleton Name="CMNPRMIM">
+    <tables Name="IMSPRMTB" Skeleton="CMNPRMIM" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDPEX ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDPEX">
+    <tables Name="LTYPETBL" Skeleton="CMNRDPEX" LineNumber="17" />
+    <tables Name="PRDLIBTB" Skeleton="CMNRDPEX" LineNumber="22" />
+    <tables Name="LTYPETBL" Skeleton="CMNRDPEX" LineNumber="54" />
+    <tables Name="PRDLIBTB" Skeleton="CMNRDPEX" LineNumber="59" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRDPOV ==-->
+  <!--==============-->
+  <skeleton Name="CMNRDPOV">
+    <tables Name="IMSPSBTB" Skeleton="CMNRDPOV" LineNumber="23" />
+    <tables Name="IMSDBDTB" Skeleton="CMNRDPOV" LineNumber="35" />
+    <tables Name="LTYPETBL" Skeleton="CMNRDPOV" LineNumber="66" />
+    <tables Name="PRDLIBTB" Skeleton="CMNRDPOV" LineNumber="71" />
+    <tables Name="LTYPETBL" Skeleton="CMNRDPOV" LineNumber="119" />
+    <tables Name="PRDLIBTB" Skeleton="CMNRDPOV" LineNumber="124" />
+    <tables Name="LTYPETBL" Skeleton="CMNRDPOV" LineNumber="161" />
+    <tables Name="PRDLIBTB" Skeleton="CMNRDPOV" LineNumber="166" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPACB ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPACB">
+    <tables Name="RPMTBPA0" Skeleton="CMNRPACB" LineNumber="36" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPICL ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPICL">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICL" LineNumber="23" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPICL" LineNumber="65" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICL" LineNumber="86" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPICL" LineNumber="89" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPICL" LineNumber="108" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICL" LineNumber="122" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPICL" LineNumber="148" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPICR ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPICR">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICR" LineNumber="36" />
+    <tables Name="IMSPRMTB" Skeleton="CMNRPICR" LineNumber="116" />
+    <tables Name="IMSPRMTB" Skeleton="CMNRPICR" LineNumber="139" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPICR" LineNumber="143" />
+    <tables Name="IMSPRMTB" Skeleton="CMNRPICR" LineNumber="194" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICR" LineNumber="213" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPICR" LineNumber="216" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICR" LineNumber="289" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICR" LineNumber="412" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPICR" LineNumber="437" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIGN ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIGN">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPIGN" LineNumber="52" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIPC ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIPC">
+    <tables Name="CLNMODTB" Skeleton="CMNRPIPC" LineNumber="13" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPIPC" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIPS ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIPS">
+    <tables Name="IMSPRMTB" Skeleton="CMNRPIPS" LineNumber="10" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPIPS" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIRC ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIRC">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPIRC" LineNumber="31" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPIRD ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPIRD">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPIRD" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPISC ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPISC">
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPISC" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM00 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM00">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM00" LineNumber="15" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM20 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM20">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM20" LineNumber="20" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM20" LineNumber="28" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM20" LineNumber="41" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM20" LineNumber="54" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM2I ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM2I">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM2I" LineNumber="21" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM2I" LineNumber="39" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM2I" LineNumber="53" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM2I" LineNumber="67" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM30 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM30">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM30" LineNumber="5" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM30" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPM3I ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPM3I">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM3I" LineNumber="5" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPM3I" LineNumber="25" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMB0 ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMB0">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMB0" LineNumber="32" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMB0" LineNumber="35" />
+    <tables Name="CLNHSTTB" Skeleton="CMNRPMB0" LineNumber="44" />
+    <tables Name="COMCHKTB" Skeleton="CMNRPMB0" LineNumber="54" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMCL ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMCL">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCL" LineNumber="21" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCL" LineNumber="56" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCL" LineNumber="71" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPMCL" LineNumber="75" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPMCL" LineNumber="92" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCL" LineNumber="106" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCL" LineNumber="120" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMCR ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMCR">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCR" LineNumber="26" />
+    <tables Name="IMSPRMTB" Skeleton="CMNRPMCR" LineNumber="39" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCR" LineNumber="97" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCR" LineNumber="140" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCR" LineNumber="183" />
+    <tables Name="IMSPRMTB" Skeleton="CMNRPMCR" LineNumber="199" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCR" LineNumber="214" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPMCR" LineNumber="217" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPMCR" LineNumber="234" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPMCR" LineNumber="248" />
+    <tables Name="CLNMODTB" Skeleton="CMNRPMCR" LineNumber="262" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCR" LineNumber="277" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCR" LineNumber="300" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCR" LineNumber="317" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="CMNRPMCR" LineNumber="334" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMCR" LineNumber="395" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMDL ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMDL">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMDL" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMDR ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMDR">
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMDR" LineNumber="22" />
+    <tables Name="RPMLIBTB" Skeleton="CMNRPMDR" LineNumber="42" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNRPMIM ==-->
+  <!--==============-->
+  <skeleton Name="CMNRPMIM">
+    <tables Name="IMSPRMTB" Skeleton="CMNRPMIM" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ010A ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ010A">
+    <tables Name="OFMTABLE" Skeleton="CMNZ010A" LineNumber="9" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ010P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ010P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ010P" LineNumber="13" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ030P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ030P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ030P" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ100P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ100P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ100P" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ120P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ120P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ120P" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ130P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ130P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ130P" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ140P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ140P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ140P" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ160P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ160P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ160P" LineNumber="12" />
+  </skeleton>
+  <!--==============-->
+  <!--== CMNZ170P ==-->
+  <!--==============-->
+  <skeleton Name="CMNZ170P">
+    <tables Name="OFMTABLE" Skeleton="CMNZ170P" LineNumber="12" />
+  </skeleton>
+  <!--=============-->
+  <!--== COMPSTG ==-->
+  <!--=============-->
+  <skeleton Name="COMPSTG">
+    <tables Name="$COMPSTG" Skeleton="COMPSTG" LineNumber="1" />
+  </skeleton>
+  <!--==============-->
+  <!--== NEW$$SYC ==-->
+  <!--==============-->
+  <skeleton Name="NEW$$SYC">
+    <tables Name="LTYPETBL" Skeleton="NEW$$SYC" LineNumber="32" />
+    <tables Name="APSLIBTB" Skeleton="NEW$$SYC" LineNumber="41" />
+    <tables Name="XPOLLBTB" Skeleton="NEW$$SYC" LineNumber="55" />
+    <tables Name="BASLIBTB" Skeleton="NEW$$SYC" LineNumber="69" />
+  </skeleton>
+  <!--==============-->
+  <!--== OBJXPLIB ==-->
+  <!--==============-->
+  <skeleton Name="OBJXPLIB">
+    <tables Name="XPOLLTBP" Skeleton="OBJXPLIB" LineNumber="28" />
+    <tables Name="XPOLLTBP" Skeleton="OBJXPLIB" LineNumber="63" />
+  </skeleton>
+  <!--==============-->
+  <!--== S8PD2BND ==-->
+  <!--==============-->
+  <skeleton Name="S8PD2BND">
+    <tables Name="CMNDB2NN" Skeleton="S8PD2BND" LineNumber="14" />
+  </skeleton>
+  <!--==============-->
+  <!--== SCMPDSST ==-->
+  <!--==============-->
+  <skeleton Name="SCMPDSST">
+    <tables Name="CMPCPYTB" Skeleton="SCMPDSST" LineNumber="13" />
+    <tables Name="LIBTYPTB" Skeleton="SCMPDSST" LineNumber="28" />
+  </skeleton>
+  <!--==============-->
+  <!--== SK8EPBND ==-->
+  <!--==============-->
+  <skeleton Name="SK8EPBND">
+    <tables Name="$P2" Skeleton="SK8EPBND" LineNumber="53" />
+  </skeleton>
+  <!--==============-->
+  <!--== SK8EPCTM ==-->
+  <!--==============-->
+  <skeleton Name="SK8EPCTM">
+    <tables Name="CTMICND" Skeleton="SK8EPCTM" LineNumber="39" />
+    <tables Name="CTMOCND" Skeleton="SK8EPCTM" LineNumber="42" />
+  </skeleton>
+  <!--==============-->
+  <!--== SK8EPRLS ==-->
+  <!--==============-->
+  <skeleton Name="SK8EPRLS">
+    <tables Name="$BR" Skeleton="SK8EPRLS" LineNumber="46" />
+    <tables Name="$PT" Skeleton="SK8EPRLS" LineNumber="153" />
+    <tables Name="$PT" Skeleton="SK8EPRLS" LineNumber="159" />
+    <tables Name="&amp;$PTPRIOR" Skeleton="SK8EPRLS" LineNumber="208" />
+    <tables Name="$PT" Skeleton="SK8EPRLS" LineNumber="217" />
+    <tables Name="&amp;$PTPRIOR" Skeleton="SK8EPRLS" LineNumber="233" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKBNEWCI ==-->
+  <!--==============-->
+  <skeleton Name="SKBNEWCI">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKBNEWCI" LineNumber="1" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKBNEWCI" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKECDCPY ==-->
+  <!--==============-->
+  <skeleton Name="SKECDCPY">
+    <tables Name="RPMLIBTB" Skeleton="SKECDCPY" LineNumber="56" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2BCT ==-->
+  <!--==============-->
+  <skeleton Name="SKED2BCT">
+    <tables Name="CMNDB2NN" Skeleton="SKED2BCT" LineNumber="13" />
+    <tables Name="RPMTB&amp;$DBRLLT" Skeleton="SKED2BCT" LineNumber="19" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2BDP ==-->
+  <!--==============-->
+  <skeleton Name="SKED2BDP">
+    <tables Name="RPMLIBTB" Skeleton="SKED2BDP" LineNumber="42" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2BND ==-->
+  <!--==============-->
+  <skeleton Name="SKED2BND">
+    <tables Name="CMNDB2SS" Skeleton="SKED2BND" LineNumber="7" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKED2JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKED2JSK">
+    <tables Name="RPMLIBTB" Skeleton="SKED2JSK" LineNumber="18" />
+  </skeleton>
+  <!--============-->
+  <!--== SKEDBB ==-->
+  <!--============-->
+  <skeleton Name="SKEDBB">
+    <tables Name="CMNDB2NN" Skeleton="SKEDBB" LineNumber="6" />
+    <tables Name="RPMTBDBB" Skeleton="SKEDBB" LineNumber="45" />
+    <tables Name="RPMLIBTB" Skeleton="SKEDBB" LineNumber="66" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKEPTAAC ==-->
+  <!--==============-->
+  <skeleton Name="SKEPTAAC">
+    <tables Name="MEMBLIST" Skeleton="SKEPTAAC" LineNumber="26" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKEPTAMF ==-->
+  <!--==============-->
+  <skeleton Name="SKEPTAMF">
+    <tables Name="MEMBLIST" Skeleton="SKEPTAMF" LineNumber="24" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKEPTAPS ==-->
+  <!--==============-->
+  <skeleton Name="SKEPTAPS">
+    <tables Name="MEMBLIST" Skeleton="SKEPTAPS" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21BND ==-->
+  <!--==============-->
+  <skeleton Name="SKI21BND">
+    <tables Name="CMNDB2SS" Skeleton="SKI21BND" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21DBB ==-->
+  <!--==============-->
+  <skeleton Name="SKI21DBB">
+    <tables Name="CMNDB2NN" Skeleton="SKI21DBB" LineNumber="6" />
+    <tables Name="&amp;RMLBTBL" Skeleton="SKI21DBB" LineNumber="37" />
+    <tables Name="DBBCPYTB" Skeleton="SKI21DBB" LineNumber="58" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI21JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKI21JSK">
+    <tables Name="LJSCPYTB" Skeleton="SKI21JSK" LineNumber="21" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI32BND ==-->
+  <!--==============-->
+  <skeleton Name="SKI32BND">
+    <tables Name="CMNDB2SS" Skeleton="SKI32BND" LineNumber="1" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI32DBB ==-->
+  <!--==============-->
+  <skeleton Name="SKI32DBB">
+    <tables Name="CMNDB2NN" Skeleton="SKI32DBB" LineNumber="13" />
+    <tables Name="DBBCPYTB" Skeleton="SKI32DBB" LineNumber="53" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKI32JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKI32JSK">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKI32JSK" LineNumber="21" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKI32JSK" LineNumber="24" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKICDCPY ==-->
+  <!--==============-->
+  <skeleton Name="SKICDCPY">
+    <tables Name="RPMSTTBL" Skeleton="SKICDCPY" LineNumber="81" />
+    <tables Name="&amp;RMLBTBL" Skeleton="SKICDCPY" LineNumber="111" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKID2BCT ==-->
+  <!--==============-->
+  <skeleton Name="SKID2BCT">
+    <tables Name="CMNDB2NN" Skeleton="SKID2BCT" LineNumber="5" />
+    <tables Name="&amp;$DBRLLT.CPYTB" Skeleton="SKID2BCT" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKINEWCI ==-->
+  <!--==============-->
+  <skeleton Name="SKINEWCI">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKINEWCI" LineNumber="1" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKINEWCI" LineNumber="8" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKM$$IDL ==-->
+  <!--==============-->
+  <skeleton Name="SKM$$IDL">
+    <tables Name="RPMTBIDL" Skeleton="SKM$$IDL" LineNumber="24" />
+    <tables Name="IDLCPYTB" Skeleton="SKM$$IDL" LineNumber="66" />
+    <tables Name="RPMTBIDL" Skeleton="SKM$$IDL" LineNumber="141" />
+    <tables Name="RPMTBIDG" Skeleton="SKM$$IDL" LineNumber="144" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMIDLGW ==-->
+  <!--==============-->
+  <skeleton Name="SKMIDLGW">
+    <tables Name="RPMTBIDG" Skeleton="SKMIDLGW" LineNumber="114" />
+    <tables Name="IDGCPYTB" Skeleton="SKMIDLGW" LineNumber="124" />
+    <tables Name="RPMTBIDL" Skeleton="SKMIDLGW" LineNumber="135" />
+    <tables Name="IDLCPYTB" Skeleton="SKMIDLGW" LineNumber="176" />
+    <tables Name="IDGCPYTB" Skeleton="SKMIDLGW" LineNumber="229" />
+    <tables Name="RPMTBIDG" Skeleton="SKMIDLGW" LineNumber="244" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKMIDLGW" LineNumber="275" />
+    <tables Name="RPMTBIDG" Skeleton="SKMIDLGW" LineNumber="287" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMIDLIR ==-->
+  <!--==============-->
+  <skeleton Name="SKMIDLIR">
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKMIDLIR" LineNumber="113" />
+    <tables Name="RPMTBIDL" Skeleton="SKMIDLIR" LineNumber="128" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKMIDLIR" LineNumber="157" />
+    <tables Name="RPMTBIDL" Skeleton="SKMIDLIR" LineNumber="168" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKMIDLIR" LineNumber="194" />
+    <tables Name="RPMTBIDL" Skeleton="SKMIDLIR" LineNumber="206" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMQMSBS ==-->
+  <!--==============-->
+  <skeleton Name="SKMQMSBS">
+    <tables Name="RPMTBFSP" Skeleton="SKMQMSBS" LineNumber="60" />
+    <tables Name="RPMTBQMS" Skeleton="SKMQMSBS" LineNumber="106" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKMQMSSS ==-->
+  <!--==============-->
+  <skeleton Name="SKMQMSSS">
+    <tables Name="RPMLIBTB" Skeleton="SKMQMSSS" LineNumber="16" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2BCT ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2BCT">
+    <tables Name="RPMTB&amp;$DBRLLT" Skeleton="SKPD2BCT" LineNumber="8" />
+    <tables Name="RPMTB&amp;$DBRLLT" Skeleton="SKPD2BCT" LineNumber="55" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2BDP ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2BDP">
+    <tables Name="RPMLIBTB" Skeleton="SKPD2BDP" LineNumber="36" />
+    <tables Name="RPMLIBTB" Skeleton="SKPD2BDP" LineNumber="44" />
+    <tables Name="BASLIBTB" Skeleton="SKPD2BDP" LineNumber="60" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2BND ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2BND">
+    <tables Name="CMNDB2NN" Skeleton="SKPD2BND" LineNumber="16" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPD2JSK ==-->
+  <!--==============-->
+  <skeleton Name="SKPD2JSK">
+    <tables Name="RPMLIBTB" Skeleton="SKPD2JSK" LineNumber="14" />
+  </skeleton>
+  <!--============-->
+  <!--== SKPDBB ==-->
+  <!--============-->
+  <skeleton Name="SKPDBB">
+    <tables Name="RPMTBDBB" Skeleton="SKPDBB" LineNumber="20" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPITEST ==-->
+  <!--==============-->
+  <skeleton Name="SKPITEST">
+    <tables Name="RPMLIBTB" Skeleton="SKPITEST" LineNumber="28" />
+    <tables Name="RPMTB&amp;LIBTYPE" Skeleton="SKPITEST" LineNumber="29" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPLKORB ==-->
+  <!--==============-->
+  <skeleton Name="SKPLKORB">
+    <tables Name="PDSTGTBL" Skeleton="SKPLKORB" LineNumber="78" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPNEWCI ==-->
+  <!--==============-->
+  <skeleton Name="SKPNEWCI">
+    <tables Name="RPMLIBTB" Skeleton="SKPNEWCI" LineNumber="6" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKPNEWCP ==-->
+  <!--==============-->
+  <skeleton Name="SKPNEWCP">
+    <tables Name="RPMLIBTB" Skeleton="SKPNEWCP" LineNumber="18" />
+  </skeleton>
+  <!--============-->
+  <!--== SKRCMH ==-->
+  <!--============-->
+  <skeleton Name="SKRCMH">
+    <tables Name="RPCMPLS" Skeleton="SKRCMH" LineNumber="25" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$$050 ==-->
+  <!--==============-->
+  <skeleton Name="SKS$$050">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$$050" LineNumber="6" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKS$$050" LineNumber="22" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="SKS$$050" LineNumber="27" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKS$$050" LineNumber="49" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="SKS$$050" LineNumber="54" />
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$$050" LineNumber="67" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="SKS$$050" LineNumber="77" />
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$$050" LineNumber="90" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$$T20 ==-->
+  <!--==============-->
+  <skeleton Name="SKS$$T20">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$$T20" LineNumber="21" />
+    <tables Name="IMSLSLTB" Skeleton="SKS$$T20" LineNumber="25" />
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$$T20" LineNumber="84" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="SKS$$T20" LineNumber="94" />
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$$T20" LineNumber="103" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="SKS$$T20" LineNumber="113" />
+    <tables Name="IMSLSLTB" Skeleton="SKS$$T20" LineNumber="122" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$BSCI ==-->
+  <!--==============-->
+  <skeleton Name="SKS$BSCI">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$BSCI" LineNumber="49" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="SKS$BSCI" LineNumber="79" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="SKS$BSCI" LineNumber="90" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKS$BSCI" LineNumber="101" />
+    <tables Name="SALTABLE" Skeleton="SKS$BSCI" LineNumber="106" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$EOPT ==-->
+  <!--==============-->
+  <skeleton Name="SKS$EOPT">
+    <tables Name="&amp;RMLBTBL" Skeleton="SKS$EOPT" LineNumber="42" />
+    <tables Name="&amp;STGLTYP.DELTB" Skeleton="SKS$EOPT" LineNumber="54" />
+    <tables Name="&amp;STGLTYP.RENTB" Skeleton="SKS$EOPT" LineNumber="63" />
+    <tables Name="&amp;STGLTYP.CPYTB" Skeleton="SKS$EOPT" LineNumber="72" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKS$PSYL ==-->
+  <!--==============-->
+  <skeleton Name="SKS$PSYL">
+    <tables Name="APSLIBTB" Skeleton="SKS$PSYL" LineNumber="24" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSBAUDT ==-->
+  <!--==============-->
+  <skeleton Name="SKSBAUDT">
+    <tables Name="LTYPETBL" Skeleton="SKSBAUDT" LineNumber="28" />
+    <tables Name="LTYPETBL" Skeleton="SKSBAUDT" LineNumber="41" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSBINDR ==-->
+  <!--==============-->
+  <skeleton Name="SKSBINDR">
+    <tables Name="XPOLLTBL" Skeleton="SKSBINDR" LineNumber="56" />
+    <tables Name="XPOLLTBL" Skeleton="SKSBINDR" LineNumber="117" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSCMPAR ==-->
+  <!--==============-->
+  <skeleton Name="SKSCMPAR">
+    <tables Name="BASLIBTB" Skeleton="SKSCMPAR" LineNumber="10" />
+  </skeleton>
+  <!--============-->
+  <!--== SKSIDL ==-->
+  <!--============-->
+  <skeleton Name="SKSIDL">
+    <tables Name="LTYPETBL" Skeleton="SKSIDL" LineNumber="335" />
+    <tables Name="LTYPETBL" Skeleton="SKSIDL" LineNumber="368" />
+    <tables Name="LTYPETBL" Skeleton="SKSIDL" LineNumber="400" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSPAP01 ==-->
+  <!--==============-->
+  <skeleton Name="SKSPAP01">
+    <tables Name="LTYPETBL" Skeleton="SKSPAP01" LineNumber="8" />
+    <tables Name="LTYPETBL" Skeleton="SKSPAP01" LineNumber="15" />
+    <tables Name="RPMLIBTB" Skeleton="SKSPAP01" LineNumber="23" />
+    <tables Name="BASLIBTB" Skeleton="SKSPAP01" LineNumber="30" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKSPLAUS ==-->
+  <!--==============-->
+  <skeleton Name="SKSPLAUS">
+    <tables Name="LTYPETBL" Skeleton="SKSPLAUS" LineNumber="38" />
+    <tables Name="BASLIBTB" Skeleton="SKSPLAUS" LineNumber="49" />
+    <tables Name="LTYPETBL" Skeleton="SKSPLAUS" LineNumber="62" />
+    <tables Name="BASLIBTB" Skeleton="SKSPLAUS" LineNumber="71" />
+    <tables Name="LTYPETBL" Skeleton="SKSPLAUS" LineNumber="87" />
+    <tables Name="RPMLIBTB" Skeleton="SKSPLAUS" LineNumber="94" />
+    <tables Name="BASLIBTB" Skeleton="SKSPLAUS" LineNumber="106" />
+    <tables Name="LTYPETBL" Skeleton="SKSPLAUS" LineNumber="121" />
+    <tables Name="RPMLIBTB" Skeleton="SKSPLAUS" LineNumber="128" />
+    <tables Name="BASLIBTB" Skeleton="SKSPLAUS" LineNumber="140" />
+  </skeleton>
+  <!--=============-->
+  <!--== SKSSACB ==-->
+  <!--=============-->
+  <skeleton Name="SKSSACB">
+    <tables Name="IMSLSLTB" Skeleton="SKSSACB" LineNumber="24" />
+  </skeleton>
+  <!--==============-->
+  <!--== SKUCMPAL ==-->
+  <!--==============-->
+  <skeleton Name="SKUCMPAL">
+    <tables Name="COMPRTBL" Skeleton="SKUCMPAL" LineNumber="19" />
+  </skeleton>
+</DOTs>
