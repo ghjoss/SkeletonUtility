@@ -7,5 +7,9 @@
         partial class CommandNestingDataTable
         {
         }
+        public override string ToString()
+        {
+            return "TransientDS/SkeletonLines Rows: " + this.SkeletonLines.Rows.Count.ToString();
+        }
     }
 }

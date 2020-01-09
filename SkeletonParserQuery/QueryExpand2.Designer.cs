@@ -1,4 +1,5 @@
-﻿using SkeletonParserDSDef;
+﻿using System;
+using SkeletonParserDSDef;
 
 namespace SkeletonParserQuery
 {

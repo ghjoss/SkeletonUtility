@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Pitman.Printing;
+using SkeletonParserDSDef;
+using ISPFSkeletonParser;
 
 namespace SkeletonParserQuery
 {
     public partial class QueryExpand1 : Form
     {
-        QueryExpand2 _parent;
+        Query _root;
         TreeNode _tn;
-        public QueryExpand1(string skelName, TreeNode tN, ImageList iL, QueryExpand2 parent)
+        ImageList _iL;
+        SkeletonParserDS _SDS;
+        TransientDS _TDS;
+        XMLParmsFileReader _xmlr;
+        public QueryExpand1(string skelName, TreeNode tN, ImageList iL, Query root, SkeletonParserDS SDS,TransientDS TDS, XMLParmsFileReader xmlr)
         {
             InitializeComponent();
             _tn = tN;
@@ -30,9 +36,13 @@ namespace SkeletonParserQuery
             btnExpand.ImageList = iL;
             btnExpand.ImageKey = "ExpandGraph";
             btnExpand.ImageAlign = ContentAlignment.TopCenter;
-            _parent = parent;
-            _parent.AddForm(this);
+            _root = root;
+            _root.AddForm(this);
             this.Text = this.Text + skelName;
+            _iL = iL;
+            _SDS = SDS;
+            _TDS = TDS;
+            _xmlr = xmlr;
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
@@ -84,8 +94,21 @@ namespace SkeletonParserQuery
 
         private void QueryExpand1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            _parent.RemoveForm(this);
+            _root.RemoveForm(this);
             this.Dispose();
+        }
+
+        private void TvExpansion_DoubleClick(object sender, EventArgs e)
+        {
+            bool _dispose = false;
+            string skel = tvExpansion.SelectedNode.Text;
+            /*
+             * string msg =  "SDS: " + _SDS.ToString() + " \nTDS: " + _TDS.ToString() + "\nIL: " + _iL.ToString() + "\nXMLRDR: " + _xmlr.ToString() + "\nSkel:" + skel;
+             * MessageBox.Show(msg);
+            */
+            string lbl = skel + " expansion";
+            QueryExpand2 qExp = new QueryExpand2(out _dispose, skel, this._SDS, this._TDS, this._iL, lbl, this._xmlr, _root, true);
+            qExp.Show();
         }
     }
 }

@@ -32,6 +32,7 @@ namespace SkeletonParserQuery
         private TransientDS _TDS;               // transient data structures
         private ImageList _IL;                  // the application image list
         private Query _parent;              // the calling form, for referencing its status bar
+        private QueryExpand1 _parent1;
         private Stack<Nesting> _NestingStack;   // stack of )xxx skel commands active when a line is read
         private TransientDS.CommandNestingDataTable _cnt;
         private TransientDS.SkeletonExpansionDataTable _skelExpansion;
@@ -80,15 +81,17 @@ namespace SkeletonParserQuery
             _cnt = new TransientDS.CommandNestingDataTable();
             _NestingStack = new Stack<Nesting>(100); // 32 SEL + 16 IM + 3 DOT + padding
             InitializeComponent();
+            _parent = parent;
+            _parent.AddForm(this);
 
             QueryExpand2Common(out dispose, skelName, parserSDS, parserTDS, iL, displayConfigName, xmlParmsRdr,
-                parent, fullExpand);
+                fullExpand);
             if (!dispose)
                 LoadGrid();
         }
 
         public QueryExpand2(out bool dispose, string[] skelNames, SkeletonParserDS parserSDS, TransientDS parserTDS,
-            ImageList iL, string displayConfigName, XMLParmsFileReader xmlParmsRdr, Query parent, bool fullExpand = true)
+             ImageList iL, string displayConfigName, XMLParmsFileReader xmlParmsRdr, Query parent, bool fullExpand = true)
         {
             _skelExpansion = new TransientDS.SkeletonExpansionDataTable();
             _cnt = new TransientDS.CommandNestingDataTable();
@@ -96,12 +99,16 @@ namespace SkeletonParserQuery
             InitializeComponent();
 
             dispose = true;
+            _parent = parent;
+            _parent.AddForm(this);
+
             foreach (string s in skelNames)
             {
                 if (s == Query.NULL_SKEL)
                     break;
+
                 QueryExpand2Common(out dispose, s, parserSDS, parserTDS, iL, displayConfigName, xmlParmsRdr,
-                        parent, fullExpand);
+                        fullExpand);
                 if (dispose)
                     break;
             }
@@ -206,7 +213,7 @@ namespace SkeletonParserQuery
 
         }
         private void QueryExpand2Common(out bool dispose, string skelName, SkeletonParserDS parserSDS, TransientDS parserTDS,
-            ImageList iL, string displayConfigName, XMLParmsFileReader xmlParmsRdr, Query parent, bool fullExpand = true)
+             ImageList iL, string displayConfigName, XMLParmsFileReader xmlParmsRdr, bool fullExpand = true)
         {
             _skelName = skelName;
             _SDS = parserSDS;
@@ -214,8 +221,6 @@ namespace SkeletonParserQuery
             _IL = iL;
             _xmlParmsReader = xmlParmsRdr;
             _fullExpand = fullExpand;
-            _parent = parent;
-            _parent.AddForm(this);
             this.Text = displayConfigName + " - Skeleton Expansion";
             dispose = !UserInitializeComponent(skelName);
         }
@@ -1157,8 +1162,9 @@ namespace SkeletonParserQuery
         private void BtnMap_Click(object sender, EventArgs e)
         {
             BtnMap.Visible = false;
-            QueryExpand1 qe1 = new QueryExpand1(_skelName, _expansionRoot, _IL, this);
+            QueryExpand1 qe1 = new QueryExpand1(_skelName, _expansionRoot, _IL, _parent, _SDS,_TDS,_xmlParmsReader);
             qe1.Show();
+            BtnMap.Visible = true;
         }
 
 

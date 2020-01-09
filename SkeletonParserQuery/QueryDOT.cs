@@ -56,6 +56,7 @@ namespace SkeletonParserQuery
             _IL = iL;
             _parent = parent;
             _parent.AddForm(this);
+            _xmlr = xmlrdr;
             InitializeComponent();
             dgvTables.Top = menuStrip1.Top + menuStrip1.Bottom;
             menuStrip1.ShowItemToolTips = true;

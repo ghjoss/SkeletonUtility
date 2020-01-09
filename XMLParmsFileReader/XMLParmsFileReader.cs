@@ -666,6 +666,11 @@ namespace ISPFSkeletonParser
             return cloneXMLReader;
         }
 
+        public override string ToString()
+        {
+            return "XMLParmsFileReader/XMLFILE: " + this.XMLFile;
+        }
+
     }
 }
 

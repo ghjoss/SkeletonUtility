@@ -347,27 +347,27 @@ namespace SkeletonParserQuery
             qp.Show();
         }
 
-        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Version thisVersion = GlenwoodUtilities.CheckVersion.GetVersion();
-            Version webVersion = GlenwoodUtilities.CheckVersion.GetVersion(@"http://www.glenwoodconsulting.com/app_Version.xml");
-            int comparison = thisVersion.CompareTo(webVersion);
-            switch (comparison)
-            {
-                case -1:
-                    GlenwoodUtilities.MessageBoxHL.Show("You may download the new version here:", title: "There is a newer version of the Skeleton Utility");
-                    break;
-                case 0:
-                    MessageBox.Show("Your version of the Skeleton Utility is the most current version.");
-                    break;
-                case 1:
-                    MessageBox.Show("The web version is older than this version");
-                    break;
-                default:
-                    break;
-            }
+        //private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    Version thisVersion = GlenwoodUtilities.CheckVersion.GetVersion();
+        //    Version webVersion = GlenwoodUtilities.CheckVersion.GetVersion(@"http://www.glenwoodconsulting.com/app_Version.xml");
+        //    int comparison = thisVersion.CompareTo(webVersion);
+        //    switch (comparison)
+        //    {
+        //        case -1:
+        //            GlenwoodUtilities.MessageBoxHL.Show("You may download the new version here:", title: "There is a newer version of the Skeleton Utility");
+        //            break;
+        //        case 0:
+        //            MessageBox.Show("Your version of the Skeleton Utility is the most current version.");
+        //            break;
+        //        case 1:
+        //            MessageBox.Show("The web version is older than this version");
+        //            break;
+        //        default:
+        //            break;
+        //    }
 
-        }
+        //}
 
         private void label1_Click(object sender, EventArgs e)
         {
