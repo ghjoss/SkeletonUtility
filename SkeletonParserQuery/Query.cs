@@ -23,8 +23,6 @@ namespace SkeletonParserQuery
         public Query()
         {
             InitializeComponent();
-            //ISPFSkeletonParser.PanelParser pp = new ISPFSkeletonParser.PanelParser();
-
         }
 
         /// <summary>
@@ -123,7 +121,7 @@ namespace SkeletonParserQuery
                 return false;
             else
                 return true;
-
+            
         }
         /// <summary>
         /// Terminate the program on the click of the Exit button.
@@ -256,22 +254,6 @@ namespace SkeletonParserQuery
                 this.Text = _label;
         }
 
-        /// <summary>
-        /// On the first display of the form (_firstActivation = true), ask the user for an XML Parms
-        /// file and process that file.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Query_Activated(object sender, EventArgs e)
-        {
-            if (_firstActivation)
-            {
-                _firstActivation = false;
-                if (UserInit())
-                    // show the QueryDisplayName from the XML file in the window title bar.
-                    this.Text = _label;
-            }
-        }
         //
         // This method is called from the child QueryExpand2 form to re-enable the
         // Expand button after the child form completes the expansion of a skeleton.
@@ -369,14 +351,24 @@ namespace SkeletonParserQuery
 
         //}
 
-        private void label1_Click(object sender, EventArgs e)
+ 
+        private void Query_Shown(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            /// <summary>
+            /// On the first display of the form (_firstActivation = true), ask the user for an XML Parms
+            /// file and process that file.
+            /// </summary>
+            /// <param name="sender"></param>
+            /// <param name="e"></param>
+            if (_firstActivation)
+            {
+                _firstActivation = false;
+                if (UserInit())
+                    // show the QueryDisplayName from the XML file in the window title bar.
+                    this.Text = _label;
+                this.Visible = true;
+                this.Focus();
+            }
         }
     }
 }

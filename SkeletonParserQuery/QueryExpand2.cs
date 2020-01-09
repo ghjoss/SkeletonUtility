@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using GlenwoodUtilities;
+using ISPFSkeletonParser;
+using SkeletonParserDSDef;
+using System;
 using System.Collections;
-using System.Diagnostics;
+using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Text;
 using System.Windows.Forms;
-using SkeletonParserDSDef;
-using ISPFSkeletonParser;
-using GlenwoodUtilities;
 
 namespace SkeletonParserQuery
 {
@@ -32,7 +31,6 @@ namespace SkeletonParserQuery
         private TransientDS _TDS;               // transient data structures
         private ImageList _IL;                  // the application image list
         private Query _parent;              // the calling form, for referencing its status bar
-        private QueryExpand1 _parent1;
         private Stack<Nesting> _NestingStack;   // stack of )xxx skel commands active when a line is read
         private TransientDS.CommandNestingDataTable _cnt;
         private TransientDS.SkeletonExpansionDataTable _skelExpansion;

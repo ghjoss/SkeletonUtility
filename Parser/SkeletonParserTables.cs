@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-using SkeletonParserDSDef;
-using ISPFSkeletonParser;
+﻿using SkeletonParserDSDef;
+using System.Collections.Generic;
 
 namespace ISPFSkeletonParser
 {

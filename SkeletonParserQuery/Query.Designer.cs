@@ -261,7 +261,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -275,7 +275,6 @@
             this.label1.Size = new System.Drawing.Size(262, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "Select up to 3 FTINCL\'d skeletons to expand";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -287,7 +286,6 @@
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Expand:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Query
             // 
@@ -316,7 +314,7 @@
             this.MinimumSize = new System.Drawing.Size(499, 332);
             this.Name = "Query";
             this.Text = "Query";
-            this.Activated += new System.EventHandler(this.Query_Activated);
+            this.Shown += new System.EventHandler(this.Query_Shown);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
