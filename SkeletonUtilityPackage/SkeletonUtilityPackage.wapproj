@@ -151,6 +151,7 @@
     <Content Include="Support Files\parser.rex" />
     <Content Include="Support Files\parser2.rex" />
     <Content Include="Support Files\parserDB2.rex" />
+    <Content Include="Support Files\SkelUtility-README.pdf" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SkeletonParserQuery\SkeletonParserQuery.csproj">
@@ -159,6 +160,9 @@
     <ProjectReference Include="..\Utility\ISPF Skeleton Parser.csproj">
       <TrustLevel>Partial</TrustLevel>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Support Files\README.TXT" />
   </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
 </Project>

@@ -15,12 +15,13 @@ namespace SkeletonParserQuery
     public partial class QueryExpand1 : Form
     {
         Query _root;
+        QueryExpand2 _parent;
         TreeNode _tn;
         ImageList _iL;
         SkeletonParserDS _SDS;
         TransientDS _TDS;
         XMLParmsFileReader _xmlr;
-        public QueryExpand1(string skelName, TreeNode tN, ImageList iL, Query root, SkeletonParserDS SDS,TransientDS TDS, XMLParmsFileReader xmlr)
+        public QueryExpand1(string skelName, TreeNode tN, ImageList iL, Query root, SkeletonParserDS SDS,TransientDS TDS, XMLParmsFileReader xmlr, QueryExpand2 parent)
         {
             InitializeComponent();
             _tn = tN;
@@ -43,6 +44,7 @@ namespace SkeletonParserQuery
             _SDS = SDS;
             _TDS = TDS;
             _xmlr = xmlr;
+            _parent = parent;
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
@@ -54,6 +56,7 @@ namespace SkeletonParserQuery
         {
             //_parent.RemoveForm(this);
             tvExpansion.Nodes.Remove(_tn);
+            _parent.ReEnable();
         }
 
         private void BtnCollapse_Click(object sender, EventArgs e)

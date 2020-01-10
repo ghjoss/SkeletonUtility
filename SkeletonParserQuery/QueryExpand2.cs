@@ -1159,12 +1159,15 @@ namespace SkeletonParserQuery
         }
         private void BtnMap_Click(object sender, EventArgs e)
         {
-            BtnMap.Visible = false;
-            QueryExpand1 qe1 = new QueryExpand1(_skelName, _expansionRoot, _IL, _parent, _SDS,_TDS,_xmlParmsReader);
+            BtnMap.Enabled = false;
+            QueryExpand1 qe1 = new QueryExpand1(_skelName, _expansionRoot, _IL, _parent, _SDS,_TDS,_xmlParmsReader,this);
             qe1.Show();
-            BtnMap.Visible = true;
         }
 
+        public void ReEnable() 
+        { 
+            BtnMap.Enabled = true; 
+        }
 
         bool _disposed = false;
         public new void Dispose()
