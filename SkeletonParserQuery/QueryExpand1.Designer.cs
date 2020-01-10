@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QueryExpand1));
             this.tvExpansion = new System.Windows.Forms.TreeView();
             this.btnExit = new System.Windows.Forms.Button();
@@ -36,6 +37,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.toolTipTree = new System.Windows.Forms.ToolTip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,17 +47,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tvExpansion.Location = new System.Drawing.Point(0, 25);
-            this.tvExpansion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tvExpansion.Margin = new System.Windows.Forms.Padding(2);
             this.tvExpansion.Name = "tvExpansion";
             this.tvExpansion.Size = new System.Drawing.Size(662, 352);
             this.tvExpansion.TabIndex = 0;
+            this.toolTipTree.SetToolTip(this.tvExpansion, "Double-click on any skeleton name to expand that branch of the current expansion." +
+        "");
             this.tvExpansion.DoubleClick += new System.EventHandler(this.TvExpansion_DoubleClick);
             // 
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.Location = new System.Drawing.Point(589, 390);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(64, 57);
             this.btnExit.TabIndex = 1;
@@ -68,7 +72,7 @@
             // 
             this.btnCollapse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCollapse.Location = new System.Drawing.Point(10, 390);
-            this.btnCollapse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCollapse.Margin = new System.Windows.Forms.Padding(2);
             this.btnCollapse.Name = "btnCollapse";
             this.btnCollapse.Size = new System.Drawing.Size(64, 57);
             this.btnCollapse.TabIndex = 2;
@@ -81,7 +85,7 @@
             // 
             this.btnExpand.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnExpand.Location = new System.Drawing.Point(94, 391);
-            this.btnExpand.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExpand.Margin = new System.Windows.Forms.Padding(2);
             this.btnExpand.Name = "btnExpand";
             this.btnExpand.Size = new System.Drawing.Size(64, 57);
             this.btnExpand.TabIndex = 3;
@@ -120,7 +124,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(346, 495);
             this.Name = "QueryExpand1";
             this.Text = "Graphical expansion of ";
@@ -142,5 +146,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolTip toolTipTree;
     }
 }

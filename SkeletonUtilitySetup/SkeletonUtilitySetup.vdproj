@@ -39,12 +39,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_10FC0FD688C0488D946ECE5AC1E8E913"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_160387B8E6F93761413C994F1B592874"
         "OwnerKey" = "8:_68E074D7EFB24BA4AB8200AC368F7DF1"
         "MsmSig" = "8:_UNDEFINED"
@@ -254,6 +248,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -278,6 +280,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -312,7 +322,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SkeletonParserDS, Version=1.2.2.28722, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:SkeletonParserDS, Version=1.2.2.33422, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_05361FD8C7AED43734A2351E878EFB58"
@@ -324,7 +334,7 @@
             "SourcePath" = "8:SkeletonParserDS.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -343,7 +353,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Utility, Version=1.2.2.28722, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Utility, Version=1.2.2.33422, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_0B40EE55BFEEEE3FF616ADECF605C643"
@@ -355,7 +365,7 @@
             "SourcePath" = "8:Utility.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -370,31 +380,11 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10FC0FD688C0488D946ECE5AC1E8E913"
-            {
-            "SourcePath" = "8:..\\SkelUtility-README.pdf"
-            "TargetName" = "8:SkelUtility-README.pdf"
-            "Tag" = "8:"
-            "Folder" = "8:_05393F29DCF049618054AA7D2E452C63"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_160387B8E6F93761413C994F1B592874"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Parser, Version=1.2.2.28723, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Parser, Version=1.2.2.33422, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_160387B8E6F93761413C994F1B592874"
@@ -406,7 +396,7 @@
             "SourcePath" = "8:Parser.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -426,7 +416,7 @@
             "SourcePath" = "8:..\\SkelUtility-README.pdf"
             "TargetName" = "8:SkelUtility-README.pdf"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_26768C03458849DA8B15DB456A77BFB7"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -485,7 +475,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Library, Version=1.2.2.28722, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Library, Version=1.2.2.33422, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_636723A8E622B309493CAE3369B64210"
@@ -497,7 +487,7 @@
             "SourcePath" = "8:Library.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -516,7 +506,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:LibraryConcatenation, Version=1.2.2.28723, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:LibraryConcatenation, Version=1.2.2.33422, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_6C05380C38A5AF2FE36DB09FD4D4CF24"
@@ -528,7 +518,7 @@
             "SourcePath" = "8:LibraryConcatenation.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -608,7 +598,7 @@
             "SourcePath" = "8:..\\config.xml"
             "TargetName" = "8:config.xml"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_A625E0B3C52743EE91D6947E54B6EBAE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -627,7 +617,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:XMLParmsFileReader, Version=1.2.2.28722, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:XMLParmsFileReader, Version=1.2.2.33422, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_E8594AA4F3A2F54388ADCC5B77537A9F"
@@ -639,7 +629,7 @@
             "SourcePath" = "8:XMLParmsFileReader.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -678,7 +668,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SkeletonParser, Version=1.2.2.28723, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:SkeletonParser, Version=1.2.2.33423, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_FB859A5FA23668721B5230E1D3D2775E"
@@ -690,7 +680,7 @@
             "SourcePath" = "8:SkeletonParser.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -762,11 +752,22 @@
                             }
                             "{9EF0B969-E518-4E46-987F-47570745A589}:_847A1C4EF3F94AD4AD6E165CDEC92ACC"
                             {
-                            "Name" = "8:DOC"
+                            "Name" = "8:Documentation"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
                             "Property" = "8:_BD1E90761A3B487D88AE2FC4A81798EC"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D3A53635419045349F9F841AA7F83078"
+                            {
+                            "Name" = "8:Configuration"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_B2069A70AD554A438BB2317A7F6A2527"
                                 "Folders"
                                 {
                                 }
@@ -807,6 +808,39 @@
                         {
                         }
                     }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_26768C03458849DA8B15DB456A77BFB7"
+                    {
+                    "Name" = "8:Documentation"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_7C85693AC1844FD2B2E9325A7711FBB6"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_6C4F1547BBCB466CBC56C8059CFF5912"
+                    {
+                    "Name" = "8:bin"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_E77C84E4F7AD46A7BF9B35B3B9EC9509"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A625E0B3C52743EE91D6947E54B6EBAE"
+                    {
+                    "Name" = "8:Config"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_A673470CD0EE40E184B601127EDF9709"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -843,8 +877,8 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
-        "ARPIconIndex" = "3:0"
+        "ARPPRODUCTICON" = "8:_68E074D7EFB24BA4AB8200AC368F7DF1"
+        "ARPIconIndex" = "3:32512"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
@@ -946,6 +980,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1464A3E2F4214B7BBA02C70AA42BFA47"
+            {
+            "Name" = "8:SkelUtility-README.pdf"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_41557832CEE047E2A27C7EC209FC4B58"
+            "Folder" = "8:_847A1C4EF3F94AD4AD6E165CDEC92ACC"
+            "WorkingFolder" = "8:_26768C03458849DA8B15DB456A77BFB7"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1573D81A83D0443B896F3C4F1467E4DC"
             {
             "Name" = "8:parserDB2.rex"
@@ -971,6 +1019,20 @@
             "Target" = "8:_FF26EEBB4E0941C5B05BBCC9936E642F"
             "Folder" = "8:_5285FB0932B54CFB98F2AA6C20B48335"
             "WorkingFolder" = "8:_05393F29DCF049618054AA7D2E452C63"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3674C1D1910141ABBF8E27339A2A8EAA"
+            {
+            "Name" = "8:config.xml"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B2D7160A7F2F4B76BCD9A67A191A814B"
+            "Folder" = "8:_D3A53635419045349F9F841AA7F83078"
+            "WorkingFolder" = "8:_A625E0B3C52743EE91D6947E54B6EBAE"
             "Icon" = "8:"
             "Feature" = "8:"
             }
@@ -1002,20 +1064,6 @@
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_767E555FA8AE4A6898447BC326EB76D6"
-            {
-            "Name" = "8:config.xml"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_B2D7160A7F2F4B76BCD9A67A191A814B"
-            "Folder" = "8:_6C9865828AC0445DB94FDFD57831C07B"
-            "WorkingFolder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7F09AAF67AAF45EB82CD6866C1BD7202"
             {
             "Name" = "8:ISPF Skeleton Analyzer"
@@ -1026,21 +1074,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_68E074D7EFB24BA4AB8200AC368F7DF1"
             "Folder" = "8:_6C9865828AC0445DB94FDFD57831C07B"
-            "WorkingFolder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DBBCD220654642D9873E64A60F90CD25"
-            {
-            "Name" = "8:SkelUtility-README.pdf"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_41557832CEE047E2A27C7EC209FC4B58"
-            "Folder" = "8:_847A1C4EF3F94AD4AD6E165CDEC92ACC"
-            "WorkingFolder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "WorkingFolder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Icon" = "8:"
             "Feature" = "8:"
             }
@@ -1490,7 +1524,7 @@
             "SourcePath" = "8:..\\SkeletonParserQuery\\obj\\Release\\SkeletonParserQuery.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_DDF59D4C7F6545E090D93AA4A96C098C"
+            "Folder" = "8:_6C4F1547BBCB466CBC56C8059CFF5912"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
