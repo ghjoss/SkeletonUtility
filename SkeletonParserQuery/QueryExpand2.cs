@@ -1204,11 +1204,6 @@ namespace SkeletonParserQuery
             DgvSkeletonExpansion.FirstDisplayedScrollingRowIndex = _findResults[_findOffset] - 1;
         }
 
-        private void QueryExpand2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void TsmiFindNext_Click(object sender, EventArgs e)
         {
             if ((_findOffset = FindNext()) == -1)

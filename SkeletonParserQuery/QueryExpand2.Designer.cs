@@ -412,6 +412,7 @@ namespace SkeletonParserQuery
             // BtnMap
             // 
             this.BtnMap.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnMap.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMap.Location = new System.Drawing.Point(777, 411);
             this.BtnMap.Name = "BtnMap";
             this.BtnMap.Size = new System.Drawing.Size(64, 57);
@@ -479,7 +480,6 @@ namespace SkeletonParserQuery
             this.Name = "QueryExpand2";
             this.Text = "Skeleton Expansion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QueryExpand2_FormClosing);
-            this.Load += new System.EventHandler(this.QueryExpand2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvVariables)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DgvNesting)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DgvSkeletonExpansion)).EndInit();

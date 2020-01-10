@@ -94,7 +94,7 @@ namespace SkeletonParserQuery
                 cboSkeletons.DataSource = results;
 
                 results2 = (from o in _TDS.SkeletonLines
-                                select o.Skeleton).Distinct().ToArray()
+                            select o.Skeleton).Distinct().ToArray()
                                 .Union(EmptyKey).ToArray();
 
                 ArrayList results2A = new ArrayList(results2);
@@ -121,7 +121,7 @@ namespace SkeletonParserQuery
                 return false;
             else
                 return true;
-            
+
         }
         /// <summary>
         /// Terminate the program on the click of the Exit button.
@@ -264,12 +264,12 @@ namespace SkeletonParserQuery
 
         private void btnExpand_Click(object sender, EventArgs e)
         {
-            bool dispose=false;
+            bool dispose = false;
             QueryExpand2 qv2 = null;
             btnExpand.Enabled = false;
             string[] FTINCL_Set = new string[] {cboSkeletons.SelectedItem.ToString().ToUpper(), Query.NULL_SKEL,
                 Query.NULL_SKEL, Query.NULL_SKEL};
-            
+
             int offset = 1;
             if (cboSkeletons2.SelectedItem.ToString().ToUpper() != Query.NULL_SKEL
                 && cboSkeletons2.SelectedItem.ToString() != cboSkeletons.SelectedItem.ToString().ToUpper())
@@ -279,7 +279,7 @@ namespace SkeletonParserQuery
                 && cboSkeletons3.SelectedItem.ToString().ToUpper() != cboSkeletons.SelectedItem.ToString().ToUpper()
                 && cboSkeletons3.SelectedItem.ToString().ToUpper() != cboSkeletons2.SelectedItem.ToString().ToUpper())
                 FTINCL_Set[offset++] = cboSkeletons3.SelectedItem.ToString().ToUpper();
-            
+
             qv2 = new QueryExpand2(out dispose, FTINCL_Set, _SDS, _TDS, QueryImageList, _label, _xmlRdr, this);
 
             if (!dispose)
@@ -300,7 +300,7 @@ namespace SkeletonParserQuery
             if (dispose)
                 f.Dispose();
             int gen = GC.GetGeneration(f);
-            GC.Collect(gen,GCCollectionMode.Forced);
+            GC.Collect(gen, GCCollectionMode.Forced);
         }
         public void RemoveForm(Form f)
         {
@@ -325,7 +325,7 @@ namespace SkeletonParserQuery
 
         private void btnPrograms_Click(object sender, EventArgs e)
         {
-            QueryProgram qp = new QueryProgram(_SDS, _TDS, QueryImageList, _label, _xmlRdr,this);
+            QueryProgram qp = new QueryProgram(_SDS, _TDS, QueryImageList, _label, _xmlRdr, this);
             qp.Show();
         }
 
@@ -351,7 +351,7 @@ namespace SkeletonParserQuery
 
         //}
 
- 
+
         private void Query_Shown(object sender, EventArgs e)
         {
             /// <summary>

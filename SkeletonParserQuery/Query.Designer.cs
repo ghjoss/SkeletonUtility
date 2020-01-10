@@ -162,7 +162,7 @@
             // 
             this.btnExpand.ImageKey = "Expand.ico";
             this.btnExpand.ImageList = this.QueryImageList;
-            this.btnExpand.Location = new System.Drawing.Point(128, 38);
+            this.btnExpand.Location = new System.Drawing.Point(124, 38);
             this.btnExpand.Name = "btnExpand";
             this.btnExpand.Size = new System.Drawing.Size(64, 57);
             this.btnExpand.TabIndex = 1;
