@@ -1,1 +1,0 @@
-Please see the SkelParser.PDF file in the DOC subdirectory.
