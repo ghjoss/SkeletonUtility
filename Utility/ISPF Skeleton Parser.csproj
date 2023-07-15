@@ -19,7 +19,7 @@
     <ApplicationIcon>imbeds2.ico</ApplicationIcon>
     <NoWin32Manifest>true</NoWin32Manifest>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <PublishUrl>http://localhost/ISPF Skeleton Parser/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
