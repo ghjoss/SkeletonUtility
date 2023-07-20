@@ -9,7 +9,7 @@ using SkeletonParserDSDef;
 using ISPFSkeletonParser;
 using System.IO;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
     public partial class QuerySkeleton : Form
     {

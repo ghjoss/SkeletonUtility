@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using ISPFSkeletonParser;
 using SkeletonParserDSDef;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
     public partial class Query : Form
     {

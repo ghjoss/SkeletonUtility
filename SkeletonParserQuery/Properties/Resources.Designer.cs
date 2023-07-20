@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SkeletonParserQuery.Properties {
+namespace ISPFSkeletonParser.Properties {
     using System;
     
     

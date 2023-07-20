@@ -10,4 +10,4 @@ Suggestions for improvement:
 - Update the installer for later Visual Studio versions.
 - The current utility requires the parsed skeleton files to be downloaded to a local machine. It would be better to be able to access the files (the utility is READ ONLY for the skeletons) directly on the mainframe. That way any changes to the skeletons would not require downloading them again.
 
-Please see the SkelParser.PDF file in the DOC subdirectory.
+Please see the ISPFSkeletonParser.PDF file in the project directory. The MS Word .DOCX file and an OpenOffice .ODF file are also in this directory.

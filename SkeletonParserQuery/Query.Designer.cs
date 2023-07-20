@@ -1,4 +1,4 @@
-﻿namespace SkeletonParserQuery
+﻿namespace ISPFSkeletonParser
 {
     partial class Query
     {

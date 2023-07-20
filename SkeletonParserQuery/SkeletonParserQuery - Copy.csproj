@@ -12,7 +12,7 @@
     <AssemblyName>SkeletonParserQuery</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>ISPFSkeletonParser.Program</StartupObject>
+    <StartupObject>SkeletonParserQuery.Program</StartupObject>
     <ApplicationIcon>imbeds2.ico</ApplicationIcon>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <FileUpgradeFlags>
@@ -99,7 +99,7 @@
     </Compile>
     <Compile Include="QueryExpand2.cs">
       <SubType>Form</SubType>
-    </Compile>
+    </>
     <Compile Include="QueryExpand2.Designer.cs">
       <DependentUpon>QueryExpand2.cs</DependentUpon>
     </Compile>

@@ -10,7 +10,7 @@ using Pitman.Printing;
 using SkeletonParserDSDef;
 using ISPFSkeletonParser;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
     public partial class QueryExpand1 : Form
     {

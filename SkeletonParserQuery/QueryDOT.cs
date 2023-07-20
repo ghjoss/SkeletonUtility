@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using SkeletonParserDSDef;
 using ISPFSkeletonParser;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
     public partial class QueryDOT : Form
     {

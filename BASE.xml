@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- XML input control file for skeleton parser-->
-<ISPFSkeletonParser>
+<SkeletonParserQuery>
   <!-- Specify an optional name to use in the Query GUI for this configuartion. -->
   <QueryDisplayName>Production ChangeMan Skeletons</QueryDisplayName>
   <!-- 
@@ -123,7 +123,7 @@
       each entry (XML output only).
   -->
   <DebugInputLine>false</DebugInputLine>
-</ISPFSkeletonParser>
+</SkeletonParserQuery>
 
 
 

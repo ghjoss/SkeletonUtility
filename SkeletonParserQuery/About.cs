@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
     partial class About : Form
     {

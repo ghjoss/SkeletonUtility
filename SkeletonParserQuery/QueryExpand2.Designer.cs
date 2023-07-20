@@ -1,6 +1,6 @@
 ﻿using SkeletonParserDSDef;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
     partial class QueryExpand2
     {

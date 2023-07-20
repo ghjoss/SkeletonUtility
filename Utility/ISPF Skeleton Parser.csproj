@@ -76,10 +76,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\GlenwoodUtilities\Utility.csproj">
-      <Project>{5011707F-BA96-426C-87C0-CD62746E3A32}</Project>
-      <Name>Utility</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Parser\Parser.csproj">
       <Project>{6B094BE1-45DE-4E06-94BC-29E865CA0CA0}</Project>
       <Name>Parser</Name>

@@ -1,5 +1,4 @@
-﻿using GlenwoodUtilities;
-using ISPFSkeletonParser;
+﻿using ISPFSkeletonParser;
 using SkeletonParserDSDef;
 using System;
 using System.Collections;
@@ -11,8 +10,9 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace SkeletonParserQuery
+namespace ISPFSkeletonParser
 {
+
     public partial class QueryExpand2 : Form
     {
         private int[] _findResults = null;
@@ -147,9 +147,9 @@ namespace SkeletonParserQuery
                 ro = RegexOptions.IgnoreCase;
 
             _findResults = (from o in _skelExpansion
-                               where Regex.Match(o.LineText,s,ro).Success
-                               orderby o.Offset
-                               select o.Offset).ToArray<int>();
+                            where Regex.Match(o.LineText, s, ro).Success
+                            orderby o.Offset
+                            select o.Offset).ToArray<int>();
             if (_findResults.Length > 0)
                 return _findOffset = 0;
             else
@@ -157,7 +157,7 @@ namespace SkeletonParserQuery
         }
 
         private int FindNext()
-        {   
+        {
             if (_findResults != null)
                 if (_findOffset < _findResults.Length - 1)
                     return _findOffset + 1;
@@ -187,7 +187,7 @@ namespace SkeletonParserQuery
             {
                 // use a fixed width font for the skeleton text and its header 'ruler'
                 Font = new Font("Lucida Console", 11.5F, FontStyle.Regular)
-             };
+            };
             DgvSkeletonExpansion.Columns[4].DefaultCellStyle = dgv1_columnHeaderStyle;
             DgvSkeletonExpansion.Columns[4].HeaderCell.Style = dgv1_columnHeaderStyle;
             // use the datasource column captions as the grid column names.
@@ -257,7 +257,7 @@ namespace SkeletonParserQuery
             if (e.RowIndex % 6 < 3)
                 DgvSkeletonExpansion.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.WhiteSmoke;
             else
-                DgvSkeletonExpansion.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.FromArgb(192,255,192);
+                DgvSkeletonExpansion.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.FromArgb(192, 255, 192);
         }
 
         /// <summary>
@@ -270,7 +270,7 @@ namespace SkeletonParserQuery
             if (e.RowIndex % 2 == 0)
                 DgvNesting.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.WhiteSmoke;
             else
-                DgvNesting.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.FromArgb(192,255,192);
+                DgvNesting.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.FromArgb(192, 255, 192);
 
         }
 
@@ -321,7 +321,7 @@ namespace SkeletonParserQuery
             string skelName = DgvSkeletonExpansion.CurrentRow.Cells["Skeleton"].Value.ToString();
             DataGridViewColumn dc;
 
-             var dsLineVariables = (from o in _SDS.Variables.AsEnumerable()
+            var dsLineVariables = (from o in _SDS.Variables.AsEnumerable()
                                    orderby o.Position
                                    where o.Skeleton == skelName
                                    && o.LineNumber == lineNo
@@ -347,13 +347,13 @@ namespace SkeletonParserQuery
             DgvNesting.DataSource = dsCommandNesting;
             DataGridViewCellStyle
                 dgvCNT_columnHeaderStyle1 = new DataGridViewCellStyle
-                    {
-                        Font = new Font("Lucida Console", 10.0F, FontStyle.Regular)
-                    },
+                {
+                    Font = new Font("Lucida Console", 10.0F, FontStyle.Regular)
+                },
                 dgvCNT_columnHeaderStyle2 = new DataGridViewCellStyle
-                    {
-                        Font = new Font("Lucida Console", 8.5F, FontStyle.Regular)
-                    };
+                {
+                    Font = new Font("Lucida Console", 8.5F, FontStyle.Regular)
+                };
 
             dc = DgvNesting.Columns[0]; //["Offset"];
             dc.Width = 70;
@@ -570,7 +570,7 @@ namespace SkeletonParserQuery
                                     _imbedChain.RemoveAt(_imbedChain.Count - 1); // last name added.
                                 _NestingStack.Pop(); // pop the )IM from the stack.
                                 break;
-                                #endregion
+                            #endregion
                             case "SEL":
                                 break;
                             case "DO":
@@ -592,7 +592,7 @@ namespace SkeletonParserQuery
                                     }
                                 }
                                 break;
-                                #endregion
+                            #endregion
                             case "ELSE":
                                 #region Process )ELSE
                                 m = Regex.Match(s0, SkeletonParserRE.ELSE_PARSE);
@@ -608,7 +608,7 @@ namespace SkeletonParserQuery
                                     }
                                 }
                                 break;
-                                #endregion
+                            #endregion
                             case "ENDSEL":
                             case "ENDDO":
                             case "ENDDOT":
@@ -650,8 +650,8 @@ namespace SkeletonParserQuery
                     // if command is a skeleton comment or formatting command, don't add it to the nesting stack
                     if (cmd == "CM"
                         || cmd == "BLANK"
-                        || cmd == "TBA" 
-                        || cmd == "TB" 
+                        || cmd == "TBA"
+                        || cmd == "TB"
                         || cmd == "DEFAULT"
                         )
                     {
@@ -766,7 +766,7 @@ namespace SkeletonParserQuery
                             }
                             else
                             {
-                                expansionData2 = 
+                                expansionData2 =
                                     cmd == "ENDSEL" ? _selNestingStack.Pop() :
                                     cmd == "ENDDO" ? _doNestingStack.Pop() : _dotNestingStack.Pop();
                                 expansionData2.EndOffset = expansionData.Offset;
@@ -1142,7 +1142,7 @@ namespace SkeletonParserQuery
         /// <param name="e"></param>
         private void QueryExpand2_FormClosing(object sender, FormClosingEventArgs e)
         {
-           _parent.RemoveForm(this,true);
+            _parent.RemoveForm(this, true);
             for (int i = 0; i < graphList.Count; ++i)
                 graphList[i].Close();
         }
@@ -1160,13 +1160,13 @@ namespace SkeletonParserQuery
         private void BtnMap_Click(object sender, EventArgs e)
         {
             BtnMap.Enabled = false;
-            QueryExpand1 qe1 = new QueryExpand1(_skelName, _expansionRoot, _IL, _parent, _SDS,_TDS,_xmlParmsReader,this);
+            QueryExpand1 qe1 = new QueryExpand1(_skelName, _expansionRoot, _IL, _parent, _SDS, _TDS, _xmlParmsReader, this);
             qe1.Show();
         }
 
-        public void ReEnable() 
-        { 
-            BtnMap.Enabled = true; 
+        public void ReEnable()
+        {
+            BtnMap.Enabled = true;
         }
 
         bool _disposed = false;
@@ -1191,11 +1191,11 @@ namespace SkeletonParserQuery
             }
             else
                 return; // user pressed cancel, or entered a null string
-            
+
             // If user'buffer selection was empty, leave.
             if (findStr.Trim() == "")
                 return;
-            if ((_findOffset = Find(_findString,_matchCase,_matchWord)) == -1)
+            if ((_findOffset = Find(_findString, _matchCase, _matchWord)) == -1)
             {
                 MessageBox.Show(_findString + " was not found");
                 return;
@@ -1265,6 +1265,57 @@ namespace SkeletonParserQuery
             _lineText = lineText;
             _cmd = command;
         }
+    }
+    public static class InputBox
+    {
+        public static DialogResult Show(string promptText, ref string value)
+        {
+            return Show("", promptText, ref value);
+        }
+
+        public static DialogResult Show(string title, string promptText,
+        ref string value)
+        {
+            Form form = new Form();
+            Label label = new Label();
+            TextBox textBox = new TextBox();
+            Button buttonOk = new Button();
+            Button buttonCancel = new Button();
+
+            form.Text = title;
+            label.Text = promptText;
+            textBox.Text = value;
+
+            buttonOk.Text = "OK";
+            buttonCancel.Text = "Cancel";
+            buttonOk.DialogResult = DialogResult.OK;
+            buttonCancel.DialogResult = DialogResult.Cancel;
+
+            label.SetBounds(9, 20, 372, 13);
+            textBox.SetBounds(12, 36, 372, 20);
+            buttonOk.SetBounds(228, 72, 75, 23);
+            buttonCancel.SetBounds(309, 72, 75, 23);
+
+            label.AutoSize = true;
+            textBox.Anchor = textBox.Anchor | AnchorStyles.Right;
+            buttonOk.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+
+            form.ClientSize = new Size(396, 107);
+            form.Controls.AddRange(new Control[] { label, textBox, buttonOk, buttonCancel });
+            form.ClientSize = new Size(Math.Max(300, label.Right + 10), form.ClientSize.Height);
+            form.FormBorderStyle = FormBorderStyle.FixedDialog;
+            form.StartPosition = FormStartPosition.CenterScreen;
+            form.MinimizeBox = false;
+            form.MaximizeBox = false;
+            form.AcceptButton = buttonOk;
+            form.CancelButton = buttonCancel;
+
+            DialogResult dialogResult = form.ShowDialog();
+            value = textBox.Text;
+            return dialogResult;
+        }
+
     }
 
 }
